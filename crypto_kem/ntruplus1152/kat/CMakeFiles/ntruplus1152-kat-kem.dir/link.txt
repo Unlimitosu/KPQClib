@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus1152-kat-kem.so -o ../lib/libntruplus1152-kat-kem.so CMakeFiles/ntruplus1152-kat-kem.dir/kat_kem.c.o 

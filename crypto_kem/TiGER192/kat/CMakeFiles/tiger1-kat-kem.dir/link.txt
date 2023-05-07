@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libtiger1-kat-kem.so -o ../lib/libtiger1-kat-kem.so CMakeFiles/tiger1-kat-kem.dir/main.c.o 

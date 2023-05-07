@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -Dntruplus768RNG1_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11 -o CMakeFiles/ntruplus768RNG1.dir/src/rng.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/rng.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/rng.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/aes256ctr.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/aes256ctr.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/aes256ctr.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/kem.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/kem.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/kem.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/ntt.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/ntt.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/ntt.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/poly.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/poly.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/poly.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/reduce.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/reduce.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/reduce.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/rng.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/rng.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/rng.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/sha256.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/sha256.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/sha256.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/sha512.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/sha512.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/sha512.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/symmetric.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/symmetric.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/symmetric.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/util.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/util.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/util.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11 -o CMakeFiles/ntruplus768.dir/src/verify.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/verify.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/src/verify.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/test",
+  "command": "/usr/bin/cc  -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/kat -std=gnu11 -o CMakeFiles/-main.dir/main.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/test/main.c",
+  "file": "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus768/test/main.c"
+}
+]

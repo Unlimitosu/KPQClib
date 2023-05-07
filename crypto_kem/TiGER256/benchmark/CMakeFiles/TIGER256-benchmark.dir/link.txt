@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+/usr/bin/cc CMakeFiles/TIGER256-benchmark.dir/speed.c.o CMakeFiles/TIGER256-benchmark.dir/cpucycles.c.o CMakeFiles/TIGER256-benchmark.dir/speed_print.c.o -o ../bin/TIGER256-benchmark  -Wl,-rpath,/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER256/lib ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 
+=======
+/usr/bin/cc CMakeFiles/TIGER256-benchmark.dir/speed.c.o CMakeFiles/TIGER256-benchmark.dir/cpucycles.c.o CMakeFiles/TIGER256-benchmark.dir/speed_print.c.o -o ../bin/TIGER256-benchmark  -Wl,-rpath,/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER256/lib ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 
+>>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))

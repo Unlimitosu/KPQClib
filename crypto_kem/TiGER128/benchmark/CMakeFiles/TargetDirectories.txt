@@ -1,0 +1,5 @@
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/benchmark/CMakeFiles/Project1-benchmark.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/benchmark/CMakeFiles/Project3-benchmark.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/benchmark/CMakeFiles/Project5-benchmark.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/benchmark/CMakeFiles/edit_cache.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/benchmark/CMakeFiles/rebuild_cache.dir

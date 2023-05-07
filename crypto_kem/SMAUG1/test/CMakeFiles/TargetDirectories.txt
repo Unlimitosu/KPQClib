@@ -1,0 +1,3 @@
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/test/CMakeFiles/-main.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/test/CMakeFiles/edit_cache.dir
+/home/jingyosong/crypto/KpqC/KEM/SMAUG/reference_implementation/test/CMakeFiles/rebuild_cache.dir

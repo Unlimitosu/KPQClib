@@ -1,0 +1,7 @@
+CMAKE_PROGRESS_1 = 
+<<<<<<< HEAD
+CMAKE_PROGRESS_2 = 43
+=======
+CMAKE_PROGRESS_2 = 25
+>>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+
