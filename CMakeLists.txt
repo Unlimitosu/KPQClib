@@ -15,14 +15,10 @@ add_subdirectory(crypto_kem/SMAUG5)
 add_subdirectory(crypto_kem/TiGER128)
 add_subdirectory(crypto_kem/TiGER192)
 add_subdirectory(crypto_kem/TiGER256)
-<<<<<<< HEAD
-=======
 add_subdirectory(crypto_kem/ntruplus576)
 add_subdirectory(crypto_kem/ntruplus768)
 add_subdirectory(crypto_kem/ntruplus864)
 add_subdirectory(crypto_kem/ntruplus1152)
 
-
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
 
 
