@@ -1,0 +1,194 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/HAETAE3/bin/haetae3-kat-sign-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/HAETAE3/kat/CMakeLists.txt",
+			"crypto_sign/HAETAE3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAETAE_MODE=3"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae3_fips202::@1c405cc013e717f0b6dd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae3_RNG::@1c405cc013e717f0b6dd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae3::@1c405cc013e717f0b6dd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae3-kat-sign::@d656484265b657bd2b23"
+		}
+	],
+	"id" : "haetae3-kat-sign-main::@d656484265b657bd2b23",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/libs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libhaetae3-kat-sign.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libhaetae3.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libhaetae3_fips202.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libhaetae3_RNG.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "haetae3-kat-sign-main",
+	"nameOnDisk" : "haetae3-kat-sign-main",
+	"paths" : 
+	{
+		"build" : "crypto_sign/HAETAE3/kat",
+		"source" : "crypto_sign/HAETAE3/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/HAETAE3/kat/PQCgenKAT_sign.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

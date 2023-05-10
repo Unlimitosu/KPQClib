@@ -3,9 +3,8 @@
 
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/cpucycles.c.o
  /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.c
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.c
  /usr/include/stdc-predef.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -26,7 +25,6 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/cpucycles.c.o
 
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o
  /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -65,20 +63,20 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/kem.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/ciphertext.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/poly.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/hash.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/indcpa.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/hwt.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/kem.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/ciphertext.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/poly.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/hash.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/indcpa.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/hwt.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
@@ -101,20 +99,19 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /usr/include/string.h
  /usr/include/strings.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/io.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/key.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/dg.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/rng.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/pack.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/io.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/key.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/dg.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/rng.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/pack.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h
 
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed_print.c.o
  /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.c
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.c
  /usr/include/stdc-predef.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -133,7 +130,7 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed_print.c.o
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h
  /usr/include/stdio.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h

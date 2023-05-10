@@ -3,7 +3,6 @@
 
 crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/PQCgenKAT_kem.c.o
  /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/kat/PQCgenKAT_kem.c
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/kat/PQCgenKAT_kem.c
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -62,7 +61,7 @@ crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/PQCgenKAT_kem
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
  /usr/include/strings.h
  /usr/include/ctype.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/include/rng.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/kat/api.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/include/params.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/include/rng.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/kat/api.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/include/params.h
 

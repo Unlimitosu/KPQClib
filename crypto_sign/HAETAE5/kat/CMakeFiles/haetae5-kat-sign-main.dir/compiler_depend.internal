@@ -3,11 +3,10 @@
 
 crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o
  /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c
  /usr/include/stdc-predef.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/kat/api.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/params.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/config.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/kat/api.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/params.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/config.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -26,7 +25,7 @@ crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/randombytes.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/randombytes.h
  /usr/include/ctype.h
  /usr/include/x86_64-linux-gnu/bits/endian.h
  /usr/include/x86_64-linux-gnu/bits/endianness.h

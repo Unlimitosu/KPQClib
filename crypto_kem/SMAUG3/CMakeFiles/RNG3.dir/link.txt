@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libRNG3.so -o lib/libRNG3.so CMakeFiles/RNG3.dir/src/rng.c.o 

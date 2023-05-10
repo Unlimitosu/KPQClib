@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libhaetae5_fips202.so -o libs/libhaetae5_fips202.so CMakeFiles/haetae5_fips202.dir/src/fips202.c.o 
