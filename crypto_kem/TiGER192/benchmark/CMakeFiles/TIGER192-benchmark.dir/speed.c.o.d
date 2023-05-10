@@ -1,9 +1,5 @@
 crypto_kem/TiGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/speed.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/benchmark/speed.c \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/benchmark/speed.c \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,18 +39,9 @@ crypto_kem/TiGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/benchmark/cpucycles.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/include/params.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/include/TIGER_CCAKEM.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/include/params.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/include/TIGER_CPAPKE.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/benchmark/speed_print.h
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/benchmark/cpucycles.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/include/params.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/include/TIGER_CCAKEM.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/include/params.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/include/TIGER_CPAPKE.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/benchmark/speed_print.h
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/benchmark/cpucycles.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/include/params.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/include/TIGER_CCAKEM.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/include/params.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/include/TIGER_CPAPKE.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/benchmark/speed_print.h

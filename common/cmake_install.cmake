@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Install script for directory: /home/jgsong/Downloads/KPQClean-master/common
-=======
-# Install script for directory: /home/jingyosong/KpqC_0507/KPQClean-jgsong/common
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+# Install script for directory: /home/jingyosong/crypto/KpqClean_0510/KPQClean/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_kem/SMAUG5/benchmark",
+		"source" : "crypto_kem/SMAUG5/benchmark"
+	}
+}

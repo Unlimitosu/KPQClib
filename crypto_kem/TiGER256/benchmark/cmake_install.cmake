@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Install script for directory: /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER256/benchmark
-=======
-# Install script for directory: /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER256/benchmark
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+# Install script for directory: /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

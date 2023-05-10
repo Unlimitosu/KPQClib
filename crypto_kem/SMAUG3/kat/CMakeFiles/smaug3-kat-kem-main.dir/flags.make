@@ -4,11 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"SMAUG3_KEM\" -DSMAUG_MODE=3
 
-<<<<<<< HEAD
-C_INCLUDES = -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/include -I/home/jgsong/Downloads/KPQClean-master/common -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/kat/../include
-=======
-C_INCLUDES = -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/kat/../include
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+C_INCLUDES = -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/include -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/common -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/kat/../include
 
 C_FLAGS = -std=gnu11
 

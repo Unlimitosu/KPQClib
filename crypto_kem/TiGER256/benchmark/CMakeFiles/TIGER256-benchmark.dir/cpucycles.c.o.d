@@ -1,13 +1,7 @@
 crypto_kem/TiGER256/benchmark/CMakeFiles/TIGER256-benchmark.dir/cpucycles.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER256/benchmark/cpucycles.c \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/benchmark/cpucycles.c \
  /usr/include/stdc-predef.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER256/benchmark/cpucycles.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER256/benchmark/cpucycles.c \
- /usr/include/stdc-predef.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER256/benchmark/cpucycles.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

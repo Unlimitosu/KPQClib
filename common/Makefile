@@ -57,17 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,24 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles /home/jgsong/Downloads/KPQClean-master/common//CMakeFiles/progress.marks
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles /home/jingyosong/KpqC_0507/KPQClean-jgsong/common//CMakeFiles/progress.marks
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles /home/jingyosong/crypto/KpqClean_0510/KPQClean/common//CMakeFiles/progress.marks
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/clean
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/clean
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/clean
 .PHONY : clean
 
 # The main clean target
@@ -120,38 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 common/CMakeFiles/common.dir/rule:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/rule
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/rule
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/rule
 .PHONY : common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -160,11 +127,7 @@ common: common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 aes.o: aes.c.o
@@ -172,11 +135,7 @@ aes.o: aes.c.o
 
 # target to build an object file
 aes.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.o
 .PHONY : aes.c.o
 
 aes.i: aes.c.i
@@ -184,11 +143,7 @@ aes.i: aes.c.i
 
 # target to preprocess a source file
 aes.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.i
 .PHONY : aes.c.i
 
 aes.s: aes.c.s
@@ -196,11 +151,7 @@ aes.s: aes.c.s
 
 # target to generate assembly for a file
 aes.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/aes.c.s
 .PHONY : aes.c.s
 
 fips202.o: fips202.c.o
@@ -208,11 +159,7 @@ fips202.o: fips202.c.o
 
 # target to build an object file
 fips202.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.o
 .PHONY : fips202.c.o
 
 fips202.i: fips202.c.i
@@ -220,11 +167,7 @@ fips202.i: fips202.c.i
 
 # target to preprocess a source file
 fips202.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.i
 .PHONY : fips202.c.i
 
 fips202.s: fips202.c.s
@@ -232,11 +175,7 @@ fips202.s: fips202.c.s
 
 # target to generate assembly for a file
 fips202.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/fips202.c.s
 .PHONY : fips202.c.s
 
 # Help Target
@@ -265,10 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

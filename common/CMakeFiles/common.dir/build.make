@@ -53,17 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -79,56 +72,30 @@ include common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/aes.c.o: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/aes.c.o: common/aes.c
 common/CMakeFiles/common.dir/aes.c.o: common/CMakeFiles/common.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object common/CMakeFiles/common.dir/aes.c.o"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/aes.c.o -MF CMakeFiles/common.dir/aes.c.o.d -o CMakeFiles/common.dir/aes.c.o -c /home/jgsong/Downloads/KPQClean-master/common/aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object common/CMakeFiles/common.dir/aes.c.o"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/aes.c.o -MF CMakeFiles/common.dir/aes.c.o.d -o CMakeFiles/common.dir/aes.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.c
 
 common/CMakeFiles/common.dir/aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/aes.c.i"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jgsong/Downloads/KPQClean-master/common/aes.c > CMakeFiles/common.dir/aes.c.i
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.c > CMakeFiles/common.dir/aes.c.i
 
 common/CMakeFiles/common.dir/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/aes.c.s"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jgsong/Downloads/KPQClean-master/common/aes.c -o CMakeFiles/common.dir/aes.c.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object common/CMakeFiles/common.dir/aes.c.o"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/aes.c.o -MF CMakeFiles/common.dir/aes.c.o.d -o CMakeFiles/common.dir/aes.c.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.c
-
-common/CMakeFiles/common.dir/aes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/aes.c.i"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.c > CMakeFiles/common.dir/aes.c.i
-
-common/CMakeFiles/common.dir/aes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/aes.c.s"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.c -o CMakeFiles/common.dir/aes.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.c -o CMakeFiles/common.dir/aes.c.s
 
 common/CMakeFiles/common.dir/fips202.c.o: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/fips202.c.o: common/fips202.c
 common/CMakeFiles/common.dir/fips202.c.o: common/CMakeFiles/common.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object common/CMakeFiles/common.dir/fips202.c.o"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/fips202.c.o -MF CMakeFiles/common.dir/fips202.c.o.d -o CMakeFiles/common.dir/fips202.c.o -c /home/jgsong/Downloads/KPQClean-master/common/fips202.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object common/CMakeFiles/common.dir/fips202.c.o"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/fips202.c.o -MF CMakeFiles/common.dir/fips202.c.o.d -o CMakeFiles/common.dir/fips202.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/fips202.c
 
 common/CMakeFiles/common.dir/fips202.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/fips202.c.i"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jgsong/Downloads/KPQClean-master/common/fips202.c > CMakeFiles/common.dir/fips202.c.i
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/fips202.c > CMakeFiles/common.dir/fips202.c.i
 
 common/CMakeFiles/common.dir/fips202.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/fips202.c.s"
-	cd /home/jgsong/Downloads/KPQClean-master/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jgsong/Downloads/KPQClean-master/common/fips202.c -o CMakeFiles/common.dir/fips202.c.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object common/CMakeFiles/common.dir/fips202.c.o"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT common/CMakeFiles/common.dir/fips202.c.o -MF CMakeFiles/common.dir/fips202.c.o.d -o CMakeFiles/common.dir/fips202.c.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/fips202.c
-
-common/CMakeFiles/common.dir/fips202.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/fips202.c.i"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/fips202.c > CMakeFiles/common.dir/fips202.c.i
-
-common/CMakeFiles/common.dir/fips202.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/fips202.c.s"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/fips202.c -o CMakeFiles/common.dir/fips202.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/fips202.c -o CMakeFiles/common.dir/fips202.c.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -142,33 +109,19 @@ common/libcommon.a: common/CMakeFiles/common.dir/aes.c.o
 common/libcommon.a: common/CMakeFiles/common.dir/fips202.c.o
 common/libcommon.a: common/CMakeFiles/common.dir/build.make
 common/libcommon.a: common/CMakeFiles/common.dir/link.txt
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libcommon.a"
-	cd /home/jgsong/Downloads/KPQClean-master/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /home/jgsong/Downloads/KPQClean-master/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libcommon.a"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libcommon.a"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/CMakeFiles/common.dir/build: common/libcommon.a
 .PHONY : common/CMakeFiles/common.dir/build
 
 common/CMakeFiles/common.dir/clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/common /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/common /home/jgsong/Downloads/KPQClean-master/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
-.PHONY : common/CMakeFiles/common.dir/clean
-
-common/CMakeFiles/common.dir/depend:
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/common /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/common /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/common /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/common /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/CMakeFiles/common.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/flags.make
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/flags.make
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o: crypto_kem/ntruplus576/test/main.c
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o -MF CMakeFiles/ntruplus576-main.dir/main.c.o.d -o CMakeFiles/ntruplus576-main.dir/main.c.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o -MF CMakeFiles/ntruplus576-main.dir/main.c.o.d -o CMakeFiles/ntruplus576-main.dir/main.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test/main.c
 
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus576-main.dir/main.c.i"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/main.c > CMakeFiles/ntruplus576-main.dir/main.c.i
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test/main.c > CMakeFiles/ntruplus576-main.dir/main.c.i
 
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus576-main.dir/main.c.s"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/main.c -o CMakeFiles/ntruplus576-main.dir/main.c.s
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test/main.c -o CMakeFiles/ntruplus576-main.dir/main.c.s
 
 # Object files for target ntruplus576-main
 ntruplus576__main_OBJECTS = \
@@ -96,18 +96,18 @@ crypto_kem/ntruplus576/bin/ntruplus576-main: crypto_kem/ntruplus576/lib/libntrup
 crypto_kem/ntruplus576/bin/ntruplus576-main: crypto_kem/ntruplus576/lib/libntruplus576RNG1.so
 crypto_kem/ntruplus576/bin/ntruplus576-main: common/libcommon.a
 crypto_kem/ntruplus576/bin/ntruplus576-main: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/ntruplus576-main"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus576-main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/ntruplus576-main"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus576-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build: crypto_kem/ntruplus576/bin/ntruplus576-main
 .PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build
 
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean:
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus576-main.dir/cmake_clean.cmake
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus576-main.dir/cmake_clean.cmake
 .PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean
 
 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/depend:
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/depend
 

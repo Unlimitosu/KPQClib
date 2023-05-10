@@ -4,11 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"TIGER192_KEM\" -DTIGER192_kat_kem_EXPORTS -DTIGER_MODE=3
 
-<<<<<<< HEAD
-C_INCLUDES = -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/include -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/kat -I/home/jgsong/Downloads/KPQClean-master/common -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/kat/../include
-=======
-C_INCLUDES = -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/kat -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/common -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/kat/../include
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+C_INCLUDES = -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/include -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/kat -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/common -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/kat/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

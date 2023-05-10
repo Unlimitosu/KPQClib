@@ -53,17 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend.make
@@ -79,29 +72,16 @@ include crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/flags.make
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o: crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/flags.make
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o: crypto_kem/SMAUG3/test/main.c
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o: crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o -MF CMakeFiles/smaug3-main.dir/main.c.o.d -o CMakeFiles/smaug3-main.dir/main.c.o -c /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o -MF CMakeFiles/smaug3-main.dir/main.c.o.d -o CMakeFiles/smaug3-main.dir/main.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test/main.c
 
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smaug3-main.dir/main.c.i"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test/main.c > CMakeFiles/smaug3-main.dir/main.c.i
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test/main.c > CMakeFiles/smaug3-main.dir/main.c.i
 
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smaug3-main.dir/main.c.s"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test/main.c -o CMakeFiles/smaug3-main.dir/main.c.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o -MF CMakeFiles/smaug3-main.dir/main.c.o.d -o CMakeFiles/smaug3-main.dir/main.c.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test/main.c
-
-crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smaug3-main.dir/main.c.i"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test/main.c > CMakeFiles/smaug3-main.dir/main.c.i
-
-crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smaug3-main.dir/main.c.s"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test/main.c -o CMakeFiles/smaug3-main.dir/main.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test/main.c -o CMakeFiles/smaug3-main.dir/main.c.s
 
 # Object files for target smaug3-main
 smaug3__main_OBJECTS = \
@@ -116,31 +96,18 @@ crypto_kem/SMAUG3/bin/smaug3-main: crypto_kem/SMAUG3/lib/libsmaug3.so
 crypto_kem/SMAUG3/bin/smaug3-main: crypto_kem/SMAUG3/lib/libRNG3.so
 crypto_kem/SMAUG3/bin/smaug3-main: common/libcommon.a
 crypto_kem/SMAUG3/bin/smaug3-main: crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/link.txt
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/smaug3-main"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smaug3-main.dir/link.txt --verbose=$(VERBOSE)
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/smaug3-main"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smaug3-main.dir/link.txt --verbose=$(VERBOSE)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/smaug3-main"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smaug3-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build: crypto_kem/SMAUG3/bin/smaug3-main
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
 
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -P CMakeFiles/smaug3-main.dir/cmake_clean.cmake
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -P CMakeFiles/smaug3-main.dir/cmake_clean.cmake
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/clean
 
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend:
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test && $(CMAKE_COMMAND) -P CMakeFiles/smaug3-main.dir/cmake_clean.cmake
-.PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/clean
-
-crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend:
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend
 

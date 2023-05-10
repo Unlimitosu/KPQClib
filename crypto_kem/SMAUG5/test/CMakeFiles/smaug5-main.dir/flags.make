@@ -4,11 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSMAUG_MODE=5
 
-<<<<<<< HEAD
-C_INCLUDES = -I/home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include -I/home/jgsong/Downloads/KPQClean-master/common
-=======
-C_INCLUDES = -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include -I/home/jingyosong/KpqC_0507/KPQClean-jgsong/common
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+C_INCLUDES = -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include -I/home/jingyosong/crypto/KpqClean_0510/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

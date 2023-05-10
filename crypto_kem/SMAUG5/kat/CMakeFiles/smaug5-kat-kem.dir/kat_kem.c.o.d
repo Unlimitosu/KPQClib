@@ -1,13 +1,7 @@
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/kat/kat_kem.c \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/kat/kat_kem.c \
  /usr/include/stdc-predef.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/kat/api.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/kat/kat_kem.c \
- /usr/include/stdc-predef.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/kat/api.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,19 +17,11 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/parameters.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/kem.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/ciphertext.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/parameters.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/poly.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/parameters.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/kem.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/ciphertext.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/parameters.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/poly.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/kem.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/ciphertext.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/poly.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -47,17 +33,10 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/hash.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/fips202.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/indcpa.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/hwt.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/hash.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/fips202.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/indcpa.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/hwt.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/hash.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/indcpa.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/hwt.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -85,18 +64,9 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/io.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/key.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/dg.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/fips202.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/rng.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/include/pack.h
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/io.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/key.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/dg.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/fips202.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/rng.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/include/pack.h
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/io.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/key.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/dg.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/rng.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/include/pack.h

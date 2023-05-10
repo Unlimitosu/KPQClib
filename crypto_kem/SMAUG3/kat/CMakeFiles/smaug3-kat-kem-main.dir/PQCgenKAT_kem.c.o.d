@@ -1,13 +1,7 @@
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c \
  /usr/include/stdc-predef.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/kat/api.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c \
- /usr/include/stdc-predef.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/kat/api.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,13 +17,8 @@ crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/include/parameters.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/include/rng.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/include/parameters.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/include/rng.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

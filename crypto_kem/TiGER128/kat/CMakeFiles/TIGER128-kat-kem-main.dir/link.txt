@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/cc CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER128-kat-kem-main  -Wl,-rpath,/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/lib ../lib/libTIGER128-kat-kem.so ../lib/libTIGER128.so ../lib/libTIGERRNG1.so ../../../common/libcommon.a 
-=======
-/usr/bin/cc CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER128-kat-kem-main  -Wl,-rpath,/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/lib ../lib/libTIGER128-kat-kem.so ../lib/libTIGER128.so ../lib/libTIGERRNG1.so ../../../common/libcommon.a 
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+/usr/bin/cc CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER128-kat-kem-main  -Wl,-rpath,/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/lib ../lib/libTIGER128-kat-kem.so ../lib/libTIGER128.so ../lib/libTIGERRNG1.so ../../../common/libcommon.a 

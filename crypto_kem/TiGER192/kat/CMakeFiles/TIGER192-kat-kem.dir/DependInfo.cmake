@@ -8,11 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-<<<<<<< HEAD
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER192/kat/kat_kem.c" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o" "gcc" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o.d"
-=======
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER192/kat/kat_kem.c" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o" "gcc" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o.d"
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER192/kat/kat_kem.c" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o" "gcc" "crypto_kem/TiGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o.d"
   )
 
 # Targets to which this target links.

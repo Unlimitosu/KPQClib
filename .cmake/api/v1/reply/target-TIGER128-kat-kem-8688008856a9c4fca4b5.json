@@ -1,0 +1,174 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/TiGER128/lib/libTIGER128-kat-kem.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/TiGER128/kat/CMakeLists.txt",
+			"crypto_kem/TiGER128/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CRYPTO_ALGNAME=\"TIGER128_KEM\""
+				},
+				{
+					"define" : "TIGER128_kat_kem_EXPORTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TIGER_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/jingyosong/crypto/KpqClean_0510/KPQClean/common"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "TIGER128-kat-kem::@f321ec52939692f3fc24",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "TIGER128-kat-kem",
+	"nameOnDisk" : "libTIGER128-kat-kem.so",
+	"paths" : 
+	{
+		"build" : "crypto_kem/TiGER128/kat",
+		"source" : "crypto_kem/TiGER128/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/TiGER128/kat/kat_kem.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

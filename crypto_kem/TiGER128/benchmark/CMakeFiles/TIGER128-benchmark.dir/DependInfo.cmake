@@ -8,28 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-<<<<<<< HEAD
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/benchmark/cpucycles.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o.d"
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/benchmark/speed.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o.d"
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/benchmark/speed_print.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o.d"
-=======
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/benchmark/cpucycles.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o.d"
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/benchmark/speed.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o.d"
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/benchmark/speed_print.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o.d"
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o.d"
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o.d"
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o" "gcc" "crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-<<<<<<< HEAD
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake"
-  "/home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/CMakeFiles/TIGERRNG1.dir/DependInfo.cmake"
-  "/home/jgsong/Downloads/KPQClean-master/common/CMakeFiles/common.dir/DependInfo.cmake"
-=======
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake"
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/CMakeFiles/TIGERRNG1.dir/DependInfo.cmake"
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/common/CMakeFiles/common.dir/DependInfo.cmake"
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake"
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/CMakeFiles/TIGERRNG1.dir/DependInfo.cmake"
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -8,13 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-<<<<<<< HEAD
-  "/home/jgsong/Downloads/KPQClean-master/common/aes.c" "common/CMakeFiles/common.dir/aes.c.o" "gcc" "common/CMakeFiles/common.dir/aes.c.o.d"
-  "/home/jgsong/Downloads/KPQClean-master/common/fips202.c" "common/CMakeFiles/common.dir/fips202.c.o" "gcc" "common/CMakeFiles/common.dir/fips202.c.o.d"
-=======
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.c" "common/CMakeFiles/common.dir/aes.c.o" "gcc" "common/CMakeFiles/common.dir/aes.c.o.d"
-  "/home/jingyosong/KpqC_0507/KPQClean-jgsong/common/fips202.c" "common/CMakeFiles/common.dir/fips202.c.o" "gcc" "common/CMakeFiles/common.dir/fips202.c.o.d"
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.c" "common/CMakeFiles/common.dir/aes.c.o" "gcc" "common/CMakeFiles/common.dir/aes.c.o.d"
+  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/common/fips202.c" "common/CMakeFiles/common.dir/fips202.c.o" "gcc" "common/CMakeFiles/common.dir/fips202.c.o.d"
   )
 
 # Targets to which this target links.

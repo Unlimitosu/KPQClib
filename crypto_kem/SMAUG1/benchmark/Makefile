@@ -57,17 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,24 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG1/benchmark//CMakeFiles/progress.marks
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG1/benchmark//CMakeFiles/progress.marks
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/benchmark//CMakeFiles/progress.marks
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/clean
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/clean
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/clean
 .PHONY : clean
 
 # The main clean target
@@ -120,38 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
 
 # Convenience name for target.
@@ -160,11 +127,7 @@ smaug1-benchmark: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/ru
 
 # fast build rule for target.
 smaug1-benchmark/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
 .PHONY : smaug1-benchmark/fast
 
 cpucycles.o: cpucycles.c.o
@@ -172,11 +135,7 @@ cpucycles.o: cpucycles.c.o
 
 # target to build an object file
 cpucycles.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o
 .PHONY : cpucycles.c.o
 
 cpucycles.i: cpucycles.c.i
@@ -184,11 +143,7 @@ cpucycles.i: cpucycles.c.i
 
 # target to preprocess a source file
 cpucycles.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i
 .PHONY : cpucycles.c.i
 
 cpucycles.s: cpucycles.c.s
@@ -196,11 +151,7 @@ cpucycles.s: cpucycles.c.s
 
 # target to generate assembly for a file
 cpucycles.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s
 .PHONY : cpucycles.c.s
 
 speed.o: speed.c.o
@@ -208,11 +159,7 @@ speed.o: speed.c.o
 
 # target to build an object file
 speed.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o
 .PHONY : speed.c.o
 
 speed.i: speed.c.i
@@ -220,11 +167,7 @@ speed.i: speed.c.i
 
 # target to preprocess a source file
 speed.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.i
 .PHONY : speed.c.i
 
 speed.s: speed.c.s
@@ -232,11 +175,7 @@ speed.s: speed.c.s
 
 # target to generate assembly for a file
 speed.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.s
 .PHONY : speed.c.s
 
 speed_print.o: speed_print.c.o
@@ -244,11 +183,7 @@ speed_print.o: speed_print.c.o
 
 # target to build an object file
 speed_print.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o
 .PHONY : speed_print.c.o
 
 speed_print.i: speed_print.c.i
@@ -256,11 +191,7 @@ speed_print.i: speed_print.c.i
 
 # target to preprocess a source file
 speed_print.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.i
 .PHONY : speed_print.c.i
 
 speed_print.s: speed_print.c.s
@@ -268,11 +199,7 @@ speed_print.s: speed_print.c.s
 
 # target to generate assembly for a file
 speed_print.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.s
 .PHONY : speed_print.c.s
 
 # Help Target
@@ -304,10 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

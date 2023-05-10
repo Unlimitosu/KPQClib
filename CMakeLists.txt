@@ -8,6 +8,7 @@ else()
 endif()
 
 
+#Crypto_kem
 add_subdirectory(common)
 add_subdirectory(crypto_kem/SMAUG1)
 add_subdirectory(crypto_kem/SMAUG3)
@@ -21,4 +22,7 @@ add_subdirectory(crypto_kem/ntruplus864)
 add_subdirectory(crypto_kem/ntruplus1152)
 
 
-
+#Crypto_sign
+add_subdirectory(crypto_sign/HAETAE2)
+add_subdirectory(crypto_sign/HAETAE3)
+add_subdirectory(crypto_sign/HAETAE5)

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/cc CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/smaug3-kat-kem-main  -Wl,-rpath,/home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/lib ../lib/libsmaug3-kat-kem.so ../lib/libsmaug3.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../lib/libRNG3.so ../../../common/libcommon.a 
-=======
-/usr/bin/cc CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/smaug3-kat-kem-main  -Wl,-rpath,/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/lib ../lib/libsmaug3-kat-kem.so ../lib/libsmaug3.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../lib/libRNG3.so ../../../common/libcommon.a 
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+/usr/bin/cc CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/smaug3-kat-kem-main  -Wl,-rpath,/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3-kat-kem.so ../lib/libsmaug3.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../lib/libRNG3.so ../../../common/libcommon.a 

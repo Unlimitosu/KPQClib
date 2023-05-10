@@ -1,9 +1,5 @@
 common/CMakeFiles/common.dir/aes.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/common/aes.c \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.c \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -24,11 +20,7 @@ common/CMakeFiles/common.dir/aes.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/common/aes.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/common/aes.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/aes.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \

@@ -57,17 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,24 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG5/kat//CMakeFiles/progress.marks
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jgsong/Downloads/KPQClean-master/CMakeFiles 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG5/kat//CMakeFiles/progress.marks
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG5/kat//CMakeFiles/progress.marks
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/clean
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/clean
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/clean
 .PHONY : clean
 
 # The main clean target
@@ -120,38 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule
 
 # Convenience name for target.
@@ -160,20 +127,12 @@ smaug5-kat-kem: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/rule
 
 # fast build rule for target.
 smaug5-kat-kem/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
 .PHONY : smaug5-kat-kem/fast
 
 # Convenience name for target.
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
 
 # Convenience name for target.
@@ -182,11 +141,7 @@ smaug5-kat-kem-main: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/ru
 
 # fast build rule for target.
 smaug5-kat-kem-main/fast:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
 .PHONY : smaug5-kat-kem-main/fast
 
 PQCgenKAT_kem.o: PQCgenKAT_kem.c.o
@@ -194,11 +149,7 @@ PQCgenKAT_kem.o: PQCgenKAT_kem.c.o
 
 # target to build an object file
 PQCgenKAT_kem.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o
 .PHONY : PQCgenKAT_kem.c.o
 
 PQCgenKAT_kem.i: PQCgenKAT_kem.c.i
@@ -206,11 +157,7 @@ PQCgenKAT_kem.i: PQCgenKAT_kem.c.i
 
 # target to preprocess a source file
 PQCgenKAT_kem.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.i
 .PHONY : PQCgenKAT_kem.c.i
 
 PQCgenKAT_kem.s: PQCgenKAT_kem.c.s
@@ -218,11 +165,7 @@ PQCgenKAT_kem.s: PQCgenKAT_kem.c.s
 
 # target to generate assembly for a file
 PQCgenKAT_kem.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.s
 .PHONY : PQCgenKAT_kem.c.s
 
 kat_kem.o: kat_kem.c.o
@@ -230,11 +173,7 @@ kat_kem.o: kat_kem.c.o
 
 # target to build an object file
 kat_kem.c.o:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o
 .PHONY : kat_kem.c.o
 
 kat_kem.i: kat_kem.c.i
@@ -242,11 +181,7 @@ kat_kem.i: kat_kem.c.i
 
 # target to preprocess a source file
 kat_kem.c.i:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.i
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.i
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.i
 .PHONY : kat_kem.c.i
 
 kat_kem.s: kat_kem.c.s
@@ -254,11 +189,7 @@ kat_kem.s: kat_kem.c.s
 
 # target to generate assembly for a file
 kat_kem.c.s:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.s
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.s
 .PHONY : kat_kem.c.s
 
 # Help Target
@@ -288,10 +219,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

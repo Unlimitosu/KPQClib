@@ -56,17 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/jgsong/Downloads/KPQClean-master
+CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jgsong/Downloads/KPQClean-master
-=======
-CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0507/KPQClean-jgsong
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/depend.make
@@ -82,29 +75,16 @@ include crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/flags.make
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o: crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/flags.make
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o: crypto_kem/TiGER128/kat/kat_kem.c
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o: crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -MF CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o.d -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -c /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat/kat_kem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -MF CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o.d -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat/kat_kem.c
 
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat/kat_kem.c > CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat/kat_kem.c > CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i
 
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat/kat_kem.c -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -MF CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o.d -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -c /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat/kat_kem.c
-
-crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat/kat_kem.c > CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.i
-
-crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat/kat_kem.c -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat/kat_kem.c -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.s
 
 # Object files for target TIGER128-kat-kem
 TIGER128__kat__kem_OBJECTS = \
@@ -116,31 +96,18 @@ TIGER128__kat__kem_EXTERNAL_OBJECTS =
 crypto_kem/TiGER128/lib/libTIGER128-kat-kem.so: crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o
 crypto_kem/TiGER128/lib/libTIGER128-kat-kem.so: crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/build.make
 crypto_kem/TiGER128/lib/libTIGER128-kat-kem.so: crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/link.txt
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jgsong/Downloads/KPQClean-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../lib/libTIGER128-kat-kem.so"
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128-kat-kem.dir/link.txt --verbose=$(VERBOSE)
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0507/KPQClean-jgsong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../lib/libTIGER128-kat-kem.so"
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128-kat-kem.dir/link.txt --verbose=$(VERBOSE)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../lib/libTIGER128-kat-kem.so"
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128-kat-kem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/build: crypto_kem/TiGER128/lib/libTIGER128-kat-kem.so
 .PHONY : crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/build
 
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/clean:
-<<<<<<< HEAD
-	cd /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128-kat-kem.dir/cmake_clean.cmake
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128-kat-kem.dir/cmake_clean.cmake
 .PHONY : crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/clean
 
 crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/depend:
-	cd /home/jgsong/Downloads/KPQClean-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat /home/jgsong/Downloads/KPQClean-master /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat /home/jgsong/Downloads/KPQClean-master/crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128-kat-kem.dir/cmake_clean.cmake
-.PHONY : crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/clean
-
-crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/depend:
-	cd /home/jingyosong/KpqC_0507/KPQClean-jgsong && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat /home/jingyosong/KpqC_0507/KPQClean-jgsong /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/TiGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/depend
 

@@ -1,13 +1,7 @@
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed_print.c.o: \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/benchmark/speed_print.c \
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.c \
  /usr/include/stdc-predef.h \
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/benchmark/speed_print.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/benchmark/speed_print.c \
- /usr/include/stdc-predef.h \
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/benchmark/speed_print.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -24,11 +18,7 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed_print.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-<<<<<<< HEAD
- /home/jgsong/Downloads/KPQClean-master/crypto_kem/SMAUG3/benchmark/cpucycles.h \
-=======
- /home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/SMAUG3/benchmark/cpucycles.h \
->>>>>>> ab2ff30 (KpqClean V0.1(SMAUG, TIGER, NTRUPLUS))
+ /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/benchmark/cpucycles.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
