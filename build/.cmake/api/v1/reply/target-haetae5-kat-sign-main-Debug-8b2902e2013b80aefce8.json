@@ -1,0 +1,201 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/HAETAE5/bin/haetae5-kat-sign-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/HAETAE5/kat/CMakeLists.txt",
+			"crypto_sign/HAETAE5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAETAE_MODE=5"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae5_fips202::@6547a483ff9e1e4450ab"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae5_RNG::@6547a483ff9e1e4450ab"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae5::@6547a483ff9e1e4450ab"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "haetae5-kat-sign::@84ac199ced60a8a91245"
+		}
+	],
+	"id" : "haetae5-kat-sign-main::@84ac199ced60a8a91245",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/build/crypto_sign/HAETAE5/libs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "crypto_sign/HAETAE5/libs/libhaetae5-kat-sign.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "crypto_sign/HAETAE5/libs/libhaetae5.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crypto_sign/HAETAE5/libs/libhaetae5_fips202.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crypto_sign/HAETAE5/libs/libhaetae5_RNG.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "haetae5-kat-sign-main",
+	"nameOnDisk" : "haetae5-kat-sign-main",
+	"paths" : 
+	{
+		"build" : "crypto_sign/HAETAE5/kat",
+		"source" : "crypto_sign/HAETAE5/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

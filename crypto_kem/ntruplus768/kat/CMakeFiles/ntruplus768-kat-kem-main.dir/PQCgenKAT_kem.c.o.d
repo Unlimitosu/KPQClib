@@ -1,5 +1,5 @@
 crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus768/kat/PQCgenKAT_kem.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus768/kat/PQCgenKAT_kem.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,6 +51,6 @@ crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/PQCgenKAT_kem
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus768/include/rng.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus768/kat/api.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus768/include/params.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus768/include/rng.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus768/kat/api.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus768/include/params.h

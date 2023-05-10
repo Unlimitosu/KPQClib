@@ -1,4 +1,4 @@
-# Install script for directory: /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus768/benchmark
+# Install script for directory: /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus768/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

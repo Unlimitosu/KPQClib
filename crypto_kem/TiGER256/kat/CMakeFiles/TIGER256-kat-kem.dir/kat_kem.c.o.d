@@ -1,9 +1,9 @@
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/kat_kem.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/kat_kem.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/kat_kem.c \
  /usr/include/stdc-predef.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/api.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/include/TIGER_CCAKEM.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/api.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/include/TIGER_CCAKEM.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,7 +19,7 @@ crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/include/TIGER_CPAPKE.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/common/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/include/TIGER_CPAPKE.h \
+ /home/jingyosong/KpqC_0510/KPQClean/common/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h

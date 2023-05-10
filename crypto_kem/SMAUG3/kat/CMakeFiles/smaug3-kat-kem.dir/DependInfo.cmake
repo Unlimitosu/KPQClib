@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG3/kat/kat_kem.c" "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o" "gcc" "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o.d"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG3/kat/kat_kem.c" "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o" "gcc" "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o.d"
   )
 
 # Targets to which this target links.

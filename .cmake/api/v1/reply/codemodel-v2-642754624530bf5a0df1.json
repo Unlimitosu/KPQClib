@@ -1,0 +1,255 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-l1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_sign.AImer-l1-ea69576644c9f6391399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-l1",
+					"targetIndexes" : 
+					[
+						0,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-l1/tests",
+					"jsonFile" : "directory-crypto_sign.AImer-l1.tests-88483bb52bded79d02c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-l1/tests",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-l1/kat",
+					"jsonFile" : "directory-crypto_sign.AImer-l1.kat-a92dd20446156c544afa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-l1/kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-l1/benchmark",
+					"jsonFile" : "directory-crypto_sign.AImer-l1.benchmark-d3370787eb8edc7fbb37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-l1/benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Almer-l",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Almer-l1::@020750493f7fff8e0eef",
+					"jsonFile" : "target-Almer-l1-dc4a65cc96dd9d1effae.json",
+					"name" : "Almer-l1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Almer-l1-benchmark::@5f3206aee6d50a08930b",
+					"jsonFile" : "target-Almer-l1-benchmark-c9923e2ce4a97d13e205.json",
+					"name" : "Almer-l1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Almer-l1-kat-sign::@07dcf294a3c56707fcd3",
+					"jsonFile" : "target-Almer-l1-kat-sign-2b401110f66670d972e6.json",
+					"name" : "Almer-l1-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Almer-l1-kat-sign-main::@07dcf294a3c56707fcd3",
+					"jsonFile" : "target-Almer-l1-kat-sign-main-267e4d8214ab577fe758.json",
+					"name" : "Almer-l1-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-main::@e52fff15aefb56f7a4f5",
+					"jsonFile" : "target-Almer-l1-main-d109199a7b43f6d00c92.json",
+					"name" : "Almer-l1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testaim::@e52fff15aefb56f7a4f5",
+					"jsonFile" : "target-Almer-l1-testaim-912602f38177b02f7a13.json",
+					"name" : "Almer-l1-testaim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testsign::@e52fff15aefb56f7a4f5",
+					"jsonFile" : "target-Almer-l1-testsign-4fca1cfaa07ded778e1c.json",
+					"name" : "Almer-l1-testsign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testtree::@e52fff15aefb56f7a4f5",
+					"jsonFile" : "target-Almer-l1-testtree-e51ac37e7fae169d7cb2.json",
+					"name" : "Almer-l1-testtree",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aimer1_RNG::@020750493f7fff8e0eef",
+					"jsonFile" : "target-aimer1_RNG-45e1933f4ebe9ff48119.json",
+					"name" : "aimer1_RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aimer1_fips202::@020750493f7fff8e0eef",
+					"jsonFile" : "target-aimer1_fips202-dd7355274eb086347b0b.json",
+					"name" : "aimer1_fips202",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-0b1d7ed55b05a4128334.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jingyosong/KpqC_0510/KPQClean",
+		"source" : "/home/jingyosong/KpqC_0510/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

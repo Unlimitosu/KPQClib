@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
+CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
+CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/depend.make
@@ -75,44 +75,44 @@ include crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/flags.ma
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/flags.make
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o: crypto_kem/TiGER128/benchmark/speed.c
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o -MF CMakeFiles/TIGER128-benchmark.dir/speed.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/speed.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o -MF CMakeFiles/TIGER128-benchmark.dir/speed.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/speed.c.o -c /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128-benchmark.dir/speed.c.i"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c > CMakeFiles/TIGER128-benchmark.dir/speed.c.i
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c > CMakeFiles/TIGER128-benchmark.dir/speed.c.i
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128-benchmark.dir/speed.c.s"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c -o CMakeFiles/TIGER128-benchmark.dir/speed.c.s
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c -o CMakeFiles/TIGER128-benchmark.dir/speed.c.s
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/flags.make
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o: crypto_kem/TiGER128/benchmark/cpucycles.c
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o -MF CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o -MF CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o -c /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.i"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c > CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.i
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c > CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.i
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.s"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c -o CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.s
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.c -o CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.s
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/flags.make
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o: crypto_kem/TiGER128/benchmark/speed_print.c
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o -MF CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o -MF CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o.d -o CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o -c /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128-benchmark.dir/speed_print.c.i"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c > CMakeFiles/TIGER128-benchmark.dir/speed_print.c.i
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c > CMakeFiles/TIGER128-benchmark.dir/speed_print.c.i
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128-benchmark.dir/speed_print.c.s"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c -o CMakeFiles/TIGER128-benchmark.dir/speed_print.c.s
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.c -o CMakeFiles/TIGER128-benchmark.dir/speed_print.c.s
 
 # Object files for target TIGER128-benchmark
 TIGER128__benchmark_OBJECTS = \
@@ -131,18 +131,18 @@ crypto_kem/TiGER128/bin/TIGER128-benchmark: crypto_kem/TiGER128/lib/libTIGER128.
 crypto_kem/TiGER128/bin/TIGER128-benchmark: crypto_kem/TiGER128/lib/libTIGERRNG1.so
 crypto_kem/TiGER128/bin/TIGER128-benchmark: common/libcommon.a
 crypto_kem/TiGER128/bin/TIGER128-benchmark: crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/TIGER128-benchmark"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128-benchmark.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/TIGER128-benchmark"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128-benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/build: crypto_kem/TiGER128/bin/TIGER128-benchmark
 .PHONY : crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/build
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/clean:
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128-benchmark.dir/cmake_clean.cmake
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128-benchmark.dir/cmake_clean.cmake
 .PHONY : crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/clean
 
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/depend:
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jingyosong/KpqC_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0510/KPQClean /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark /home/jingyosong/KpqC_0510/KPQClean /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/depend
 

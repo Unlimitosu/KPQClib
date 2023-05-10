@@ -1,7 +1,7 @@
 crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/main.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/test/main.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/test/main.c \
  /usr/include/stdc-predef.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,13 +18,13 @@ crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/packing.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/config.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/poly.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/packing.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/config.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/poly.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -34,13 +34,13 @@ crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/polydbl.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/randombytes.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/rounding.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/sign.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE5/include/polymat.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/polydbl.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/randombytes.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/rounding.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/sign.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE5/include/polymat.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

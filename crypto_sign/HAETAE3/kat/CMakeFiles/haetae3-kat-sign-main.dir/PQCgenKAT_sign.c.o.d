@@ -1,9 +1,9 @@
 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE3/kat/PQCgenKAT_sign.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE3/kat/api.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE3/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE3/include/config.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/kat/api.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -20,7 +20,7 @@ crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/PQCgenKAT_sign.c.o:
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE3/include/randombytes.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE3/include/randombytes.h \
  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \

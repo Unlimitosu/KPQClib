@@ -1,0 +1,186 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/ntruplus864/bin/ntruplus864-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/ntruplus864/test/CMakeLists.txt",
+			"crypto_kem/ntruplus864/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NTRU_MODE=864"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus864/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus864/kat"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ntruplus864RNG1::@7a898b82df921ae44082"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ntruplus864::@7a898b82df921ae44082"
+		}
+	],
+	"id" : "ntruplus864-main::@3552634ca94ffd418035",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/build/crypto_kem/ntruplus864/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "crypto_kem/ntruplus864/lib/libntruplus864.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crypto_kem/ntruplus864/lib/libntruplus864RNG1.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "ntruplus864-main",
+	"nameOnDisk" : "ntruplus864-main",
+	"paths" : 
+	{
+		"build" : "crypto_kem/ntruplus864/test",
+		"source" : "crypto_kem/ntruplus864/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/ntruplus864/test/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

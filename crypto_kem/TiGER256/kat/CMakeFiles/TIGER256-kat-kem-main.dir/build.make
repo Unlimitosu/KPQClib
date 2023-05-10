@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
+CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0510/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jingyosong/crypto/KpqClean_0510/KPQClean
+CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0510/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/depend.make
@@ -75,16 +75,16 @@ include crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/flags.make
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o: crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/flags.make
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o: crypto_kem/TiGER256/kat/PQCgenKAT_kem.c
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o: crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -MF CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o.d -o CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -MF CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o.d -o CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c
 
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.i"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c > CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.i
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c > CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.i
 
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.s"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c -o CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.s
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/PQCgenKAT_kem.c -o CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.s
 
 # Object files for target TIGER256-kat-kem-main
 TIGER256__kat__kem__main_OBJECTS = \
@@ -100,18 +100,18 @@ crypto_kem/TiGER256/bin/TIGER256-kat-kem-main: crypto_kem/TiGER256/lib/libTIGER2
 crypto_kem/TiGER256/bin/TIGER256-kat-kem-main: crypto_kem/TiGER256/lib/libTIGERRNG5.so
 crypto_kem/TiGER256/bin/TIGER256-kat-kem-main: common/libcommon.a
 crypto_kem/TiGER256/bin/TIGER256-kat-kem-main: crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/crypto/KpqClean_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/TIGER256-kat-kem-main"
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER256-kat-kem-main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jingyosong/KpqC_0510/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/TIGER256-kat-kem-main"
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER256-kat-kem-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build: crypto_kem/TiGER256/bin/TIGER256-kat-kem-main
 .PHONY : crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build
 
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/clean:
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat && $(CMAKE_COMMAND) -P CMakeFiles/TIGER256-kat-kem-main.dir/cmake_clean.cmake
+	cd /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat && $(CMAKE_COMMAND) -P CMakeFiles/TIGER256-kat-kem-main.dir/cmake_clean.cmake
 .PHONY : crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/clean
 
 crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/depend:
-	cd /home/jingyosong/crypto/KpqClean_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat /home/jingyosong/crypto/KpqClean_0510/KPQClean /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jingyosong/KpqC_0510/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jingyosong/KpqC_0510/KPQClean /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat /home/jingyosong/KpqC_0510/KPQClean /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/TiGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/depend
 

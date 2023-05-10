@@ -1,5 +1,5 @@
 crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -39,9 +39,9 @@ crypto_kem/TiGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/include/TIGER_CCAKEM.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/include/TIGER_CPAPKE.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/cpucycles.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/include/TIGER_CCAKEM.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/include/TIGER_CPAPKE.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/benchmark/speed_print.h

@@ -1,0 +1,1830 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						10,
+						14,
+						18,
+						22,
+						26,
+						30,
+						34,
+						38,
+						42,
+						46,
+						50
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG1-Debug-53fecabe092aea8474f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1",
+					"targetIndexes" : 
+					[
+						0,
+						67
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.test-Debug-559efab1437d5fc67265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/test",
+					"targetIndexes" : 
+					[
+						71
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.kat-Debug-4fe072ebd738d971617c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/kat",
+					"targetIndexes" : 
+					[
+						69,
+						70
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.benchmark-Debug-0981b1c09a340fc7954e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/benchmark",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG3-Debug-0cd692015e0076005f39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3",
+					"targetIndexes" : 
+					[
+						1,
+						72
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.test-Debug-3b1abec5e28c6ad25e9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/test",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.kat-Debug-e1fe53197af0dfb00aff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/kat",
+					"targetIndexes" : 
+					[
+						74,
+						75
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.benchmark-Debug-49e5222fb48e61ac1e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/benchmark",
+					"targetIndexes" : 
+					[
+						73
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG5-Debug-ee60d15432a31e2dd577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5",
+					"targetIndexes" : 
+					[
+						2,
+						77
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.test-Debug-74986b4c49c712f589ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/test",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.kat-Debug-4d43b705381128d16bf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/kat",
+					"targetIndexes" : 
+					[
+						79,
+						80
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.benchmark-Debug-1e9fc9b5fdc3a22d95ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/benchmark",
+					"targetIndexes" : 
+					[
+						78
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER128",
+					"childIndexes" : 
+					[
+						15,
+						16,
+						17
+					],
+					"jsonFile" : "directory-crypto_kem.TiGER128-Debug-6071044a961d07714d09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/TiGER128",
+					"targetIndexes" : 
+					[
+						3,
+						18
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER128/kat",
+					"jsonFile" : "directory-crypto_kem.TiGER128.kat-Debug-35b36be071487fb201cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/TiGER128/kat",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER128/test",
+					"jsonFile" : "directory-crypto_kem.TiGER128.test-Debug-16e992bf93e51abe63da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/TiGER128/test",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER128/benchmark",
+					"jsonFile" : "directory-crypto_kem.TiGER128.benchmark-Debug-4f509368edda9e1bc008.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/TiGER128/benchmark",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER192",
+					"childIndexes" : 
+					[
+						19,
+						20,
+						21
+					],
+					"jsonFile" : "directory-crypto_kem.TiGER192-Debug-36f16e9689032dae0db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/TiGER192",
+					"targetIndexes" : 
+					[
+						8,
+						19
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER192/kat",
+					"jsonFile" : "directory-crypto_kem.TiGER192.kat-Debug-4637caf9b49895a4d7b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/TiGER192/kat",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER192/test",
+					"jsonFile" : "directory-crypto_kem.TiGER192.test-Debug-3ba553fb699961457028.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/TiGER192/test",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER192/benchmark",
+					"jsonFile" : "directory-crypto_kem.TiGER192.benchmark-Debug-977208be868d90f6d2a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/TiGER192/benchmark",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER256",
+					"childIndexes" : 
+					[
+						23,
+						24,
+						25
+					],
+					"jsonFile" : "directory-crypto_kem.TiGER256-Debug-5f02d76d59a4c9a0bacd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/TiGER256",
+					"targetIndexes" : 
+					[
+						13,
+						20
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER256/kat",
+					"jsonFile" : "directory-crypto_kem.TiGER256.kat-Debug-0baf49300b4cd061756c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/TiGER256/kat",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER256/test",
+					"jsonFile" : "directory-crypto_kem.TiGER256.test-Debug-affc72ab2647af92cc24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/TiGER256/test",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "crypto_kem/TiGER256/benchmark",
+					"jsonFile" : "directory-crypto_kem.TiGER256.benchmark-Debug-79519295dc01cccae54e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/TiGER256/benchmark",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus576",
+					"childIndexes" : 
+					[
+						27,
+						28,
+						29
+					],
+					"jsonFile" : "directory-crypto_kem.ntruplus576-Debug-5b07ab4197b34c409336.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "crypto_kem/ntruplus576",
+					"targetIndexes" : 
+					[
+						49,
+						54
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus576/test",
+					"jsonFile" : "directory-crypto_kem.ntruplus576.test-Debug-574e887854d91daa440b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 8,
+					"source" : "crypto_kem/ntruplus576/test",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus576/kat",
+					"jsonFile" : "directory-crypto_kem.ntruplus576.kat-Debug-770db3132b4efa5fa9d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 8,
+					"source" : "crypto_kem/ntruplus576/kat",
+					"targetIndexes" : 
+					[
+						51,
+						52
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus576/benchmark",
+					"jsonFile" : "directory-crypto_kem.ntruplus576.benchmark-Debug-742d2395f163ff7f597c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 26,
+					"projectIndex" : 8,
+					"source" : "crypto_kem/ntruplus576/benchmark",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus768",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33
+					],
+					"jsonFile" : "directory-crypto_kem.ntruplus768-Debug-3dce5f0ac38a0ae147ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "crypto_kem/ntruplus768",
+					"targetIndexes" : 
+					[
+						55,
+						60
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus768/test",
+					"jsonFile" : "directory-crypto_kem.ntruplus768.test-Debug-797973ae19372300c1f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 9,
+					"source" : "crypto_kem/ntruplus768/test",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus768/kat",
+					"jsonFile" : "directory-crypto_kem.ntruplus768.kat-Debug-fd0944190c6e49ccffef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 9,
+					"source" : "crypto_kem/ntruplus768/kat",
+					"targetIndexes" : 
+					[
+						57,
+						58
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus768/benchmark",
+					"jsonFile" : "directory-crypto_kem.ntruplus768.benchmark-Debug-8141fcc2b2325033ec6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 9,
+					"source" : "crypto_kem/ntruplus768/benchmark",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus864",
+					"childIndexes" : 
+					[
+						35,
+						36,
+						37
+					],
+					"jsonFile" : "directory-crypto_kem.ntruplus864-Debug-c75d05bfd7f13b2835c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "crypto_kem/ntruplus864",
+					"targetIndexes" : 
+					[
+						61,
+						66
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus864/test",
+					"jsonFile" : "directory-crypto_kem.ntruplus864.test-Debug-cf704d452ed503bebe03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 34,
+					"projectIndex" : 10,
+					"source" : "crypto_kem/ntruplus864/test",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus864/kat",
+					"jsonFile" : "directory-crypto_kem.ntruplus864.kat-Debug-ff871e0b52c251cc80a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 34,
+					"projectIndex" : 10,
+					"source" : "crypto_kem/ntruplus864/kat",
+					"targetIndexes" : 
+					[
+						63,
+						64
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus864/benchmark",
+					"jsonFile" : "directory-crypto_kem.ntruplus864.benchmark-Debug-aa3b74e5300bb41e41a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 34,
+					"projectIndex" : 10,
+					"source" : "crypto_kem/ntruplus864/benchmark",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus1152",
+					"childIndexes" : 
+					[
+						39,
+						40,
+						41
+					],
+					"jsonFile" : "directory-crypto_kem.ntruplus1152-Debug-6bfa96e8a16416348686.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "crypto_kem/ntruplus1152",
+					"targetIndexes" : 
+					[
+						43,
+						48
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus1152/test",
+					"jsonFile" : "directory-crypto_kem.ntruplus1152.test-Debug-b8e821b96554e5dfb611.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 38,
+					"projectIndex" : 11,
+					"source" : "crypto_kem/ntruplus1152/test",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus1152/kat",
+					"jsonFile" : "directory-crypto_kem.ntruplus1152.kat-Debug-865a355ab4d60ea9c9bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 38,
+					"projectIndex" : 11,
+					"source" : "crypto_kem/ntruplus1152/kat",
+					"targetIndexes" : 
+					[
+						45,
+						46
+					]
+				},
+				{
+					"build" : "crypto_kem/ntruplus1152/benchmark",
+					"jsonFile" : "directory-crypto_kem.ntruplus1152.benchmark-Debug-e2301fb37ab294f89445.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 38,
+					"projectIndex" : 11,
+					"source" : "crypto_kem/ntruplus1152/benchmark",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE2",
+					"childIndexes" : 
+					[
+						43,
+						44,
+						45
+					],
+					"jsonFile" : "directory-crypto_sign.HAETAE2-Debug-863246dd7dccd4cdd473.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/HAETAE2",
+					"targetIndexes" : 
+					[
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE2/test",
+					"jsonFile" : "directory-crypto_sign.HAETAE2.test-Debug-1a2b3e95728ecd603778.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 42,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/HAETAE2/test",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE2/kat",
+					"jsonFile" : "directory-crypto_sign.HAETAE2.kat-Debug-ded3cdaa509414ae7106.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 42,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/HAETAE2/kat",
+					"targetIndexes" : 
+					[
+						24,
+						25
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE2/benchmark",
+					"jsonFile" : "directory-crypto_sign.HAETAE2.benchmark-Debug-773f4ebbe6926b71a7fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 42,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/HAETAE2/benchmark",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE3",
+					"childIndexes" : 
+					[
+						47,
+						48,
+						49
+					],
+					"jsonFile" : "directory-crypto_sign.HAETAE3-Debug-b7c182d31926452677b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "crypto_sign/HAETAE3",
+					"targetIndexes" : 
+					[
+						29,
+						34,
+						35
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE3/test",
+					"jsonFile" : "directory-crypto_sign.HAETAE3.test-Debug-6b5df128608654a1ef15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 13,
+					"source" : "crypto_sign/HAETAE3/test",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE3/kat",
+					"jsonFile" : "directory-crypto_sign.HAETAE3.kat-Debug-f3fb572f7ee6f3cfccee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 13,
+					"source" : "crypto_sign/HAETAE3/kat",
+					"targetIndexes" : 
+					[
+						31,
+						32
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE3/benchmark",
+					"jsonFile" : "directory-crypto_sign.HAETAE3.benchmark-Debug-30286b71cd06693c3ae1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 13,
+					"source" : "crypto_sign/HAETAE3/benchmark",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE5",
+					"childIndexes" : 
+					[
+						51,
+						52,
+						53
+					],
+					"jsonFile" : "directory-crypto_sign.HAETAE5-Debug-5bc8042469434061d343.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "crypto_sign/HAETAE5",
+					"targetIndexes" : 
+					[
+						36,
+						41,
+						42
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE5/test",
+					"jsonFile" : "directory-crypto_sign.HAETAE5.test-Debug-caa548e9df9236e852b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 14,
+					"source" : "crypto_sign/HAETAE5/test",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE5/kat",
+					"jsonFile" : "directory-crypto_sign.HAETAE5.kat-Debug-c8731a6d34d0882fbbb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 14,
+					"source" : "crypto_sign/HAETAE5/kat",
+					"targetIndexes" : 
+					[
+						38,
+						39
+					]
+				},
+				{
+					"build" : "crypto_sign/HAETAE5/benchmark",
+					"jsonFile" : "directory-crypto_sign.HAETAE5.benchmark-Debug-2f8f43a3400e979d3af5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 14,
+					"source" : "crypto_sign/HAETAE5/benchmark",
+					"targetIndexes" : 
+					[
+						37
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						67,
+						68,
+						69,
+						70,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						77,
+						78,
+						79,
+						80,
+						81
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					],
+					"name" : "TIGER",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21
+					],
+					"name" : "TIGER",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25
+					],
+					"name" : "TIGER",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29
+					],
+					"name" : "ntruplus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						49,
+						50,
+						51,
+						52,
+						53,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30,
+						31,
+						32,
+						33
+					],
+					"name" : "ntruplus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34,
+						35,
+						36,
+						37
+					],
+					"name" : "ntruplus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						61,
+						62,
+						63,
+						64,
+						65,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38,
+						39,
+						40,
+						41
+					],
+					"name" : "ntruplus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42,
+						43,
+						44,
+						45
+					],
+					"name" : "haetae",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46,
+						47,
+						48,
+						49
+					],
+					"name" : "haetae",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50,
+						51,
+						52,
+						53
+					],
+					"name" : "haetae",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "RNG1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-RNG1-Debug-ba794f972b1f49de7fd9.json",
+					"name" : "RNG1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RNG3::@cca328812427fa002d3f",
+					"jsonFile" : "target-RNG3-Debug-fe1a59dec122e322db22.json",
+					"name" : "RNG3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "RNG5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-RNG5-Debug-79dcb624cf85d3a24f41.json",
+					"name" : "RNG5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "TIGER128::@a503dcbb40150bbe1662",
+					"jsonFile" : "target-TIGER128-Debug-0c8c7e65528dbb8cda32.json",
+					"name" : "TIGER128",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "TIGER128-benchmark::@6dba9b5c4ec907f9a680",
+					"jsonFile" : "target-TIGER128-benchmark-Debug-cc3f8b61cfcf39d6e658.json",
+					"name" : "TIGER128-benchmark",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "TIGER128-kat-kem::@f321ec52939692f3fc24",
+					"jsonFile" : "target-TIGER128-kat-kem-Debug-7a185d84ffb126d52682.json",
+					"name" : "TIGER128-kat-kem",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "TIGER128-kat-kem-main::@f321ec52939692f3fc24",
+					"jsonFile" : "target-TIGER128-kat-kem-main-Debug-51613b3013ad56ea754b.json",
+					"name" : "TIGER128-kat-kem-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "TIGER128-main::@bfd049e894fec13c8cd8",
+					"jsonFile" : "target-TIGER128-main-Debug-47e1e8951500666e1b24.json",
+					"name" : "TIGER128-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "TIGER192::@2355c1baf8a599cfb60a",
+					"jsonFile" : "target-TIGER192-Debug-48ee9c664ab1c2167dc8.json",
+					"name" : "TIGER192",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "TIGER192-benchmark::@56555d48b30b1fe42819",
+					"jsonFile" : "target-TIGER192-benchmark-Debug-17420547923493c4ff07.json",
+					"name" : "TIGER192-benchmark",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "TIGER192-kat-kem::@8ac635f9c16f5cd89b55",
+					"jsonFile" : "target-TIGER192-kat-kem-Debug-382e579ea953b70adee8.json",
+					"name" : "TIGER192-kat-kem",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "TIGER192-kat-kem-main::@8ac635f9c16f5cd89b55",
+					"jsonFile" : "target-TIGER192-kat-kem-main-Debug-a47404bbd2d5b0af458c.json",
+					"name" : "TIGER192-kat-kem-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "TIGER192-main::@13aaa572c78d2b2057a8",
+					"jsonFile" : "target-TIGER192-main-Debug-aafca8950c6efaa4e629.json",
+					"name" : "TIGER192-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "TIGER256::@dc7bc54cb3af362698d8",
+					"jsonFile" : "target-TIGER256-Debug-695aa40ee78469178291.json",
+					"name" : "TIGER256",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "TIGER256-benchmark::@e1682af2c7633b477abf",
+					"jsonFile" : "target-TIGER256-benchmark-Debug-2ade14022a2376f35d15.json",
+					"name" : "TIGER256-benchmark",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "TIGER256-kat-kem::@6e796c9053accf6de9b3",
+					"jsonFile" : "target-TIGER256-kat-kem-Debug-5c58c563baab2de61ebc.json",
+					"name" : "TIGER256-kat-kem",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "TIGER256-kat-kem-main::@6e796c9053accf6de9b3",
+					"jsonFile" : "target-TIGER256-kat-kem-main-Debug-0014bd13df39591da647.json",
+					"name" : "TIGER256-kat-kem-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "TIGER256-main::@3bb6c1ddfa128a904def",
+					"jsonFile" : "target-TIGER256-main-Debug-ed46199b43c4fe1250df.json",
+					"name" : "TIGER256-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "TIGERRNG1::@a503dcbb40150bbe1662",
+					"jsonFile" : "target-TIGERRNG1-Debug-782536d54fa68459f5b6.json",
+					"name" : "TIGERRNG1",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "TIGERRNG3::@2355c1baf8a599cfb60a",
+					"jsonFile" : "target-TIGERRNG3-Debug-48f2246cc66c55e1e9a5.json",
+					"name" : "TIGERRNG3",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "TIGERRNG5::@dc7bc54cb3af362698d8",
+					"jsonFile" : "target-TIGERRNG5-Debug-c94f9809b77727929dc3.json",
+					"name" : "TIGERRNG5",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-fdefa7cb9296f4e6e66b.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "haetae2::@ac98a54739cfc51e2638",
+					"jsonFile" : "target-haetae2-Debug-6006a7c5d6a643a438f5.json",
+					"name" : "haetae2",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "haetae2-benchmark::@ef8569cc16dc4cef875b",
+					"jsonFile" : "target-haetae2-benchmark-Debug-a40ec62c18b93ee79218.json",
+					"name" : "haetae2-benchmark",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "haetae2-kat-sign::@15230df030f111a4e69d",
+					"jsonFile" : "target-haetae2-kat-sign-Debug-6b5ce46ce79848fe2583.json",
+					"name" : "haetae2-kat-sign",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "haetae2-kat-sign-main::@15230df030f111a4e69d",
+					"jsonFile" : "target-haetae2-kat-sign-main-Debug-f64c67826ed415857b37.json",
+					"name" : "haetae2-kat-sign-main",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "haetae2-main::@7551532c917e0cdf5164",
+					"jsonFile" : "target-haetae2-main-Debug-01314de19916356378a2.json",
+					"name" : "haetae2-main",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "haetae2_RNG::@ac98a54739cfc51e2638",
+					"jsonFile" : "target-haetae2_RNG-Debug-c2b9bac060d2567448fa.json",
+					"name" : "haetae2_RNG",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "haetae2_fips202::@ac98a54739cfc51e2638",
+					"jsonFile" : "target-haetae2_fips202-Debug-68945046fdfee247a79d.json",
+					"name" : "haetae2_fips202",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "haetae3::@1c405cc013e717f0b6dd",
+					"jsonFile" : "target-haetae3-Debug-f15162d2fc3fc779ef8a.json",
+					"name" : "haetae3",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "haetae3-benchmark::@538b6b09de08d726c2ca",
+					"jsonFile" : "target-haetae3-benchmark-Debug-d79513a694882329aab2.json",
+					"name" : "haetae3-benchmark",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "haetae3-kat-sign::@d656484265b657bd2b23",
+					"jsonFile" : "target-haetae3-kat-sign-Debug-e98fd2455a548be5f37a.json",
+					"name" : "haetae3-kat-sign",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "haetae3-kat-sign-main::@d656484265b657bd2b23",
+					"jsonFile" : "target-haetae3-kat-sign-main-Debug-b9411aa58f555b7ea463.json",
+					"name" : "haetae3-kat-sign-main",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "haetae3-main::@c02c99677fe2c10510ff",
+					"jsonFile" : "target-haetae3-main-Debug-e4d5eb6643e5b60c7532.json",
+					"name" : "haetae3-main",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "haetae3_RNG::@1c405cc013e717f0b6dd",
+					"jsonFile" : "target-haetae3_RNG-Debug-3fb823ffec51ecb63083.json",
+					"name" : "haetae3_RNG",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "haetae3_fips202::@1c405cc013e717f0b6dd",
+					"jsonFile" : "target-haetae3_fips202-Debug-b4431292c841fe44c467.json",
+					"name" : "haetae3_fips202",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "haetae5::@6547a483ff9e1e4450ab",
+					"jsonFile" : "target-haetae5-Debug-ebbae23cc7349c25d14a.json",
+					"name" : "haetae5",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "haetae5-benchmark::@9ac3899d5467711c5579",
+					"jsonFile" : "target-haetae5-benchmark-Debug-14dc5182f887ab0885a6.json",
+					"name" : "haetae5-benchmark",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "haetae5-kat-sign::@84ac199ced60a8a91245",
+					"jsonFile" : "target-haetae5-kat-sign-Debug-da91efdcef74a1052163.json",
+					"name" : "haetae5-kat-sign",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "haetae5-kat-sign-main::@84ac199ced60a8a91245",
+					"jsonFile" : "target-haetae5-kat-sign-main-Debug-8b2902e2013b80aefce8.json",
+					"name" : "haetae5-kat-sign-main",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "haetae5-main::@68018379d640a0179991",
+					"jsonFile" : "target-haetae5-main-Debug-dd949a9a585a5052bc0d.json",
+					"name" : "haetae5-main",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "haetae5_RNG::@6547a483ff9e1e4450ab",
+					"jsonFile" : "target-haetae5_RNG-Debug-3b1e2fda0ef35a5b901c.json",
+					"name" : "haetae5_RNG",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "haetae5_fips202::@6547a483ff9e1e4450ab",
+					"jsonFile" : "target-haetae5_fips202-Debug-b30ad6b9b092a7ec783e.json",
+					"name" : "haetae5_fips202",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ntruplus1152::@57f52858e987bf8ffaed",
+					"jsonFile" : "target-ntruplus1152-Debug-6365a7951e1c688a4420.json",
+					"name" : "ntruplus1152",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ntruplus1152-benchmark::@b544cf3fd1865c29f281",
+					"jsonFile" : "target-ntruplus1152-benchmark-Debug-33cff412c23ec58a60e5.json",
+					"name" : "ntruplus1152-benchmark",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ntruplus1152-kat-kem::@37c1994ce52b817f3e6c",
+					"jsonFile" : "target-ntruplus1152-kat-kem-Debug-20b3945eaff894988d55.json",
+					"name" : "ntruplus1152-kat-kem",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ntruplus1152-kat-kem-main::@37c1994ce52b817f3e6c",
+					"jsonFile" : "target-ntruplus1152-kat-kem-main-Debug-43ce29807ef67021ca96.json",
+					"name" : "ntruplus1152-kat-kem-main",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ntruplus1152-main::@7c0463f672c5d571194b",
+					"jsonFile" : "target-ntruplus1152-main-Debug-6dc643abb8e73862f0e8.json",
+					"name" : "ntruplus1152-main",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ntruplus1152RNG1::@57f52858e987bf8ffaed",
+					"jsonFile" : "target-ntruplus1152RNG1-Debug-19395abd338d9abc8097.json",
+					"name" : "ntruplus1152RNG1",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ntruplus576::@1922cf6fd70987c5b100",
+					"jsonFile" : "target-ntruplus576-Debug-f69f02b73dbce4a780c4.json",
+					"name" : "ntruplus576",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "ntruplus576-benchmark::@5461484ca019c8835db9",
+					"jsonFile" : "target-ntruplus576-benchmark-Debug-965a9d11e2834778612d.json",
+					"name" : "ntruplus576-benchmark",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ntruplus576-kat-kem::@63245736ec19b9f1fc36",
+					"jsonFile" : "target-ntruplus576-kat-kem-Debug-656e2bebc0d0e68940b6.json",
+					"name" : "ntruplus576-kat-kem",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ntruplus576-kat-kem-main::@63245736ec19b9f1fc36",
+					"jsonFile" : "target-ntruplus576-kat-kem-main-Debug-dbd56d421336d9bd0192.json",
+					"name" : "ntruplus576-kat-kem-main",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ntruplus576-main::@f8ae68df11c6e3132e9a",
+					"jsonFile" : "target-ntruplus576-main-Debug-596783eb021e53710196.json",
+					"name" : "ntruplus576-main",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ntruplus576RNG1::@1922cf6fd70987c5b100",
+					"jsonFile" : "target-ntruplus576RNG1-Debug-9067435cd0d354f44a39.json",
+					"name" : "ntruplus576RNG1",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ntruplus768::@716c5be5473b21dde25c",
+					"jsonFile" : "target-ntruplus768-Debug-1365c20e68a7edcfa0ca.json",
+					"name" : "ntruplus768",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ntruplus768-benchmark::@5d4f5f308515e6edc441",
+					"jsonFile" : "target-ntruplus768-benchmark-Debug-7c17f23ac026883ad39a.json",
+					"name" : "ntruplus768-benchmark",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ntruplus768-kat-kem::@bc3864360ec5a1abfa53",
+					"jsonFile" : "target-ntruplus768-kat-kem-Debug-1ba62b4100491f315a7c.json",
+					"name" : "ntruplus768-kat-kem",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ntruplus768-kat-kem-main::@bc3864360ec5a1abfa53",
+					"jsonFile" : "target-ntruplus768-kat-kem-main-Debug-249492d11a534414749f.json",
+					"name" : "ntruplus768-kat-kem-main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ntruplus768-main::@becc6604bd7fa59488d8",
+					"jsonFile" : "target-ntruplus768-main-Debug-f05b2ea32d5c10857c6d.json",
+					"name" : "ntruplus768-main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ntruplus768RNG1::@716c5be5473b21dde25c",
+					"jsonFile" : "target-ntruplus768RNG1-Debug-246aec45763b910cebca.json",
+					"name" : "ntruplus768RNG1",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ntruplus864::@7a898b82df921ae44082",
+					"jsonFile" : "target-ntruplus864-Debug-4587c74e100870bf52f6.json",
+					"name" : "ntruplus864",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ntruplus864-benchmark::@d2c3c7d3baa2c1fd563a",
+					"jsonFile" : "target-ntruplus864-benchmark-Debug-492d97e9d21a4bbbc756.json",
+					"name" : "ntruplus864-benchmark",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ntruplus864-kat-kem::@692a1baac05d96ff6c04",
+					"jsonFile" : "target-ntruplus864-kat-kem-Debug-daf0feed385fe0f51d41.json",
+					"name" : "ntruplus864-kat-kem",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ntruplus864-kat-kem-main::@692a1baac05d96ff6c04",
+					"jsonFile" : "target-ntruplus864-kat-kem-main-Debug-3178aa59b2cd7482c4d6.json",
+					"name" : "ntruplus864-kat-kem-main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ntruplus864-main::@3552634ca94ffd418035",
+					"jsonFile" : "target-ntruplus864-main-Debug-68b9f556f4919ea4655e.json",
+					"name" : "ntruplus864-main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ntruplus864RNG1::@7a898b82df921ae44082",
+					"jsonFile" : "target-ntruplus864RNG1-Debug-5c7c812b4d9def539a36.json",
+					"name" : "ntruplus864RNG1",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smaug1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-smaug1-Debug-0a30a1c6dbf61ed4c540.json",
+					"name" : "smaug1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "smaug1-benchmark::@bab662b6428817cafa24",
+					"jsonFile" : "target-smaug1-benchmark-Debug-9ac596d0ff3628ad82f8.json",
+					"name" : "smaug1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-Debug-c3895fc901c3fc0dc560.json",
+					"name" : "smaug1-kat-kem",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem-main::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-main-Debug-4f0536b7bebebb36feb2.json",
+					"name" : "smaug1-kat-kem-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "smaug1-main::@e87eab334ba447641674",
+					"jsonFile" : "target-smaug1-main-Debug-ca52a9fe060474b23230.json",
+					"name" : "smaug1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "smaug3::@cca328812427fa002d3f",
+					"jsonFile" : "target-smaug3-Debug-73f210667024960ed600.json",
+					"name" : "smaug3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "smaug3-benchmark::@f111e0dcf5af09376579",
+					"jsonFile" : "target-smaug3-benchmark-Debug-081134257227c0113207.json",
+					"name" : "smaug3-benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "smaug3-kat-kem::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-Debug-f4be7efccae208dd05c1.json",
+					"name" : "smaug3-kat-kem",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "smaug3-kat-kem-main::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-main-Debug-b278f8029c9d21f42466.json",
+					"name" : "smaug3-kat-kem-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "smaug3-main::@88f8480d3026dd189203",
+					"jsonFile" : "target-smaug3-main-Debug-81646cb0622e86be94f7.json",
+					"name" : "smaug3-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "smaug5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-smaug5-Debug-541cc68aa0fa5d1bd0c3.json",
+					"name" : "smaug5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "smaug5-benchmark::@dfce2561f912d5e1005e",
+					"jsonFile" : "target-smaug5-benchmark-Debug-3a362d3d871dabe57ac7.json",
+					"name" : "smaug5-benchmark",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "smaug5-kat-kem::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-Debug-b0e5715ec388a09e29e6.json",
+					"name" : "smaug5-kat-kem",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "smaug5-kat-kem-main::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-main-Debug-e92aa93dd777b14f10d0.json",
+					"name" : "smaug5-kat-kem-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "smaug5-main::@72ccc564851827bfec3b",
+					"jsonFile" : "target-smaug5-main-Debug-7b4bb9f88e2ada58a6f3.json",
+					"name" : "smaug5-main",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jingyosong/KpqC_0510/KPQClean/build",
+		"source" : "/home/jingyosong/KpqC_0510/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

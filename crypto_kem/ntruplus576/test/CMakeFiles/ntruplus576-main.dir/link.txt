@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/ntruplus576-main.dir/main.c.o -o ../bin/ntruplus576-main  -Wl,-rpath,/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/lib ../lib/libntruplus576.so ../lib/libntruplus576RNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/ntruplus576-main.dir/main.c.o -o ../bin/ntruplus576-main  -Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/lib ../lib/libntruplus576.so ../lib/libntruplus576RNG1.so ../../../common/libcommon.a 

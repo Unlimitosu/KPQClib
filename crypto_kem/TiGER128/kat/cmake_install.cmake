@@ -1,4 +1,4 @@
-# Install script for directory: /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/TiGER128/kat
+# Install script for directory: /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER128/kat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

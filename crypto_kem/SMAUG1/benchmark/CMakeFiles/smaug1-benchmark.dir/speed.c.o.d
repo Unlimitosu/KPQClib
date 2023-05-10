@@ -1,5 +1,5 @@
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -35,19 +35,19 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/kem.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/ciphertext.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/poly.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/hash.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/indcpa.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/hwt.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/kem.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/ciphertext.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/poly.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/hash.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/indcpa.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/hwt.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -66,11 +66,11 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/io.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/key.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/dg.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/rng.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/pack.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/io.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/key.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/dg.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/rng.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/pack.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.h

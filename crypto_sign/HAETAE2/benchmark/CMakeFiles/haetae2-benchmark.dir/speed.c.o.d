@@ -1,5 +1,5 @@
 crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/speed.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/benchmark/speed.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -35,19 +35,19 @@ crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/benchmark/../include/randombytes.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/benchmark/../include/randombytes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/benchmark/cpucycles.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/config.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/sign.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/params.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/poly.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/sampler.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/benchmark/cpucycles.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/config.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/sign.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/params.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/poly.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/sampler.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -55,6 +55,6 @@ crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/polymat.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/polymat.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/benchmark/speed_print.h

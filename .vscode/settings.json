@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "aimer.h": "c",
+        "poly.h": "c",
+        "polymat.h": "c",
+        "api.h": "c",
+        "stdint.h": "c",
+        "aim192.h": "c"
+    }
+}

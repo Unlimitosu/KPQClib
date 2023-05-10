@@ -1,7 +1,7 @@
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o: \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/kat/kat_kem.c \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/kat/kat_kem.c \
  /usr/include/stdc-predef.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/kat/api.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,11 +17,11 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/kem.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/ciphertext.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/poly.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/kem.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/ciphertext.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/parameters.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/poly.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -33,10 +33,10 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/hash.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/indcpa.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/hwt.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/hash.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/indcpa.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/hwt.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -64,9 +64,9 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/io.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/key.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/dg.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/rng.h \
- /home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/SMAUG1/include/pack.h
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/io.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/key.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/dg.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/fips202.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/rng.h \
+ /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG1/include/pack.h

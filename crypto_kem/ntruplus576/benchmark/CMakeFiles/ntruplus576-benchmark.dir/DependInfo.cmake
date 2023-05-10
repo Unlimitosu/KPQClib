@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/benchmark/cpucycles.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o.d"
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/benchmark/speed.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed.c.o.d"
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/benchmark/speed_print.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o.d"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/benchmark/cpucycles.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o.d"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/benchmark/speed.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed.c.o.d"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/benchmark/speed_print.c" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o" "gcc" "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/DependInfo.cmake"
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/DependInfo.cmake"
-  "/home/jingyosong/crypto/KpqClean_0510/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/DependInfo.cmake"
+  "/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/DependInfo.cmake"
+  "/home/jingyosong/KpqC_0510/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
