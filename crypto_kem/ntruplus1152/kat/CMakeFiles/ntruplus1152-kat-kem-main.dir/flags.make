@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"NTRUPLUS1152_KEM\" -DNTRU_MODE=1152
 
-C_INCLUDES = -I/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus1152/include -I/home/jingyosong/KpqC_0510/KPQClean/common -I/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus1152/kat -I/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/ntruplus1152/kat/../include
+C_INCLUDES = -I/home/jingyosong/KpqC_0513/KPQClean/crypto_kem/ntruplus1152/include -I/home/jingyosong/KpqC_0513/KPQClean/common -I/home/jingyosong/KpqC_0513/KPQClean/crypto_kem/ntruplus1152/kat -I/home/jingyosong/KpqC_0513/KPQClean/crypto_kem/ntruplus1152/kat/../include
 
 C_FLAGS = -std=gnu11
 

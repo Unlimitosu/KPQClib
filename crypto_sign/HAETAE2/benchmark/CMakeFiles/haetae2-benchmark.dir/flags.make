@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAETAE_MODE=2
 
-C_INCLUDES = -I/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/HAETAE2/include -I/home/jingyosong/KpqC_0510/KPQClean/common
+C_INCLUDES = -I/home/jingyosong/KpqC_0513/KPQClean/crypto_sign/HAETAE2/include -I/home/jingyosong/KpqC_0513/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

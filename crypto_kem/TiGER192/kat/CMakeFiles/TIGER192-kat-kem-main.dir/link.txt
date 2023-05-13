@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/TIGER192-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER192-kat-kem-main  -Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/TiGER192/lib ../lib/libTIGER192-kat-kem.so ../lib/libTIGER192.so ../lib/libTIGERRNG3.so ../../../common/libcommon.a 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o -o ../bin/Almer-l1-kat-sign-main  -Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/crypto_sign/AImer-l1/libs ../libs/libAlmer-l1-kat-sign.so ../libs/libAlmer-l1.so ../libs/libaimer1_fips202.so -lm ../libs/libaimer1_RNG.so ../../../common/libcommon.a 

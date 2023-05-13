@@ -5,6 +5,9 @@
         "polymat.h": "c",
         "api.h": "c",
         "stdint.h": "c",
-        "aim192.h": "c"
+        "aim192.h": "c",
+        "field.h": "c",
+        "field128.h": "c",
+        "field256.h": "c"
     }
 }

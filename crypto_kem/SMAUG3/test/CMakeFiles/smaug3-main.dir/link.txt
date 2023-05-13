@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/smaug3-main.dir/main.c.o -o ../bin/smaug3-main  -Wl,-rpath,/home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3.so ../lib/libRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/smaug3-main.dir/main.c.o -o ../bin/smaug3-main  -Wl,-rpath,/home/jingyosong/KpqC_0513/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3.so ../lib/libRNG3.so ../../../common/libcommon.a 

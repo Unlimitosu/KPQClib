@@ -1,4 +1,4 @@
-# Install script for directory: /home/jingyosong/KpqC_0510/KPQClean/crypto_kem/SMAUG3/test
+# Install script for directory: /home/jingyosong/KpqC_0513/KPQClean/crypto_kem/SMAUG3/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Almer-l3-testsign.dir/test_sign.c.o -o ../bin/Almer-l3-testsign  -Wl,-rpath,/home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L3/libs ../libs/libAlmer-l3.so ../libs/libaimer3_fips202.so -lm ../libs/libaimer3_RNG.so ../../../common/libcommon.a 
