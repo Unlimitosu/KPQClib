@@ -3,10 +3,9 @@
 
 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o
  /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/tests/test_aim.c
  /usr/include/stdc-predef.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/aim.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/aimer.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/aim.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/aimer.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -36,10 +35,10 @@ crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/aim128.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/field/field.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/aimer.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/field/field128.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/aim128.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/field/field.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/aimer.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/field/field128.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h

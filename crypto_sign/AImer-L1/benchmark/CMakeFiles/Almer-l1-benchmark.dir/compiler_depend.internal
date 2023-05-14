@@ -3,7 +3,6 @@
 
 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o
  /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/src/rng.c
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/src/rng.c
  /usr/include/stdc-predef.h
  /usr/include/string.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -19,7 +18,7 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
  /usr/include/strings.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/rng.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/rng.h
  /usr/include/stdio.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h
  /usr/include/x86_64-linux-gnu/bits/types.h
@@ -70,9 +69,8 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o
 
 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o
  /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/cpucycles.c
  /usr/include/stdc-predef.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -93,7 +91,6 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o
 
 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed.c.o
  /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/speed.c
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -132,22 +129,21 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed.c.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/rng.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/rng.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/aimer.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/include/api.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/aimer.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/include/api.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.h
 
 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o
  /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/speed_print.c
  /usr/include/stdc-predef.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/speed_print.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -166,7 +162,7 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o
  /usr/include/x86_64-linux-gnu/bits/wchar.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-l1/benchmark/cpucycles.h
+ /home/jingyosong/KpqC_0513/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.h
  /usr/include/stdio.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h
