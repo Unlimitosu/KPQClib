@@ -33,7 +33,6 @@ endif()
 include_directories(include)
 include_directories(include/NIST)
 include_directories(${CMAKE_SOURCE_DIR}/common)
-include_directories(kat)
 
 set(FIPS202_SRCS src/fips202.c)
 add_library(gcksign5_fips202 SHARED ${FIPS202_SRCS})
@@ -52,4 +51,4 @@ target_link_libraries(${LIB_NAME5} PUBLIC common)
 
 add_subdirectory(test)
 add_subdirectory(kat)
-#add_subdirectory(benchmark)
+add_subdirectory(benchmark)

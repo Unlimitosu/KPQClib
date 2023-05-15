@@ -64,16 +64,22 @@ CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0515/KPQClean
 
 # The main recursive "all" target.
 all: common/all
+all: crypto_sign/GCKSign-II/all
+all: crypto_sign/GCKSign-III/all
 all: crypto_sign/GCKSign-V/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: common/preinstall
+preinstall: crypto_sign/GCKSign-II/preinstall
+preinstall: crypto_sign/GCKSign-III/preinstall
 preinstall: crypto_sign/GCKSign-V/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: common/clean
+clean: crypto_sign/GCKSign-II/clean
+clean: crypto_sign/GCKSign-III/clean
 clean: crypto_sign/GCKSign-V/clean
 .PHONY : clean
 
@@ -93,6 +99,154 @@ common/clean: common/CMakeFiles/common.dir/clean
 .PHONY : common/clean
 
 #=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-II
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/test/all
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/kat/all
+crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/benchmark/all
+.PHONY : crypto_sign/GCKSign-II/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/test/preinstall
+crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/kat/preinstall
+crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/benchmark/preinstall
+.PHONY : crypto_sign/GCKSign-II/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/test/clean
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/kat/clean
+crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/benchmark/clean
+.PHONY : crypto_sign/GCKSign-II/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-II/benchmark
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-II/benchmark/all: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
+.PHONY : crypto_sign/GCKSign-II/benchmark/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-II/benchmark/preinstall:
+.PHONY : crypto_sign/GCKSign-II/benchmark/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-II/benchmark/clean: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-II/benchmark/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-II/kat
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-II/kat/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
+crypto_sign/GCKSign-II/kat/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
+.PHONY : crypto_sign/GCKSign-II/kat/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-II/kat/preinstall:
+.PHONY : crypto_sign/GCKSign-II/kat/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-II/kat/clean: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
+crypto_sign/GCKSign-II/kat/clean: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
+.PHONY : crypto_sign/GCKSign-II/kat/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-II/test
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-II/test/all: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
+.PHONY : crypto_sign/GCKSign-II/test/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-II/test/preinstall:
+.PHONY : crypto_sign/GCKSign-II/test/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-II/test/clean: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
+.PHONY : crypto_sign/GCKSign-II/test/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-III
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/test/all
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/kat/all
+crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/benchmark/all
+.PHONY : crypto_sign/GCKSign-III/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/test/preinstall
+crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/kat/preinstall
+crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/benchmark/preinstall
+.PHONY : crypto_sign/GCKSign-III/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/test/clean
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/kat/clean
+crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/benchmark/clean
+.PHONY : crypto_sign/GCKSign-III/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-III/benchmark
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-III/benchmark/all: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
+.PHONY : crypto_sign/GCKSign-III/benchmark/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-III/benchmark/preinstall:
+.PHONY : crypto_sign/GCKSign-III/benchmark/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-III/benchmark/clean: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-III/benchmark/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-III/kat
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-III/kat/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
+crypto_sign/GCKSign-III/kat/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
+.PHONY : crypto_sign/GCKSign-III/kat/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-III/kat/preinstall:
+.PHONY : crypto_sign/GCKSign-III/kat/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-III/kat/clean: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
+crypto_sign/GCKSign-III/kat/clean: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
+.PHONY : crypto_sign/GCKSign-III/kat/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-III/test
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-III/test/all: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
+.PHONY : crypto_sign/GCKSign-III/test/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-III/test/preinstall:
+.PHONY : crypto_sign/GCKSign-III/test/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-III/test/clean: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
+.PHONY : crypto_sign/GCKSign-III/test/clean
+
+#=============================================================================
 # Directory level rules for directory crypto_sign/GCKSign-V
 
 # Recursive "all" directory target.
@@ -101,11 +255,13 @@ crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
 crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
 crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/test/all
 crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/kat/all
+crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/benchmark/all
 .PHONY : crypto_sign/GCKSign-V/all
 
 # Recursive "preinstall" directory target.
 crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/test/preinstall
 crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/kat/preinstall
+crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/benchmark/preinstall
 .PHONY : crypto_sign/GCKSign-V/preinstall
 
 # Recursive "clean" directory target.
@@ -114,7 +270,23 @@ crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/c
 crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/clean
 crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/test/clean
 crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/kat/clean
+crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/benchmark/clean
 .PHONY : crypto_sign/GCKSign-V/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/GCKSign-V/benchmark
+
+# Recursive "all" directory target.
+crypto_sign/GCKSign-V/benchmark/all: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
+.PHONY : crypto_sign/GCKSign-V/benchmark/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/GCKSign-V/benchmark/preinstall:
+.PHONY : crypto_sign/GCKSign-V/benchmark/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/GCKSign-V/benchmark/clean: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-V/benchmark/clean
 
 #=============================================================================
 # Directory level rules for directory crypto_sign/GCKSign-V/kat
@@ -155,7 +327,7 @@ crypto_sign/GCKSign-V/test/clean: crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=17,18,19,20 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=61,62,63,64 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,13 +347,399 @@ common/CMakeFiles/common.dir/clean:
 .PHONY : common/CMakeFiles/common.dir/clean
 
 #=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=67,68 "Built target gcksign2_fips202"
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule
+
+# Convenience name for target.
+gcksign2_fips202: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule
+.PHONY : gcksign2_fips202
+
+# clean rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=65,66 "Built target gcksign2_RNG"
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule
+
+# Convenience name for target.
+gcksign2_RNG: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule
+.PHONY : gcksign2_RNG
+
+# clean rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target GCKSign-II"
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule
+
+# Convenience name for target.
+GCKSign-II: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule
+.PHONY : GCKSign-II
+
+# clean rule for target.
+crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
+.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=19,20 "Built target GCKSign-II-main"
+.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule
+
+# Convenience name for target.
+GCKSign-II-main: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule
+.PHONY : GCKSign-II-main
+
+# clean rule for target.
+crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
+.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=15,16 "Built target GCKSign-II-kat-sign"
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule
+
+# Convenience name for target.
+GCKSign-II-kat-sign: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule
+.PHONY : GCKSign-II-kat-sign
+
+# clean rule for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=17,18 "Built target GCKSign-II-kat-sign-main"
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule
+
+# Convenience name for target.
+GCKSign-II-kat-sign-main: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule
+.PHONY : GCKSign-II-kat-sign-main
+
+# clean rule for target.
+crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
+.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=11,12,13,14 "Built target GCKSign-II-benchmark"
+.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule
+
+# Convenience name for target.
+GCKSign-II-benchmark: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule
+.PHONY : GCKSign-II-benchmark
+
+# clean rule for target.
+crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=71,72 "Built target gcksign3_fips202"
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule
+
+# Convenience name for target.
+gcksign3_fips202: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule
+.PHONY : gcksign3_fips202
+
+# clean rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=69,70 "Built target gcksign3_RNG"
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule
+
+# Convenience name for target.
+gcksign3_RNG: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule
+.PHONY : gcksign3_RNG
+
+# clean rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30 "Built target GCKSign-III"
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule
+
+# Convenience name for target.
+GCKSign-III: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule
+.PHONY : GCKSign-III
+
+# clean rule for target.
+crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
+.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=39,40 "Built target GCKSign-III-main"
+.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule
+
+# Convenience name for target.
+GCKSign-III-main: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule
+.PHONY : GCKSign-III-main
+
+# clean rule for target.
+crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
+.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=35,36 "Built target GCKSign-III-kat-sign"
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule
+
+# Convenience name for target.
+GCKSign-III-kat-sign: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule
+.PHONY : GCKSign-III-kat-sign
+
+# clean rule for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=37,38 "Built target GCKSign-III-kat-sign-main"
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule
+
+# Convenience name for target.
+GCKSign-III-kat-sign-main: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule
+.PHONY : GCKSign-III-kat-sign-main
+
+# clean rule for target.
+crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
+.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=31,32,33,34 "Built target GCKSign-III-benchmark"
+.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
+
+# Convenience name for target.
+GCKSign-III-benchmark: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
+.PHONY : GCKSign-III-benchmark
+
+# clean rule for target.
+crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
+
+#=============================================================================
 # Target rules for target crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir
 
 # All Build rule for target.
 crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=23,24 "Built target gcksign5_fips202"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=75,76 "Built target gcksign5_fips202"
 .PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
 
 # Build rule for subdir invocation for target.
@@ -207,7 +765,7 @@ crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/clean:
 crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=21,22 "Built target gcksign5_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=73,74 "Built target gcksign5_RNG"
 .PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +792,7 @@ crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all: common/CMakeFiles/common.dir
 crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target GCKSign-V"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50 "Built target GCKSign-V"
 .PHONY : crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +821,7 @@ crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: crypto_sign/GCKSig
 crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=15,16 "Built target GCKSign-V-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=59,60 "Built target GCKSign-V-main"
 .PHONY : crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -289,7 +847,7 @@ crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/clean:
 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=11,12 "Built target GCKSign-V-kat-sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=55,56 "Built target GCKSign-V-kat-sign"
 .PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
@@ -319,7 +877,7 @@ crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sig
 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=13,14 "Built target GCKSign-V-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=57,58 "Built target GCKSign-V-kat-sign-main"
 .PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,6 +895,35 @@ GCKSign-V-kat-sign-main: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign
 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean
 .PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir
+
+# All Build rule for target.
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jingyosong/KpqC_0515/KPQClean/CMakeFiles --progress-num=51,52,53,54 "Built target GCKSign-V-benchmark"
+.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
+
+# Convenience name for target.
+GCKSign-V-benchmark: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
+.PHONY : GCKSign-V-benchmark
+
+# clean rule for target.
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
+.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

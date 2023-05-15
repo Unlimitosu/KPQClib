@@ -2,10 +2,10 @@
 #define __PARAMS_H__
 
 //PARAM options
-#define PARAM_2 //
+
 #define Raw_s //either NTT_s or Raw_s
 
-#ifdef PARAM_1
+#if GCKSign_MODE == 2
 
 	#define _log_P 54
 	#define _H 39
@@ -34,7 +34,7 @@
 	#define _Bound2 (_B - 18)
 #endif
 
-#ifdef PARAM_2
+#if GCKSign_MODE == 3
 	#define _log_P 60
 	#define _H 45
 
@@ -62,7 +62,7 @@
 	#define _Bound2 (_B - 18)
 #endif
 
-#ifdef PARAM_3
+#if GCKSign_MODE == 5
 	#define _log_P 47
 	#define _H 44
 

@@ -116,14 +116,14 @@ main()
         fprintBstr(fp_rsp, "msg = ", m, mlen);
         
         // Generate the public/private keypair
-        if ( (ret_val = kat_crypto_sign_keypair(pk, sk)) != 0) {
+        if ( (ret_val = crypto_sign_keypair(pk, sk)) != 0) {
             printf("crypto_sign_keypair returned <%d>\n", ret_val);
             return KAT_CRYPTO_FAILURE;
         }
         fprintBstr(fp_rsp, "pk = ", pk, CRYPTO_PUBLICKEYBYTES);
         fprintBstr(fp_rsp, "sk = ", sk, CRYPTO_SECRETKEYBYTES);
         
-        if ( (ret_val = kat_crypto_sign(sm, &smlen, m, mlen, sk)) != 0) {
+        if ( (ret_val = crypto_sign(sm, &smlen, m, mlen, sk)) != 0) {
             printf("crypto_sign returned <%d>\n", ret_val);
             return KAT_CRYPTO_FAILURE;
         }
@@ -131,7 +131,7 @@ main()
         fprintBstr(fp_rsp, "sm = ", sm, smlen);
         fprintf(fp_rsp, "\n");
         
-        if ( (ret_val = kat_crypto_sign_open(m1, &mlen1, sm, smlen, pk)) != 0) {
+        if ( (ret_val = crypto_sign_open(m1, &mlen1, sm, smlen, pk)) != 0) {
             printf("crypto_sign_open returned <%d>\n", ret_val);
             return KAT_CRYPTO_FAILURE;
         }

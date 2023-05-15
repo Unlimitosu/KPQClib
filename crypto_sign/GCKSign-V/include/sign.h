@@ -22,7 +22,6 @@
 #define CRYPTO_BYTES (Z_BYTES + 32)
 
 
-
 int 
 crypto_sign_keypair(unsigned char *pk, unsigned char *sk);
 

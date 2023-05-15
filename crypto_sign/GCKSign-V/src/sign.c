@@ -71,8 +71,9 @@ int crypto_sign(unsigned char *sm, unsigned long long *smlen,
 
 	int check = 0;
 	ctr_sign=0;
+
 	sha256ctx state;
-	
+
 	int64_t a[_M][_N];
 	int64_t s[_M][_N];
 	int64_t y[_M][_N];
@@ -120,7 +121,7 @@ int crypto_sign(unsigned char *sm, unsigned long long *smlen,
 		sha256_inc_init(&state);
 		sha256_inc_blocks(&state, tmp, POLY_BYTES/64);
 		sha256_inc_finalize(seed, &state, m, mlen);
-	
+
 		sample_c(c, seed);
 
 		poly_cadd(c);		
@@ -197,7 +198,6 @@ int crypto_sign_open(unsigned char *m, unsigned long long *mlen,
 	sha256_inc_init(&state);
 	sha256_inc_blocks(&state, tmp, POLY_BYTES/64);
 	sha256_inc_finalize(digest, &state, sm + CRYPTO_BYTES, smlen - CRYPTO_BYTES);
-
 
 	//compare
 	if(memcmp(digest, sm + Z_BYTES, 32) == 0)

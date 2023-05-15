@@ -225,7 +225,7 @@ static unsigned int rej_B(int64_t *a, unsigned int len,
     t  = buf[pos++];
     t |= (uint64_t)buf[pos++] << 8;
    
-    #if GCKSign_MODE == 2			
+    #if GCKSign_MODE == 2		
 			t = t & ((1L << (_log_B + 1)) - 1);
 	#endif
 		

@@ -8,7 +8,6 @@
 #include <string.h>
 #include "rng.h"
 #include "aes.h"
-
 AES256_CTR_DRBG_struct  DRBG_ctx;
 
 void    AES256_ECB(unsigned char *key, unsigned char *ctr, unsigned char *buffer);

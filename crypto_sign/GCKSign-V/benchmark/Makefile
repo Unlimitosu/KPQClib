@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/GCKSign-III/benchmark//CMakeFiles/progress.marks
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/all
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/GCKSign-V/benchmark//CMakeFiles/progress.marks
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/clean
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/preinstall
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/preinstall
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
-.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
+crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule:
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
+.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
 
 # Convenience name for target.
-GCKSign-III-benchmark: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
-.PHONY : GCKSign-III-benchmark
+GCKSign-V-benchmark: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
+.PHONY : GCKSign-V-benchmark
 
 # fast build rule for target.
-GCKSign-III-benchmark/fast:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build
-.PHONY : GCKSign-III-benchmark/fast
+GCKSign-V-benchmark/fast:
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build
+.PHONY : GCKSign-V-benchmark/fast
 
 cpucycles.o: cpucycles.c.o
 .PHONY : cpucycles.o
 
 # target to build an object file
 cpucycles.c.o:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/cpucycles.c.o
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/cpucycles.c.o
 .PHONY : cpucycles.c.o
 
 cpucycles.i: cpucycles.c.i
@@ -143,7 +143,7 @@ cpucycles.i: cpucycles.c.i
 
 # target to preprocess a source file
 cpucycles.c.i:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/cpucycles.c.i
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/cpucycles.c.i
 .PHONY : cpucycles.c.i
 
 cpucycles.s: cpucycles.c.s
@@ -151,7 +151,7 @@ cpucycles.s: cpucycles.c.s
 
 # target to generate assembly for a file
 cpucycles.c.s:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/cpucycles.c.s
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/cpucycles.c.s
 .PHONY : cpucycles.c.s
 
 speed.o: speed.c.o
@@ -159,7 +159,7 @@ speed.o: speed.c.o
 
 # target to build an object file
 speed.c.o:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed.c.o
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed.c.o
 .PHONY : speed.c.o
 
 speed.i: speed.c.i
@@ -167,7 +167,7 @@ speed.i: speed.c.i
 
 # target to preprocess a source file
 speed.c.i:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed.c.i
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed.c.i
 .PHONY : speed.c.i
 
 speed.s: speed.c.s
@@ -175,7 +175,7 @@ speed.s: speed.c.s
 
 # target to generate assembly for a file
 speed.c.s:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed.c.s
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed.c.s
 .PHONY : speed.c.s
 
 speed_print.o: speed_print.c.o
@@ -183,7 +183,7 @@ speed_print.o: speed_print.c.o
 
 # target to build an object file
 speed_print.c.o:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed_print.c.o
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed_print.c.o
 .PHONY : speed_print.c.o
 
 speed_print.i: speed_print.c.i
@@ -191,7 +191,7 @@ speed_print.i: speed_print.c.i
 
 # target to preprocess a source file
 speed_print.c.i:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed_print.c.i
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed_print.c.i
 .PHONY : speed_print.c.i
 
 speed_print.s: speed_print.c.s
@@ -199,7 +199,7 @@ speed_print.s: speed_print.c.s
 
 # target to generate assembly for a file
 speed_print.c.s:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed_print.c.s
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed_print.c.s
 .PHONY : speed_print.c.s
 
 # Help Target
@@ -210,7 +210,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... GCKSign-III-benchmark"
+	@echo "... GCKSign-V-benchmark"
 	@echo "... cpucycles.o"
 	@echo "... cpucycles.i"
 	@echo "... cpucycles.s"

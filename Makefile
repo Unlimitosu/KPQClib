@@ -130,6 +130,188 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
+# Target rules for targets named gcksign2_fips202
+
+# Build rule for target.
+gcksign2_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign2_fips202
+.PHONY : gcksign2_fips202
+
+# fast build rule for target.
+gcksign2_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build
+.PHONY : gcksign2_fips202/fast
+
+#=============================================================================
+# Target rules for targets named gcksign2_RNG
+
+# Build rule for target.
+gcksign2_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign2_RNG
+.PHONY : gcksign2_RNG
+
+# fast build rule for target.
+gcksign2_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build
+.PHONY : gcksign2_RNG/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-II
+
+# Build rule for target.
+GCKSign-II: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II
+.PHONY : GCKSign-II
+
+# fast build rule for target.
+GCKSign-II/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build
+.PHONY : GCKSign-II/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-II-main
+
+# Build rule for target.
+GCKSign-II-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-main
+.PHONY : GCKSign-II-main
+
+# fast build rule for target.
+GCKSign-II-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build
+.PHONY : GCKSign-II-main/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-II-kat-sign
+
+# Build rule for target.
+GCKSign-II-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-kat-sign
+.PHONY : GCKSign-II-kat-sign
+
+# fast build rule for target.
+GCKSign-II-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
+.PHONY : GCKSign-II-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-II-kat-sign-main
+
+# Build rule for target.
+GCKSign-II-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-kat-sign-main
+.PHONY : GCKSign-II-kat-sign-main
+
+# fast build rule for target.
+GCKSign-II-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build
+.PHONY : GCKSign-II-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-II-benchmark
+
+# Build rule for target.
+GCKSign-II-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-benchmark
+.PHONY : GCKSign-II-benchmark
+
+# fast build rule for target.
+GCKSign-II-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build
+.PHONY : GCKSign-II-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named gcksign3_fips202
+
+# Build rule for target.
+gcksign3_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign3_fips202
+.PHONY : gcksign3_fips202
+
+# fast build rule for target.
+gcksign3_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build
+.PHONY : gcksign3_fips202/fast
+
+#=============================================================================
+# Target rules for targets named gcksign3_RNG
+
+# Build rule for target.
+gcksign3_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign3_RNG
+.PHONY : gcksign3_RNG
+
+# fast build rule for target.
+gcksign3_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build
+.PHONY : gcksign3_RNG/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-III
+
+# Build rule for target.
+GCKSign-III: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III
+.PHONY : GCKSign-III
+
+# fast build rule for target.
+GCKSign-III/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build
+.PHONY : GCKSign-III/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-III-main
+
+# Build rule for target.
+GCKSign-III-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-main
+.PHONY : GCKSign-III-main
+
+# fast build rule for target.
+GCKSign-III-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build
+.PHONY : GCKSign-III-main/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-III-kat-sign
+
+# Build rule for target.
+GCKSign-III-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-kat-sign
+.PHONY : GCKSign-III-kat-sign
+
+# fast build rule for target.
+GCKSign-III-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build
+.PHONY : GCKSign-III-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-III-kat-sign-main
+
+# Build rule for target.
+GCKSign-III-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-kat-sign-main
+.PHONY : GCKSign-III-kat-sign-main
+
+# fast build rule for target.
+GCKSign-III-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build
+.PHONY : GCKSign-III-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named GCKSign-III-benchmark
+
+# Build rule for target.
+GCKSign-III-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-benchmark
+.PHONY : GCKSign-III-benchmark
+
+# fast build rule for target.
+GCKSign-III-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build
+.PHONY : GCKSign-III-benchmark/fast
+
+#=============================================================================
 # Target rules for targets named gcksign5_fips202
 
 # Build rule for target.
@@ -207,6 +389,19 @@ GCKSign-V-kat-sign-main/fast:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build
 .PHONY : GCKSign-V-kat-sign-main/fast
 
+#=============================================================================
+# Target rules for targets named GCKSign-V-benchmark
+
+# Build rule for target.
+GCKSign-V-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V-benchmark
+.PHONY : GCKSign-V-benchmark
+
+# fast build rule for target.
+GCKSign-V-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build
+.PHONY : GCKSign-V-benchmark/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,11 +410,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... GCKSign-II"
+	@echo "... GCKSign-II-benchmark"
+	@echo "... GCKSign-II-kat-sign"
+	@echo "... GCKSign-II-kat-sign-main"
+	@echo "... GCKSign-II-main"
+	@echo "... GCKSign-III"
+	@echo "... GCKSign-III-benchmark"
+	@echo "... GCKSign-III-kat-sign"
+	@echo "... GCKSign-III-kat-sign-main"
+	@echo "... GCKSign-III-main"
 	@echo "... GCKSign-V"
+	@echo "... GCKSign-V-benchmark"
 	@echo "... GCKSign-V-kat-sign"
 	@echo "... GCKSign-V-kat-sign-main"
 	@echo "... GCKSign-V-main"
 	@echo "... common"
+	@echo "... gcksign2_RNG"
+	@echo "... gcksign2_fips202"
+	@echo "... gcksign3_RNG"
+	@echo "... gcksign3_fips202"
 	@echo "... gcksign5_RNG"
 	@echo "... gcksign5_fips202"
 .PHONY : help
