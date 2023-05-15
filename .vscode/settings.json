@@ -8,6 +8,9 @@
         "aim192.h": "c",
         "field.h": "c",
         "field128.h": "c",
-        "field256.h": "c"
+        "field256.h": "c",
+        "*.tcc": "c",
+        "sign.h": "c",
+        "params.h": "c"
     }
 }

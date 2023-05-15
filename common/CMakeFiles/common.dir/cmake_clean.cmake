@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/common.dir/aes.c.o.d"
   "CMakeFiles/common.dir/fips202.c.o"
   "CMakeFiles/common.dir/fips202.c.o.d"
+  "CMakeFiles/common.dir/sha2.c.o"
+  "CMakeFiles/common.dir/sha2.c.o.d"
   "libcommon.a"
   "libcommon.pdb"
 )

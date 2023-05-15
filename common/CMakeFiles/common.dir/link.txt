@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcommon.a CMakeFiles/common.dir/aes.c.o CMakeFiles/common.dir/fips202.c.o
+/usr/bin/ar qc libcommon.a CMakeFiles/common.dir/aes.c.o CMakeFiles/common.dir/fips202.c.o CMakeFiles/common.dir/sha2.c.o
 /usr/bin/ranlib libcommon.a

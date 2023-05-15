@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/GCKSign-II-benchmark.dir/speed.c.o CMakeFiles/GCKSign-II-benchmark.dir/cpucycles.c.o CMakeFiles/GCKSign-II-benchmark.dir/speed_print.c.o -o ../bin/GCKSign-II-benchmark  -Wl,-rpath,/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/GCKSign-II/libs ../libs/libGCKSign-II.so ../libs/libgcksign2_fips202.so -lm ../libs/libgcksign2_RNG.so ../../../common/libcommon.a 
