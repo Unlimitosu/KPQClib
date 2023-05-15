@@ -1,0 +1,219 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613-Debug-c0ef5a701137cb27586b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/tests",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.tests-Debug-2e80abbef8aca233b066.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/tests",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/kat",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.kat-Debug-9e89558b052cb60c767e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/kat",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/benchmark",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.benchmark-Debug-63f12597fa8f99134131.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/benchmark",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "EnhpqsigRM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-613::@954745f8f634c49d2fb5",
+					"jsonFile" : "target-EnhpqsigRM-613-Debug-0f192d63432403632720.json",
+					"name" : "EnhpqsigRM-613",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-613-RNG::@954745f8f634c49d2fb5",
+					"jsonFile" : "target-EnhpqsigRM-613-RNG-Debug-b400277b0d487ea01a9b.json",
+					"name" : "EnhpqsigRM-613-RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "EnhpqsigRM-613-benchmark::@02eaa539b7f506a08611",
+					"jsonFile" : "target-EnhpqsigRM-613-benchmark-Debug-36336a3ca2f59a24e635.json",
+					"name" : "EnhpqsigRM-613-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EnhpqsigRM-613-kat-sign::@fba541683670cfe696af",
+					"jsonFile" : "target-EnhpqsigRM-613-kat-sign-Debug-d4d78c4d798687e0b8dd.json",
+					"name" : "EnhpqsigRM-613-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EnhpqsigRM-613-kat-sign-main::@fba541683670cfe696af",
+					"jsonFile" : "target-EnhpqsigRM-613-kat-sign-main-Debug-6eec6cebb869884ae2f4.json",
+					"name" : "EnhpqsigRM-613-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EnhpqsigRM-613-main::@4cb33467556f4effe2dc",
+					"jsonFile" : "target-EnhpqsigRM-613-main-Debug-227074809df25de8b7af.json",
+					"name" : "EnhpqsigRM-613-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-4e3e7bc23faba8994b89.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jingyosong/KpqC_0515/KPQClean/build",
+		"source" : "/home/jingyosong/KpqC_0515/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_612_RNG_EXPORTS -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-RNG.dir/src/rng.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/common.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/keypair.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/matrix.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/nearest_vector.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/open.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/rm.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/rng.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612",
+  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/EnhpqsigRM-613.dir/src/sign.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat",
+  "command": "/usr/bin/cc -DEnhpqsigRM_612_kat_sign_EXPORTS -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/../include -fPIC -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-kat-sign.dir/kat_sign.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/kat_sign.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/kat_sign.c"
+},
+{
+  "directory": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat",
+  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/jingyosong/KpqC_0515/KPQClean/common -I/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/../include -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c",
+  "file": "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c"
+}
+]

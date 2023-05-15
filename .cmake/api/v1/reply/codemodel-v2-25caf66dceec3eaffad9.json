@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM612",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM612-27b99469421fd3cc424f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM612",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM612/kat",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM612.kat-ea16fe5372b52937f6f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM612/kat",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "EnhpqsigRM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-612-RNG::@73be835628f5060cd776",
+					"jsonFile" : "target-EnhpqsigRM-612-RNG-4599933a08db0b9a2863.json",
+					"name" : "EnhpqsigRM-612-RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EnhpqsigRM-612-kat-sign::@5ecadcde410a3254cede",
+					"jsonFile" : "target-EnhpqsigRM-612-kat-sign-b84fd8a859a9e5b68f55.json",
+					"name" : "EnhpqsigRM-612-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EnhpqsigRM-612-kat-sign-main::@5ecadcde410a3254cede",
+					"jsonFile" : "target-EnhpqsigRM-612-kat-sign-main-e860ea29ab030ef1bb03.json",
+					"name" : "EnhpqsigRM-612-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-613::@73be835628f5060cd776",
+					"jsonFile" : "target-EnhpqsigRM-613-238de3b6816dff5925cb.json",
+					"name" : "EnhpqsigRM-613",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jingyosong/KpqC_0515/KPQClean",
+		"source" : "/home/jingyosong/KpqC_0515/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
