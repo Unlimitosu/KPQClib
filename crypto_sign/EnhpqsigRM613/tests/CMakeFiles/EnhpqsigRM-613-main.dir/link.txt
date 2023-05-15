@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/EnhpqsigRM-613-main.dir/main.c.o -o ../bin/EnhpqsigRM-613-main  -Wl,-rpath,/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM613/libs ../libs/libEnhpqsigRM-613.so ../libs/libEnhpqsigRM-613_RNG.so ../../../common/libcommon.a 

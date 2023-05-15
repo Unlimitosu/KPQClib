@@ -1,0 +1,219 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613-c0ef5a701137cb27586b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/tests",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.tests-2e80abbef8aca233b066.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/tests",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/kat",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.kat-9e89558b052cb60c767e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "crypto_sign/EnhpqsigRM613/benchmark",
+					"jsonFile" : "directory-crypto_sign.EnhpqsigRM613.benchmark-63f12597fa8f99134131.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/EnhpqsigRM613/benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "EnhpqsigRM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-613::@954745f8f634c49d2fb5",
+					"jsonFile" : "target-EnhpqsigRM-613-2da00441a0e5f5621178.json",
+					"name" : "EnhpqsigRM-613",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "EnhpqsigRM-613-benchmark::@02eaa539b7f506a08611",
+					"jsonFile" : "target-EnhpqsigRM-613-benchmark-def9b38a5324403af88d.json",
+					"name" : "EnhpqsigRM-613-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EnhpqsigRM-613-kat-sign::@fba541683670cfe696af",
+					"jsonFile" : "target-EnhpqsigRM-613-kat-sign-b8367f29c985f1ef31ee.json",
+					"name" : "EnhpqsigRM-613-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "EnhpqsigRM-613-kat-sign-main::@fba541683670cfe696af",
+					"jsonFile" : "target-EnhpqsigRM-613-kat-sign-main-09e84069ddc1f94ddf13.json",
+					"name" : "EnhpqsigRM-613-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EnhpqsigRM-613-main::@4cb33467556f4effe2dc",
+					"jsonFile" : "target-EnhpqsigRM-613-main-97c1b0b0af59257a8647.json",
+					"name" : "EnhpqsigRM-613-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "EnhpqsigRM-613_RNG::@954745f8f634c49d2fb5",
+					"jsonFile" : "target-EnhpqsigRM-613_RNG-758cc39e3c459b5bc156.json",
+					"name" : "EnhpqsigRM-613_RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jingyosong/KpqC_0515/KPQClean",
+		"source" : "/home/jingyosong/KpqC_0515/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
