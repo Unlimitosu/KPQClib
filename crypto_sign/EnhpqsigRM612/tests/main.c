@@ -20,7 +20,7 @@ uint8_t print_flag = 1;
 int sign_verify_test(void);
 
 int main(void) {
-    printf("EnhpqsigRM613 mode = %d\n", pqsigRM_MODE);
+    printf("EnhpqsigRM mode = %d\n", pqsigRM_MODE);
     size_t count = 1;
     for (int i = 0; i < Iterations; ++i) {
         if (sign_verify_test()) {

@@ -1,7 +1,6 @@
 #include "api.h"
-#include <stdint.h>
 
-int kat_crypto_sign_keypair(uint8_t *pk, uint8_t *sk) {
+int kat_crypto_sign_keypair(unsigned char *pk, unsigned char *sk) {
     return crypto_sign_keypair(pk, sk);
 }
 

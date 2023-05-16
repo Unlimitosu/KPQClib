@@ -14,7 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/DependInfo.cmake"
-  "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-613.dir/DependInfo.cmake"
+  "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/DependInfo.cmake"
   "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/DependInfo.cmake"
   "/home/jingyosong/KpqC_0515/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )

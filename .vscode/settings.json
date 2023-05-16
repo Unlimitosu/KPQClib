@@ -12,6 +12,9 @@
         "*.tcc": "c",
         "sign.h": "c",
         "params.h": "c",
-        "rng.h": "c"
+        "rng.h": "c",
+        "common.h": "c",
+        "evp.h": "c",
+        "sha2.h": "c"
     }
 }

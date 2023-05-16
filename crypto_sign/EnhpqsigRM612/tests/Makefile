@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM613/tests//CMakeFiles/progress.marks
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/all
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles /home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/tests//CMakeFiles/progress.marks
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0515/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/clean
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/preinstall
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/preinstall
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule
-.PHONY : crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule
+crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule:
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule
+.PHONY : crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-613-main: crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule
-.PHONY : EnhpqsigRM-613-main
+EnhpqsigRM-612-main: crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule
+.PHONY : EnhpqsigRM-612-main
 
 # fast build rule for target.
-EnhpqsigRM-613-main/fast:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build
-.PHONY : EnhpqsigRM-613-main/fast
+EnhpqsigRM-612-main/fast:
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build
+.PHONY : EnhpqsigRM-612-main/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/main.c.o
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -143,7 +143,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/main.c.i
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -151,7 +151,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/main.c.s
+	cd /home/jingyosong/KpqC_0515/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EnhpqsigRM-613-main"
+	@echo "... EnhpqsigRM-612-main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

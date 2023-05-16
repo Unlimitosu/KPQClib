@@ -1,0 +1,179 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/EnhpqsigRM612/tests/CMakeLists.txt",
+			"crypto_sign/EnhpqsigRM612/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "pqsigRM_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/kat"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/jingyosong/KpqC_0515/KPQClean/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "EnhpqsigRM-612-RNG::@73be835628f5060cd776"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "EnhpqsigRM-612::@73be835628f5060cd776"
+		}
+	],
+	"id" : "EnhpqsigRM-612-main::@823e7292fd52692ae3c7",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/EnhpqsigRM612/libs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libEnhpqsigRM-612.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libEnhpqsigRM-612-RNG.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "EnhpqsigRM-612-main",
+	"nameOnDisk" : "EnhpqsigRM-612-main",
+	"paths" : 
+	{
+		"build" : "crypto_sign/EnhpqsigRM612/tests",
+		"source" : "crypto_sign/EnhpqsigRM612/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/EnhpqsigRM612/tests/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

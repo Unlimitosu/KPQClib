@@ -1,19 +1,20 @@
 // common.c for pqsigRM
 #include "common.h"
+#include "sha2.h"
 
 unsigned char* hashMsg(unsigned char *s, const unsigned char *m, 
 	unsigned long long mlen, unsigned long long sign_i){
 	// Hash the given message
 	// syndrome s = h(h(M)|i) | (h(h(M)|i)) | ...
 	unsigned char* stemp = (unsigned char*)malloc(HASHSIZEBYTES*4);
-    
-	SHA512(m, mlen, stemp);
+   
+    sha512(stemp,m, mlen);
 	*(unsigned long long*)(stemp+HASHSIZEBYTES) = sign_i;// concatenate i i.e. h(M)|i
 	
-	SHA512(stemp, HASHSIZEBYTES+sizeof(unsigned long long), stemp); //h(h(M)|i)
-	SHA512(stemp                , HASHSIZEBYTES, stemp+HASHSIZEBYTES);//(h(h(M)|i))
-	SHA512(stemp+HASHSIZEBYTES  , HASHSIZEBYTES, stemp+HASHSIZEBYTES*2);
-	SHA512(stemp+HASHSIZEBYTES*2, HASHSIZEBYTES, stemp+HASHSIZEBYTES*3);
+	sha512(stemp, stemp, HASHSIZEBYTES+sizeof(unsigned long long)); //h(h(M)|i)
+	sha512(stemp+HASHSIZEBYTES, stemp                , HASHSIZEBYTES);//(h(h(M)|i))
+	sha512(stemp+HASHSIZEBYTES*2, stemp+HASHSIZEBYTES  , HASHSIZEBYTES);
+	sha512(stemp+HASHSIZEBYTES*3, stemp+HASHSIZEBYTES*2, HASHSIZEBYTES);
 	memcpy(s, stemp, 1+(CODE_N-CODE_K-1)/8);
 	
 	free(stemp);

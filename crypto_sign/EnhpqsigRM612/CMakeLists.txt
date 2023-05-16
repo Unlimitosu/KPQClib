@@ -37,13 +37,13 @@ target_compile_options(EnhpqsigRM-612-RNG PRIVATE -O3 -fomit-frame-pointer -fPIC
 #target_link_libraries(aimer1_RNG PUBLIC OpenSSL::Crypto)
 
 # HAETAE 2
-set(LIB_NAME1 ${PROJECT_NAME}-613)
+set(LIB_NAME1 ${PROJECT_NAME}-612)
 add_library(${LIB_NAME1} SHARED ${pqsigRM_SRCS})
 target_compile_definitions(${LIB_NAME1} PUBLIC pqsigRM_MODE=1)
 target_compile_options(${LIB_NAME1} PRIVATE ${C_FLAGS})
 target_link_libraries(${LIB_NAME1} PUBLIC EnhpqsigRM-612-RNG)
 target_link_libraries(${LIB_NAME1} PUBLIC common)
 
-#add_subdirectory(tests)
+add_subdirectory(tests)
 add_subdirectory(kat)
-#add_subdirectory(benchmark)
+add_subdirectory(benchmark)

@@ -11,6 +11,7 @@
 
 #include <openssl/sha.h>
 #include <openssl/evp.h>
+#include "sha2.h"
 
 #include <string.h>
 #include <stdlib.h>

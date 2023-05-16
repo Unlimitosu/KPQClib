@@ -93,7 +93,7 @@ EnhpqsigRM__612__kat__sign__main_EXTERNAL_OBJECTS =
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612-kat-sign.so
-crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-613.so
+crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612-RNG.so
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: common/libcommon.a
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/link.txt
