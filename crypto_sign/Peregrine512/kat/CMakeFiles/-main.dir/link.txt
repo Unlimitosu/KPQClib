@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/-main.dir/PQCgenKAT_sign.c.o -o ../bin/-main  -Wl,-rpath,/home/jingyosong/KpqC_0528/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 
