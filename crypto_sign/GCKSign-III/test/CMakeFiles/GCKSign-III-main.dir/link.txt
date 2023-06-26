@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/GCKSign-III-main.dir/main.c.o -o ../bin/GCKSign-III-main  -Wl,-rpath,/home/jingyosong/KpqC_0515/KPQClean/crypto_sign/GCKSign-III/libs ../libs/libGCKSign-III.so ../libs/libgcksign3_fips202.so -lm ../libs/libgcksign3_RNG.so ../../../common/libcommon.a 

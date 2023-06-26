@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/smaug5-benchmark.dir/speed.c.o CMakeFiles/smaug5-benchmark.dir/cpucycles.c.o CMakeFiles/smaug5-benchmark.dir/speed_print.c.o -o ../bin/smaug5-benchmark  -Wl,-rpath,/home/jingyosong/KpqC_0513/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/-main.dir/main.c.o CMakeFiles/-main.dir/__/src/randombytes.c.o -o ../bin/-main 

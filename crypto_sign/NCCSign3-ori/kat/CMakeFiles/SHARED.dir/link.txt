@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSHARED.a CMakeFiles/SHARED.dir/kat_sign.c.o
-/usr/bin/ranlib libSHARED.a

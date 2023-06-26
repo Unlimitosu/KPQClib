@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/aes-main.dir/PQCgenKAT_sign.c.o CMakeFiles/aes-main.dir/__/src/rng.c.o -o ../bin/aes-main  -Wl,-rpath,/home/jingyosong/KpqC_0513/KPQClean/crypto_sign/NCCSign2-ori/libs ../libs/libnccsign-ori2aes.so ../libs/libnccsign2_aes256ctr.so ../libs/libnccsign2_fips202.so ../../../common/libcommon.a 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/TIGER1-kat-kem-main.dir/main.c.o -o ../bin/TIGER1-kat-kem-main  -Wl,-rpath,/home/jingyosong/crypto/KpqC/KEM/KpqClean/crypto_kem/TiGER128/lib ../lib/libTIGER1-kat-kem.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

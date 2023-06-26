@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o -o /bin/haetae5-kat-sign-main  -Wl,-rpath,/home/jingyosong/crypto/KpqClean_0510/KPQClean/crypto_sign/HAETAE2/libs ../libs/libhaetae5-kat-sign.so ../libs/libhaetae5.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../libs/libfips202.so -lm ../libs/libRNG.so 

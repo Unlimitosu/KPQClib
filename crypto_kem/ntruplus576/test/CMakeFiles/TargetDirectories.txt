@@ -1,2 +1,0 @@
-/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/CMakeFiles/edit_cache.dir
-/home/jingyosong/KpqC_0507/KPQClean-jgsong/crypto_kem/ntruplus576/test/CMakeFiles/rebuild_cache.dir
