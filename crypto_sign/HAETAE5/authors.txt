@@ -1,0 +1,12 @@
+저자
+
+천정희 Jung Hee Cheon / Seoul National University / jhcheon@snu.ac.kr
+최형민 Hyeongmin Choe / Seoul National University / sixtail528@snu.ac.kr
+Julien Devevey / ́Ecole Normale Sup ́erieure de Lyon / julien.devevey@ens-lyon.fr
+Tim G ̈uneysu / Ruhr Universit ̈at Bochum / tim.gueneysu@rub.de
+홍동연 Dongyeon Hong / CryptoLab Inc. / decenthong93@cryptolab.co.kr
+Markus Krausz / Ruhr Universit ̈at Bochum / Markus.Krausz@rub.de
+Georg Land / Ruhr Universit ̈at Bochum / Georg.Land@rub.de
+신준범 Junbum Shin / CryptoLab Inc. / junbum.shin@cryptolab.co.kr
+Damien Stehl ́e / ́Ecole Normale Sup ́erieure de Lyon, Institut Universitaire de France / damien.stehle@ens-lyon.fr
+이민준 MinJune Yi / Seoul National University / yiminjune@snu.ac.kr

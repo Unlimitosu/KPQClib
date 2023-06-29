@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libRNG5.so -o lib/libRNG5.so CMakeFiles/RNG5.dir/src/rng.c.o 

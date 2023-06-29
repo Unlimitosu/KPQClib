@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libhaetae2-kat-sign.so -o ../libs/libhaetae2-kat-sign.so "CMakeFiles/haetae2-kat-sign.dir/kat_sign.c.o" 

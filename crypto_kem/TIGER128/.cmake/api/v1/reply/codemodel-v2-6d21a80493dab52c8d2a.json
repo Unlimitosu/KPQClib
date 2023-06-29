@@ -1,0 +1,156 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "kat",
+					"jsonFile" : "directory-kat-d2b31910e55b2f1240c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "benchmark",
+					"jsonFile" : "directory-benchmark-b1f9c84cc15063a9b835.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "TIGER",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TIGER128::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIGER128-1a83fc754ebe8e0101f5.json",
+					"name" : "TIGER128",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TIGER128-benchmark::@3e2e920e28e9d6b4e283",
+					"jsonFile" : "target-TIGER128-benchmark-02efff7d11d39760bf45.json",
+					"name" : "TIGER128-benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TIGER128-kat-kem::@7374cf934fb13010de64",
+					"jsonFile" : "target-TIGER128-kat-kem-f53d74eb28d5f644413e.json",
+					"name" : "TIGER128-kat-kem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TIGER128-kat-kem-main::@7374cf934fb13010de64",
+					"jsonFile" : "target-TIGER128-kat-kem-main-f5e06cfb600d96b0e8ff.json",
+					"name" : "TIGER128-kat-kem-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TIGER128-main::@36f028580bb02cc8272a",
+					"jsonFile" : "target-TIGER128-main-8b7dca9bd553230e8dc6.json",
+					"name" : "TIGER128-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TIGERRNG1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TIGERRNG1-abe546baccefd6e899d8.json",
+					"name" : "TIGERRNG1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+		"source" : "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

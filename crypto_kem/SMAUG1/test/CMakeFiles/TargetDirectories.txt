@@ -1,0 +1,3 @@
+/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test/CMakeFiles/-main.dir
+/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test/CMakeFiles/edit_cache.dir
+/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic "CMakeFiles/-testtree.dir/test_tree.c.o" -o -testtree 

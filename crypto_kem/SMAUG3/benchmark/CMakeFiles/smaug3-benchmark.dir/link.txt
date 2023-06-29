@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/smaug3-benchmark.dir/speed.c.o" "CMakeFiles/smaug3-benchmark.dir/cpucycles.c.o" "CMakeFiles/smaug3-benchmark.dir/speed_print.c.o" -o ../bin/smaug3-benchmark  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3.so ../lib/libRNG3.so ../../../common/libcommon.a 
