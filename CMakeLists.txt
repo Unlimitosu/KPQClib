@@ -31,8 +31,11 @@ add_subdirectory(crypto_sign/AImer-L3)
 add_subdirectory(crypto_sign/AImer-L5)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 add_subdirectory(crypto_sign/MQS256-112-72)
 add_subdirectory(crypto_sign/MQS256-72-46)
+=======
+>>>>>>> 7c82e5ea9f33a1b06bbeac4dd02d024296bdb0f3
 =======
 >>>>>>> 7c82e5ea9f33a1b06bbeac4dd02d024296bdb0f3
 =======
