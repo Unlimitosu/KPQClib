@@ -20,6 +20,10 @@ add_subdirectory(crypto_kem/ntruplus576)
 add_subdirectory(crypto_kem/ntruplus768)
 add_subdirectory(crypto_kem/ntruplus864)
 add_subdirectory(crypto_kem/ntruplus1152)
+add_subdirectory(crypto_kem/PALOMA128)
+add_subdirectory(crypto_kem/PALOMA192)
+add_subdirectory(crypto_kem/PALOMA256)
+
 
 
 #Crypto_sign
