@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/MQS256_72_46LIB-main1.dir/main.c.o" "CMakeFiles/MQS256_72_46LIB-main1.dir/__/src/rng.c.o" -o ../bin/MQS256_72_46LIB-main1  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/lib ../lib/libMQS256_72_46LIB.so ../lib/libMQS256_72_46_RNG.so ../../../common/libcommon.a 

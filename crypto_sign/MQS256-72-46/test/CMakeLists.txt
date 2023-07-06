@@ -1,0 +1,5 @@
+add_executable(${LIB_NAME_72_46}-main1 main.c ${PROJECT_SOURCE_DIR}/src/rng.c)
+add_executable(${LIB_NAME_72_46}-main2 main.c ${PROJECT_SOURCE_DIR}/src/sign.c)
+# message((${LIB_NAME_112_72}))
+target_link_libraries(${LIB_NAME_72_46}-main1 ${LIB_NAME_72_46})
+target_link_libraries(${LIB_NAME_72_46}-main2 ${LIB_NAME_72_46})
