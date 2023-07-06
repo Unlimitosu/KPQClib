@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/smaug5-main.dir/main.c.o -o ../bin/smaug5-main  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 

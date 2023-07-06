@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mg00/KPQClean_0702/KPQClean
+CMAKE_SOURCE_DIR = /home/jingyosong/KpqC_0706/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mg00/KPQClean_0702/KPQClean
+CMAKE_BINARY_DIR = /home/jingyosong/KpqC_0706/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,14 +90,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mg00/KPQClean_0702/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mg00/KPQClean_0702/KPQClean/CMakeFiles /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA256/kat//CMakeFiles/progress.marks
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mg00/KPQClean_0702/KPQClean/CMakeFiles 0
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0706/KPQClean/CMakeFiles /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/kat//CMakeFiles/progress.marks
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jingyosong/KpqC_0706/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/clean
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/clean
 .PHONY : clean
 
 # The main clean target
@@ -106,22 +106,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/preinstall
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/preinstall
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/rule:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/rule
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/rule
 .PHONY : crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/rule
 
 # Convenience name for target.
@@ -130,12 +130,12 @@ PALOMA256-kat-kem: crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/rul
 
 # fast build rule for target.
 PALOMA256-kat-kem/fast:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
 .PHONY : PALOMA256-kat-kem/fast
 
 # Convenience name for target.
 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule
 .PHONY : crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ PALOMA256-kat-kem-main: crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-ma
 
 # fast build rule for target.
 PALOMA256-kat-kem-main/fast:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
 .PHONY : PALOMA256-kat-kem-main/fast
 
 KAT.o: KAT.c.o
@@ -152,8 +152,8 @@ KAT.o: KAT.c.o
 
 # target to build an object file
 KAT.c.o:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o
 .PHONY : KAT.c.o
 
 KAT.i: KAT.c.i
@@ -161,8 +161,8 @@ KAT.i: KAT.c.i
 
 # target to preprocess a source file
 KAT.c.i:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.i
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.i
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.i
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.i
 .PHONY : KAT.c.i
 
 KAT.s: KAT.c.s
@@ -170,8 +170,8 @@ KAT.s: KAT.c.s
 
 # target to generate assembly for a file
 KAT.c.s:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.s
-	cd /home/mg00/KPQClean_0702/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.s
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.s
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.s
 .PHONY : KAT.c.s
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mg00/KPQClean_0702/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jingyosong/KpqC_0706/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

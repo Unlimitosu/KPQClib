@@ -1,5 +1,5 @@
 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/main.c.o: \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/test/main.c \
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/test/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -56,8 +56,8 @@ crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/main.c.o: \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/include/rng.h \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/kat/api.h \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/include/gf_table_gen.h \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/include/config.h \
- /home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA192/include/gf.h
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/include/rng.h \
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/kat/api.h \
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/include/gf_table_gen.h \
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/include/config.h \
+ /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/include/gf.h

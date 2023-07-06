@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"PALOMA256_KEM\" -DPALOMA_MODE=5
 
-C_INCLUDES = -I/home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA256/include -I/home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA256/kat -I/home/mg00/KPQClean_0702/KPQClean/common -I/home/mg00/KPQClean_0702/KPQClean/crypto_kem/PALOMA256/kat/../include
+C_INCLUDES = -I/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include -I/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/kat -I/home/jingyosong/KpqC_0706/KPQClean/common -I/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/kat/../include
 
 C_FLAGS = -std=gnu11
 

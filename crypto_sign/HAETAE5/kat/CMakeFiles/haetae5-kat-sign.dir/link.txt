@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libhaetae5-kat-sign.so -o ../libs/libhaetae5-kat-sign.so CMakeFiles/haetae5-kat-sign.dir/kat_sign.c.o 

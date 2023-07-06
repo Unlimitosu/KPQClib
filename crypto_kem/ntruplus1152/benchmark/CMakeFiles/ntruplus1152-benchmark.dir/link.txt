@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ntruplus1152-benchmark.dir/speed.c.o CMakeFiles/ntruplus1152-benchmark.dir/cpucycles.c.o CMakeFiles/ntruplus1152-benchmark.dir/speed_print.c.o -o ../bin/ntruplus1152-benchmark  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/ntruplus1152/lib ../lib/libntruplus1152.so ../lib/libntruplus1152RNG1.so ../../../common/libcommon.a 
