@@ -23,7 +23,9 @@ add_subdirectory(crypto_kem/ntruplus1152)
 add_subdirectory(crypto_kem/PALOMA128)
 add_subdirectory(crypto_kem/PALOMA192)
 add_subdirectory(crypto_kem/PALOMA256)
-
+add_subdirectory(crypto_kem/IPCC_f1)
+add_subdirectory(crypto_kem/IPCC_f3)
+add_subdirectory(crypto_kem/IPCC_f4)
 
 
 #Crypto_sign

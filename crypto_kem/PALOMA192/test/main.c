@@ -32,7 +32,7 @@ int main(void) {
            time_str);
 
     size_t count = 1;
-    const size_t iteration = 100000;
+    const size_t iteration = 100;
 
     uint8_t entropy_input[48] = {0};
     for (size_t i = 0; i < 48; ++i) {
