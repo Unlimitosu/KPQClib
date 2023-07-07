@@ -12,6 +12,7 @@
 #endif
 
 
+
 //* MESSAGE
 #define MOD_N		65521	// public parameter	, prime Modulus < 4,294,967,295
 

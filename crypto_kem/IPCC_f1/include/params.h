@@ -8,7 +8,7 @@
 
 //* Multi-Graph Combination Method
 #ifndef IPCC_f
-#define IPCC_f 4 		/* Change this for different security strengths */
+#define IPCC_f 1 		/* Change this for different security strengths */
 #endif
 
 
