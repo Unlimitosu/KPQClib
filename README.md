@@ -8,15 +8,20 @@ We provide all of [KPQC](https://www.kpqc.or.kr/competition.html) Competition Al
 Before you build, check the ```requirements.txt``` file and ensure you installed the required tool.
 
 First, clone the repository.
-    git clone https://github.com/COALA-5/KPQClean.git
+```
+git clone https://github.com/COALA-5/KPQClean.git
+```
 
 Then, run CMake and Make.
-    cmake .
-    make
+```
+cmake .
+make
+```
 
 If you cancel the build, then run clean.
-    make clean
-
+```
+make clean
+```
 
 ## Metamorphic Testing
 ### KEM
