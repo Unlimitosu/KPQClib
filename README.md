@@ -18,7 +18,7 @@ cmake .
 make
 ```
 
-If you cancel the build, then run clean.
+If you want to cancel the build, then run clean.
 ```
 make clean
 ```
