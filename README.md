@@ -22,3 +22,46 @@ If you cancel the build, then run clean.
 |Algorithm|Done|Note|
 |:---:|:---:|:---:|
 |IPCC f1|X||
+|IPCC f3|X||
+|IPCC f4|X||
+|Layered ROLLO|X||
+|PALOMA 128|X||
+|PALOMA 192|X||
+|PALOMA 256|X||
+|SMAUG 1|O||
+|SMAUG 3|O||
+|SMAUG 5|O||
+|TIGER 128|X||
+|TIGER 192|X||
+|TIGER 256|X||
+|NTRU+ 576|X||
+|NTRU+ 768|X||
+|NTRU+ 864|X||
+|NTRU+ 1152|X||
+
+## DSA
+|Algorithm|Done|Note|
+|:---:|:---:|:---:|
+|AIMer L1|X||
+|AIMer L3|X||
+|AIMer L5|X||
+|Enhanced pqsigRM 612|X||
+|Enhanced pqsigRM 613|X||
+|FIBS|X||
+|GCKSign II|X||
+|GCKSign III|X||
+|GCKSign V|X||
+|HAETAE 2|X||
+|HAETAE 3|X||
+|HAETAE 5|X||
+|MQ-Sign 72-46|X||
+|MQ-Sign 112-72|X||
+|NCC-Sign 2|X||
+|NCC-Sign 3|X||
+|NCC-Sign 5|X||
+|Peregrine 512|X||
+|Peregrine 1024|X||
+|SOLMAE 512|X||
+|SOLMAE 1024|X||
+
+
