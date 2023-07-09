@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic "CMakeFiles/Project1-benchmark.dir/speed.o" "CMakeFiles/Project1-benchmark.dir/cpucycles.o" "CMakeFiles/Project1-benchmark.dir/speed_print.o" -o Project1-benchmark 

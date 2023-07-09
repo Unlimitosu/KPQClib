@@ -44,7 +44,6 @@ int KEM_dec(unsigned char *shared_k, const unsigned char *c, const unsigned char
 	unsigned char coin[32];
 	unsigned char hash_t[2*LWE_N+size_of_delta];
 
-	memcpy(sk_CPA, sk, LWE_N);
 	memcpy(u, sk+LWE_N, MESSAGE_LEN);
 
 	Decryption(delta_hat, c, sk_CPA);

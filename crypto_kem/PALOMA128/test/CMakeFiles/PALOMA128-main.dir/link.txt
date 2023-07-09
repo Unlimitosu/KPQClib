@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/PALOMA128-main.dir/main.c.o -o ../bin/PALOMA128-main  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 

@@ -57,3 +57,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/metamorphic/cmake_install.cmake")
+endif()
+

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/PALOMA1-benchmark.dir/benchmark.c.o -o ../bin/PALOMA1-benchmark  -Wl,-rpath,/home/mg00/KPQClean/crypto_kem/PALOMA1/lib ../lib/libPALOMA1.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 

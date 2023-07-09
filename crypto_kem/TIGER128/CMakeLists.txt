@@ -43,6 +43,7 @@ target_link_libraries(${LIB_NAME1} PUBLIC common)
 add_subdirectory(kat)
 add_subdirectory(test)
 add_subdirectory(benchmark)
+add_subdirectory(metamorphic)
 
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus1152RNG1.so -o lib/libntruplus1152RNG1.so CMakeFiles/ntruplus1152RNG1.dir/src/rng.c.o 

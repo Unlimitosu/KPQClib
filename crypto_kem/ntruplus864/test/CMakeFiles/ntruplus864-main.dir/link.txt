@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/ntruplus864-main.dir/main.c.o" -o ../bin/ntruplus864-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/lib ../lib/libntruplus864.so ../lib/libntruplus864RNG1.so ../../../common/libcommon.a 

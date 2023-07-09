@@ -113,7 +113,7 @@ void handleErrors(void)
 void
 AES256_ECB(unsigned char *key, unsigned char *ctr, unsigned char *buffer)
 {
-     aes256ctx ctx;
+    aes256ctx ctx;
     aes256_ecb_keyexp(&ctx, key);
     aes256_ecb(buffer, ctr, 1, &ctx);
     aes256_ctx_release(&ctx);

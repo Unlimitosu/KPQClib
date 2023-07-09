@@ -135,3 +135,4 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
             
         }
     }
+}
