@@ -25,25 +25,25 @@ make clean
 
 ## Metamorphic Testing
 ### KEM
-|Algorithm|Done|Note|
-|:---:|:---:|:---:|
-|IPCC f1|X||
-|IPCC f3|X||
-|IPCC f4|X||
-|Layered ROLLO|X||
-|PALOMA 128|X||
-|PALOMA 192|X||
-|PALOMA 256|X||
-|SMAUG 1|O||
-|SMAUG 3|O||
-|SMAUG 5|O||
-|TIGER 128|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 192|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 256|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|NTRU+ 576|X||
-|NTRU+ 768|X||
-|NTRU+ 864|X||
-|NTRU+ 1152|X||
+|Algorithm|BCT|BET|?|Done|Note|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|IPCC f1||||X||
+|IPCC f3||||X||
+|IPCC f4||||X||
+|Layered ROLLO||||X||
+|PALOMA 128||||X||
+|PALOMA 192||||X||
+|PALOMA 256||||X||
+|SMAUG 1||||O||
+|SMAUG 3||||O||
+|SMAUG 5||||O||
+|TIGER 128|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 192|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 256|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|NTRU+ 576||||X||
+|NTRU+ 768||||X||
+|NTRU+ 864||||X||
+|NTRU+ 1152||||X||
 
 ## DSA
 |Algorithm|Done|Note|
