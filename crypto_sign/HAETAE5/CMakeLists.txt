@@ -42,7 +42,6 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 add_library(haetae5_fips202 SHARED ${FIPS202_SRCS})
 add_library(haetae5_RNG SHARED ${PROJECT_SOURCE_DIR}/src/randombytes.c)
 target_compile_options(haetae5_RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-#target_link_libraries(RNG PUBLIC OpenSSL::Crypto)
 
 # HAETAE 2
 set(LIB_NAME5 ${PROJECT_NAME}5)

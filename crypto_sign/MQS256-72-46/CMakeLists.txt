@@ -38,8 +38,7 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 
 add_library(MQS256_72_46_RNG SHARED ${PROJECT_SOURCE_DIR}/src/rng.c)
 target_compile_options(MQS256_72_46_RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-# target_link_libraries(MQS256_112_72_RNG PUBLIC OpenSSL::Crypto)
-
+s
 
 set(LIB_NAME_72_46 ${PROJECT_NAME}LIB)
 add_library(${LIB_NAME_72_46} SHARED ${MQS256_72_46_SRCS})

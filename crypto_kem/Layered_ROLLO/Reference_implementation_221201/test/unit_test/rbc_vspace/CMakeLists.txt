@@ -4,7 +4,6 @@ set_target_properties(rbc PROPERTIES IMPORTED_LOCATION ${RBC_LIB_SOURCE})
 add_executable(test_rbc_vspace test_rbc_vspace.cpp)
 
 target_link_libraries(test_rbc_vspace PUBLIC rbc)
-target_link_libraries(test_rbc_vspace PUBLIC OpenSSL::Crypto)
 target_link_libraries(test_rbc_vspace PRIVATE ${NTL_LIB})
 target_link_libraries(test_rbc_vspace PRIVATE ${GMP_LIB})
 

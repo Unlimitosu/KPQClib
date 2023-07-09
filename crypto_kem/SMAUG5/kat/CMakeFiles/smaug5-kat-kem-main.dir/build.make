@@ -94,7 +94,6 @@ crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/kat/CMakeFiles/smau
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/lib/libsmaug5-kat-kem.so
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/lib/libsmaug5.so
-crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: /usr/lib/x86_64-linux-gnu/libcrypto.so
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/lib/libRNG5.so
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: common/libcommon.a
 crypto_kem/SMAUG5/bin/smaug5-kat-kem-main: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/link.txt

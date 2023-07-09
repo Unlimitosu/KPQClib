@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o" -o ../bin/smaug3-kat-kem-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3-kat-kem.so ../lib/libsmaug3.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../lib/libRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc "CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o" -o ../bin/smaug3-kat-kem-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/lib ../lib/libsmaug3-kat-kem.so ../lib/libsmaug3.so ../lib/libRNG3.so ../../../common/libcommon.a 
