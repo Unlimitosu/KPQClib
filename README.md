@@ -34,9 +34,9 @@ make clean
 |PALOMA 128||||X||
 |PALOMA 192||||X||
 |PALOMA 256||||X||
-|SMAUG 1||||O||
-|SMAUG 3||||O||
-|SMAUG 5||||O||
+|SMAUG 1|S|F||O||
+|SMAUG 3|?|?||O|Segmentation Fault|
+|SMAUG 5|S|S||O||
 |TIGER 128|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |TIGER 192|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |TIGER 256|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
