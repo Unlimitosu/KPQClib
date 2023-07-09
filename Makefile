@@ -130,628 +130,524 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named RNG1
+# Target rules for targets named PALOMARNG5
 
 # Build rule for target.
-RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG1
-.PHONY : RNG1
+PALOMARNG5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG5
+.PHONY : PALOMARNG5
 
 # fast build rule for target.
-RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
-.PHONY : RNG1/fast
+PALOMARNG5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build
+.PHONY : PALOMARNG5/fast
 
 #=============================================================================
-# Target rules for targets named smaug1
+# Target rules for targets named PALOMA256
 
 # Build rule for target.
-smaug1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1
-.PHONY : smaug1
+PALOMA256: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256
+.PHONY : PALOMA256
 
 # fast build rule for target.
-smaug1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
-.PHONY : smaug1/fast
+PALOMA256/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build
+.PHONY : PALOMA256/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-main
+# Target rules for targets named PALOMA256-kat-kem
 
 # Build rule for target.
-smaug1-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-main
-.PHONY : smaug1-main
+PALOMA256-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem
+.PHONY : PALOMA256-kat-kem
 
 # fast build rule for target.
-smaug1-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
-.PHONY : smaug1-main/fast
+PALOMA256-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
+.PHONY : PALOMA256-kat-kem/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-kat-kem
+# Target rules for targets named PALOMA256-kat-kem-main
 
 # Build rule for target.
-smaug1-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem
-.PHONY : smaug1-kat-kem
+PALOMA256-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem-main
+.PHONY : PALOMA256-kat-kem-main
 
 # fast build rule for target.
-smaug1-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
-.PHONY : smaug1-kat-kem/fast
+PALOMA256-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
+.PHONY : PALOMA256-kat-kem-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-kat-kem-main
+# Target rules for targets named PALOMA256-main
 
 # Build rule for target.
-smaug1-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem-main
-.PHONY : smaug1-kat-kem-main
+PALOMA256-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-main
+.PHONY : PALOMA256-main
 
 # fast build rule for target.
-smaug1-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
-.PHONY : smaug1-kat-kem-main/fast
+PALOMA256-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build
+.PHONY : PALOMA256-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-benchmark
+# Target rules for targets named PALOMA256-benchmark
 
 # Build rule for target.
-smaug1-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-benchmark
-.PHONY : smaug1-benchmark
+PALOMA256-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-benchmark
+.PHONY : PALOMA256-benchmark
 
 # fast build rule for target.
-smaug1-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-.PHONY : smaug1-benchmark/fast
+PALOMA256-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build
+.PHONY : PALOMA256-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-meta
+# Target rules for targets named PALOMA256-meta
 
 # Build rule for target.
-smaug1-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta
-.PHONY : smaug1-meta
+PALOMA256-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-meta
+.PHONY : PALOMA256-meta
 
 # fast build rule for target.
-smaug1-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
-.PHONY : smaug1-meta/fast
+PALOMA256-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/build
+.PHONY : PALOMA256-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-meta-main
+# Target rules for targets named PALOMA256-meta-main
 
 # Build rule for target.
-smaug1-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta-main
-.PHONY : smaug1-meta-main
+PALOMA256-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-meta-main
+.PHONY : PALOMA256-meta-main
 
 # fast build rule for target.
-smaug1-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
-.PHONY : smaug1-meta-main/fast
+PALOMA256-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta-main.dir/build
+.PHONY : PALOMA256-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named RNG3
+# Target rules for targets named ntruplus576RNG1
 
 # Build rule for target.
-RNG3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG3
-.PHONY : RNG3
+ntruplus576RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576RNG1
+.PHONY : ntruplus576RNG1
 
 # fast build rule for target.
-RNG3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build
-.PHONY : RNG3/fast
+ntruplus576RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build
+.PHONY : ntruplus576RNG1/fast
 
 #=============================================================================
-# Target rules for targets named smaug3
+# Target rules for targets named ntruplus576
 
 # Build rule for target.
-smaug3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3
-.PHONY : smaug3
+ntruplus576: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576
+.PHONY : ntruplus576
 
 # fast build rule for target.
-smaug3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build
-.PHONY : smaug3/fast
+ntruplus576/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build
+.PHONY : ntruplus576/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-main
+# Target rules for targets named ntruplus576-main
 
 # Build rule for target.
-smaug3-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-main
-.PHONY : smaug3-main
+ntruplus576-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-main
+.PHONY : ntruplus576-main
 
 # fast build rule for target.
-smaug3-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
-.PHONY : smaug3-main/fast
+ntruplus576-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build
+.PHONY : ntruplus576-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-kat-kem
+# Target rules for targets named ntruplus576-kat-kem
 
 # Build rule for target.
-smaug3-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem
-.PHONY : smaug3-kat-kem
+ntruplus576-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem
+.PHONY : ntruplus576-kat-kem
 
 # fast build rule for target.
-smaug3-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build
-.PHONY : smaug3-kat-kem/fast
+ntruplus576-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build
+.PHONY : ntruplus576-kat-kem/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-kat-kem-main
+# Target rules for targets named ntruplus576-kat-kem-main
 
 # Build rule for target.
-smaug3-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem-main
-.PHONY : smaug3-kat-kem-main
+ntruplus576-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem-main
+.PHONY : ntruplus576-kat-kem-main
 
 # fast build rule for target.
-smaug3-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build
-.PHONY : smaug3-kat-kem-main/fast
+ntruplus576-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build
+.PHONY : ntruplus576-kat-kem-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-benchmark
+# Target rules for targets named ntruplus576-benchmark
 
 # Build rule for target.
-smaug3-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-benchmark
-.PHONY : smaug3-benchmark
+ntruplus576-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-benchmark
+.PHONY : ntruplus576-benchmark
 
 # fast build rule for target.
-smaug3-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build
-.PHONY : smaug3-benchmark/fast
+ntruplus576-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build
+.PHONY : ntruplus576-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-meta
+# Target rules for targets named ntruplus576-meta
 
 # Build rule for target.
-smaug3-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta
-.PHONY : smaug3-meta
+ntruplus576-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta
+.PHONY : ntruplus576-meta
 
 # fast build rule for target.
-smaug3-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build
-.PHONY : smaug3-meta/fast
+ntruplus576-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build
+.PHONY : ntruplus576-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-meta-main
+# Target rules for targets named ntruplus576-meta-main
 
 # Build rule for target.
-smaug3-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta-main
-.PHONY : smaug3-meta-main
+ntruplus576-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta-main
+.PHONY : ntruplus576-meta-main
 
 # fast build rule for target.
-smaug3-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build
-.PHONY : smaug3-meta-main/fast
+ntruplus576-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build
+.PHONY : ntruplus576-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named RNG5
+# Target rules for targets named ntruplus768RNG1
 
 # Build rule for target.
-RNG5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG5
-.PHONY : RNG5
+ntruplus768RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768RNG1
+.PHONY : ntruplus768RNG1
 
 # fast build rule for target.
-RNG5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build
-.PHONY : RNG5/fast
+ntruplus768RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build
+.PHONY : ntruplus768RNG1/fast
 
 #=============================================================================
-# Target rules for targets named smaug5
+# Target rules for targets named ntruplus768
 
 # Build rule for target.
-smaug5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5
-.PHONY : smaug5
+ntruplus768: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768
+.PHONY : ntruplus768
 
 # fast build rule for target.
-smaug5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build
-.PHONY : smaug5/fast
+ntruplus768/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build
+.PHONY : ntruplus768/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-main
+# Target rules for targets named ntruplus768-main
 
 # Build rule for target.
-smaug5-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-main
-.PHONY : smaug5-main
+ntruplus768-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-main
+.PHONY : ntruplus768-main
 
 # fast build rule for target.
-smaug5-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build
-.PHONY : smaug5-main/fast
+ntruplus768-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build
+.PHONY : ntruplus768-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-kat-kem
+# Target rules for targets named ntruplus768-kat-kem
 
 # Build rule for target.
-smaug5-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem
-.PHONY : smaug5-kat-kem
+ntruplus768-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem
+.PHONY : ntruplus768-kat-kem
 
 # fast build rule for target.
-smaug5-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
-.PHONY : smaug5-kat-kem/fast
+ntruplus768-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build
+.PHONY : ntruplus768-kat-kem/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-kat-kem-main
+# Target rules for targets named ntruplus768-kat-kem-main
 
 # Build rule for target.
-smaug5-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem-main
-.PHONY : smaug5-kat-kem-main
+ntruplus768-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem-main
+.PHONY : ntruplus768-kat-kem-main
 
 # fast build rule for target.
-smaug5-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
-.PHONY : smaug5-kat-kem-main/fast
+ntruplus768-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build
+.PHONY : ntruplus768-kat-kem-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-benchmark
+# Target rules for targets named ntruplus768-benchmark
 
 # Build rule for target.
-smaug5-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-benchmark
-.PHONY : smaug5-benchmark
+ntruplus768-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-benchmark
+.PHONY : ntruplus768-benchmark
 
 # fast build rule for target.
-smaug5-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build.make crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build
-.PHONY : smaug5-benchmark/fast
+ntruplus768-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build
+.PHONY : ntruplus768-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-meta
+# Target rules for targets named ntruplus768-meta
 
 # Build rule for target.
-smaug5-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta
-.PHONY : smaug5-meta
+ntruplus768-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta
+.PHONY : ntruplus768-meta
 
 # fast build rule for target.
-smaug5-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build
-.PHONY : smaug5-meta/fast
+ntruplus768-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build
+.PHONY : ntruplus768-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-meta-main
+# Target rules for targets named ntruplus768-meta-main
 
 # Build rule for target.
-smaug5-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta-main
-.PHONY : smaug5-meta-main
+ntruplus768-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta-main
+.PHONY : ntruplus768-meta-main
 
 # fast build rule for target.
-smaug5-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build
-.PHONY : smaug5-meta-main/fast
+ntruplus768-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build
+.PHONY : ntruplus768-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGERRNG1
+# Target rules for targets named ntruplus864RNG1
 
 # Build rule for target.
-TIGERRNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGERRNG1
-.PHONY : TIGERRNG1
+ntruplus864RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864RNG1
+.PHONY : ntruplus864RNG1
 
 # fast build rule for target.
-TIGERRNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/build.make crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/build
-.PHONY : TIGERRNG1/fast
+ntruplus864RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build
+.PHONY : ntruplus864RNG1/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128
+# Target rules for targets named ntruplus864
 
 # Build rule for target.
-TIGER128: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128
-.PHONY : TIGER128
+ntruplus864: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864
+.PHONY : ntruplus864
 
 # fast build rule for target.
-TIGER128/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/build.make crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/build
-.PHONY : TIGER128/fast
+ntruplus864/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build
+.PHONY : ntruplus864/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-kat-kem
+# Target rules for targets named ntruplus864-main
 
 # Build rule for target.
-TIGER128-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-kat-kem
-.PHONY : TIGER128-kat-kem
+ntruplus864-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-main
+.PHONY : ntruplus864-main
 
 # fast build rule for target.
-TIGER128-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/build.make crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/build
-.PHONY : TIGER128-kat-kem/fast
+ntruplus864-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build
+.PHONY : ntruplus864-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-kat-kem-main
+# Target rules for targets named ntruplus864-kat-kem
 
 # Build rule for target.
-TIGER128-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-kat-kem-main
-.PHONY : TIGER128-kat-kem-main
+ntruplus864-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem
+.PHONY : ntruplus864-kat-kem
 
 # fast build rule for target.
-TIGER128-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/build.make crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/build
-.PHONY : TIGER128-kat-kem-main/fast
+ntruplus864-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build
+.PHONY : ntruplus864-kat-kem/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-main
+# Target rules for targets named ntruplus864-kat-kem-main
 
 # Build rule for target.
-TIGER128-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-main
-.PHONY : TIGER128-main
+ntruplus864-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem-main
+.PHONY : ntruplus864-kat-kem-main
 
 # fast build rule for target.
-TIGER128-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/build.make crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/build
-.PHONY : TIGER128-main/fast
+ntruplus864-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build
+.PHONY : ntruplus864-kat-kem-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-benchmark
+# Target rules for targets named ntruplus864-benchmark
 
 # Build rule for target.
-TIGER128-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-benchmark
-.PHONY : TIGER128-benchmark
+ntruplus864-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-benchmark
+.PHONY : ntruplus864-benchmark
 
 # fast build rule for target.
-TIGER128-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/build.make crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/build
-.PHONY : TIGER128-benchmark/fast
+ntruplus864-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build
+.PHONY : ntruplus864-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-meta
+# Target rules for targets named ntruplus864-meta
 
 # Build rule for target.
-TIGER128-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-meta
-.PHONY : TIGER128-meta
+ntruplus864-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta
+.PHONY : ntruplus864-meta
 
 # fast build rule for target.
-TIGER128-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta.dir/build.make crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta.dir/build
-.PHONY : TIGER128-meta/fast
+ntruplus864-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build
+.PHONY : ntruplus864-meta/fast
 
 #=============================================================================
-# Target rules for targets named TIGER128-meta-main
+# Target rules for targets named ntruplus864-meta-main
 
 # Build rule for target.
-TIGER128-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER128-meta-main
-.PHONY : TIGER128-meta-main
+ntruplus864-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta-main
+.PHONY : ntruplus864-meta-main
 
 # fast build rule for target.
-TIGER128-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/build.make crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/build
-.PHONY : TIGER128-meta-main/fast
+ntruplus864-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build
+.PHONY : ntruplus864-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGERRNG3
+# Target rules for targets named ntruplus1152RNG1
 
 # Build rule for target.
-TIGERRNG3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGERRNG3
-.PHONY : TIGERRNG3
+ntruplus1152RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152RNG1
+.PHONY : ntruplus1152RNG1
 
 # fast build rule for target.
-TIGERRNG3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/build.make crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/build
-.PHONY : TIGERRNG3/fast
+ntruplus1152RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build
+.PHONY : ntruplus1152RNG1/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192
+# Target rules for targets named ntruplus1152
 
 # Build rule for target.
-TIGER192: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192
-.PHONY : TIGER192
+ntruplus1152: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152
+.PHONY : ntruplus1152
 
 # fast build rule for target.
-TIGER192/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/build.make crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/build
-.PHONY : TIGER192/fast
+ntruplus1152/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build
+.PHONY : ntruplus1152/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-kat-kem
+# Target rules for targets named ntruplus1152-main
 
 # Build rule for target.
-TIGER192-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-kat-kem
-.PHONY : TIGER192-kat-kem
+ntruplus1152-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-main
+.PHONY : ntruplus1152-main
 
 # fast build rule for target.
-TIGER192-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/build.make crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/build
-.PHONY : TIGER192-kat-kem/fast
+ntruplus1152-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build
+.PHONY : ntruplus1152-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-kat-kem-main
+# Target rules for targets named ntruplus1152-kat-kem
 
 # Build rule for target.
-TIGER192-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-kat-kem-main
-.PHONY : TIGER192-kat-kem-main
+ntruplus1152-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem
+.PHONY : ntruplus1152-kat-kem
 
 # fast build rule for target.
-TIGER192-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/build.make crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/build
-.PHONY : TIGER192-kat-kem-main/fast
+ntruplus1152-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build
+.PHONY : ntruplus1152-kat-kem/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-main
+# Target rules for targets named ntruplus1152-kat-kem-main
 
 # Build rule for target.
-TIGER192-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-main
-.PHONY : TIGER192-main
+ntruplus1152-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem-main
+.PHONY : ntruplus1152-kat-kem-main
 
 # fast build rule for target.
-TIGER192-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/build.make crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/build
-.PHONY : TIGER192-main/fast
+ntruplus1152-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build
+.PHONY : ntruplus1152-kat-kem-main/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-benchmark
+# Target rules for targets named ntruplus1152-benchmark
 
 # Build rule for target.
-TIGER192-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-benchmark
-.PHONY : TIGER192-benchmark
+ntruplus1152-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-benchmark
+.PHONY : ntruplus1152-benchmark
 
 # fast build rule for target.
-TIGER192-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/build.make crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/build
-.PHONY : TIGER192-benchmark/fast
+ntruplus1152-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build
+.PHONY : ntruplus1152-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-meta
+# Target rules for targets named ntruplus1152-meta
 
 # Build rule for target.
-TIGER192-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-meta
-.PHONY : TIGER192-meta
+ntruplus1152-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta
+.PHONY : ntruplus1152-meta
 
 # fast build rule for target.
-TIGER192-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta.dir/build.make crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta.dir/build
-.PHONY : TIGER192-meta/fast
+ntruplus1152-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build
+.PHONY : ntruplus1152-meta/fast
 
 #=============================================================================
-# Target rules for targets named TIGER192-meta-main
+# Target rules for targets named ntruplus1152-meta-main
 
 # Build rule for target.
-TIGER192-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER192-meta-main
-.PHONY : TIGER192-meta-main
+ntruplus1152-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta-main
+.PHONY : ntruplus1152-meta-main
 
 # fast build rule for target.
-TIGER192-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/build.make crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/build
-.PHONY : TIGER192-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named TIGERRNG5
-
-# Build rule for target.
-TIGERRNG5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGERRNG5
-.PHONY : TIGERRNG5
-
-# fast build rule for target.
-TIGERRNG5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/CMakeFiles/TIGERRNG5.dir/build.make crypto_kem/TIGER256/CMakeFiles/TIGERRNG5.dir/build
-.PHONY : TIGERRNG5/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256
-
-# Build rule for target.
-TIGER256: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256
-.PHONY : TIGER256
-
-# fast build rule for target.
-TIGER256/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/CMakeFiles/TIGER256.dir/build.make crypto_kem/TIGER256/CMakeFiles/TIGER256.dir/build
-.PHONY : TIGER256/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-kat-kem
-
-# Build rule for target.
-TIGER256-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-kat-kem
-.PHONY : TIGER256-kat-kem
-
-# fast build rule for target.
-TIGER256-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/build
-.PHONY : TIGER256-kat-kem/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-kat-kem-main
-
-# Build rule for target.
-TIGER256-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-kat-kem-main
-.PHONY : TIGER256-kat-kem-main
-
-# fast build rule for target.
-TIGER256-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build
-.PHONY : TIGER256-kat-kem-main/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-main
-
-# Build rule for target.
-TIGER256-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-main
-.PHONY : TIGER256-main
-
-# fast build rule for target.
-TIGER256-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/test/CMakeFiles/TIGER256-main.dir/build.make crypto_kem/TIGER256/test/CMakeFiles/TIGER256-main.dir/build
-.PHONY : TIGER256-main/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-benchmark
-
-# Build rule for target.
-TIGER256-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-benchmark
-.PHONY : TIGER256-benchmark
-
-# fast build rule for target.
-TIGER256-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/benchmark/CMakeFiles/TIGER256-benchmark.dir/build.make crypto_kem/TIGER256/benchmark/CMakeFiles/TIGER256-benchmark.dir/build
-.PHONY : TIGER256-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-meta
-
-# Build rule for target.
-TIGER256-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-meta
-.PHONY : TIGER256-meta
-
-# fast build rule for target.
-TIGER256-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/metamorphic/CMakeFiles/TIGER256-meta.dir/build.make crypto_kem/TIGER256/metamorphic/CMakeFiles/TIGER256-meta.dir/build
-.PHONY : TIGER256-meta/fast
-
-#=============================================================================
-# Target rules for targets named TIGER256-meta-main
-
-# Build rule for target.
-TIGER256-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TIGER256-meta-main
-.PHONY : TIGER256-meta-main
-
-# fast build rule for target.
-TIGER256-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/metamorphic/CMakeFiles/TIGER256-meta-main.dir/build.make crypto_kem/TIGER256/metamorphic/CMakeFiles/TIGER256-meta-main.dir/build
-.PHONY : TIGER256-meta-main/fast
+ntruplus1152-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build
+.PHONY : ntruplus1152-meta-main/fast
 
 # Help Target
 help:
@@ -761,55 +657,47 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... RNG1"
-	@echo "... RNG3"
-	@echo "... RNG5"
-	@echo "... TIGER128"
-	@echo "... TIGER128-benchmark"
-	@echo "... TIGER128-kat-kem"
-	@echo "... TIGER128-kat-kem-main"
-	@echo "... TIGER128-main"
-	@echo "... TIGER128-meta"
-	@echo "... TIGER128-meta-main"
-	@echo "... TIGER192"
-	@echo "... TIGER192-benchmark"
-	@echo "... TIGER192-kat-kem"
-	@echo "... TIGER192-kat-kem-main"
-	@echo "... TIGER192-main"
-	@echo "... TIGER192-meta"
-	@echo "... TIGER192-meta-main"
-	@echo "... TIGER256"
-	@echo "... TIGER256-benchmark"
-	@echo "... TIGER256-kat-kem"
-	@echo "... TIGER256-kat-kem-main"
-	@echo "... TIGER256-main"
-	@echo "... TIGER256-meta"
-	@echo "... TIGER256-meta-main"
-	@echo "... TIGERRNG1"
-	@echo "... TIGERRNG3"
-	@echo "... TIGERRNG5"
+	@echo "... PALOMA256"
+	@echo "... PALOMA256-benchmark"
+	@echo "... PALOMA256-kat-kem"
+	@echo "... PALOMA256-kat-kem-main"
+	@echo "... PALOMA256-main"
+	@echo "... PALOMA256-meta"
+	@echo "... PALOMA256-meta-main"
+	@echo "... PALOMARNG5"
 	@echo "... common"
-	@echo "... smaug1"
-	@echo "... smaug1-benchmark"
-	@echo "... smaug1-kat-kem"
-	@echo "... smaug1-kat-kem-main"
-	@echo "... smaug1-main"
-	@echo "... smaug1-meta"
-	@echo "... smaug1-meta-main"
-	@echo "... smaug3"
-	@echo "... smaug3-benchmark"
-	@echo "... smaug3-kat-kem"
-	@echo "... smaug3-kat-kem-main"
-	@echo "... smaug3-main"
-	@echo "... smaug3-meta"
-	@echo "... smaug3-meta-main"
-	@echo "... smaug5"
-	@echo "... smaug5-benchmark"
-	@echo "... smaug5-kat-kem"
-	@echo "... smaug5-kat-kem-main"
-	@echo "... smaug5-main"
-	@echo "... smaug5-meta"
-	@echo "... smaug5-meta-main"
+	@echo "... ntruplus1152"
+	@echo "... ntruplus1152-benchmark"
+	@echo "... ntruplus1152-kat-kem"
+	@echo "... ntruplus1152-kat-kem-main"
+	@echo "... ntruplus1152-main"
+	@echo "... ntruplus1152-meta"
+	@echo "... ntruplus1152-meta-main"
+	@echo "... ntruplus1152RNG1"
+	@echo "... ntruplus576"
+	@echo "... ntruplus576-benchmark"
+	@echo "... ntruplus576-kat-kem"
+	@echo "... ntruplus576-kat-kem-main"
+	@echo "... ntruplus576-main"
+	@echo "... ntruplus576-meta"
+	@echo "... ntruplus576-meta-main"
+	@echo "... ntruplus576RNG1"
+	@echo "... ntruplus768"
+	@echo "... ntruplus768-benchmark"
+	@echo "... ntruplus768-kat-kem"
+	@echo "... ntruplus768-kat-kem-main"
+	@echo "... ntruplus768-main"
+	@echo "... ntruplus768-meta"
+	@echo "... ntruplus768-meta-main"
+	@echo "... ntruplus768RNG1"
+	@echo "... ntruplus864"
+	@echo "... ntruplus864-benchmark"
+	@echo "... ntruplus864-kat-kem"
+	@echo "... ntruplus864-kat-kem-main"
+	@echo "... ntruplus864-main"
+	@echo "... ntruplus864-meta"
+	@echo "... ntruplus864-meta-main"
+	@echo "... ntruplus864RNG1"
 .PHONY : help
 
 

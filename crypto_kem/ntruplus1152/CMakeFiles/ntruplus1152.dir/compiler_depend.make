@@ -25,8 +25,6 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: crypto_ke
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -49,22 +47,17 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: crypto_ke
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
@@ -168,8 +161,6 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o: crypto_kem/ntru
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/ntruplus1152/include/symmetric.h \
   crypto_kem/ntruplus1152/include/poly.h \
   crypto_kem/ntruplus1152/include/verify.h \
@@ -261,8 +252,6 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: crypto_kem/ntru
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   crypto_kem/ntruplus1152/include/rng.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
@@ -278,8 +267,6 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: crypto_kem/ntru
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/openssl/conf.h \
   /usr/include/openssl/bio.h \
   /usr/include/openssl/e_os2.h \
@@ -313,16 +300,13 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: crypto_kem/ntru
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/time.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
@@ -559,20 +543,6 @@ crypto_kem/ntruplus1152/include/rng.h:
 
 crypto_kem/ntruplus1152/include/params.h:
 
-crypto_kem/ntruplus1152/src/kem.c:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/openssl/bn.h:
-
-common/aes.h:
-
-crypto_kem/ntruplus1152/include/crypto_stream.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/bmiintrin.h:
@@ -583,15 +553,13 @@ crypto_kem/ntruplus1152/include/crypto_stream.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
-crypto_kem/ntruplus1152/include/poly.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/string.h:
 
 /usr/include/openssl/opensslv.h:
 
@@ -601,19 +569,13 @@ crypto_kem/ntruplus1152/include/poly.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/endian.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h:
+
+/usr/include/endian.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
 
@@ -631,8 +593,6 @@ crypto_kem/ntruplus1152/include/poly.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -641,27 +601,27 @@ crypto_kem/ntruplus1152/include/poly.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqvlintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/strings.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
 /usr/include/features.h:
 
-/usr/include/openssl/ossl_typ.h:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/openssl/objects.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h:
 
@@ -675,6 +635,12 @@ crypto_kem/ntruplus1152/include/poly.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/include/openssl/bnerr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
+
 /usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -684,6 +650,10 @@ crypto_kem/ntruplus1152/include/poly.h:
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pconfigintrin.h:
+
+crypto_kem/ntruplus1152/include/poly.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -699,6 +669,8 @@ crypto_kem/ntruplus1152/include/poly.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
@@ -707,29 +679,9 @@ crypto_kem/ntruplus1152/include/kem.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/strings.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/include/openssl/bnerr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
 
@@ -743,7 +695,11 @@ crypto_kem/ntruplus1152/include/kem.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/stdint.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
 
@@ -775,9 +731,9 @@ crypto_kem/ntruplus1152/include/kem.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
+crypto_kem/ntruplus1152/include/crypto_stream.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
 
@@ -814,6 +770,10 @@ crypto_kem/ntruplus1152/include/kem.h:
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124vnniwintrin.h:
+
+/usr/include/openssl/bn.h:
+
+common/aes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -865,6 +825,10 @@ crypto_kem/ntruplus1152/src/aes256ctr.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
+
 /usr/include/openssl/bio.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
@@ -876,3 +840,9 @@ crypto_kem/ntruplus1152/src/rng.c:
 /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+crypto_kem/ntruplus1152/src/kem.c:

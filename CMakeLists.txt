@@ -11,16 +11,18 @@ endif()
 #Crypto_kem
 add_subdirectory(common)
 
-add_subdirectory(crypto_kem/SMAUG1)
-add_subdirectory(crypto_kem/SMAUG3)
-add_subdirectory(crypto_kem/SMAUG5)
-add_subdirectory(crypto_kem/TIGER128)
-add_subdirectory(crypto_kem/TIGER192)
-add_subdirectory(crypto_kem/TIGER256)
-#add_subdirectory(crypto_kem/ntruplus576)
-#add_subdirectory(crypto_kem/ntruplus768)
-#add_subdirectory(crypto_kem/ntruplus864)
-#add_subdirectory(crypto_kem/ntruplus1152)
+# add_subdirectory(crypto_kem/SMAUG1)
+# add_subdirectory(crypto_kem/SMAUG3)
+# add_subdirectory(crypto_kem/SMAUG5)
+# add_subdirectory(crypto_kem/TIGER128)
+# add_subdirectory(crypto_kem/TIGER192)
+# add_subdirectory(crypto_kem/TIGER256)
+add_subdirectory(crypto_kem/PALOMA256)
+
+add_subdirectory(crypto_kem/ntruplus576)
+add_subdirectory(crypto_kem/ntruplus768)
+add_subdirectory(crypto_kem/ntruplus864)
+add_subdirectory(crypto_kem/ntruplus1152)
 
 
 #Crypto_sign

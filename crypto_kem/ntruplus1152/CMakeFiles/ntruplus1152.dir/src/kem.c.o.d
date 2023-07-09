@@ -29,8 +29,6 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/symmetric.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/poly.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/verify.h \

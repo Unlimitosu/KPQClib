@@ -49,32 +49,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
