@@ -17,8 +17,8 @@
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/CMakeFiles/edit_cache.dir
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/CMakeFiles/rebuild_cache.dir
-/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir
-/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir
+/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir
+/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/edit_cache.dir
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/CMakeFiles/rebuild_cache.dir
 /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/CMakeFiles/RNG3.dir

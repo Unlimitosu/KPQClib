@@ -208,30 +208,30 @@ smaug1-benchmark/fast:
 .PHONY : smaug1-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug-meta
+# Target rules for targets named smaug1-meta
 
 # Build rule for target.
-smaug-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug-meta
-.PHONY : smaug-meta
+smaug1-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta
+.PHONY : smaug1-meta
 
 # fast build rule for target.
-smaug-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build
-.PHONY : smaug-meta/fast
+smaug1-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
+.PHONY : smaug1-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug-meta-main
+# Target rules for targets named smaug1-meta-main
 
 # Build rule for target.
-smaug-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug-meta-main
-.PHONY : smaug-meta-main
+smaug1-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta-main
+.PHONY : smaug1-meta-main
 
 # fast build rule for target.
-smaug-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build
-.PHONY : smaug-meta-main/fast
+smaug1-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
+.PHONY : smaug1-meta-main/fast
 
 #=============================================================================
 # Target rules for targets named RNG3
@@ -789,13 +789,13 @@ help:
 	@echo "... TIGERRNG3"
 	@echo "... TIGERRNG5"
 	@echo "... common"
-	@echo "... smaug-meta"
-	@echo "... smaug-meta-main"
 	@echo "... smaug1"
 	@echo "... smaug1-benchmark"
 	@echo "... smaug1-kat-kem"
 	@echo "... smaug1-kat-kem-main"
 	@echo "... smaug1-main"
+	@echo "... smaug1-meta"
+	@echo "... smaug1-meta-main"
 	@echo "... smaug3"
 	@echo "... smaug3-benchmark"
 	@echo "... smaug3-kat-kem"

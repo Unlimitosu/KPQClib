@@ -171,8 +171,8 @@ crypto_kem/SMAUG1/kat/clean: crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-mai
 # Directory level rules for directory crypto_kem/SMAUG1/metamorphic
 
 # Recursive "all" directory target.
-crypto_kem/SMAUG1/metamorphic/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/all
-crypto_kem/SMAUG1/metamorphic/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all
+crypto_kem/SMAUG1/metamorphic/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
+crypto_kem/SMAUG1/metamorphic/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 .PHONY : crypto_kem/SMAUG1/metamorphic/all
 
 # Recursive "preinstall" directory target.
@@ -180,8 +180,8 @@ crypto_kem/SMAUG1/metamorphic/preinstall:
 .PHONY : crypto_kem/SMAUG1/metamorphic/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/SMAUG1/metamorphic/clean: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/clean
-crypto_kem/SMAUG1/metamorphic/clean: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/clean
+crypto_kem/SMAUG1/metamorphic/clean: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/clean
+crypto_kem/SMAUG1/metamorphic/clean: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean
 .PHONY : crypto_kem/SMAUG1/metamorphic/clean
 
 #=============================================================================
@@ -719,7 +719,7 @@ crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=55,56,57,58,59,60,61 "Built target smaug1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51,52,53,54,55,56,57 "Built target smaug1"
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -747,12 +747,12 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFi
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67 "Built target smaug1-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=63,64 "Built target smaug1-main"
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule
@@ -773,7 +773,7 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/clean:
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=64 "Built target smaug1-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=61 "Built target smaug1-kat-kem"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -802,12 +802,12 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65,66 "Built target smaug1-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=62 "Built target smaug1-kat-kem-main"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule
@@ -830,12 +830,12 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=62,63 "Built target smaug1-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=58,59,60 "Built target smaug1-benchmark"
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
@@ -850,59 +850,59 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean:
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir
+# Target rules for target crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir
 
 # All Build rule for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51,52 "Built target smaug-meta"
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65,66 "Built target smaug1-meta"
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule: cmake_check_build_system
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
 
 # Convenience name for target.
-smaug-meta: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule
-.PHONY : smaug-meta
+smaug1-meta: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
+.PHONY : smaug1-meta
 
 # clean rule for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/clean
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/clean
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/clean
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir
+# Target rules for target crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir
 
 # All Build rule for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=53,54 "Built target smaug-meta-main"
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67 "Built target smaug1-meta-main"
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/all
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
 
 # Convenience name for target.
-smaug-meta-main: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule
-.PHONY : smaug-meta-main
+smaug1-meta-main: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
+.PHONY : smaug1-meta-main
 
 # clean rule for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/clean
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/clean
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean
 
 #=============================================================================
 # Target rules for target crypto_kem/SMAUG3/CMakeFiles/RNG3.dir

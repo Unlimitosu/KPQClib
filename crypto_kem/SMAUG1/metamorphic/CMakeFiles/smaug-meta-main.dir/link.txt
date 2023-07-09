@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/smaug-meta-main.dir/meta_test.c.o" -o ../bin/smaug-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/lib ../lib/libsmaug-meta.so ../lib/libsmaug1.so ../lib/libRNG1.so ../../../common/libcommon.a 

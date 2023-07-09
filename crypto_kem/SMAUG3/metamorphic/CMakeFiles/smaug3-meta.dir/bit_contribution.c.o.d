@@ -53,7 +53,7 @@ crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_contribution.c.o: \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
+ /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/ciphertext.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/poly.h \

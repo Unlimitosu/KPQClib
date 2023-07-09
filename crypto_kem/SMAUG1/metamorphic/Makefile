@@ -117,39 +117,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
 
 # Convenience name for target.
-smaug-meta: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/rule
-.PHONY : smaug-meta
+smaug1-meta: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
+.PHONY : smaug1-meta
 
 # fast build rule for target.
-smaug-meta/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build
-.PHONY : smaug-meta/fast
+smaug1-meta/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
+.PHONY : smaug1-meta/fast
 
 # Convenience name for target.
-crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule
-.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule
+crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
+.PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
 
 # Convenience name for target.
-smaug-meta-main: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/rule
-.PHONY : smaug-meta-main
+smaug1-meta-main: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
+.PHONY : smaug1-meta-main
 
 # fast build rule for target.
-smaug-meta-main/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build
-.PHONY : smaug-meta-main/fast
+smaug1-meta-main/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
+.PHONY : smaug1-meta-main/fast
 
 bit_contribution.o: bit_contribution.c.o
 .PHONY : bit_contribution.o
 
 # target to build an object file
 bit_contribution.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_contribution.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_contribution.c.o
 .PHONY : bit_contribution.c.o
 
 bit_contribution.i: bit_contribution.c.i
@@ -157,7 +157,7 @@ bit_contribution.i: bit_contribution.c.i
 
 # target to preprocess a source file
 bit_contribution.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_contribution.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_contribution.c.i
 .PHONY : bit_contribution.c.i
 
 bit_contribution.s: bit_contribution.c.s
@@ -165,7 +165,7 @@ bit_contribution.s: bit_contribution.c.s
 
 # target to generate assembly for a file
 bit_contribution.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_contribution.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_contribution.c.s
 .PHONY : bit_contribution.c.s
 
 bit_exclusion.o: bit_exclusion.c.o
@@ -173,7 +173,7 @@ bit_exclusion.o: bit_exclusion.c.o
 
 # target to build an object file
 bit_exclusion.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_exclusion.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o
 .PHONY : bit_exclusion.c.o
 
 bit_exclusion.i: bit_exclusion.c.i
@@ -181,7 +181,7 @@ bit_exclusion.i: bit_exclusion.c.i
 
 # target to preprocess a source file
 bit_exclusion.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_exclusion.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_exclusion.c.i
 .PHONY : bit_exclusion.c.i
 
 bit_exclusion.s: bit_exclusion.c.s
@@ -189,7 +189,7 @@ bit_exclusion.s: bit_exclusion.c.s
 
 # target to generate assembly for a file
 bit_exclusion.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_exclusion.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_exclusion.c.s
 .PHONY : bit_exclusion.c.s
 
 meta_test.o: meta_test.c.o
@@ -197,7 +197,7 @@ meta_test.o: meta_test.c.o
 
 # target to build an object file
 meta_test.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/meta_test.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/meta_test.c.o
 .PHONY : meta_test.c.o
 
 meta_test.i: meta_test.c.i
@@ -205,7 +205,7 @@ meta_test.i: meta_test.c.i
 
 # target to preprocess a source file
 meta_test.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/meta_test.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/meta_test.c.i
 .PHONY : meta_test.c.i
 
 meta_test.s: meta_test.c.s
@@ -213,7 +213,7 @@ meta_test.s: meta_test.c.s
 
 # target to generate assembly for a file
 meta_test.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/meta_test.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/meta_test.c.s
 .PHONY : meta_test.c.s
 
 # Help Target
@@ -224,8 +224,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... smaug-meta"
-	@echo "... smaug-meta-main"
+	@echo "... smaug1-meta"
+	@echo "... smaug1-meta-main"
 	@echo "... bit_contribution.o"
 	@echo "... bit_contribution.i"
 	@echo "... bit_contribution.s"

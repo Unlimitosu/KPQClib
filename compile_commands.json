@@ -103,21 +103,21 @@
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -Dsmaug_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_contribution.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=5 -Dsmaug1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_contribution.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_contribution.c.o"
+  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_contribution.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -Dsmaug_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_exclusion.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=5 -Dsmaug1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_exclusion.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta.dir/bit_exclusion.c.o"
+  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/meta_test.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/meta_test.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug-meta-main.dir/meta_test.c.o"
+  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/meta_test.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
@@ -223,19 +223,19 @@
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=5 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_contribution.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=5 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/meta_test.c.o"
 },
@@ -343,19 +343,19 @@
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c",
   "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c",
   "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/meta_test.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/meta_test.c",
   "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/meta_test.c.o"
 },

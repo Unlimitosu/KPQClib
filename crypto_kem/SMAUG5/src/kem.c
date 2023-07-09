@@ -95,7 +95,7 @@ int crypto_kem_decap(uint8_t *ss, const uint8_t *sk, const uint8_t *pk,
     indcpa_enc(ctxt_temp, pk, delta);
 
     if ((memcmp(ctxt, ctxt_temp, CIPHERTEXT_BYTES))) {
-        printf("*** ERROR: Failed to recover ctxt\n");
+        //printf("*** ERROR: Failed to recover ctxt\n");
         KDF(ss, ctxt, sk + PKE_SECRETKEY_BYTES, T_BYTES);
         return 1;
     }

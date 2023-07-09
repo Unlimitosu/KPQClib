@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <memory.h>
+#include <stdbool.h>
 
 #include "ciphertext.h"
 #include "indcpa.h"
@@ -23,7 +24,7 @@
 
 int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     const size_t pklen, const size_t sklen, const size_t keylen,
-    const size_t mlen, const size_t clen, const size_t crypto_bytes) 
+    const size_t mlen, const size_t clen, const size_t crypto_bytes, char* ALGNAME) 
 {
     uint8_t* pk     = NULL;
     uint8_t* sk     = NULL;
@@ -35,17 +36,18 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     uint8_t* ss2    = NULL;
     uint8_t* k2     = NULL; // may not used depend on alg.
     uint8_t* dec1   = NULL;
+    bool flag = true;
 
     pk  = (uint8_t*)calloc(pklen,           sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen,           sizeof(uint8_t));
-    buf = (uint8_t*)calloc(pklen,           sizeof(uint8_t));
+    buf = (uint8_t*)calloc(sklen,           sizeof(uint8_t));
     m   = (uint8_t*)calloc(mlen,            sizeof(uint8_t));
     c   = (uint8_t*)calloc(clen,            sizeof(uint8_t));
     ss  = (uint8_t*)calloc(crypto_bytes,    sizeof(uint8_t));
     ss1 = (uint8_t*)calloc(crypto_bytes,    sizeof(uint8_t));
     ss2 = (uint8_t*)calloc(crypto_bytes,    sizeof(uint8_t));
     k2  = (uint8_t*)calloc(keylen,          sizeof(uint8_t));
-
+    
     // Generate keypair
     crypto_kem_keypair(pk, sk); //random seed -> Gen pk and sk
 
@@ -60,14 +62,16 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
         //? relation : if pk changed, then recovered ss is different?
         crypto_kem_decap(ss1, sk,  pk, c); //ss1
         crypto_kem_decap(ss2, buf, pk, c); //ss2
-
+        
         if(memcmp(ss1, ss2, crypto_bytes) != 0){
             continue;
         } else {
-            printf("SMAUG1 Bit Contribution Test Fail\n");
-            return BIT_CONTRIBUTION_FAIL;
+            printf("%s Bit Contribution Test Fail: Failed on sk\n", ALGNAME);
+            flag = false;
+            goto EXIT;
         }
     }
+    //printf("sklen: %d\n", sklen);
 
     // ss, c contribution
     free(buf);
@@ -83,11 +87,13 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
         if(memcmp(ss1, ss2, crypto_bytes) != 0){
             continue;
         } else {
-            printf("SMAUG1 Bit Contribution Test Fail\n");
-            return BIT_CONTRIBUTION_FAIL;
+            printf("%s Bit Contribution Test Fail: Failed on ct\n", ALGNAME);
+            flag = false;
+            goto EXIT;
         }
     }
 
+EXIT:
     free(pk ); 
     free(sk ); 
     free(buf); 
@@ -98,7 +104,11 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     free(ss2); 
     free(k2 ); 
 
-    printf("SMAUG1 Bit Contribution Test Success\n");
-    return BIT_CONTRIBUTION_SUCCESS;
+    if(flag){
+        printf("%s Bit Contribution Test Success\n", ALGNAME);
+        return BIT_CONTRIBUTION_SUCCESS;
+    } else{
+        return BIT_CONTRIBUTION_FAIL;
+    }    
 
 }
