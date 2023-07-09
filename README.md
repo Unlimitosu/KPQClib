@@ -37,9 +37,9 @@ make clean
 |SMAUG 1|O||
 |SMAUG 3|O||
 |SMAUG 5|O||
-|TIGER 128|X|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 192|X||
-|TIGER 256|X||
+|TIGER 128|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 192|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 256|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |NTRU+ 576|X||
 |NTRU+ 768|X||
 |NTRU+ 864|X||
