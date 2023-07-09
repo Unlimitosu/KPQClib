@@ -40,10 +40,10 @@ make clean
 |TIGER 128|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |TIGER 192|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |TIGER 256|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|NTRU+ 576||||X||
-|NTRU+ 768||||X||
-|NTRU+ 864||||X||
-|NTRU+ 1152||||X||
+|NTRU+ 576|S|S||X||
+|NTRU+ 768|S|S||X||
+|NTRU+ 864|S|S||X||
+|NTRU+ 1152|S|S||X||
 
 ## DSA
 |Algorithm|Done|Note|
