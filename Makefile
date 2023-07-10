@@ -130,6 +130,7 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named aimer1_fips202
 
 # Build rule for target.
@@ -284,6 +285,526 @@ Almer-l1-meta-main: cmake_check_build_system
 Almer-l1-meta-main/fast:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build
 .PHONY : Almer-l1-meta-main/fast
+=======
+# Target rules for targets named PALOMARNG5
+
+# Build rule for target.
+PALOMARNG5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG5
+.PHONY : PALOMARNG5
+
+# fast build rule for target.
+PALOMARNG5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build
+.PHONY : PALOMARNG5/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256
+
+# Build rule for target.
+PALOMA256: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256
+.PHONY : PALOMA256
+
+# fast build rule for target.
+PALOMA256/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build
+.PHONY : PALOMA256/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-kat-kem
+
+# Build rule for target.
+PALOMA256-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem
+.PHONY : PALOMA256-kat-kem
+
+# fast build rule for target.
+PALOMA256-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
+.PHONY : PALOMA256-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-kat-kem-main
+
+# Build rule for target.
+PALOMA256-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem-main
+.PHONY : PALOMA256-kat-kem-main
+
+# fast build rule for target.
+PALOMA256-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
+.PHONY : PALOMA256-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-main
+
+# Build rule for target.
+PALOMA256-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-main
+.PHONY : PALOMA256-main
+
+# fast build rule for target.
+PALOMA256-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build
+.PHONY : PALOMA256-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-benchmark
+
+# Build rule for target.
+PALOMA256-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-benchmark
+.PHONY : PALOMA256-benchmark
+
+# fast build rule for target.
+PALOMA256-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build
+.PHONY : PALOMA256-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-meta
+
+# Build rule for target.
+PALOMA256-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-meta
+.PHONY : PALOMA256-meta
+
+# fast build rule for target.
+PALOMA256-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/build
+.PHONY : PALOMA256-meta/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-meta-main
+
+# Build rule for target.
+PALOMA256-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-meta-main
+.PHONY : PALOMA256-meta-main
+
+# fast build rule for target.
+PALOMA256-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta-main.dir/build
+.PHONY : PALOMA256-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576RNG1
+
+# Build rule for target.
+ntruplus576RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576RNG1
+.PHONY : ntruplus576RNG1
+
+# fast build rule for target.
+ntruplus576RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build
+.PHONY : ntruplus576RNG1/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576
+
+# Build rule for target.
+ntruplus576: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576
+.PHONY : ntruplus576
+
+# fast build rule for target.
+ntruplus576/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build
+.PHONY : ntruplus576/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-main
+
+# Build rule for target.
+ntruplus576-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-main
+.PHONY : ntruplus576-main
+
+# fast build rule for target.
+ntruplus576-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build
+.PHONY : ntruplus576-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-kat-kem
+
+# Build rule for target.
+ntruplus576-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem
+.PHONY : ntruplus576-kat-kem
+
+# fast build rule for target.
+ntruplus576-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build
+.PHONY : ntruplus576-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-kat-kem-main
+
+# Build rule for target.
+ntruplus576-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem-main
+.PHONY : ntruplus576-kat-kem-main
+
+# fast build rule for target.
+ntruplus576-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build
+.PHONY : ntruplus576-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-benchmark
+
+# Build rule for target.
+ntruplus576-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-benchmark
+.PHONY : ntruplus576-benchmark
+
+# fast build rule for target.
+ntruplus576-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build
+.PHONY : ntruplus576-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-meta
+
+# Build rule for target.
+ntruplus576-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta
+.PHONY : ntruplus576-meta
+
+# fast build rule for target.
+ntruplus576-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build
+.PHONY : ntruplus576-meta/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus576-meta-main
+
+# Build rule for target.
+ntruplus576-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta-main
+.PHONY : ntruplus576-meta-main
+
+# fast build rule for target.
+ntruplus576-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build
+.PHONY : ntruplus576-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768RNG1
+
+# Build rule for target.
+ntruplus768RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768RNG1
+.PHONY : ntruplus768RNG1
+
+# fast build rule for target.
+ntruplus768RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build
+.PHONY : ntruplus768RNG1/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768
+
+# Build rule for target.
+ntruplus768: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768
+.PHONY : ntruplus768
+
+# fast build rule for target.
+ntruplus768/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build
+.PHONY : ntruplus768/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-main
+
+# Build rule for target.
+ntruplus768-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-main
+.PHONY : ntruplus768-main
+
+# fast build rule for target.
+ntruplus768-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build
+.PHONY : ntruplus768-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-kat-kem
+
+# Build rule for target.
+ntruplus768-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem
+.PHONY : ntruplus768-kat-kem
+
+# fast build rule for target.
+ntruplus768-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build
+.PHONY : ntruplus768-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-kat-kem-main
+
+# Build rule for target.
+ntruplus768-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem-main
+.PHONY : ntruplus768-kat-kem-main
+
+# fast build rule for target.
+ntruplus768-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build
+.PHONY : ntruplus768-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-benchmark
+
+# Build rule for target.
+ntruplus768-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-benchmark
+.PHONY : ntruplus768-benchmark
+
+# fast build rule for target.
+ntruplus768-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build
+.PHONY : ntruplus768-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-meta
+
+# Build rule for target.
+ntruplus768-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta
+.PHONY : ntruplus768-meta
+
+# fast build rule for target.
+ntruplus768-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build
+.PHONY : ntruplus768-meta/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus768-meta-main
+
+# Build rule for target.
+ntruplus768-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta-main
+.PHONY : ntruplus768-meta-main
+
+# fast build rule for target.
+ntruplus768-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build
+.PHONY : ntruplus768-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864RNG1
+
+# Build rule for target.
+ntruplus864RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864RNG1
+.PHONY : ntruplus864RNG1
+
+# fast build rule for target.
+ntruplus864RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build
+.PHONY : ntruplus864RNG1/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864
+
+# Build rule for target.
+ntruplus864: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864
+.PHONY : ntruplus864
+
+# fast build rule for target.
+ntruplus864/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build
+.PHONY : ntruplus864/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-main
+
+# Build rule for target.
+ntruplus864-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-main
+.PHONY : ntruplus864-main
+
+# fast build rule for target.
+ntruplus864-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build
+.PHONY : ntruplus864-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-kat-kem
+
+# Build rule for target.
+ntruplus864-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem
+.PHONY : ntruplus864-kat-kem
+
+# fast build rule for target.
+ntruplus864-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build
+.PHONY : ntruplus864-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-kat-kem-main
+
+# Build rule for target.
+ntruplus864-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem-main
+.PHONY : ntruplus864-kat-kem-main
+
+# fast build rule for target.
+ntruplus864-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build
+.PHONY : ntruplus864-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-benchmark
+
+# Build rule for target.
+ntruplus864-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-benchmark
+.PHONY : ntruplus864-benchmark
+
+# fast build rule for target.
+ntruplus864-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build
+.PHONY : ntruplus864-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-meta
+
+# Build rule for target.
+ntruplus864-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta
+.PHONY : ntruplus864-meta
+
+# fast build rule for target.
+ntruplus864-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build
+.PHONY : ntruplus864-meta/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus864-meta-main
+
+# Build rule for target.
+ntruplus864-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta-main
+.PHONY : ntruplus864-meta-main
+
+# fast build rule for target.
+ntruplus864-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build
+.PHONY : ntruplus864-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152RNG1
+
+# Build rule for target.
+ntruplus1152RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152RNG1
+.PHONY : ntruplus1152RNG1
+
+# fast build rule for target.
+ntruplus1152RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build
+.PHONY : ntruplus1152RNG1/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152
+
+# Build rule for target.
+ntruplus1152: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152
+.PHONY : ntruplus1152
+
+# fast build rule for target.
+ntruplus1152/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build
+.PHONY : ntruplus1152/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-main
+
+# Build rule for target.
+ntruplus1152-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-main
+.PHONY : ntruplus1152-main
+
+# fast build rule for target.
+ntruplus1152-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build
+.PHONY : ntruplus1152-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-kat-kem
+
+# Build rule for target.
+ntruplus1152-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem
+.PHONY : ntruplus1152-kat-kem
+
+# fast build rule for target.
+ntruplus1152-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build
+.PHONY : ntruplus1152-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-kat-kem-main
+
+# Build rule for target.
+ntruplus1152-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem-main
+.PHONY : ntruplus1152-kat-kem-main
+
+# fast build rule for target.
+ntruplus1152-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build
+.PHONY : ntruplus1152-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-benchmark
+
+# Build rule for target.
+ntruplus1152-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-benchmark
+.PHONY : ntruplus1152-benchmark
+
+# fast build rule for target.
+ntruplus1152-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build
+.PHONY : ntruplus1152-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-meta
+
+# Build rule for target.
+ntruplus1152-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta
+.PHONY : ntruplus1152-meta
+
+# fast build rule for target.
+ntruplus1152-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build
+.PHONY : ntruplus1152-meta/fast
+
+#=============================================================================
+# Target rules for targets named ntruplus1152-meta-main
+
+# Build rule for target.
+ntruplus1152-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta-main
+.PHONY : ntruplus1152-meta-main
+
+# fast build rule for target.
+ntruplus1152-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build
+.PHONY : ntruplus1152-meta-main/fast
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 # Help Target
 help:
@@ -293,6 +814,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... Almer-l1"
 	@echo "... Almer-l1-benchmark"
 	@echo "... Almer-l1-kat-sign"
@@ -306,6 +828,49 @@ help:
 	@echo "... aimer1_RNG"
 	@echo "... aimer1_fips202"
 	@echo "... common"
+=======
+	@echo "... PALOMA256"
+	@echo "... PALOMA256-benchmark"
+	@echo "... PALOMA256-kat-kem"
+	@echo "... PALOMA256-kat-kem-main"
+	@echo "... PALOMA256-main"
+	@echo "... PALOMA256-meta"
+	@echo "... PALOMA256-meta-main"
+	@echo "... PALOMARNG5"
+	@echo "... common"
+	@echo "... ntruplus1152"
+	@echo "... ntruplus1152-benchmark"
+	@echo "... ntruplus1152-kat-kem"
+	@echo "... ntruplus1152-kat-kem-main"
+	@echo "... ntruplus1152-main"
+	@echo "... ntruplus1152-meta"
+	@echo "... ntruplus1152-meta-main"
+	@echo "... ntruplus1152RNG1"
+	@echo "... ntruplus576"
+	@echo "... ntruplus576-benchmark"
+	@echo "... ntruplus576-kat-kem"
+	@echo "... ntruplus576-kat-kem-main"
+	@echo "... ntruplus576-main"
+	@echo "... ntruplus576-meta"
+	@echo "... ntruplus576-meta-main"
+	@echo "... ntruplus576RNG1"
+	@echo "... ntruplus768"
+	@echo "... ntruplus768-benchmark"
+	@echo "... ntruplus768-kat-kem"
+	@echo "... ntruplus768-kat-kem-main"
+	@echo "... ntruplus768-main"
+	@echo "... ntruplus768-meta"
+	@echo "... ntruplus768-meta-main"
+	@echo "... ntruplus768RNG1"
+	@echo "... ntruplus864"
+	@echo "... ntruplus864-benchmark"
+	@echo "... ntruplus864-kat-kem"
+	@echo "... ntruplus864-kat-kem-main"
+	@echo "... ntruplus864-main"
+	@echo "... ntruplus864-meta"
+	@echo "... ntruplus864-meta-main"
+	@echo "... ntruplus864RNG1"
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 .PHONY : help
 
 

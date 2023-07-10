@@ -94,7 +94,10 @@ crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/kat/CMakeFiles/smau
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/lib/libsmaug3-kat-kem.so
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/lib/libsmaug3.so
+<<<<<<< HEAD
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: /usr/lib/x86_64-linux-gnu/libcrypto.so
+=======
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/lib/libRNG3.so
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: common/libcommon.a
 crypto_kem/SMAUG3/bin/smaug3-kat-kem-main: crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/link.txt

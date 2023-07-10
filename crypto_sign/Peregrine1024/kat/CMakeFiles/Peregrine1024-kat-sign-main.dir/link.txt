@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /usr/bin/cc "CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o" -o ../bin/Peregrine1024-kat-sign-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 
+=======
+/usr/bin/cc CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o -o ../bin/Peregrine1024-kat-sign-main  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603

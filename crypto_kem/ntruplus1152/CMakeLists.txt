@@ -23,7 +23,7 @@ set(srcs
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -O3 -fomit-frame-pointer -fPIC -Wall -Wextra)
+  set(C_FLAGS -g -fomit-frame-pointer -fPIC -Wall -Wextra)
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
@@ -44,6 +44,7 @@ target_link_libraries(${LIB_NAME1152} PUBLIC common)
 add_subdirectory(test)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
+add_subdirectory(metamorphic)
 
 
 

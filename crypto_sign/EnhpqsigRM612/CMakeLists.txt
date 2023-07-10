@@ -34,7 +34,6 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 
 add_library(EnhpqsigRM-612-RNG SHARED ${PROJECT_SOURCE_DIR}/src/rng.c)
 target_compile_options(EnhpqsigRM-612-RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-#target_link_libraries(aimer1_RNG PUBLIC OpenSSL::Crypto)
 
 # HAETAE 2
 set(LIB_NAME1 ${PROJECT_NAME}-612)

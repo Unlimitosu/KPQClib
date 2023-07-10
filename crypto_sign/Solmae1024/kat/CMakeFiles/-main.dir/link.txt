@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/-main.dir/PQCgenKAT_sign.c.o" -o ../bin/-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/lib ../lib/libSolmae512.so ../../../common/libcommon.a ../lib/libSOLMAE512_RNG.so 

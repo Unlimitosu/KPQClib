@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic "CMakeFiles/-testsign.dir/test_sign.c.o" -o -testsign 

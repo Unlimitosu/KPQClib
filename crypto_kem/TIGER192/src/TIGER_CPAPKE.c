@@ -216,7 +216,7 @@ void Decryption(unsigned char *Message, const unsigned char *c, const unsigned c
 	unsigned char c1_hat[LWE_N*2] = { 0, };
 	unsigned char c2_hat[LWE_N*2] = { 0, };
 	unsigned char decomp_delta[LWE_N*2]={0,};
-
+	
 //// Step1 : (1) Parsing c and (2) Gen poly s. ////
 
 // (1) Parsing c. where, decomp_delta = c2_hat.

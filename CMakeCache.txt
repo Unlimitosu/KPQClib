@@ -15,13 +15,21 @@
 ########################
 
 //Value Computed by CMake
+<<<<<<< HEAD
 Almer-l_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
+=======
+Almer-l_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Value Computed by CMake
 Almer-l_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
+<<<<<<< HEAD
 Almer-l_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
+=======
+Almer-l_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -37,7 +45,11 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
+<<<<<<< HEAD
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+=======
+CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -63,7 +75,11 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
+<<<<<<< HEAD
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+=======
+CMAKE_C_COMPILER:STRING=/usr/bin/cc
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -246,6 +262,7 @@ EnhpqsigRM_IS_TOP_LEVEL:STATIC=OFF
 EnhpqsigRM_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613
 
 //Value Computed by CMake
+<<<<<<< HEAD
 GCKSign_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
 
 //Value Computed by CMake
@@ -262,6 +279,24 @@ IPCC_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 IPCC_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f4
+=======
+FIBS_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/FIBS
+
+//Value Computed by CMake
+FIBS_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+FIBS_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/FIBS
+
+//Value Computed by CMake
+GCKSign_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
+
+//Value Computed by CMake
+GCKSign_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+GCKSign_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Value Computed by CMake
 KPQClean_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean
@@ -315,13 +350,39 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Value Computed by CMake
+<<<<<<< HEAD
 Peregrine_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024
+=======
+Peregrine_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Value Computed by CMake
 Peregrine_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
+<<<<<<< HEAD
 Peregrine_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024
+=======
+Peregrine_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512
+
+//Value Computed by CMake
+Solmae1024_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024
+
+//Value Computed by CMake
+Solmae1024_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Solmae1024_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024
+
+//Value Computed by CMake
+Solmae512_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512
+
+//Value Computed by CMake
+Solmae512_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Solmae512_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Value Computed by CMake
 TIGER_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256
@@ -488,7 +549,11 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
+<<<<<<< HEAD
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+=======
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

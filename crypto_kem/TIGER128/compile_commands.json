@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGERRNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/TIGERRNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/rng.c",
+  "output": "CMakeFiles/TIGERRNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGER128_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/TIGER128.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/rng.c",
+  "output": "CMakeFiles/TIGER128.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGER128_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/TIGER128.dir/src/xef_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/xef_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/xef_ref.c",
+  "output": "CMakeFiles/TIGER128.dir/src/xef_ref.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGER128_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c",
+  "output": "CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGER128_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c",
+  "output": "CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128",
+  "command": "/usr/bin/cc -DTIGER128_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/TIGER128.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/src/kem.c",
+  "output": "CMakeFiles/TIGER128.dir/src/kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"TIGER128_KEM\\\" -DTIGER128_kat_kem_EXPORTS -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/../include -std=gnu11 -fPIC -o CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/kat_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/kat_kem.c",
+  "output": "kat/CMakeFiles/TIGER128-kat-kem.dir/kat_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"TIGER128_KEM\\\" -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/../include -std=gnu11 -o CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/PQCgenKAT_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/PQCgenKAT_kem.c",
+  "output": "kat/CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/test",
+  "command": "/usr/bin/cc -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -o CMakeFiles/TIGER128-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/test/main.c",
+  "output": "test/CMakeFiles/TIGER128-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark",
+  "command": "/usr/bin/cc -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -o CMakeFiles/TIGER128-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/speed.c",
+  "output": "benchmark/CMakeFiles/TIGER128-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark",
+  "command": "/usr/bin/cc -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -o CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/cpucycles.c",
+  "output": "benchmark/CMakeFiles/TIGER128-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark",
+  "command": "/usr/bin/cc -DTIGER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/common -std=gnu11 -o CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/benchmark/speed_print.c",
+  "output": "benchmark/CMakeFiles/TIGER128-benchmark.dir/speed_print.c.o"
+}
+]

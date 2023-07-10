@@ -57,8 +57,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cmake_install.cmake")
 endif()
 
+<<<<<<< HEAD
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/cmake_install.cmake")
 endif()
 
+=======
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603

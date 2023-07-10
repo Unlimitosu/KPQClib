@@ -26,14 +26,12 @@ else()
   set(C_FLAGS -O3 -fomit-frame-pointer -fPIC -Wall -Wextra)
 endif()
 
-#find_package(OpenSSL REQUIRED)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/common)
 
 add_library(RNG3 SHARED ${PROJECT_SOURCE_DIR}/src/rng.c)
 target_compile_options(RNG3 PRIVATE -O3 -fomit-frame-pointer -fPIC)
-#target_link_libraries(RNG3 PRIVATE OpenSSL::Crypto)
 
 set(LIB_NAME3 ${PROJECT_NAME}3)
 add_library(${LIB_NAME3} SHARED ${srcs})
@@ -48,3 +46,4 @@ target_link_libraries(${LIB_NAME3} PUBLIC common)
 add_subdirectory(test)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
+add_subdirectory(metamorphic)

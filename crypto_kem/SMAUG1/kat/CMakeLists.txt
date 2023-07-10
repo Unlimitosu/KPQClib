@@ -2,7 +2,6 @@ set(kat_srcs
     kat_kem.c
 )
 
-find_package(OpenSSL REQUIRED)
 
 # Rank-2 KEM
 set(KAT_KEM_LIB_NAME1 ${PROJECT_NAME}1-kat-kem)
@@ -12,6 +11,6 @@ target_compile_definitions(${KAT_KEM_LIB_NAME1} PUBLIC CRYPTO_ALGNAME="SMAUG1_KE
 target_compile_definitions(${KAT_KEM_LIB_NAME1} PUBLIC SMAUG_MODE=1)
 
 add_executable(${KAT_KEM_LIB_NAME1}-main PQCgenKAT_kem.c)
-target_link_libraries(${KAT_KEM_LIB_NAME1}-main ${KAT_KEM_LIB_NAME1} ${LIB_NAME1} OpenSSL::Crypto)
+target_link_libraries(${KAT_KEM_LIB_NAME1}-main ${KAT_KEM_LIB_NAME1} ${LIB_NAME1})
 
 

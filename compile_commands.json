@@ -1,5 +1,6 @@
 [
 {
+<<<<<<< HEAD
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
   "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
@@ -154,5 +155,635 @@
   "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
   "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o"
+=======
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMARNG5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/PALOMARNG5.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gf.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gfpoly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gfpoly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gfpoly.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gfpoly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/keygen.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/keygen.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/keygen.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/mat_mul.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/mat_mul.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/mat_mul.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/mat_mul.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/common.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/common.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/common.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/lsh.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/lsh512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh512.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh512.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/encap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/encap.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/encap.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/encap.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/decap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/decap.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/decap.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/decap.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/PALOMA.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
+  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
+  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA256_kat_kem_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
+  "output": "crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/../include -std=gnu11 -o CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
+  "output": "crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA256-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test/main.c",
+  "output": "crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark",
+  "command": "/usr/bin/cc -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c",
+  "output": "crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA256_meta_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA256-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA256_meta_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA256-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -o CMakeFiles/PALOMA256-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/meta_test.c",
+  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA256-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -Dntruplus576RNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/ntruplus576RNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/rng.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/aes256ctr.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/kem.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/ntt.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/ntt.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/ntt.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/poly.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/reduce.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/rng.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/sha256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/sha256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/sha256.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/sha256.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/sha512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/sha512.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/sha512.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/sha512.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/symmetric.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/util.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/util.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/util.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/util.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus576.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/src/verify.c",
+  "output": "crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/test",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -o CMakeFiles/ntruplus576-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/test/main.c",
+  "output": "crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS576_KEM\\\" -DNTRU_MODE=576 -Dntruplus576_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus576-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/kat_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/kat_kem.c",
+  "output": "crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/kat_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS576_KEM\\\" -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/../include -std=gnu11 -o CMakeFiles/ntruplus576-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/PQCgenKAT_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat/PQCgenKAT_kem.c",
+  "output": "crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -o CMakeFiles/ntruplus576-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/speed.c",
+  "output": "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -o CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/cpucycles.c",
+  "output": "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -std=gnu11 -o CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/benchmark/speed_print.c",
+  "output": "crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus576-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -Dntruplus576_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus576-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=576 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/../include -std=gnu11 -o CMakeFiles/ntruplus576-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus576/metamorphic/meta_test.c",
+  "output": "crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -Dntruplus768RNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/ntruplus768RNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/rng.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/kem.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/ntt.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/ntt.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/poly.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/reduce.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/rng.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/sha256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/sha256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/sha256.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/sha512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/sha512.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/sha512.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/symmetric.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/util.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/util.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/util.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus768.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/src/verify.c",
+  "output": "crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/test",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -o CMakeFiles/ntruplus768-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/test/main.c",
+  "output": "crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS768_KEM\\\" -DNTRU_MODE=768 -Dntruplus768_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus768-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/kat_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/kat_kem.c",
+  "output": "crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/kat_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS768_KEM\\\" -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/../include -std=gnu11 -o CMakeFiles/ntruplus768-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/PQCgenKAT_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat/PQCgenKAT_kem.c",
+  "output": "crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -o CMakeFiles/ntruplus768-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/speed.c",
+  "output": "crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -o CMakeFiles/ntruplus768-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/cpucycles.c",
+  "output": "crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -std=gnu11 -o CMakeFiles/ntruplus768-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/benchmark/speed_print.c",
+  "output": "crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus768-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -Dntruplus768_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus768-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=768 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/../include -std=gnu11 -o CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/metamorphic/meta_test.c",
+  "output": "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -Dntruplus864RNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/ntruplus864RNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/rng.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/aes256ctr.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/kem.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/ntt.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/ntt.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/ntt.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/poly.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/reduce.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/rng.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/sha256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/sha256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/sha256.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/sha256.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/sha512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/sha512.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/sha512.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/sha512.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/symmetric.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/util.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/util.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/util.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/util.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus864.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/src/verify.c",
+  "output": "crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/test",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -o CMakeFiles/ntruplus864-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/test/main.c",
+  "output": "crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS864_KEM\\\" -DNTRU_MODE=864 -Dntruplus864_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus864-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/kat_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/kat_kem.c",
+  "output": "crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/kat_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS864_KEM\\\" -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/../include -std=gnu11 -o CMakeFiles/ntruplus864-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/PQCgenKAT_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat/PQCgenKAT_kem.c",
+  "output": "crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -o CMakeFiles/ntruplus864-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c",
+  "output": "crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -o CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c",
+  "output": "crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -std=gnu11 -o CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c",
+  "output": "crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus864-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -Dntruplus864_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus864-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=864 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/../include -std=gnu11 -o CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c",
+  "output": "crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -Dntruplus1152RNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/ntruplus1152RNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/rng.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/kem.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/ntt.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/ntt.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/ntt.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/poly.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/reduce.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/rng.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/sha256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/sha256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/sha256.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/sha256.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/sha512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/sha512.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/sha512.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/sha512.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/symmetric.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/util.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/util.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/util.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/util.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/ntruplus1152.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/src/verify.c",
+  "output": "crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/test",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -o CMakeFiles/ntruplus1152-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/test/main.c",
+  "output": "crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS1152_KEM\\\" -DNTRU_MODE=1152 -Dntruplus1152_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus1152-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/kat_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/kat_kem.c",
+  "output": "crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/kat_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"NTRUPLUS1152_KEM\\\" -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/../include -std=gnu11 -o CMakeFiles/ntruplus1152-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/PQCgenKAT_kem.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat/PQCgenKAT_kem.c",
+  "output": "crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -o CMakeFiles/ntruplus1152-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/speed.c",
+  "output": "crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -o CMakeFiles/ntruplus1152-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/cpucycles.c",
+  "output": "crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -std=gnu11 -o CMakeFiles/ntruplus1152-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/benchmark/speed_print.c",
+  "output": "crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus1152-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -Dntruplus1152_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/ntruplus1152-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic",
+  "command": "/usr/bin/cc -DNTRU_MODE=1152 -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/kat -I/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include -std=gnu11 -o CMakeFiles/ntruplus1152-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/metamorphic/meta_test.c",
+  "output": "crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/meta_test.c.o"
+>>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 }
 ]

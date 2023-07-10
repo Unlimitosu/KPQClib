@@ -39,7 +39,6 @@ set(FIPS202_SRCS src/fips202.c)
 add_library(gcksign2_fips202 SHARED ${FIPS202_SRCS})
 add_library(gcksign2_RNG SHARED ${PROJECT_SOURCE_DIR}/src/NIST/rng.c)
 target_compile_options(gcksign2_RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-#target_link_libraries(aimer1_RNG PUBLIC OpenSSL::Crypto)
 
 # HAETAE 2
 set(LIB_NAME2 ${PROJECT_NAME}-II)

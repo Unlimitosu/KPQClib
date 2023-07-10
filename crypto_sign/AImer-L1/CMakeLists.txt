@@ -44,7 +44,6 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 add_library(aimer1_fips202 SHARED ${AIMER_FIPS202_SRCS})
 add_library(aimer1_RNG SHARED ${PROJECT_SOURCE_DIR}/src/rng.c)
 target_compile_options(aimer1_RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-#target_link_libraries(aimer1_RNG PUBLIC OpenSSL::Crypto)
 
 # HAETAE 2
 set(LIB_NAME1 ${PROJECT_NAME}1)

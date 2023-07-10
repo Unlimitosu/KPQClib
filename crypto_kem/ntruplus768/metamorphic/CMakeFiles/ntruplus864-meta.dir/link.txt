@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus864-meta.so -o ../lib/libntruplus864-meta.so "CMakeFiles/ntruplus864-meta.dir/bit_contribution.c.o" "CMakeFiles/ntruplus864-meta.dir/bit_exclusion.c.o" 

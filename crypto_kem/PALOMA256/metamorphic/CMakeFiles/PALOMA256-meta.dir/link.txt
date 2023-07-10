@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMA256-meta.so -o ../lib/libPALOMA256-meta.so "CMakeFiles/PALOMA256-meta.dir/bit_contribution.c.o" "CMakeFiles/PALOMA256-meta.dir/bit_exclusion.c.o" 
