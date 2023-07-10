@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus768-kat-kem.so -o ../lib/libntruplus768-kat-kem.so CMakeFiles/ntruplus768-kat-kem.dir/kat_kem.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus768-kat-kem.so -o ../lib/libntruplus768-kat-kem.so "CMakeFiles/ntruplus768-kat-kem.dir/kat_kem.c.o" 

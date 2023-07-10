@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/PALOMA192-main.dir/main.c.o -o ../bin/PALOMA192-main  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA192/lib ../lib/libPALOMA192.so ../lib/libPALOMARNG3.so ../../../common/libcommon.a 
+/usr/bin/cc "CMakeFiles/PALOMA192-main.dir/main.c.o" -o ../bin/PALOMA192-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/lib ../lib/libPALOMA192.so ../lib/libPALOMARNG3.so ../../../common/libcommon.a 

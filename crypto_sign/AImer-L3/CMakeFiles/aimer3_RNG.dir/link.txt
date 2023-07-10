@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libaimer3_RNG.so -o libs/libaimer3_RNG.so CMakeFiles/aimer3_RNG.dir/src/rng.c.o 

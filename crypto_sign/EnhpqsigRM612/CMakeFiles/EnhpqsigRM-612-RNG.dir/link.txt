@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM-612-RNG.so -o libs/libEnhpqsigRM-612-RNG.so "CMakeFiles/EnhpqsigRM-612-RNG.dir/src/rng.c.o" 

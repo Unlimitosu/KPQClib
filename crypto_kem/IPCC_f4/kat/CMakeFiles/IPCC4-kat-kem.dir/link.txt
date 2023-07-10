@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libIPCC4-kat-kem.so -o ../lib/libIPCC4-kat-kem.so "CMakeFiles/IPCC4-kat-kem.dir/PQCgenKAT_pke.c.o" 

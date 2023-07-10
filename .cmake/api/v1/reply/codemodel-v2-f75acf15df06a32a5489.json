@@ -1,0 +1,289 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-L1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-crypto_sign.AImer-L1-9bd3997f1012dda1bfaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-L1",
+					"targetIndexes" : 
+					[
+						0,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-L1/tests",
+					"jsonFile" : "directory-crypto_sign.AImer-L1.tests-7a5537510c02462058d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-L1/tests",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-L1/kat",
+					"jsonFile" : "directory-crypto_sign.AImer-L1.kat-351562c1125ddd42a265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-L1/kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-L1/benchmark",
+					"jsonFile" : "directory-crypto_sign.AImer-L1.benchmark-0febd0324ac1e1de0858.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-L1/benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "crypto_sign/AImer-L1/metamorphic",
+					"jsonFile" : "directory-crypto_sign.AImer-L1.metamorphic-96b653256cfcb927971b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/AImer-L1/metamorphic",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Almer-l",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Almer-l1::@962f1633cd7e18defc33",
+					"jsonFile" : "target-Almer-l1-49d0254e1ce51301ba14.json",
+					"name" : "Almer-l1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Almer-l1-benchmark::@da16cb342a7d6cd11086",
+					"jsonFile" : "target-Almer-l1-benchmark-58d53795bc6e0ceed305.json",
+					"name" : "Almer-l1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Almer-l1-kat-sign::@01ccf1d9b6d5b3eae5d4",
+					"jsonFile" : "target-Almer-l1-kat-sign-4141aac97abfffed788d.json",
+					"name" : "Almer-l1-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Almer-l1-kat-sign-main::@01ccf1d9b6d5b3eae5d4",
+					"jsonFile" : "target-Almer-l1-kat-sign-main-faf4dabe3613e3fbbe01.json",
+					"name" : "Almer-l1-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-main::@e37727b6c81b7f91da12",
+					"jsonFile" : "target-Almer-l1-main-1776823c825ecbb7c89e.json",
+					"name" : "Almer-l1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Almer-l1-meta::@c3f6864a8902afaeb159",
+					"jsonFile" : "target-Almer-l1-meta-498835c66bb5229d3f87.json",
+					"name" : "Almer-l1-meta",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Almer-l1-meta-main::@c3f6864a8902afaeb159",
+					"jsonFile" : "target-Almer-l1-meta-main-89c0244684ddb21b8abf.json",
+					"name" : "Almer-l1-meta-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testaim::@e37727b6c81b7f91da12",
+					"jsonFile" : "target-Almer-l1-testaim-ad849ffdccb31449bb39.json",
+					"name" : "Almer-l1-testaim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testsign::@e37727b6c81b7f91da12",
+					"jsonFile" : "target-Almer-l1-testsign-c55457ec45a59b3eb41e.json",
+					"name" : "Almer-l1-testsign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Almer-l1-testtree::@e37727b6c81b7f91da12",
+					"jsonFile" : "target-Almer-l1-testtree-d14515afc926ca48da48.json",
+					"name" : "Almer-l1-testtree",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aimer1_RNG::@962f1633cd7e18defc33",
+					"jsonFile" : "target-aimer1_RNG-3639516776a586c40e1a.json",
+					"name" : "aimer1_RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aimer1_fips202::@962f1633cd7e18defc33",
+					"jsonFile" : "target-aimer1_fips202-0853eeaad8bd6f3cc53a.json",
+					"name" : "aimer1_fips202",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

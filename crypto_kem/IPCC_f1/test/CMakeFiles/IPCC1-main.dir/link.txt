@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/IPCC1-main.dir/main.c.o" -o ../bin/IPCC1-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/lib ../lib/libIPCC1.so ../lib/libIPCCRNG1.so ../../../common/libcommon.a 

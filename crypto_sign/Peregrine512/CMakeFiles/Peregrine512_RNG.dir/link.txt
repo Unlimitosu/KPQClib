@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libPeregrine512_RNG.so -o lib/libPeregrine512_RNG.so CMakeFiles/Peregrine512_RNG.dir/src/rng.c.o 
