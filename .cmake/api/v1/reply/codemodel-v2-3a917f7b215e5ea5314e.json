@@ -1,0 +1,228 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46-0904421c9f84693ff8e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/MQS256-72-46",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/test",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.test-24a5b5e6adb1b89e389b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/MQS256-72-46/test",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/benchmark",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.benchmark-066f79a56a0ba6fb36ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/MQS256-72-46/benchmark",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/metamorphic",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.metamorphic-1b0395ea618e3488b228.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/MQS256-72-46/metamorphic",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "MQS256_72_46",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "MQS256_72_46-benchmark::@dabac76ea6d31bba5c7b",
+					"jsonFile" : "target-MQS256_72_46-benchmark-f2382e68f212e746d8ee.json",
+					"name" : "MQS256_72_46-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MQS256_72_46-meta::@b22ae495f9adfd0a9721",
+					"jsonFile" : "target-MQS256_72_46-meta-f8ac6d174e222edc1cbe.json",
+					"name" : "MQS256_72_46-meta",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MQS256_72_46-meta-main::@b22ae495f9adfd0a9721",
+					"jsonFile" : "target-MQS256_72_46-meta-main-fd85514022e83457508f.json",
+					"name" : "MQS256_72_46-meta-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MQS256_72_46LIB::@25819ff24d9d893c9106",
+					"jsonFile" : "target-MQS256_72_46LIB-06fb550294709efde06b.json",
+					"name" : "MQS256_72_46LIB",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MQS256_72_46LIB-main1::@c8c7bd2ce70b8429b82c",
+					"jsonFile" : "target-MQS256_72_46LIB-main1-996f3ee8a3e43fc48688.json",
+					"name" : "MQS256_72_46LIB-main1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MQS256_72_46LIB-main2::@c8c7bd2ce70b8429b82c",
+					"jsonFile" : "target-MQS256_72_46LIB-main2-4031bad8ea9b4c7c8f7e.json",
+					"name" : "MQS256_72_46LIB-main2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MQS256_72_46_RNG::@25819ff24d9d893c9106",
+					"jsonFile" : "target-MQS256_72_46_RNG-231afcda6197e5b2e03c.json",
+					"name" : "MQS256_72_46_RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

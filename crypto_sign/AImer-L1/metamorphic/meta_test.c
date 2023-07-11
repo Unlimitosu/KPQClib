@@ -12,11 +12,11 @@ int main(){
     printf("AIMer L1 metamorphic test start...\n");
 
     KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
-        AIMER_PUBLICKEY_SIZE, AIMER_PRIVATEKEY_SIZE, 0, 10, 
+        AIMER_PUBLICKEY_SIZE, AIMER_PRIVATEKEY_SIZE, 0, 32, 
         0, AIMER_MAX_SIGNATURE_SIZE, "AIMer L1");
 
     KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
-        AIMER_PUBLICKEY_SIZE, AIMER_PRIVATEKEY_SIZE, 0, 10, 
+        AIMER_PUBLICKEY_SIZE, AIMER_PRIVATEKEY_SIZE, 0, 32, 
         0, AIMER_MAX_SIGNATURE_SIZE, "AIMer L1");
    
     return 0;

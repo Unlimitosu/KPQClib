@@ -30,7 +30,7 @@ set(MQS256_72_46_SRCS
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic)
+  set(C_FLAGS -g -fomit-frame-pointer -Wall -Wextra -Wpedantic)
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
@@ -38,10 +38,7 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 
 add_library(MQS256_72_46_RNG SHARED ${PROJECT_SOURCE_DIR}/src/rng.c)
 target_compile_options(MQS256_72_46_RNG PRIVATE -O3 -fomit-frame-pointer -fPIC)
-<<<<<<< HEAD
 # target_link_libraries(MQS256_112_72_RNG PUBLIC OpenSSL::Crypto)
-=======
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 
 set(LIB_NAME_72_46 ${PROJECT_NAME}LIB)
@@ -55,3 +52,4 @@ target_link_libraries(${LIB_NAME_72_46} PUBLIC common)
 add_subdirectory(test)
 # add_subdirectory(kat)
 add_subdirectory(benchmark)
+add_subdirectory(metamorphic)

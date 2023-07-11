@@ -26,8 +26,8 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     int param = 0;
 
     m    = (uint8_t*)calloc(mlen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
-    sig  = (uint8_t*)calloc(siglen, sizeof(uint8_t));
-    sig2 = (uint8_t*)calloc(siglen, sizeof(uint8_t));
+    sig  = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
+    sig2 = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
     buf  = (uint8_t*)calloc(mlen,   sizeof(uint8_t));
     
     assert(m    != NULL);
@@ -49,7 +49,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
 
         aimer_sign(&pk, &sk, (const uint8_t*)buf, mlen, sig2, &siglen2);
         
-        if(memcmp(sig, sig2, siglen) != 0 || siglen != siglen) {
+        if(memcmp(sig, sig2, siglen) != 0 || siglen != siglen2) {
             printf("%s Bit Exclusion Test Failed: Failed on messaage\n", ALGNAME);
             flag = false;
             goto EXIT;

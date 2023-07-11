@@ -30,6 +30,4 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46LIB.dir/src/utils_hash.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h

@@ -10,17 +10,12 @@ endif()
 
 #Crypto_kem
 add_subdirectory(common)
-<<<<<<< HEAD
-=======
-
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 # add_subdirectory(crypto_kem/SMAUG1)
 # add_subdirectory(crypto_kem/SMAUG3)
 # add_subdirectory(crypto_kem/SMAUG5)
 # add_subdirectory(crypto_kem/TIGER128)
 # add_subdirectory(crypto_kem/TIGER192)
 # add_subdirectory(crypto_kem/TIGER256)
-<<<<<<< HEAD
 # add_subdirectory(crypto_kem/ntruplus576)
 # add_subdirectory(crypto_kem/ntruplus768)
 # add_subdirectory(crypto_kem/ntruplus864)
@@ -37,7 +32,7 @@ add_subdirectory(common)
 # add_subdirectory(crypto_sign/HAETAE2)
 # add_subdirectory(crypto_sign/HAETAE3)
 # add_subdirectory(crypto_sign/HAETAE5)
-add_subdirectory(crypto_sign/AImer-L1)
+# add_subdirectory(crypto_sign/AImer-L1)
 # add_subdirectory(crypto_sign/AImer-L3)
 # add_subdirectory(crypto_sign/AImer-L5)
 # add_subdirectory(crypto_sign/NCCSign2-ori)
@@ -50,36 +45,7 @@ add_subdirectory(crypto_sign/AImer-L1)
 # add_subdirectory(crypto_sign/EnhpqsigRM613)
 # add_subdirectory(crypto_sign/Peregrine512)
 # add_subdirectory(crypto_sign/Peregrine1024)
-# add_subdirectory(crypto_sign/MQS256-72-46)
+ add_subdirectory(crypto_sign/MQS256-72-46)
 # add_subdirectory(crypto_sign/MQS256-112-72)
-=======
-add_subdirectory(crypto_kem/PALOMA256)
-
-add_subdirectory(crypto_kem/ntruplus576)
-add_subdirectory(crypto_kem/ntruplus768)
-add_subdirectory(crypto_kem/ntruplus864)
-add_subdirectory(crypto_kem/ntruplus1152)
 
 
-#Crypto_sign
-#add_subdirectory(crypto_sign/HAETAE2)
-#add_subdirectory(crypto_sign/HAETAE3)
-#add_subdirectory(crypto_sign/HAETAE5)
-#add_subdirectory(crypto_sign/AImer-L1)
-#add_subdirectory(crypto_sign/AImer-L3)
-#add_subdirectory(crypto_sign/AImer-L5)
-#add_subdirectory(crypto_sign/MQS256-112-72)
-#add_subdirectory(crypto_sign/MQS256-72-46)
-#add_subdirectory(crypto_sign/NCCSign2-ori)
-#add_subdirectory(crypto_sign/NCCSign3-ori)
-#add_subdirectory(crypto_sign/NCCSign5-ori)
-#add_subdirectory(crypto_sign/GCKSign-II)
-#add_subdirectory(crypto_sign/GCKSign-III)
-#add_subdirectory(crypto_sign/GCKSign-V)
-#add_subdirectory(crypto_sign/EnhpqsigRM612)
-#add_subdirectory(crypto_sign/EnhpqsigRM613)
-#add_subdirectory(crypto_sign/Peregrine512)
-#add_subdirectory(crypto_sign/Solmae512)
-#add_subdirectory(crypto_sign/Solmae1024)
-#add_subdirectory(crypto_sign/FIBS)
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603

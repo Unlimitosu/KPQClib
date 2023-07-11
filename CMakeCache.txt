@@ -15,21 +15,13 @@
 ########################
 
 //Value Computed by CMake
-<<<<<<< HEAD
 Almer-l_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
-=======
-Almer-l_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Value Computed by CMake
 Almer-l_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-<<<<<<< HEAD
 Almer-l_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
-=======
-Almer-l_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -45,11 +37,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-<<<<<<< HEAD
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
-=======
-CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -75,11 +63,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-<<<<<<< HEAD
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
-=======
-CMAKE_C_COMPILER:STRING=/usr/bin/cc
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -253,52 +237,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-EnhpqsigRM_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613
-
-//Value Computed by CMake
-EnhpqsigRM_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-EnhpqsigRM_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613
-
-//Value Computed by CMake
-<<<<<<< HEAD
-GCKSign_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
-
-//Value Computed by CMake
-GCKSign_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-GCKSign_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
-
-//Value Computed by CMake
-IPCC_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f4
-
-//Value Computed by CMake
-IPCC_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-IPCC_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f4
-=======
-FIBS_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/FIBS
-
-//Value Computed by CMake
-FIBS_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-FIBS_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/FIBS
-
-//Value Computed by CMake
-GCKSign_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
-
-//Value Computed by CMake
-GCKSign_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-GCKSign_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
-
-//Value Computed by CMake
 KPQClean_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean
 
 //Value Computed by CMake
@@ -306,15 +244,6 @@ KPQClean_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 KPQClean_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean
-
-//Value Computed by CMake
-MQS256_112_72_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72
-
-//Value Computed by CMake
-MQS256_112_72_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-MQS256_112_72_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72
 
 //Value Computed by CMake
 MQS256_72_46_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46
@@ -325,15 +254,6 @@ MQS256_72_46_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 MQS256_72_46_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46
 
-//Path to a library.
-OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
-
-//Path to a file.
-OPENSSL_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
-
 //Value Computed by CMake
 PALOMA_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256
 
@@ -342,56 +262,6 @@ PALOMA_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 PALOMA_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256
-
-//Arguments to supply to pkg-config
-PKG_CONFIG_ARGN:STRING=
-
-//pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
-
-//Value Computed by CMake
-<<<<<<< HEAD
-Peregrine_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024
-=======
-Peregrine_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
-
-//Value Computed by CMake
-Peregrine_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-<<<<<<< HEAD
-Peregrine_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024
-=======
-Peregrine_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512
-
-//Value Computed by CMake
-Solmae1024_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024
-
-//Value Computed by CMake
-Solmae1024_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Solmae1024_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024
-
-//Value Computed by CMake
-Solmae512_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512
-
-//Value Computed by CMake
-Solmae512_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Solmae512_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
-
-//Value Computed by CMake
-TIGER_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256
-
-//Value Computed by CMake
-TIGER_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-TIGER_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256
 
 //Value Computed by CMake
 common_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/common
@@ -412,15 +282,6 @@ haetae_IS_TOP_LEVEL:STATIC=OFF
 haetae_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5
 
 //Value Computed by CMake
-nccsign-ori_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori
-
-//Value Computed by CMake
-nccsign-ori_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-nccsign-ori_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori
-
-//Value Computed by CMake
 ntruplus_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152
 
 //Value Computed by CMake
@@ -428,21 +289,6 @@ ntruplus_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 ntruplus_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152
-
-//Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
-
-//Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
-
-//Value Computed by CMake
-smaug_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5
-
-//Value Computed by CMake
-smaug_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-smaug_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5
 
 
 ########################
@@ -549,11 +395,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-<<<<<<< HEAD
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
-=======
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -596,60 +438,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
-//ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
-OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
-OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_SSL_LIBRARY
-OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PKG_CONFIG_ARGN
-PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
-PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
-_OPENSSL_CFLAGS:INTERNAL=
-_OPENSSL_CFLAGS_I:INTERNAL=
-_OPENSSL_CFLAGS_OTHER:INTERNAL=
-_OPENSSL_FOUND:INTERNAL=1
-_OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
-_OPENSSL_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
-_OPENSSL_LDFLAGS_OTHER:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
-_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_LIBS:INTERNAL=
-_OPENSSL_LIBS_L:INTERNAL=
-_OPENSSL_LIBS_OTHER:INTERNAL=
-_OPENSSL_LIBS_PATHS:INTERNAL=
-_OPENSSL_MODULE_NAME:INTERNAL=openssl
-_OPENSSL_PREFIX:INTERNAL=/usr
-_OPENSSL_STATIC_CFLAGS:INTERNAL=
-_OPENSSL_STATIC_CFLAGS_I:INTERNAL=
-_OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
-_OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
-_OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
-_OPENSSL_STATIC_LIBDIR:INTERNAL=
-_OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
-_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_STATIC_LIBS:INTERNAL=
-_OPENSSL_STATIC_LIBS_L:INTERNAL=
-_OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
-_OPENSSL_STATIC_LIBS_PATHS:INTERNAL=
-_OPENSSL_VERSION:INTERNAL=1.1.1f
-_OPENSSL_openssl_INCLUDEDIR:INTERNAL=
-_OPENSSL_openssl_LIBDIR:INTERNAL=
-_OPENSSL_openssl_PREFIX:INTERNAL=
-_OPENSSL_openssl_VERSION:INTERNAL=
-__pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
-__pkg_config_checked__OPENSSL:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
-pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
-pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

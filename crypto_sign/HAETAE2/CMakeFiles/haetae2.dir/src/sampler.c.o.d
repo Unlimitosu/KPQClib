@@ -27,5 +27,4 @@ crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/sampler.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h
