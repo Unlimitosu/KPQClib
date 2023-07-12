@@ -192,6 +192,30 @@ bit_exclusion.c.s:
 	cd /home/unlimit/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_exclusion.c.s
 .PHONY : bit_exclusion.c.s
 
+bit_verify.o: bit_verify.c.o
+.PHONY : bit_verify.o
+
+# target to build an object file
+bit_verify.c.o:
+	cd /home/unlimit/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_verify.c.o
+.PHONY : bit_verify.c.o
+
+bit_verify.i: bit_verify.c.i
+.PHONY : bit_verify.i
+
+# target to preprocess a source file
+bit_verify.c.i:
+	cd /home/unlimit/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_verify.c.i
+.PHONY : bit_verify.c.i
+
+bit_verify.s: bit_verify.c.s
+.PHONY : bit_verify.s
+
+# target to generate assembly for a file
+bit_verify.c.s:
+	cd /home/unlimit/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_verify.c.s
+.PHONY : bit_verify.c.s
+
 meta_test.o: meta_test.c.o
 .PHONY : meta_test.o
 
@@ -232,6 +256,9 @@ help:
 	@echo "... bit_exclusion.o"
 	@echo "... bit_exclusion.i"
 	@echo "... bit_exclusion.s"
+	@echo "... bit_verify.o"
+	@echo "... bit_verify.i"
+	@echo "... bit_verify.s"
 	@echo "... meta_test.o"
 	@echo "... meta_test.i"
 	@echo "... meta_test.s"

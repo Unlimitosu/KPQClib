@@ -1,6 +1,7 @@
 set(metamorphic_srcs
     bit_contribution.c    
     bit_exclusion.c 
+    bit_verify.c
     # add extra .c files   
 )
 

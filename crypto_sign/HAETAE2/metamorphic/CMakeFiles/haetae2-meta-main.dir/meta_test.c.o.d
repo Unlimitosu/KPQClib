@@ -59,6 +59,7 @@ crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/meta_test.c.o: 
  /usr/include/string.h /usr/include/strings.h \
  /home/unlimit/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_exclusion.h \
  /usr/include/assert.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_verify.h \
  /home/unlimit/KPQClean/crypto_sign/HAETAE2/include/fips202.h \
  /home/unlimit/KPQClean/crypto_sign/HAETAE2/include/packing.h \
  /home/unlimit/KPQClean/crypto_sign/HAETAE2/include/params.h \

@@ -948,6 +948,136 @@ nccsign-ori5aes-benchmark/fast:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5aes-benchmark.dir/build.make crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5aes-benchmark.dir/build
 .PHONY : nccsign-ori5aes-benchmark/fast
 
+#=============================================================================
+# Target rules for targets named Peregrine512_RNG
+
+# Build rule for target.
+Peregrine512_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512_RNG
+.PHONY : Peregrine512_RNG
+
+# fast build rule for target.
+Peregrine512_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build
+.PHONY : Peregrine512_RNG/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine512
+
+# Build rule for target.
+Peregrine512: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512
+.PHONY : Peregrine512
+
+# fast build rule for target.
+Peregrine512/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build
+.PHONY : Peregrine512/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine512-main
+
+# Build rule for target.
+Peregrine512-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-main
+.PHONY : Peregrine512-main
+
+# fast build rule for target.
+Peregrine512-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build.make crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build
+.PHONY : Peregrine512-main/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine512-kat-sign-main
+
+# Build rule for target.
+Peregrine512-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-kat-sign-main
+.PHONY : Peregrine512-kat-sign-main
+
+# fast build rule for target.
+Peregrine512-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build.make crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build
+.PHONY : Peregrine512-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine512-benchmark
+
+# Build rule for target.
+Peregrine512-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-benchmark
+.PHONY : Peregrine512-benchmark
+
+# fast build rule for target.
+Peregrine512-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build.make crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build
+.PHONY : Peregrine512-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine1024_RNG
+
+# Build rule for target.
+Peregrine1024_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024_RNG
+.PHONY : Peregrine1024_RNG
+
+# fast build rule for target.
+Peregrine1024_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build
+.PHONY : Peregrine1024_RNG/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine1024
+
+# Build rule for target.
+Peregrine1024: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024
+.PHONY : Peregrine1024
+
+# fast build rule for target.
+Peregrine1024/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build
+.PHONY : Peregrine1024/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine1024-main
+
+# Build rule for target.
+Peregrine1024-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-main
+.PHONY : Peregrine1024-main
+
+# fast build rule for target.
+Peregrine1024-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build.make crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build
+.PHONY : Peregrine1024-main/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine1024-kat-sign-main
+
+# Build rule for target.
+Peregrine1024-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-kat-sign-main
+.PHONY : Peregrine1024-kat-sign-main
+
+# fast build rule for target.
+Peregrine1024-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build
+.PHONY : Peregrine1024-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named Peregrine1024-benchmark
+
+# Build rule for target.
+Peregrine1024-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-benchmark
+.PHONY : Peregrine1024-benchmark
+
+# fast build rule for target.
+Peregrine1024-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build.make crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build
+.PHONY : Peregrine1024-benchmark/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -956,6 +1086,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Peregrine1024"
+	@echo "... Peregrine1024-benchmark"
+	@echo "... Peregrine1024-kat-sign-main"
+	@echo "... Peregrine1024-main"
+	@echo "... Peregrine1024_RNG"
+	@echo "... Peregrine512"
+	@echo "... Peregrine512-benchmark"
+	@echo "... Peregrine512-kat-sign-main"
+	@echo "... Peregrine512-main"
+	@echo "... Peregrine512_RNG"
 	@echo "... common"
 	@echo "... haetae2"
 	@echo "... haetae2-benchmark"

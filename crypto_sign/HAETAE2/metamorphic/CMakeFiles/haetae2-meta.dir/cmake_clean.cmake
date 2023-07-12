@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/haetae2-meta.dir/bit_contribution.c.o.d"
   "CMakeFiles/haetae2-meta.dir/bit_exclusion.c.o"
   "CMakeFiles/haetae2-meta.dir/bit_exclusion.c.o.d"
+  "CMakeFiles/haetae2-meta.dir/bit_verify.c.o"
+  "CMakeFiles/haetae2-meta.dir/bit_verify.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

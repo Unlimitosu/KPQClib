@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/cc "CMakeFiles/Peregrine512-main.dir/main.c.o" -o ../bin/Peregrine512-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 
-=======
-/usr/bin/cc CMakeFiles/Peregrine512-main.dir/main.c.o -o ../bin/Peregrine512-main  -Wl,-rpath,/home/jingyosong/KpqC_0706/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
+/usr/bin/cc "CMakeFiles/Peregrine512-main.dir/main.c.o" -o ../bin/Peregrine512-main  -Wl,-rpath,/home/unlimit/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 

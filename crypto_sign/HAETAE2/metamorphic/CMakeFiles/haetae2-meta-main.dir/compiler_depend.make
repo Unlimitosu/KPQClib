@@ -17,6 +17,7 @@ crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/meta_test.c.o: 
   crypto_sign/HAETAE2/include/sign.h \
   crypto_sign/HAETAE2/metamorphic/bit_contribution.h \
   crypto_sign/HAETAE2/metamorphic/bit_exclusion.h \
+  crypto_sign/HAETAE2/metamorphic/bit_verify.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/endian.h \
@@ -131,15 +132,15 @@ crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/meta_test.c.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/stdio.h:
-
-/usr/include/stdlib.h:
-
-crypto_sign/HAETAE2/include/reduce.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -150,10 +151,6 @@ crypto_sign/HAETAE2/include/sign.h:
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/features.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -171,6 +168,10 @@ crypto_sign/HAETAE2/include/fips202.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+crypto_sign/HAETAE2/include/reduce.h:
+
+/usr/include/stdlib.h:
+
 crypto_sign/HAETAE2/metamorphic/bit_exclusion.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -184,10 +185,6 @@ crypto_sign/HAETAE2/include/poly.h:
 crypto_sign/HAETAE2/include/config.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/strings.h:
 
@@ -223,11 +220,17 @@ crypto_sign/HAETAE2/include/polymat.h:
 
 crypto_sign/HAETAE2/include/sampler.h:
 
+crypto_sign/HAETAE2/metamorphic/bit_verify.h:
+
 crypto_sign/HAETAE2/include/randombytes.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 

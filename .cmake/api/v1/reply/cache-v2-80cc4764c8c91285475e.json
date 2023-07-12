@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "37"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1244,6 +1244,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/unlimit/KPQClean"
+		},
+		{
+			"name" : "Peregrine_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/KPQClean/crypto_sign/Peregrine1024"
+		},
+		{
+			"name" : "Peregrine_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Peregrine_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/KPQClean/crypto_sign/Peregrine1024"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

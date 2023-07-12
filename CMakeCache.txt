@@ -240,6 +240,15 @@ KPQClean_IS_TOP_LEVEL:STATIC=ON
 KPQClean_SOURCE_DIR:STATIC=/home/unlimit/KPQClean
 
 //Value Computed by CMake
+Peregrine_BINARY_DIR:STATIC=/home/unlimit/KPQClean/crypto_sign/Peregrine1024
+
+//Value Computed by CMake
+Peregrine_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Peregrine_SOURCE_DIR:STATIC=/home/unlimit/KPQClean/crypto_sign/Peregrine1024
+
+//Value Computed by CMake
 common_BINARY_DIR:STATIC=/home/unlimit/KPQClean/common
 
 //Value Computed by CMake
@@ -371,7 +380,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=37
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
