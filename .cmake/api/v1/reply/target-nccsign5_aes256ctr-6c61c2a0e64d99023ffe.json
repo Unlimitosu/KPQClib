@@ -1,0 +1,164 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/NCCSign5-ori/libs/libnccsign5_aes256ctr.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/NCCSign5-ori/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "nccsign5_aes256ctr_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/aes"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/fips"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/unlimit/KPQClean/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "nccsign5_aes256ctr::@1b29938321e899255264",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "nccsign5_aes256ctr",
+	"nameOnDisk" : "libnccsign5_aes256ctr.so",
+	"paths" : 
+	{
+		"build" : "crypto_sign/NCCSign5-ori",
+		"source" : "crypto_sign/NCCSign5-ori"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/NCCSign5-ori/aes/aes256ctr.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

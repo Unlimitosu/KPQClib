@@ -46,6 +46,8 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     sig2 = (uint8_t*)calloc(kem_siglen, sizeof(uint8_t));
     buf  = (uint8_t*)calloc(mlen,   sizeof(uint8_t));
     
+    assert(pk   != NULL);
+    assert(sk   != NULL);
     assert(m    != NULL);
     assert(sig  != NULL);
     assert(sig2 != NULL);
@@ -58,7 +60,7 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     crypto_sign_keypair(pk, sk);
     crypto_sign_signature(sig, &siglen, m, mlen, sk);
 
-    for(int i = 0; i < mlen; i++){
+    for(int i = 0; i < mlen * 8; i++){
         memcpy(buf, m, mlen);
         buf[i/8] ^= 1 << (i % 8);
 
@@ -72,8 +74,8 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
             // for(int idx = 0; idx < siglen; idx++){
             //     printf("%02x ", sig2[idx]);
             // }printf("\n");
-            printf("siglen: %d", siglen);
-            printf("siglen2: %d", siglen2);
+            // printf("siglen: %d", siglen);
+            // printf("siglen2: %d", siglen2);
             flag = false;
             goto EXIT;
         }

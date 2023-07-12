@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192
+# Install script for directory: /home/unlimit/KPQClean/crypto_kem/TIGER192
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,24 +44,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/kat/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/crypto_kem/TIGER192/kat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/test/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/crypto_kem/TIGER192/test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/benchmark/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/crypto_kem/TIGER192/benchmark/cmake_install.cmake")
 endif()
 
-<<<<<<< HEAD
-=======
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/metamorphic/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/crypto_kem/TIGER192/metamorphic/cmake_install.cmake")
 endif()
 
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603

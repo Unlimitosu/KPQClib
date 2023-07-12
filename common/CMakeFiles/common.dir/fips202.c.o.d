@@ -1,6 +1,5 @@
 common/CMakeFiles/common.dir/fips202.c.o: \
- /home/unlimit/Downloads/KPQClean/common/fips202.c \
- /usr/include/stdc-predef.h \
+ /home/unlimit/KPQClean/common/fips202.c /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -43,4 +42,4 @@ common/CMakeFiles/common.dir/fips202.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/unlimit/Downloads/KPQClean/common/fips202.h
+ /usr/include/strings.h /home/unlimit/KPQClean/common/fips202.h

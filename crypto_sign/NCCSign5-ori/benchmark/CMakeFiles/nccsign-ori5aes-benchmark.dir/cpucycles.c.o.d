@@ -1,31 +1,16 @@
 crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5aes-benchmark.dir/cpucycles.c.o: \
-<<<<<<< HEAD
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.c \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.c \
  /usr/include/stdc-predef.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-=======
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.c \
- /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
-<<<<<<< HEAD
-=======
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

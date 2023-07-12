@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic
+# Install script for directory: /home/unlimit/KPQClean/crypto_sign/HAETAE3/metamorphic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

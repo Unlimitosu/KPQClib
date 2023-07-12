@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/HAETAE2/test",
+		"source" : "crypto_sign/HAETAE2/test"
+	}
+}

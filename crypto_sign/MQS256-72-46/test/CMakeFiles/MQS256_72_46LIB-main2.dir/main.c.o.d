@@ -1,5 +1,5 @@
 crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/main.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test/main.c \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/test/main.c \
  /usr/include/stdc-predef.h /usr/include/time.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -57,11 +57,11 @@ crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/utils_prng.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/sign.h
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/utils_prng.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/sign.h

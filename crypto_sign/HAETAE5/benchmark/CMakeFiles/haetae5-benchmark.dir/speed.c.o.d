@@ -1,20 +1,5 @@
 crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed.c.o: \
-<<<<<<< HEAD
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/benchmark/speed.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
-=======
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed.c \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -26,7 +11,6 @@ crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -36,12 +20,7 @@ crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/time.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/time.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -54,52 +33,28 @@ crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-<<<<<<< HEAD
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/benchmark/../include/randombytes.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/benchmark/cpucycles.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/config.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/sign.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/poly.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-=======
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/../include/randombytes.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/benchmark/../include/randombytes.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/cpucycles.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/sign.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/sign.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-<<<<<<< HEAD
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/polymat.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_sign/HAETAE5/benchmark/speed_print.h
-=======
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/polymat.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed_print.h
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/polymat.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/benchmark/speed_print.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean
+# Install script for directory: /home/unlimit/KPQClean
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,37 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/common/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/cmake_install.cmake")
+  include("/home/unlimit/KPQClean/crypto_sign/HAETAE2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/KPQClean/crypto_sign/HAETAE3/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/KPQClean/crypto_sign/HAETAE5/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/KPQClean/crypto_sign/NCCSign2-ori/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/unlimit/Downloads/KPQClean/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/unlimit/KPQClean/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

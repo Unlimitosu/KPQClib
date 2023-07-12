@@ -1,5 +1,5 @@
 crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/kat/PQCgenKAT_kem.c \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/kat/PQCgenKAT_kem.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -50,13 +50,13 @@ crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o: 
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/include/rng.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/kat/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/include/TIGER_CCAKEM.h \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/include/rng.h \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/kat/api.h \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/include/params.h \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/include/TIGER_CCAKEM.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER256/include/TIGER_CPAPKE.h \
- /home/unlimit/Downloads/KPQClean/common/fips202.h
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/include/params.h \
+ /home/unlimit/KPQClean/crypto_kem/TIGER256/include/TIGER_CPAPKE.h \
+ /home/unlimit/KPQClean/common/fips202.h

@@ -32,11 +32,15 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     bool flag = true;
     int param = 0;
 
+    pk   = (uint8_t*)calloc(pklen,   sizeof(uint8_t));
+    sk   = (uint8_t*)calloc(sklen,   sizeof(uint8_t));
     m    = (uint8_t*)calloc(mlen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
     sig  = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
     sig2 = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
     buf  = (uint8_t*)calloc(mlen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
-    
+
+    assert(pk   != NULL);
+    assert(sk   != NULL);
     assert(m    != NULL);
     assert(sig  != NULL);
     assert(sig2 != NULL);
@@ -50,7 +54,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     crypto_sign_keypair(pk, sk);
     crypto_sign_signature(sig, &siglen, m, mlen, sk);
 
-    for(int i = 1; i < mlen * 8; i++){
+    for(int i = 1; i < EXCLUSION_BYTELEN * 8; i++){
         memcpy(buf, m, mlen + EXCLUSION_BYTELEN);
         buf[mlen + i/8 + 1] ^= 1 << (i % 8);
 

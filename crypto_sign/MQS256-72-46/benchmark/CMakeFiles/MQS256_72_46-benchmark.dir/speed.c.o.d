@@ -1,5 +1,5 @@
 crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/speed.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -33,16 +33,16 @@ crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/speed.c
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/sign.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/sign.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -61,5 +61,5 @@ crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/speed.c
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
- /usr/include/strings.h /home/unlimit/Downloads/KPQClean/common/aes.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.h
+ /usr/include/strings.h /home/unlimit/KPQClean/common/aes.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.h

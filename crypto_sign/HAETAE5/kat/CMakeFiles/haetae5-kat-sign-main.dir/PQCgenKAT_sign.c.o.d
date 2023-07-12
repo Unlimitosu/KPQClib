@@ -1,9 +1,9 @@
 crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/kat/api.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -19,7 +19,7 @@ crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o:
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/randombytes.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/randombytes.h \
  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \

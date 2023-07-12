@@ -1,7 +1,7 @@
 crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/src/randombytes.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE2/src/randombytes.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include/randombytes.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE2/include/randombytes.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -50,7 +50,7 @@ crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/src/randombytes.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h /usr/include/errno.h \
+ /home/unlimit/KPQClean/common/aes.h /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \

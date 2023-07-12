@@ -1,7 +1,7 @@
 crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/speed_print.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.c \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed_print.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -17,7 +17,7 @@ crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/speed_p
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark/cpucycles.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

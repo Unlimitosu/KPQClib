@@ -47,7 +47,12 @@ int crypto_sign_keypair(uint8_t *pk, uint8_t *sk) {
     unsigned int i, j;
 
     // Get entropy \rho
-    randombytes(seedbuf, SEEDBYTES);
+    //randombytes(seedbuf, SEEDBYTES);
+
+    // fix random for metamorphic
+    for(int i = 0; i < SEEDBYTES; i++){
+        seedbuf[i] = 0xcc;
+    }
 
     // Sample seeds with entropy \rho
     shake256(seedbuf, 2 * SEEDBYTES + CRHBYTES, seedbuf, SEEDBYTES);
@@ -145,7 +150,11 @@ int crypto_sign_signature(uint8_t *sig, size_t *siglen, const uint8_t *m,
 reject:
 
     /*------------------ 1. Sample y1 and y2 from hyperball ------------------*/
-    randombytes(&b, sizeof(uint8_t));
+    //randombytes(&b, sizeof(uint8_t));
+
+    // fix random for metamorphic
+    b = 0;
+    
     polydblveclk_uniform_hyperball(&y1, &y2, seedbuf, counter);
 
     /*------------------- 2. Compute a chanllenge c --------------------------*/

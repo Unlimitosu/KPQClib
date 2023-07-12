@@ -1,5 +1,5 @@
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -15,16 +15,16 @@ crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/reduce.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/rounding.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/fips/symmetric.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/reduce.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/rounding.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/fips/symmetric.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -41,5 +41,5 @@ crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/packing.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/packing.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h

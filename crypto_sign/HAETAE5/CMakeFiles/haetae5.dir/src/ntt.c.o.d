@@ -1,9 +1,9 @@
 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/ntt.c \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/src/ntt.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/ntt.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/ntt.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -18,5 +18,5 @@ crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include/reduce.h
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/reduce.h

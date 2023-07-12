@@ -1,5 +1,5 @@
 crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3.dir/fips/symmetric-shake.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign3-ori/fips/symmetric-shake.c \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/fips/symmetric-shake.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -15,8 +15,8 @@ crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3.dir/fips/symmetric-shake.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign3-ori/include/params.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign3-ori/include/config.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign3-ori/fips/symmetric.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign3-ori/fips/fips202.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/include/params.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/fips/symmetric.h \
+ /home/unlimit/KPQClean/crypto_sign/NCCSign3-ori/fips/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h

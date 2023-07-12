@@ -72,7 +72,7 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
         crypto_sign(ss2, &smlen2, buf, mlen, sk, sk_seed, 1);
 
 
-        if(memcmp(sig, sig2, siglen) == 0 || siglen != siglen2) {
+        if(memcmp(ss, ss2, siglen) == 0 || smlen != smlen2) {
             printf("%s Bit Contribution Test Failed: Failed on messaage\n", ALGNAME);
             for(int idx = 0; idx < siglen; idx++){
                 printf("%02x ", sig[idx]);
