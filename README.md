@@ -46,28 +46,28 @@ make clean
 |NTRU+ 1152|S|S||X||
 
 ## DSA
-|Algorithm|Done|Note|
-|:---:|:---:|:---:|
-|AIMer L1|X||
-|AIMer L3|X||
-|AIMer L5|X||
-|Enhanced pqsigRM 612|X||
-|Enhanced pqsigRM 613|X||
-|FIBS|X||
-|GCKSign II|X||
-|GCKSign III|X||
-|GCKSign V|X||
-|HAETAE 2|X||
-|HAETAE 3|X||
-|HAETAE 5|X||
-|MQ-Sign 72-46|X||
-|MQ-Sign 112-72|X||
-|NCC-Sign 2|X||
-|NCC-Sign 3|X||
-|NCC-Sign 5|X||
-|Peregrine 512|X||
-|Peregrine 1024|X||
-|SOLMAE 512|X||
-|SOLMAE 1024|X||
+|Algorithm|BCT|BET|?|Done|Note|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|AIMer L1||||X|ERROR) sign not generated|
+|AIMer L3||||X||
+|AIMer L5||||X||
+|Enhanced pqsigRM 612||||X||
+|Enhanced pqsigRM 613||||X||
+|FIBS||||X||
+|GCKSign II||||X||
+|GCKSign III||||X||
+|GCKSign V||||X||
+|HAETAE 2|S|S||X|edit randombytes function in src/sign.c for meta|
+|HAETAE 3|S|S||X|edit randombytes function in src/sign.c for meta|
+|HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
+|MQ-Sign 72-46||||X||
+|MQ-Sign 112-72||||X||
+|NCC-Sign 2||||X||
+|NCC-Sign 3||||X||
+|NCC-Sign 5||||X||
+|Peregrine 512||||X||
+|Peregrine 1024||||X||
+|SOLMAE 512||||X||
+|SOLMAE 1024||||X||
 
 
