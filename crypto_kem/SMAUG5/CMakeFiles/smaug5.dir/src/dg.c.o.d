@@ -1,8 +1,8 @@
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/dg.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/dg.c \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/src/dg.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/dg.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/dg.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -34,5 +34,5 @@ crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/dg.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/rng.h
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/rng.h

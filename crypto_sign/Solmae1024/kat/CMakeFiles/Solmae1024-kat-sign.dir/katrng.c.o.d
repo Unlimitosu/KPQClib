@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/kat/katrng.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/kat/katrng.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -11,7 +11,7 @@ crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/kat/katrng.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/kat/katrng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -25,7 +25,7 @@ crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h \
+ /home/unlimit/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \

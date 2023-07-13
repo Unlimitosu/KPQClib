@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/main.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/test/main.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/test/main.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -62,18 +62,18 @@ crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/test_dist.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/test_dist.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \

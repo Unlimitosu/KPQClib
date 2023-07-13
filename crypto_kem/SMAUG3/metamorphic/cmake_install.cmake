@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic
+# Install script for directory: /home/unlimit/KPQClean/crypto_kem/SMAUG3/metamorphic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

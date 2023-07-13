@@ -17,6 +17,7 @@ crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/meta_test.c.o: 
   crypto_sign/HAETAE5/include/sign.h \
   crypto_sign/HAETAE5/metamorphic/bit_contribution.h \
   crypto_sign/HAETAE5/metamorphic/bit_exclusion.h \
+  crypto_sign/HAETAE5/metamorphic/bit_verify.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/endian.h \
@@ -95,8 +96,6 @@ crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/meta_test.c.o: 
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -129,6 +128,10 @@ crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/meta_test.c.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -153,10 +156,6 @@ crypto_sign/HAETAE5/include/polydbl.h:
 
 crypto_sign/HAETAE5/include/sign.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/include/assert.h:
 
 /usr/include/alloca.h:
@@ -167,6 +166,16 @@ crypto_sign/HAETAE5/include/rounding.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+crypto_sign/HAETAE5/metamorphic/bit_verify.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 crypto_sign/HAETAE5/metamorphic/bit_exclusion.h:
@@ -176,10 +185,6 @@ crypto_sign/HAETAE5/include/polymat.h:
 crypto_sign/HAETAE5/include/config.h:
 
 crypto_sign/HAETAE5/include/polyvec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/strings.h:
 
@@ -227,11 +232,9 @@ crypto_sign/HAETAE5/include/sampler.h:
 
 crypto_sign/HAETAE5/include/reduce.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 

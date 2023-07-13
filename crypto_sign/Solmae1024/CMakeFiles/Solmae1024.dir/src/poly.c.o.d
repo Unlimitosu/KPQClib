@@ -1,9 +1,9 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/poly.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/src/poly.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -29,8 +29,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -126,8 +126,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

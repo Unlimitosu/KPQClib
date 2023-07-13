@@ -1,13 +1,13 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/rng.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/src/rng.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -114,7 +114,7 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/rng.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

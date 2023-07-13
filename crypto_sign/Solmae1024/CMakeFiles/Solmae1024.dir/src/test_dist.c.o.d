@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/test_dist.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/test_dist.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/src/test_dist.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -23,10 +23,10 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/test_dist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/test_dist.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/test_dist.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -41,12 +41,12 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/test_dist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -73,8 +73,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/test_dist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \

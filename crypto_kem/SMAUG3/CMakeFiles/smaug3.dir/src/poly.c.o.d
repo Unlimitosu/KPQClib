@@ -1,8 +1,8 @@
 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/poly.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/poly.c \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/src/poly.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/poly.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

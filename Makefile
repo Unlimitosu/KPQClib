@@ -130,6 +130,318 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
+# Target rules for targets named RNG1
+
+# Build rule for target.
+RNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG1
+.PHONY : RNG1
+
+# fast build rule for target.
+RNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
+.PHONY : RNG1/fast
+
+#=============================================================================
+# Target rules for targets named smaug1
+
+# Build rule for target.
+smaug1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1
+.PHONY : smaug1
+
+# fast build rule for target.
+smaug1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
+.PHONY : smaug1/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-main
+
+# Build rule for target.
+smaug1-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-main
+.PHONY : smaug1-main
+
+# fast build rule for target.
+smaug1-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
+.PHONY : smaug1-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-kat-kem
+
+# Build rule for target.
+smaug1-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem
+.PHONY : smaug1-kat-kem
+
+# fast build rule for target.
+smaug1-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
+.PHONY : smaug1-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-kat-kem-main
+
+# Build rule for target.
+smaug1-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem-main
+.PHONY : smaug1-kat-kem-main
+
+# fast build rule for target.
+smaug1-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
+.PHONY : smaug1-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-benchmark
+
+# Build rule for target.
+smaug1-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-benchmark
+.PHONY : smaug1-benchmark
+
+# fast build rule for target.
+smaug1-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
+.PHONY : smaug1-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-meta
+
+# Build rule for target.
+smaug1-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta
+.PHONY : smaug1-meta
+
+# fast build rule for target.
+smaug1-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
+.PHONY : smaug1-meta/fast
+
+#=============================================================================
+# Target rules for targets named smaug1-meta-main
+
+# Build rule for target.
+smaug1-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta-main
+.PHONY : smaug1-meta-main
+
+# fast build rule for target.
+smaug1-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
+.PHONY : smaug1-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named RNG3
+
+# Build rule for target.
+RNG3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG3
+.PHONY : RNG3
+
+# fast build rule for target.
+RNG3/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build
+.PHONY : RNG3/fast
+
+#=============================================================================
+# Target rules for targets named smaug3
+
+# Build rule for target.
+smaug3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3
+.PHONY : smaug3
+
+# fast build rule for target.
+smaug3/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build
+.PHONY : smaug3/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-main
+
+# Build rule for target.
+smaug3-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-main
+.PHONY : smaug3-main
+
+# fast build rule for target.
+smaug3-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
+.PHONY : smaug3-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-kat-kem
+
+# Build rule for target.
+smaug3-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem
+.PHONY : smaug3-kat-kem
+
+# fast build rule for target.
+smaug3-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build
+.PHONY : smaug3-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-kat-kem-main
+
+# Build rule for target.
+smaug3-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem-main
+.PHONY : smaug3-kat-kem-main
+
+# fast build rule for target.
+smaug3-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build
+.PHONY : smaug3-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-benchmark
+
+# Build rule for target.
+smaug3-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-benchmark
+.PHONY : smaug3-benchmark
+
+# fast build rule for target.
+smaug3-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build
+.PHONY : smaug3-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-meta
+
+# Build rule for target.
+smaug3-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta
+.PHONY : smaug3-meta
+
+# fast build rule for target.
+smaug3-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build
+.PHONY : smaug3-meta/fast
+
+#=============================================================================
+# Target rules for targets named smaug3-meta-main
+
+# Build rule for target.
+smaug3-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta-main
+.PHONY : smaug3-meta-main
+
+# fast build rule for target.
+smaug3-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build
+.PHONY : smaug3-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named RNG5
+
+# Build rule for target.
+RNG5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG5
+.PHONY : RNG5
+
+# fast build rule for target.
+RNG5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build
+.PHONY : RNG5/fast
+
+#=============================================================================
+# Target rules for targets named smaug5
+
+# Build rule for target.
+smaug5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5
+.PHONY : smaug5
+
+# fast build rule for target.
+smaug5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build
+.PHONY : smaug5/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-main
+
+# Build rule for target.
+smaug5-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-main
+.PHONY : smaug5-main
+
+# fast build rule for target.
+smaug5-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build
+.PHONY : smaug5-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-kat-kem
+
+# Build rule for target.
+smaug5-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem
+.PHONY : smaug5-kat-kem
+
+# fast build rule for target.
+smaug5-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
+.PHONY : smaug5-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-kat-kem-main
+
+# Build rule for target.
+smaug5-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem-main
+.PHONY : smaug5-kat-kem-main
+
+# fast build rule for target.
+smaug5-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
+.PHONY : smaug5-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-benchmark
+
+# Build rule for target.
+smaug5-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-benchmark
+.PHONY : smaug5-benchmark
+
+# fast build rule for target.
+smaug5-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build.make crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build
+.PHONY : smaug5-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-meta
+
+# Build rule for target.
+smaug5-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta
+.PHONY : smaug5-meta
+
+# fast build rule for target.
+smaug5-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build
+.PHONY : smaug5-meta/fast
+
+#=============================================================================
+# Target rules for targets named smaug5-meta-main
+
+# Build rule for target.
+smaug5-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta-main
+.PHONY : smaug5-meta-main
+
+# fast build rule for target.
+smaug5-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build
+.PHONY : smaug5-meta-main/fast
+
+#=============================================================================
 # Target rules for targets named haetae2_fips202
 
 # Build rule for target.
@@ -481,602 +793,160 @@ haetae5-meta-main/fast:
 .PHONY : haetae5-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named nccsign2_fips202
+# Target rules for targets named EnhpqsigRM-612-RNG
 
 # Build rule for target.
-nccsign2_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign2_fips202
-.PHONY : nccsign2_fips202
+EnhpqsigRM-612-RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-RNG
+.PHONY : EnhpqsigRM-612-RNG
 
 # fast build rule for target.
-nccsign2_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/build
-.PHONY : nccsign2_fips202/fast
+EnhpqsigRM-612-RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build
+.PHONY : EnhpqsigRM-612-RNG/fast
 
 #=============================================================================
-# Target rules for targets named nccsign2_aes256ctr
+# Target rules for targets named EnhpqsigRM-612
 
 # Build rule for target.
-nccsign2_aes256ctr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign2_aes256ctr
-.PHONY : nccsign2_aes256ctr
+EnhpqsigRM-612: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612
+.PHONY : EnhpqsigRM-612
 
 # fast build rule for target.
-nccsign2_aes256ctr/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/build
-.PHONY : nccsign2_aes256ctr/fast
+EnhpqsigRM-612/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build
+.PHONY : EnhpqsigRM-612/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2
+# Target rules for targets named EnhpqsigRM-612-main
 
 # Build rule for target.
-nccsign-ori2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2
-.PHONY : nccsign-ori2
+EnhpqsigRM-612-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-main
+.PHONY : EnhpqsigRM-612-main
 
 # fast build rule for target.
-nccsign-ori2/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build
-.PHONY : nccsign-ori2/fast
+EnhpqsigRM-612-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build
+.PHONY : EnhpqsigRM-612-main/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2aes
+# Target rules for targets named EnhpqsigRM-612-kat-sign
 
 # Build rule for target.
-nccsign-ori2aes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes
-.PHONY : nccsign-ori2aes
+EnhpqsigRM-612-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign
+.PHONY : EnhpqsigRM-612-kat-sign
 
 # fast build rule for target.
-nccsign-ori2aes/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build
-.PHONY : nccsign-ori2aes/fast
+EnhpqsigRM-612-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build
+.PHONY : EnhpqsigRM-612-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2-main
+# Target rules for targets named EnhpqsigRM-612-kat-sign-main
 
 # Build rule for target.
-nccsign-ori2-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-main
-.PHONY : nccsign-ori2-main
+EnhpqsigRM-612-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign-main
+.PHONY : EnhpqsigRM-612-kat-sign-main
 
 # fast build rule for target.
-nccsign-ori2-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build.make crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build
-.PHONY : nccsign-ori2-main/fast
+EnhpqsigRM-612-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build
+.PHONY : EnhpqsigRM-612-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2aes-main
+# Target rules for targets named EnhpqsigRM-612-benchmark
 
 # Build rule for target.
-nccsign-ori2aes-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-main
-.PHONY : nccsign-ori2aes-main
+EnhpqsigRM-612-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-benchmark
+.PHONY : EnhpqsigRM-612-benchmark
 
 # fast build rule for target.
-nccsign-ori2aes-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2aes-main.dir/build.make crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2aes-main.dir/build
-.PHONY : nccsign-ori2aes-main/fast
+EnhpqsigRM-612-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build
+.PHONY : EnhpqsigRM-612-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2-kat-sign
+# Target rules for targets named EnhpqsigRM-613-RNG
 
 # Build rule for target.
-nccsign-ori2-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-kat-sign
-.PHONY : nccsign-ori2-kat-sign
+EnhpqsigRM-613-RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-RNG
+.PHONY : EnhpqsigRM-613-RNG
 
 # fast build rule for target.
-nccsign-ori2-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign.dir/build
-.PHONY : nccsign-ori2-kat-sign/fast
+EnhpqsigRM-613-RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build
+.PHONY : EnhpqsigRM-613-RNG/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2-kat-sign-main
+# Target rules for targets named EnhpqsigRM-613
 
 # Build rule for target.
-nccsign-ori2-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-kat-sign-main
-.PHONY : nccsign-ori2-kat-sign-main
+EnhpqsigRM-613: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613
+.PHONY : EnhpqsigRM-613
 
 # fast build rule for target.
-nccsign-ori2-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign-main.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign-main.dir/build
-.PHONY : nccsign-ori2-kat-sign-main/fast
+EnhpqsigRM-613/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build
+.PHONY : EnhpqsigRM-613/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2aes-kat-sign
+# Target rules for targets named EnhpqsigRM-613-main
 
 # Build rule for target.
-nccsign-ori2aes-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-kat-sign
-.PHONY : nccsign-ori2aes-kat-sign
+EnhpqsigRM-613-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-main
+.PHONY : EnhpqsigRM-613-main
 
 # fast build rule for target.
-nccsign-ori2aes-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign.dir/build
-.PHONY : nccsign-ori2aes-kat-sign/fast
+EnhpqsigRM-613-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build
+.PHONY : EnhpqsigRM-613-main/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2aes-kat-sign-main
+# Target rules for targets named EnhpqsigRM-613-kat-sign
 
 # Build rule for target.
-nccsign-ori2aes-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-kat-sign-main
-.PHONY : nccsign-ori2aes-kat-sign-main
+EnhpqsigRM-613-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign
+.PHONY : EnhpqsigRM-613-kat-sign
 
 # fast build rule for target.
-nccsign-ori2aes-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign-main.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign-main.dir/build
-.PHONY : nccsign-ori2aes-kat-sign-main/fast
+EnhpqsigRM-613-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build
+.PHONY : EnhpqsigRM-613-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2-benchmark
+# Target rules for targets named EnhpqsigRM-613-kat-sign-main
 
 # Build rule for target.
-nccsign-ori2-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-benchmark
-.PHONY : nccsign-ori2-benchmark
+EnhpqsigRM-613-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign-main
+.PHONY : EnhpqsigRM-613-kat-sign-main
 
 # fast build rule for target.
-nccsign-ori2-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2-benchmark.dir/build.make crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2-benchmark.dir/build
-.PHONY : nccsign-ori2-benchmark/fast
+EnhpqsigRM-613-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build
+.PHONY : EnhpqsigRM-613-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named nccsign-ori2aes-benchmark
+# Target rules for targets named EnhpqsigRM-613-benchmark
 
 # Build rule for target.
-nccsign-ori2aes-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-benchmark
-.PHONY : nccsign-ori2aes-benchmark
+EnhpqsigRM-613-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-benchmark
+.PHONY : EnhpqsigRM-613-benchmark
 
 # fast build rule for target.
-nccsign-ori2aes-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2aes-benchmark.dir/build.make crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2aes-benchmark.dir/build
-.PHONY : nccsign-ori2aes-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named nccsign3_fips202
-
-# Build rule for target.
-nccsign3_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign3_fips202
-.PHONY : nccsign3_fips202
-
-# fast build rule for target.
-nccsign3_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_fips202.dir/build.make crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_fips202.dir/build
-.PHONY : nccsign3_fips202/fast
-
-#=============================================================================
-# Target rules for targets named nccsign3_aes256ctr
-
-# Build rule for target.
-nccsign3_aes256ctr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign3_aes256ctr
-.PHONY : nccsign3_aes256ctr
-
-# fast build rule for target.
-nccsign3_aes256ctr/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/build.make crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/build
-.PHONY : nccsign3_aes256ctr/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3
-
-# Build rule for target.
-nccsign-ori3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3
-.PHONY : nccsign-ori3
-
-# fast build rule for target.
-nccsign-ori3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3.dir/build.make crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3.dir/build
-.PHONY : nccsign-ori3/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3aes
-
-# Build rule for target.
-nccsign-ori3aes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3aes
-.PHONY : nccsign-ori3aes
-
-# fast build rule for target.
-nccsign-ori3aes/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3aes.dir/build.make crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3aes.dir/build
-.PHONY : nccsign-ori3aes/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3-main
-
-# Build rule for target.
-nccsign-ori3-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3-main
-.PHONY : nccsign-ori3-main
-
-# fast build rule for target.
-nccsign-ori3-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/test/CMakeFiles/nccsign-ori3-main.dir/build.make crypto_sign/NCCSign3-ori/test/CMakeFiles/nccsign-ori3-main.dir/build
-.PHONY : nccsign-ori3-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3aes-main
-
-# Build rule for target.
-nccsign-ori3aes-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3aes-main
-.PHONY : nccsign-ori3aes-main
-
-# fast build rule for target.
-nccsign-ori3aes-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/test/CMakeFiles/nccsign-ori3aes-main.dir/build.make crypto_sign/NCCSign3-ori/test/CMakeFiles/nccsign-ori3aes-main.dir/build
-.PHONY : nccsign-ori3aes-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3-kat-sign
-
-# Build rule for target.
-nccsign-ori3-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3-kat-sign
-.PHONY : nccsign-ori3-kat-sign
-
-# fast build rule for target.
-nccsign-ori3-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/build
-.PHONY : nccsign-ori3-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3-kat-sign-main
-
-# Build rule for target.
-nccsign-ori3-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3-kat-sign-main
-.PHONY : nccsign-ori3-kat-sign-main
-
-# fast build rule for target.
-nccsign-ori3-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/build
-.PHONY : nccsign-ori3-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3aes-kat-sign
-
-# Build rule for target.
-nccsign-ori3aes-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3aes-kat-sign
-.PHONY : nccsign-ori3aes-kat-sign
-
-# fast build rule for target.
-nccsign-ori3aes-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/build
-.PHONY : nccsign-ori3aes-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3aes-kat-sign-main
-
-# Build rule for target.
-nccsign-ori3aes-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3aes-kat-sign-main
-.PHONY : nccsign-ori3aes-kat-sign-main
-
-# fast build rule for target.
-nccsign-ori3aes-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign-main.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign-main.dir/build
-.PHONY : nccsign-ori3aes-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3-benchmark
-
-# Build rule for target.
-nccsign-ori3-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3-benchmark
-.PHONY : nccsign-ori3-benchmark
-
-# fast build rule for target.
-nccsign-ori3-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/build.make crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/build
-.PHONY : nccsign-ori3-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori3aes-benchmark
-
-# Build rule for target.
-nccsign-ori3aes-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori3aes-benchmark
-.PHONY : nccsign-ori3aes-benchmark
-
-# fast build rule for target.
-nccsign-ori3aes-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3aes-benchmark.dir/build.make crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3aes-benchmark.dir/build
-.PHONY : nccsign-ori3aes-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named nccsign5_fips202
-
-# Build rule for target.
-nccsign5_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign5_fips202
-.PHONY : nccsign5_fips202
-
-# fast build rule for target.
-nccsign5_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/build.make crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/build
-.PHONY : nccsign5_fips202/fast
-
-#=============================================================================
-# Target rules for targets named nccsign5_aes256ctr
-
-# Build rule for target.
-nccsign5_aes256ctr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign5_aes256ctr
-.PHONY : nccsign5_aes256ctr
-
-# fast build rule for target.
-nccsign5_aes256ctr/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/build.make crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/build
-.PHONY : nccsign5_aes256ctr/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5
-
-# Build rule for target.
-nccsign-ori5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5
-.PHONY : nccsign-ori5
-
-# fast build rule for target.
-nccsign-ori5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5.dir/build.make crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5.dir/build
-.PHONY : nccsign-ori5/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5aes
-
-# Build rule for target.
-nccsign-ori5aes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5aes
-.PHONY : nccsign-ori5aes
-
-# fast build rule for target.
-nccsign-ori5aes/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/build.make crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/build
-.PHONY : nccsign-ori5aes/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5-main
-
-# Build rule for target.
-nccsign-ori5-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5-main
-.PHONY : nccsign-ori5-main
-
-# fast build rule for target.
-nccsign-ori5-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/test/CMakeFiles/nccsign-ori5-main.dir/build.make crypto_sign/NCCSign5-ori/test/CMakeFiles/nccsign-ori5-main.dir/build
-.PHONY : nccsign-ori5-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5aes-main
-
-# Build rule for target.
-nccsign-ori5aes-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5aes-main
-.PHONY : nccsign-ori5aes-main
-
-# fast build rule for target.
-nccsign-ori5aes-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/test/CMakeFiles/nccsign-ori5aes-main.dir/build.make crypto_sign/NCCSign5-ori/test/CMakeFiles/nccsign-ori5aes-main.dir/build
-.PHONY : nccsign-ori5aes-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5-kat-sign
-
-# Build rule for target.
-nccsign-ori5-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5-kat-sign
-.PHONY : nccsign-ori5-kat-sign
-
-# fast build rule for target.
-nccsign-ori5-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5-kat-sign.dir/build.make crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5-kat-sign.dir/build
-.PHONY : nccsign-ori5-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5-kat-sign-main
-
-# Build rule for target.
-nccsign-ori5-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5-kat-sign-main
-.PHONY : nccsign-ori5-kat-sign-main
-
-# fast build rule for target.
-nccsign-ori5-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5-kat-sign-main.dir/build.make crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5-kat-sign-main.dir/build
-.PHONY : nccsign-ori5-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5aes-kat-sign
-
-# Build rule for target.
-nccsign-ori5aes-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5aes-kat-sign
-.PHONY : nccsign-ori5aes-kat-sign
-
-# fast build rule for target.
-nccsign-ori5aes-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign.dir/build.make crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign.dir/build
-.PHONY : nccsign-ori5aes-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5aes-kat-sign-main
-
-# Build rule for target.
-nccsign-ori5aes-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5aes-kat-sign-main
-.PHONY : nccsign-ori5aes-kat-sign-main
-
-# fast build rule for target.
-nccsign-ori5aes-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign-main.dir/build.make crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign-main.dir/build
-.PHONY : nccsign-ori5aes-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5-benchmark
-
-# Build rule for target.
-nccsign-ori5-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5-benchmark
-.PHONY : nccsign-ori5-benchmark
-
-# fast build rule for target.
-nccsign-ori5-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5-benchmark.dir/build.make crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5-benchmark.dir/build
-.PHONY : nccsign-ori5-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named nccsign-ori5aes-benchmark
-
-# Build rule for target.
-nccsign-ori5aes-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori5aes-benchmark
-.PHONY : nccsign-ori5aes-benchmark
-
-# fast build rule for target.
-nccsign-ori5aes-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5aes-benchmark.dir/build.make crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5aes-benchmark.dir/build
-.PHONY : nccsign-ori5aes-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine512_RNG
-
-# Build rule for target.
-Peregrine512_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512_RNG
-.PHONY : Peregrine512_RNG
-
-# fast build rule for target.
-Peregrine512_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build
-.PHONY : Peregrine512_RNG/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine512
-
-# Build rule for target.
-Peregrine512: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512
-.PHONY : Peregrine512
-
-# fast build rule for target.
-Peregrine512/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build
-.PHONY : Peregrine512/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine512-main
-
-# Build rule for target.
-Peregrine512-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-main
-.PHONY : Peregrine512-main
-
-# fast build rule for target.
-Peregrine512-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build.make crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build
-.PHONY : Peregrine512-main/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine512-kat-sign-main
-
-# Build rule for target.
-Peregrine512-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-kat-sign-main
-.PHONY : Peregrine512-kat-sign-main
-
-# fast build rule for target.
-Peregrine512-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build.make crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build
-.PHONY : Peregrine512-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine512-benchmark
-
-# Build rule for target.
-Peregrine512-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-benchmark
-.PHONY : Peregrine512-benchmark
-
-# fast build rule for target.
-Peregrine512-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build.make crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build
-.PHONY : Peregrine512-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine1024_RNG
-
-# Build rule for target.
-Peregrine1024_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024_RNG
-.PHONY : Peregrine1024_RNG
-
-# fast build rule for target.
-Peregrine1024_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build
-.PHONY : Peregrine1024_RNG/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine1024
-
-# Build rule for target.
-Peregrine1024: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024
-.PHONY : Peregrine1024
-
-# fast build rule for target.
-Peregrine1024/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build
-.PHONY : Peregrine1024/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine1024-main
-
-# Build rule for target.
-Peregrine1024-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-main
-.PHONY : Peregrine1024-main
-
-# fast build rule for target.
-Peregrine1024-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build.make crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build
-.PHONY : Peregrine1024-main/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine1024-kat-sign-main
-
-# Build rule for target.
-Peregrine1024-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-kat-sign-main
-.PHONY : Peregrine1024-kat-sign-main
-
-# fast build rule for target.
-Peregrine1024-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build
-.PHONY : Peregrine1024-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named Peregrine1024-benchmark
-
-# Build rule for target.
-Peregrine1024-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-benchmark
-.PHONY : Peregrine1024-benchmark
-
-# fast build rule for target.
-Peregrine1024-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build.make crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build
-.PHONY : Peregrine1024-benchmark/fast
+EnhpqsigRM-613-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build
+.PHONY : EnhpqsigRM-613-benchmark/fast
 
 # Help Target
 help:
@@ -1086,16 +956,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Peregrine1024"
-	@echo "... Peregrine1024-benchmark"
-	@echo "... Peregrine1024-kat-sign-main"
-	@echo "... Peregrine1024-main"
-	@echo "... Peregrine1024_RNG"
-	@echo "... Peregrine512"
-	@echo "... Peregrine512-benchmark"
-	@echo "... Peregrine512-kat-sign-main"
-	@echo "... Peregrine512-main"
-	@echo "... Peregrine512_RNG"
+	@echo "... EnhpqsigRM-612"
+	@echo "... EnhpqsigRM-612-RNG"
+	@echo "... EnhpqsigRM-612-benchmark"
+	@echo "... EnhpqsigRM-612-kat-sign"
+	@echo "... EnhpqsigRM-612-kat-sign-main"
+	@echo "... EnhpqsigRM-612-main"
+	@echo "... EnhpqsigRM-613"
+	@echo "... EnhpqsigRM-613-RNG"
+	@echo "... EnhpqsigRM-613-benchmark"
+	@echo "... EnhpqsigRM-613-kat-sign"
+	@echo "... EnhpqsigRM-613-kat-sign-main"
+	@echo "... EnhpqsigRM-613-main"
+	@echo "... RNG1"
+	@echo "... RNG3"
+	@echo "... RNG5"
 	@echo "... common"
 	@echo "... haetae2"
 	@echo "... haetae2-benchmark"
@@ -1124,42 +999,27 @@ help:
 	@echo "... haetae5-meta-main"
 	@echo "... haetae5_RNG"
 	@echo "... haetae5_fips202"
-	@echo "... nccsign-ori2"
-	@echo "... nccsign-ori2-benchmark"
-	@echo "... nccsign-ori2-kat-sign"
-	@echo "... nccsign-ori2-kat-sign-main"
-	@echo "... nccsign-ori2-main"
-	@echo "... nccsign-ori2aes"
-	@echo "... nccsign-ori2aes-benchmark"
-	@echo "... nccsign-ori2aes-kat-sign"
-	@echo "... nccsign-ori2aes-kat-sign-main"
-	@echo "... nccsign-ori2aes-main"
-	@echo "... nccsign-ori3"
-	@echo "... nccsign-ori3-benchmark"
-	@echo "... nccsign-ori3-kat-sign"
-	@echo "... nccsign-ori3-kat-sign-main"
-	@echo "... nccsign-ori3-main"
-	@echo "... nccsign-ori3aes"
-	@echo "... nccsign-ori3aes-benchmark"
-	@echo "... nccsign-ori3aes-kat-sign"
-	@echo "... nccsign-ori3aes-kat-sign-main"
-	@echo "... nccsign-ori3aes-main"
-	@echo "... nccsign-ori5"
-	@echo "... nccsign-ori5-benchmark"
-	@echo "... nccsign-ori5-kat-sign"
-	@echo "... nccsign-ori5-kat-sign-main"
-	@echo "... nccsign-ori5-main"
-	@echo "... nccsign-ori5aes"
-	@echo "... nccsign-ori5aes-benchmark"
-	@echo "... nccsign-ori5aes-kat-sign"
-	@echo "... nccsign-ori5aes-kat-sign-main"
-	@echo "... nccsign-ori5aes-main"
-	@echo "... nccsign2_aes256ctr"
-	@echo "... nccsign2_fips202"
-	@echo "... nccsign3_aes256ctr"
-	@echo "... nccsign3_fips202"
-	@echo "... nccsign5_aes256ctr"
-	@echo "... nccsign5_fips202"
+	@echo "... smaug1"
+	@echo "... smaug1-benchmark"
+	@echo "... smaug1-kat-kem"
+	@echo "... smaug1-kat-kem-main"
+	@echo "... smaug1-main"
+	@echo "... smaug1-meta"
+	@echo "... smaug1-meta-main"
+	@echo "... smaug3"
+	@echo "... smaug3-benchmark"
+	@echo "... smaug3-kat-kem"
+	@echo "... smaug3-kat-kem-main"
+	@echo "... smaug3-main"
+	@echo "... smaug3-meta"
+	@echo "... smaug3-meta-main"
+	@echo "... smaug5"
+	@echo "... smaug5-benchmark"
+	@echo "... smaug5-kat-kem"
+	@echo "... smaug5-kat-kem-main"
+	@echo "... smaug5-main"
+	@echo "... smaug5-meta"
+	@echo "... smaug5-meta-main"
 .PHONY : help
 
 

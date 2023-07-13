@@ -391,7 +391,7 @@ int crypto_sign_verify(const uint8_t *sig, size_t siglen, const uint8_t *m,
     polyveck_reduce(&z2);
 
     if (polyveclk_norm2(&z1, &z2) > B2) {
-        printf("fail: norm2 [%f] > %f\n", polyveclk_norm2(&z1, &z2), B2);
+        //printf("fail: norm2 [%f] > %f\n", polyveclk_norm2(&z1, &z2), B2);
         fflush(stdout);
         return -1;
     }
@@ -447,7 +447,7 @@ int crypto_sign_verify(const uint8_t *sig, size_t siglen, const uint8_t *m,
 
     for (i = 0; i < SEEDBYTES; ++i) {
         if (c_seed[i] != c_seed2[i]) {
-            printf("fail: c_seed != c_seed2 in [%d]\n", i);
+            //printf("fail: c_seed != c_seed2 in [%d]\n", i);
             fflush(stdout);
             return -1;
         }

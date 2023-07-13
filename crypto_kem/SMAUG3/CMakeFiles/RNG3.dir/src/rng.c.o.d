@@ -1,7 +1,7 @@
 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/src/rng.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/rng.c \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/src/rng.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/rng.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/rng.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -25,7 +25,7 @@ crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h \
+ /home/unlimit/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \

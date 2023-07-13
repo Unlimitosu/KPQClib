@@ -1,8 +1,8 @@
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/pack.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/pack.c \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/src/pack.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/pack.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/pack.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

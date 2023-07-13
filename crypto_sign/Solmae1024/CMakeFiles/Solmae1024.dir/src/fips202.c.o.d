@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/fips202.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fips202.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/src/fips202.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -15,7 +15,7 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/fips202.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/assert.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
  /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \

@@ -17,6 +17,7 @@ crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/meta_test.c.o: 
   crypto_sign/HAETAE3/include/sign.h \
   crypto_sign/HAETAE3/metamorphic/bit_contribution.h \
   crypto_sign/HAETAE3/metamorphic/bit_exclusion.h \
+  crypto_sign/HAETAE3/metamorphic/bit_verify.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/endian.h \
@@ -139,10 +140,6 @@ crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/meta_test.c.o: 
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
 /usr/include/strings.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -156,8 +153,6 @@ crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/meta_test.c.o: 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/features.h:
-
-/usr/include/alloca.h:
 
 crypto_sign/HAETAE3/include/reduce.h:
 
@@ -189,6 +184,10 @@ crypto_sign/HAETAE3/metamorphic/meta_test.c:
 
 /usr/include/stdio.h:
 
+/usr/include/alloca.h:
+
+crypto_sign/HAETAE3/metamorphic/bit_verify.h:
+
 crypto_sign/HAETAE3/include/config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -217,6 +216,10 @@ crypto_sign/HAETAE3/include/polydbl.h:
 
 crypto_sign/HAETAE3/include/poly.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+crypto_sign/HAETAE3/include/polymat.h:
+
 crypto_sign/HAETAE3/include/polyvec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -226,6 +229,10 @@ crypto_sign/HAETAE3/include/polyvec.h:
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 crypto_sign/HAETAE3/include/sampler.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
@@ -248,10 +255,6 @@ crypto_sign/HAETAE3/include/sampler.h:
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-crypto_sign/HAETAE3/include/polymat.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 

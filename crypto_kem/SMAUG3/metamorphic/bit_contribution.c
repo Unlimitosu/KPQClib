@@ -47,7 +47,7 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     ss1 = (uint8_t*)calloc(crypto_bytes,    sizeof(uint8_t));
     ss2 = (uint8_t*)calloc(crypto_bytes,    sizeof(uint8_t));
     k2  = (uint8_t*)calloc(keylen,          sizeof(uint8_t));
-    
+    printf("sklen: %d\n", sklen);
     // Generate keypair
     crypto_kem_keypair(pk, sk); //random seed -> Gen pk and sk
 
@@ -67,6 +67,12 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
             continue;
         } else {
             printf("%s Bit Contribution Test Fail: Failed on sk\n", ALGNAME);
+            for(int j = 0; j < crypto_bytes; j++){
+                printf("%02x ", ss1[j]);
+            }printf("\n");
+            for(int j = 0; j < crypto_bytes; j++){
+                printf("%02x ", ss2[j]); 
+            }printf("\n");
             flag = false;
             goto EXIT;
         }

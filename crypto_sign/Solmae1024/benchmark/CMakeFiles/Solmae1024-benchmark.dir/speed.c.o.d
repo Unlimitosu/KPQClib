@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/speed.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/benchmark/speed.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -37,12 +37,12 @@ crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/speed.c.o: 
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/benchmark/cpucycles.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/benchmark/speed_print.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/benchmark/speed_print.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -52,4 +52,4 @@ crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/speed.c.o: 
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h

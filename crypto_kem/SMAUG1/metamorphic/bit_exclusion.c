@@ -36,7 +36,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
 
     pk  = (uint8_t*)calloc(pklen,                       sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen,                       sizeof(uint8_t));
-    buf = (uint8_t*)calloc(pklen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
+    buf = (uint8_t*)calloc(sklen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
     m   = (uint8_t*)calloc(mlen,                        sizeof(uint8_t));
     c   = (uint8_t*)calloc(clen,                        sizeof(uint8_t));
     c2  = (uint8_t*)calloc(clen,                        sizeof(uint8_t));

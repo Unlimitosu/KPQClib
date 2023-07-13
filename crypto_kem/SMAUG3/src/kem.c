@@ -58,7 +58,7 @@ void crypto_kem_keypair(uint8_t *pk, uint8_t *sk) {
 int crypto_kem_encap(uint8_t *ctxt, uint8_t *ss, const uint8_t *pk) {
     // Generate delta
     uint8_t delta[DELTA_BYTES];
-    randombytes(delta, DELTA_BYTES);
+    //randombytes(delta, DELTA_BYTES);
 
     indcpa_enc(ctxt, pk, delta);
 

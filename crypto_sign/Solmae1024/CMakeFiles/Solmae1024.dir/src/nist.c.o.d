@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/nist.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/nist.c \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/src/nist.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -28,14 +28,14 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/nist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -46,8 +46,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/nist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -137,4 +137,4 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/nist.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include/precomp.h
+ /home/unlimit/KPQClean/crypto_sign/Solmae1024/include/precomp.h

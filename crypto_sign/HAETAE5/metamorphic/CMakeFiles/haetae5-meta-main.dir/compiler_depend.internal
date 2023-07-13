@@ -18,6 +18,7 @@ crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/meta_test.c.o
  /home/unlimit/KPQClean/crypto_sign/HAETAE5/include/sign.h
  /home/unlimit/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_contribution.h
  /home/unlimit/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_exclusion.h
+ /home/unlimit/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_verify.h
  /usr/include/alloca.h
  /usr/include/assert.h
  /usr/include/endian.h

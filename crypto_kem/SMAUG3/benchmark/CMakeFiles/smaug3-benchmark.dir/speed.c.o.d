@@ -1,5 +1,5 @@
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed.c \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -33,19 +33,19 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/cpucycles.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/kem.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/ciphertext.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/hash.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/indcpa.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/hwt.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/kem.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/ciphertext.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/poly.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/hash.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/indcpa.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/hwt.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -65,11 +65,11 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/io.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/key.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/dg.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/rng.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/pack.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.h
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/io.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/key.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/dg.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/rng.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/pack.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/unlimit/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.h
