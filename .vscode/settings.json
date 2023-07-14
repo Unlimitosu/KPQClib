@@ -16,6 +16,8 @@
         "common.h": "c",
         "evp.h": "c",
         "sha2.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "randombytes.h": "c",
+        "assert.h": "c"
     }
 }

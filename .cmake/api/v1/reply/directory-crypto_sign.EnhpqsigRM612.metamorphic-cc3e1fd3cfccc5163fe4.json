@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/EnhpqsigRM612/metamorphic",
+		"source" : "crypto_sign/EnhpqsigRM612/metamorphic"
+	}
+}

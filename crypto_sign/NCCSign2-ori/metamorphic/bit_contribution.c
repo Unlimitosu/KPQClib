@@ -30,25 +30,31 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     size_t siglen = 0;
     size_t siglen2 = 0;
     bool flag = true;
-    uint8_t* sm  = NULL;
-    uint8_t* sm2 = NULL;
-    size_t smlen = 0;
+    int param = 0;
+
+    // NCC needs sm(sign + msg)
+    uint8_t* sm  = (uint8_t*)calloc(mlen + crypto_bytes, sizeof(uint8_t));
+    uint8_t* sm2 = (uint8_t*)calloc(mlen + crypto_bytes, sizeof(uint8_t));
+    size_t smlen  = 0;
     size_t smlen2 = 0;
 
     
     pk   = (uint8_t*)calloc(pklen,   sizeof(uint8_t));
     sk   = (uint8_t*)calloc(sklen,   sizeof(uint8_t));
     m    = (uint8_t*)calloc(mlen,   sizeof(uint8_t));
+    sig  = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
+    sig2 = (uint8_t*)calloc(crypto_bytes, sizeof(uint8_t));
     buf  = (uint8_t*)calloc(mlen,   sizeof(uint8_t));
-    sm   = (uint8_t*)calloc(mlen + crypto_bytes, sizeof(uint8_t));
-    sm2  = (uint8_t*)calloc(mlen + crypto_bytes, sizeof(uint8_t));
     
-    assert(m    != NULL);
+    assert(pk   != NULL);
     assert(sk   != NULL);
-    assert(buf  != NULL);
     assert(m    != NULL);
+    assert(sig  != NULL);
+    assert(sig2 != NULL);
+    assert(buf  != NULL);
     assert(sm   != NULL);
     assert(sm2  != NULL);
+
 
     // set message with pseudorandom bytes
     for(int i = 0; i < mlen; i++){
@@ -58,13 +64,13 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     crypto_sign_keypair(pk, sk);
     crypto_sign(sm, &smlen, m, mlen, sk);
 
-    for(int i = 0; i < mlen; i++){
+    for(int i = 0; i < mlen * 8; i++){
         memcpy(buf, m, mlen);
         buf[i/8] ^= 1 << (i % 8);
 
         crypto_sign(sm2, &smlen2, buf, mlen, sk);
 
-        if(memcmp(sm, sm2, crypto_bytes) == 0 || smlen != smlen2) {
+        if(memcmp(sm, sm2, smlen - mlen) == 0 || smlen != smlen2) {
             printf("%s Bit Contribution Test Failed: Failed on messaage\n", ALGNAME);
             // for(int idx = 0; idx < siglen; idx++){
             //     printf("%02x ", sig[idx]);
@@ -72,8 +78,8 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
             // for(int idx = 0; idx < siglen; idx++){
             //     printf("%02x ", sig2[idx]);
             // }printf("\n");
-            printf("siglen: %d", siglen);
-            printf("siglen2: %d", siglen2);
+            // printf("siglen: %d", siglen);
+            // printf("siglen2: %d", siglen2);
             flag = false;
             goto EXIT;
         }

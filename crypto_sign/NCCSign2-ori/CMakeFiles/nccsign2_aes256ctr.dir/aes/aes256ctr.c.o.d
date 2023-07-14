@@ -1,5 +1,5 @@
 crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/aes/aes256ctr.c.o: \
- /home/unlimit/KPQClean/crypto_sign/NCCSign2-ori/aes/aes256ctr.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/aes/aes256ctr.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -21,4 +21,4 @@ crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/aes/aes256ctr.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/KPQClean/crypto_sign/NCCSign2-ori/aes/aes256ctr.h
+ /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/aes/aes256ctr.h

@@ -1,0 +1,200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/SMAUG1/bin/smaug1-kat-kem-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/SMAUG1/kat/CMakeLists.txt",
+			"crypto_kem/SMAUG1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CRYPTO_ALGNAME=\"SMAUG1_KEM\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SMAUG_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/unlimit/Downloads/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "RNG1::@4a938de4cb94e420dd19"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "smaug1::@4a938de4cb94e420dd19"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "smaug1-kat-kem::@09f4c0de50f3311b0bb9"
+		}
+	],
+	"id" : "smaug1-kat-kem-main::@09f4c0de50f3311b0bb9",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libsmaug1-kat-kem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libsmaug1.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../lib/libRNG1.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "smaug1-kat-kem-main",
+	"nameOnDisk" : "smaug1-kat-kem-main",
+	"paths" : 
+	{
+		"build" : "crypto_kem/SMAUG1/kat",
+		"source" : "crypto_kem/SMAUG1/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/SMAUG1/kat/PQCgenKAT_kem.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

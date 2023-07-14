@@ -1,7 +1,7 @@
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
- /home/unlimit/KPQClean/crypto_kem/SMAUG5/kat/PQCgenKAT_kem.c \
+ /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/PQCgenKAT_kem.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/KPQClean/crypto_kem/SMAUG5/kat/api.h \
+ /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -16,8 +16,8 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
- /home/unlimit/KPQClean/crypto_kem/SMAUG5/include/rng.h \
+ /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

@@ -1,7 +1,7 @@
 crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/kat_sign.c.o: \
- /home/unlimit/KPQClean/crypto_sign/EnhpqsigRM613/kat/kat_sign.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/kat_sign.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/KPQClean/crypto_sign/EnhpqsigRM613/kat/api.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

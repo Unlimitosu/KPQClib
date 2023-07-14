@@ -6,31 +6,32 @@
 #include "bit_exclusion.h"
 #include "bit_verify.h"
 
-#include "fips202.h"
-#include "packing.h"
-#include "polydbl.h"
-#include "polyvec.h"
-#include "randombytes.h"
-#include "reduce.h"
-#include "rounding.h"
-#include "sign.h"
+#include "rng.h"
+#include "api.h"
+#include "common.h"
+#include "matrix.h"
+#include "nearest_vector.h"
+#include "parm.h"
+#include "rm.h"
+#include "rng.h"
 
+#define MLEN 100
 
 int main(){
     srand(time(NULL));
-    printf("HAETAE2 metamorphic test start...\n");
+    printf("EnhPQSigRM612 metamorphic test start...\n");
 
-    KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
-        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-        0, CRYPTO_BYTES, "HAETAE2");
+    // KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
+    //     CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, MLEN, 
+    //     0, CRYPTO_BYTES, "EnhPQSigRM612");
 
     KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
-        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-        0, CRYPTO_BYTES, "HAETAE2");
+        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, MLEN, 
+        0, CRYPTO_BYTES, "EnhPQSigRM612");
 
     KPQCLEAN_METAMORPHIC_bit_verify_test_kem(
-        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-        0, CRYPTO_BYTES, "HAETAE2");
+        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, MLEN, 
+        0, CRYPTO_BYTES, "EnhPQSigRM612");
    
     return 0;
 }

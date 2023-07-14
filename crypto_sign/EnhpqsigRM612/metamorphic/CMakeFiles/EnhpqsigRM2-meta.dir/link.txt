@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM2-meta.so -o ../libs/libEnhpqsigRM2-meta.so "CMakeFiles/EnhpqsigRM2-meta.dir/bit_contribution.c.o" "CMakeFiles/EnhpqsigRM2-meta.dir/bit_exclusion.c.o" "CMakeFiles/EnhpqsigRM2-meta.dir/bit_verify.c.o" 

@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o" -o ../bin/smaug5-kat-kem-main  -Wl,-rpath,/home/unlimit/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5-kat-kem.so ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 
+/usr/bin/cc "CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o" -o ../bin/smaug5-kat-kem-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5-kat-kem.so ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 

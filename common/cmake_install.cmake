@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/KPQClean/common
+# Install script for directory: /home/unlimit/Downloads/KPQClean/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

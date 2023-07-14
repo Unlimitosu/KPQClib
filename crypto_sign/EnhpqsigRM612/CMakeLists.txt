@@ -25,7 +25,7 @@ set(pqsigRM_SRCS
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic)
+  set(C_FLAGS -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic)
 endif()
 
 include_directories(include)
@@ -46,3 +46,4 @@ target_link_libraries(${LIB_NAME1} PUBLIC common)
 add_subdirectory(tests)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
+add_subdirectory(metamorphic)

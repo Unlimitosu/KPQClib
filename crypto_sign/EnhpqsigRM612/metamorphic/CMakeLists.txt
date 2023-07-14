@@ -5,11 +5,11 @@ set(metamorphic_srcs
     # add extra .c files   
 )
 
-set(HAETAE_META_LIB_NAME2 ${PROJECT_NAME}2-meta)
-add_library(${HAETAE_META_LIB_NAME2} SHARED ${metamorphic_srcs})
+set(ENHPQSIG_META_LIB_NAME612 ${PROJECT_NAME}612-meta)
+add_library(${ENHPQSIG_META_LIB_NAME612} SHARED ${metamorphic_srcs})
 
-target_include_directories(${HAETAE_META_LIB_NAME2} PUBLIC ../include)
-target_compile_definitions(${HAETAE_META_LIB_NAME2} PUBLIC HAETAE_MODE=2)
+target_include_directories(${ENHPQSIG_META_LIB_NAME612} PUBLIC ../include)
+target_compile_definitions(${ENHPQSIG_META_LIB_NAME612} PUBLIC pqsigRM_MODE=1)
 
-add_executable(${HAETAE_META_LIB_NAME2}-main meta_test.c)
-target_link_libraries(${HAETAE_META_LIB_NAME2}-main ${HAETAE_META_LIB_NAME2} ${LIB_NAME2})
+add_executable(${ENHPQSIG_META_LIB_NAME612}-main meta_test.c)
+target_link_libraries(${ENHPQSIG_META_LIB_NAME612}-main ${ENHPQSIG_META_LIB_NAME612} ${LIB_NAME1})
