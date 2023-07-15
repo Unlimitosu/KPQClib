@@ -71,7 +71,7 @@ ulimit -s 51200
 |HAETAE 2|S|S||X|edit randombytes function in src/sign.c for meta|
 |HAETAE 3|S|S||X|edit randombytes function in src/sign.c for meta|
 |HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
-|MQ-Sign 72-46||||X||
+|MQ-Sign 72-46||||X|Sign not generated|
 |MQ-Sign 112-72||||X||
 |NCC-Sign 2||||X||
 |NCC-Sign 3||||X||
