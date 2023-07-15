@@ -1,19 +1,4 @@
 crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o: \
-<<<<<<< HEAD
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
-=======
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -26,7 +11,6 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -36,16 +20,6 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/config.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/gfpoly.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/config.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/gf.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/config.h \
@@ -53,7 +27,6 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/gf.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/config.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -68,11 +41,8 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-<<<<<<< HEAD
-=======
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -85,17 +55,6 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/mat_mul.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/goppa_instance.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/keygen.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/encap.h \
- /home/jingyosong/KpqC_0706/KPQClean/crypto_kem/PALOMA256/include/decap.h
-=======
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
@@ -104,4 +63,3 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o:
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/keygen.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/encap.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/decap.h
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603

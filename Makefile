@@ -442,6 +442,292 @@ smaug5-meta-main/fast:
 .PHONY : smaug5-meta-main/fast
 
 #=============================================================================
+# Target rules for targets named PALOMARNG1
+
+# Build rule for target.
+PALOMARNG1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG1
+.PHONY : PALOMARNG1
+
+# fast build rule for target.
+PALOMARNG1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build
+.PHONY : PALOMARNG1/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA128
+
+# Build rule for target.
+PALOMA128: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128
+.PHONY : PALOMA128
+
+# fast build rule for target.
+PALOMA128/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build
+.PHONY : PALOMA128/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA128-kat-kem
+
+# Build rule for target.
+PALOMA128-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-kat-kem
+.PHONY : PALOMA128-kat-kem
+
+# fast build rule for target.
+PALOMA128-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build
+.PHONY : PALOMA128-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA128-kat-kem-main
+
+# Build rule for target.
+PALOMA128-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-kat-kem-main
+.PHONY : PALOMA128-kat-kem-main
+
+# fast build rule for target.
+PALOMA128-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build
+.PHONY : PALOMA128-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA128-main
+
+# Build rule for target.
+PALOMA128-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-main
+.PHONY : PALOMA128-main
+
+# fast build rule for target.
+PALOMA128-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build.make crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build
+.PHONY : PALOMA128-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA128-benchmark
+
+# Build rule for target.
+PALOMA128-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-benchmark
+.PHONY : PALOMA128-benchmark
+
+# fast build rule for target.
+PALOMA128-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build.make crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build
+.PHONY : PALOMA128-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named PALOMARNG3
+
+# Build rule for target.
+PALOMARNG3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG3
+.PHONY : PALOMARNG3
+
+# fast build rule for target.
+PALOMARNG3/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build
+.PHONY : PALOMARNG3/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA192
+
+# Build rule for target.
+PALOMA192: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192
+.PHONY : PALOMA192
+
+# fast build rule for target.
+PALOMA192/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build
+.PHONY : PALOMA192/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA192-kat-kem
+
+# Build rule for target.
+PALOMA192-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-kat-kem
+.PHONY : PALOMA192-kat-kem
+
+# fast build rule for target.
+PALOMA192-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build
+.PHONY : PALOMA192-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA192-kat-kem-main
+
+# Build rule for target.
+PALOMA192-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-kat-kem-main
+.PHONY : PALOMA192-kat-kem-main
+
+# fast build rule for target.
+PALOMA192-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build
+.PHONY : PALOMA192-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA192-main
+
+# Build rule for target.
+PALOMA192-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-main
+.PHONY : PALOMA192-main
+
+# fast build rule for target.
+PALOMA192-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build.make crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build
+.PHONY : PALOMA192-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA192-benchmark
+
+# Build rule for target.
+PALOMA192-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-benchmark
+.PHONY : PALOMA192-benchmark
+
+# fast build rule for target.
+PALOMA192-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build
+.PHONY : PALOMA192-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA3-meta
+
+# Build rule for target.
+PALOMA3-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA3-meta
+.PHONY : PALOMA3-meta
+
+# fast build rule for target.
+PALOMA3-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build
+.PHONY : PALOMA3-meta/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA3-meta-main
+
+# Build rule for target.
+PALOMA3-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA3-meta-main
+.PHONY : PALOMA3-meta-main
+
+# fast build rule for target.
+PALOMA3-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build
+.PHONY : PALOMA3-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMARNG5
+
+# Build rule for target.
+PALOMARNG5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG5
+.PHONY : PALOMARNG5
+
+# fast build rule for target.
+PALOMARNG5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build
+.PHONY : PALOMARNG5/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256
+
+# Build rule for target.
+PALOMA256: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256
+.PHONY : PALOMA256
+
+# fast build rule for target.
+PALOMA256/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build
+.PHONY : PALOMA256/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-kat-kem
+
+# Build rule for target.
+PALOMA256-kat-kem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem
+.PHONY : PALOMA256-kat-kem
+
+# fast build rule for target.
+PALOMA256-kat-kem/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
+.PHONY : PALOMA256-kat-kem/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-kat-kem-main
+
+# Build rule for target.
+PALOMA256-kat-kem-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem-main
+.PHONY : PALOMA256-kat-kem-main
+
+# fast build rule for target.
+PALOMA256-kat-kem-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
+.PHONY : PALOMA256-kat-kem-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-main
+
+# Build rule for target.
+PALOMA256-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-main
+.PHONY : PALOMA256-main
+
+# fast build rule for target.
+PALOMA256-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build
+.PHONY : PALOMA256-main/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA256-benchmark
+
+# Build rule for target.
+PALOMA256-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-benchmark
+.PHONY : PALOMA256-benchmark
+
+# fast build rule for target.
+PALOMA256-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build
+.PHONY : PALOMA256-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA5-meta
+
+# Build rule for target.
+PALOMA5-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA5-meta
+.PHONY : PALOMA5-meta
+
+# fast build rule for target.
+PALOMA5-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build
+.PHONY : PALOMA5-meta/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA5-meta-main
+
+# Build rule for target.
+PALOMA5-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA5-meta-main
+.PHONY : PALOMA5-meta-main
+
+# fast build rule for target.
+PALOMA5-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build
+.PHONY : PALOMA5-meta-main/fast
+
+#=============================================================================
 # Target rules for targets named gcksign2_fips202
 
 # Build rule for target.
@@ -821,6 +1107,28 @@ help:
 	@echo "... GCKSign3-meta-main"
 	@echo "... GCKSign5-meta"
 	@echo "... GCKSign5-meta-main"
+	@echo "... PALOMA128"
+	@echo "... PALOMA128-benchmark"
+	@echo "... PALOMA128-kat-kem"
+	@echo "... PALOMA128-kat-kem-main"
+	@echo "... PALOMA128-main"
+	@echo "... PALOMA192"
+	@echo "... PALOMA192-benchmark"
+	@echo "... PALOMA192-kat-kem"
+	@echo "... PALOMA192-kat-kem-main"
+	@echo "... PALOMA192-main"
+	@echo "... PALOMA256"
+	@echo "... PALOMA256-benchmark"
+	@echo "... PALOMA256-kat-kem"
+	@echo "... PALOMA256-kat-kem-main"
+	@echo "... PALOMA256-main"
+	@echo "... PALOMA3-meta"
+	@echo "... PALOMA3-meta-main"
+	@echo "... PALOMA5-meta"
+	@echo "... PALOMA5-meta-main"
+	@echo "... PALOMARNG1"
+	@echo "... PALOMARNG3"
+	@echo "... PALOMARNG5"
 	@echo "... RNG1"
 	@echo "... RNG3"
 	@echo "... RNG5"

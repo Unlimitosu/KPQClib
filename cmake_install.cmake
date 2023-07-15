@@ -64,6 +64,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/cmake_install.cmake")
 endif()
 
