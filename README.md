@@ -73,7 +73,7 @@ ulimit -s 51200
 |HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
 |MQ-Sign 72-46||||X|Sign not generated|
 |MQ-Sign 112-72||||X||
-|NCC-Sign 2||||X||
+|NCC-Sign 2||||X|make error on metamorphic|
 |NCC-Sign 3||||X||
 |NCC-Sign 5||||X||
 |Peregrine 512||||X||
