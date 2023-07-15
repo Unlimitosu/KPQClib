@@ -27,6 +27,13 @@ If you want to cancel the build, then run clean.
 make clean
 ```
 
+## FAQ
+### How to run PALOMA family?
+To run PALOMA family, you need to increase the stack size to 51200.
+```
+ulimit -s 51200
+```
+
 ## Metamorphic Testing
 ### KEM
 |Algorithm|BCT|BET|?|Done|Note|
