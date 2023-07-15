@@ -4,6 +4,8 @@ This project is motivated by [PQClean](https://github.com/PQClean/PQClean).
 
 We provide all of [KPQC](https://www.kpqc.or.kr/competition.html) Competition Algorithms with benchmarking, KAT and Metamorphic testing.
 
+All OpenSSL dependencies are removed, and we used cryptographic algorithms in PQClean.
+
 ## How to build
 Before you build, check the ```requirements.txt``` file and ensure you installed the required tool.
 
@@ -12,7 +14,9 @@ First, clone the repository.
 git clone https://github.com/COALA-5/KPQClean.git
 ```
 
-Then, run CMake and Make.
+Then, run CMake and Make at the root directory.
+
+Do NOT run ```make``` in each directory. It may occur some errors.
 ```
 cmake .
 make
@@ -32,8 +36,8 @@ make clean
 |IPCC f4||||X||
 |Layered ROLLO||||X||
 |PALOMA 128||||X||
-|PALOMA 192||||X||
-|PALOMA 256||||X||
+|PALOMA 192|F|S||X||
+|PALOMA 256|F|S||X||
 |SMAUG 1|S|S||O||
 |SMAUG 3|S|S||O|Segmentation Fault|
 |SMAUG 5|S|S||O||
