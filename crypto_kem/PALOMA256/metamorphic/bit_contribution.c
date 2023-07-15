@@ -55,24 +55,25 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     // Encapsulation
     crypto_PALOMA_enc(c, ss, pk, &PALOMAparam); // BCT, BET -> pk only & memcmp -> ct only //! through pk, gen ss and c, c is ciphertext of ss
 
+    int cnt = 0;
     for(int i = 0; i < sklen; i++){
         memcpy(buf, sk, sklen);
 
         buf[i/8] ^= 1 << (i % 8); //! change sk
-
-        printf("print\n");
-        for(int j=0; j<crypto_bytes; j++){
-            printf("%02x ", buf[j]);
-        }printf("\n");
-        for(int j=0; j<crypto_bytes; j++){
-            printf("%02x ", sk[j]);
-        }printf("\n");
+        printf("%d-th\n", i);
+        // for(int j=0; j<crypto_bytes; j++){
+        //     printf("%02x ", buf[j]);
+        // }printf("\n");
+        // for(int j=0; j<crypto_bytes; j++){
+        //     printf("%02x ", sk[j]);
+        // }printf("\n");
 
         //? relation : if pk changed, then recovered ss is different?
         crypto_PALOMA_dec(ss1, c, sk,  &PALOMAparam); //ss1
         crypto_PALOMA_dec(ss2, c, buf, &PALOMAparam); //ss2
         
-        if(memcmp(ss1, ss2, crypto_bytes) != 0){
+        if(memcmp(ss1, ss2, crypto_bytes) == 0){
+            cnt++;
             continue;
         } else {
             printf("%s Bit Contribution Test Fail: Failed on sk\n", ALGNAME);
@@ -86,6 +87,7 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
             goto EXIT;
         }
     }
+    printf("cnt: %d\n", cnt);
     //printf("sklen: %d\n", sklen);
 
     // ss, c contribution

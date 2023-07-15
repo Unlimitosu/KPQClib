@@ -282,6 +282,15 @@ common_IS_TOP_LEVEL:STATIC=OFF
 common_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/common
 
 //Value Computed by CMake
+nccsign-ori_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori
+
+//Value Computed by CMake
+nccsign-ori_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+nccsign-ori_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori
+
+//Value Computed by CMake
 smaug_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5
 
 //Value Computed by CMake
@@ -395,7 +404,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=53
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

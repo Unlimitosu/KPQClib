@@ -77,31 +77,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/cmake_install.cmake")
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
