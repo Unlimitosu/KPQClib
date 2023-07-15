@@ -520,6 +520,32 @@ PALOMA128-benchmark/fast:
 .PHONY : PALOMA128-benchmark/fast
 
 #=============================================================================
+# Target rules for targets named PALOMA1-meta
+
+# Build rule for target.
+PALOMA1-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA1-meta
+.PHONY : PALOMA1-meta
+
+# fast build rule for target.
+PALOMA1-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build
+.PHONY : PALOMA1-meta/fast
+
+#=============================================================================
+# Target rules for targets named PALOMA1-meta-main
+
+# Build rule for target.
+PALOMA1-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA1-meta-main
+.PHONY : PALOMA1-meta-main
+
+# fast build rule for target.
+PALOMA1-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build
+.PHONY : PALOMA1-meta-main/fast
+
+#=============================================================================
 # Target rules for targets named PALOMARNG3
 
 # Build rule for target.
@@ -735,6 +761,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... PALOMA1-meta"
+	@echo "... PALOMA1-meta-main"
 	@echo "... PALOMA128"
 	@echo "... PALOMA128-benchmark"
 	@echo "... PALOMA128-kat-kem"

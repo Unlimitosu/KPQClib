@@ -468,6 +468,24 @@
   "output": "crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/benchmark.c.o"
 },
 {
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA1_meta_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_contribution.c",
+  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA1_meta_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_exclusion.c",
+  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
+  "command": "/usr/bin/cc -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -o CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/meta_test.c",
+  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o"
+},
+{
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
   "command": "/usr/bin/cc -DPALOMARNG3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/PALOMARNG3.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",

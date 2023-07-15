@@ -1,0 +1,1083 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7,
+						12,
+						17,
+						22,
+						27
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG1-53fecabe092aea8474f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1",
+					"targetIndexes" : 
+					[
+						24,
+						28
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.test-559efab1437d5fc67265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/test",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.kat-4fe072ebd738d971617c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/kat",
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.benchmark-0981b1c09a340fc7954e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/benchmark",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.metamorphic-f863d1ec7d7cd636f962.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/metamorphic",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG3-0cd692015e0076005f39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3",
+					"targetIndexes" : 
+					[
+						25,
+						35
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.test-3b1abec5e28c6ad25e9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/test",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.kat-e1fe53197af0dfb00aff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/kat",
+					"targetIndexes" : 
+					[
+						37,
+						38
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.benchmark-49e5222fb48e61ac1e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/benchmark",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.metamorphic-611805005f98dd4fd84f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/metamorphic",
+					"targetIndexes" : 
+					[
+						40,
+						41
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5",
+					"childIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG5-ee60d15432a31e2dd577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5",
+					"targetIndexes" : 
+					[
+						26,
+						42
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.test-74986b4c49c712f589ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/test",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.kat-4d43b705381128d16bf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/kat",
+					"targetIndexes" : 
+					[
+						44,
+						45
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.benchmark-1e9fc9b5fdc3a22d95ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/benchmark",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.metamorphic-d4a2842d518870674955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/metamorphic",
+					"targetIndexes" : 
+					[
+						47,
+						48
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA128",
+					"childIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21
+					],
+					"jsonFile" : "directory-crypto_kem.PALOMA128-79046740efce00570c81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/PALOMA128",
+					"targetIndexes" : 
+					[
+						2,
+						21
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA128/kat",
+					"jsonFile" : "directory-crypto_kem.PALOMA128.kat-99e34f94bb517c5717cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/PALOMA128/kat",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA128/test",
+					"jsonFile" : "directory-crypto_kem.PALOMA128.test-0375f1b13ea15c47cae3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/PALOMA128/test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA128/benchmark",
+					"jsonFile" : "directory-crypto_kem.PALOMA128.benchmark-00649e6690d0620c10c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/PALOMA128/benchmark",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA128/metamorphic",
+					"jsonFile" : "directory-crypto_kem.PALOMA128.metamorphic-bf2b2a84bf27ef31cd63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_kem/PALOMA128/metamorphic",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA192",
+					"childIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26
+					],
+					"jsonFile" : "directory-crypto_kem.PALOMA192-d714e80f8429ad311b51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/PALOMA192",
+					"targetIndexes" : 
+					[
+						7,
+						22
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA192/kat",
+					"jsonFile" : "directory-crypto_kem.PALOMA192.kat-e2089539ecd30f94c95e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/PALOMA192/kat",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA192/test",
+					"jsonFile" : "directory-crypto_kem.PALOMA192.test-e01139e5c75978dd3104.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/PALOMA192/test",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA192/benchmark",
+					"jsonFile" : "directory-crypto_kem.PALOMA192.benchmark-5a33f8a702211835c412.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/PALOMA192/benchmark",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA192/metamorphic",
+					"jsonFile" : "directory-crypto_kem.PALOMA192.metamorphic-7c224562ade5175f8b3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_kem/PALOMA192/metamorphic",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA256",
+					"childIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31
+					],
+					"jsonFile" : "directory-crypto_kem.PALOMA256-140fa4aa4e81da56938f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/PALOMA256",
+					"targetIndexes" : 
+					[
+						12,
+						23
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA256/kat",
+					"jsonFile" : "directory-crypto_kem.PALOMA256.kat-6c909a9b2b36cc65df88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/PALOMA256/kat",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA256/test",
+					"jsonFile" : "directory-crypto_kem.PALOMA256.test-9becaa54d280563b263f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/PALOMA256/test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA256/benchmark",
+					"jsonFile" : "directory-crypto_kem.PALOMA256.benchmark-8c6679d53d423f46f4fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/PALOMA256/benchmark",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "crypto_kem/PALOMA256/metamorphic",
+					"jsonFile" : "directory-crypto_kem.PALOMA256.metamorphic-49c73500d3aa87051d14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_kem/PALOMA256/metamorphic",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"name" : "PALOMA",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26
+					],
+					"name" : "PALOMA",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						17,
+						18,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"name" : "PALOMA",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						19,
+						20,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 21,
+					"id" : "PALOMA1-meta::@2c38fb2ad0aa1d78aa72",
+					"jsonFile" : "target-PALOMA1-meta-be6added0aa224089ab4.json",
+					"name" : "PALOMA1-meta",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "PALOMA1-meta-main::@2c38fb2ad0aa1d78aa72",
+					"jsonFile" : "target-PALOMA1-meta-main-c34bf66cc516ab217a8b.json",
+					"name" : "PALOMA1-meta-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "PALOMA128::@95b350fb18feec773110",
+					"jsonFile" : "target-PALOMA128-173bf81b110c25b53e30.json",
+					"name" : "PALOMA128",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "PALOMA128-benchmark::@8c10112f7f712463cf15",
+					"jsonFile" : "target-PALOMA128-benchmark-3831c49d43cbdcfd9535.json",
+					"name" : "PALOMA128-benchmark",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "PALOMA128-kat-kem::@b0d5018702e8bdeeb564",
+					"jsonFile" : "target-PALOMA128-kat-kem-cf22b8d516cbe47f2b8c.json",
+					"name" : "PALOMA128-kat-kem",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "PALOMA128-kat-kem-main::@b0d5018702e8bdeeb564",
+					"jsonFile" : "target-PALOMA128-kat-kem-main-52318019789367569566.json",
+					"name" : "PALOMA128-kat-kem-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "PALOMA128-main::@88876e3f7ea5b556d036",
+					"jsonFile" : "target-PALOMA128-main-6516ec9f5b4ce5ebe79f.json",
+					"name" : "PALOMA128-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "PALOMA192::@4ddd78ec2b0f2e691ce4",
+					"jsonFile" : "target-PALOMA192-37bf9123c02811a55262.json",
+					"name" : "PALOMA192",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "PALOMA192-benchmark::@22ab781588429dbee516",
+					"jsonFile" : "target-PALOMA192-benchmark-fde8e5055436e936ce43.json",
+					"name" : "PALOMA192-benchmark",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "PALOMA192-kat-kem::@e6422874b3d302247947",
+					"jsonFile" : "target-PALOMA192-kat-kem-0342fadd8269bf468360.json",
+					"name" : "PALOMA192-kat-kem",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "PALOMA192-kat-kem-main::@e6422874b3d302247947",
+					"jsonFile" : "target-PALOMA192-kat-kem-main-1d31633810ffee02ac65.json",
+					"name" : "PALOMA192-kat-kem-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "PALOMA192-main::@a8754ab4d7dd7ce638c4",
+					"jsonFile" : "target-PALOMA192-main-9a6c640139e2293dcca9.json",
+					"name" : "PALOMA192-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "PALOMA256::@c0cdbc37cef1991b37e9",
+					"jsonFile" : "target-PALOMA256-13afd0243672d28cc0c4.json",
+					"name" : "PALOMA256",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "PALOMA256-benchmark::@f250117d9bb82a48eb19",
+					"jsonFile" : "target-PALOMA256-benchmark-86f0eceb83a33bef3f72.json",
+					"name" : "PALOMA256-benchmark",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "PALOMA256-kat-kem::@c1ce54638e159ce52345",
+					"jsonFile" : "target-PALOMA256-kat-kem-6d4a379187ee5b66c023.json",
+					"name" : "PALOMA256-kat-kem",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "PALOMA256-kat-kem-main::@c1ce54638e159ce52345",
+					"jsonFile" : "target-PALOMA256-kat-kem-main-62d9f6e44d76200a81eb.json",
+					"name" : "PALOMA256-kat-kem-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "PALOMA256-main::@fbd023aa57f9b3ec42b0",
+					"jsonFile" : "target-PALOMA256-main-cb086bf83e272deec598.json",
+					"name" : "PALOMA256-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "PALOMA3-meta::@c14d7cb42b6786013b17",
+					"jsonFile" : "target-PALOMA3-meta-066c449213d5bee1392a.json",
+					"name" : "PALOMA3-meta",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "PALOMA3-meta-main::@c14d7cb42b6786013b17",
+					"jsonFile" : "target-PALOMA3-meta-main-a91a5015e876c1ca73c1.json",
+					"name" : "PALOMA3-meta-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "PALOMA5-meta::@effe9560dce0a3453edf",
+					"jsonFile" : "target-PALOMA5-meta-5d25d7109737624d014e.json",
+					"name" : "PALOMA5-meta",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "PALOMA5-meta-main::@effe9560dce0a3453edf",
+					"jsonFile" : "target-PALOMA5-meta-main-afa3fc39b0e73a2f7898.json",
+					"name" : "PALOMA5-meta-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "PALOMARNG1::@95b350fb18feec773110",
+					"jsonFile" : "target-PALOMARNG1-c0381d4201b51e60d08c.json",
+					"name" : "PALOMARNG1",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "PALOMARNG3::@4ddd78ec2b0f2e691ce4",
+					"jsonFile" : "target-PALOMARNG3-d271c307ff06048b3c8f.json",
+					"name" : "PALOMARNG3",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "PALOMARNG5::@c0cdbc37cef1991b37e9",
+					"jsonFile" : "target-PALOMARNG5-ba51b61d00bea592f5a3.json",
+					"name" : "PALOMARNG5",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RNG1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-RNG1-e18df59d5f35189e9887.json",
+					"name" : "RNG1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "RNG3::@cca328812427fa002d3f",
+					"jsonFile" : "target-RNG3-7c5fbeaeaebb29b4af8b.json",
+					"name" : "RNG3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "RNG5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-RNG5-73e97f25e1f38d102035.json",
+					"name" : "RNG5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smaug1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-smaug1-612f3f8c5b021af8c8f0.json",
+					"name" : "smaug1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "smaug1-benchmark::@bab662b6428817cafa24",
+					"jsonFile" : "target-smaug1-benchmark-a08f29f1816904bdabfe.json",
+					"name" : "smaug1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-ff24f601857fa3cab690.json",
+					"name" : "smaug1-kat-kem",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem-main::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-main-407022f841096a727e8b.json",
+					"name" : "smaug1-kat-kem-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "smaug1-main::@e87eab334ba447641674",
+					"jsonFile" : "target-smaug1-main-d82408ffdca76469a228.json",
+					"name" : "smaug1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "smaug1-meta::@67e0749b541f3c80a7d7",
+					"jsonFile" : "target-smaug1-meta-de131cd3038e8a2e6131.json",
+					"name" : "smaug1-meta",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "smaug1-meta-main::@67e0749b541f3c80a7d7",
+					"jsonFile" : "target-smaug1-meta-main-5b1cb6356f04daf32c3f.json",
+					"name" : "smaug1-meta-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "smaug3::@cca328812427fa002d3f",
+					"jsonFile" : "target-smaug3-4df3558eab795faabf9b.json",
+					"name" : "smaug3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "smaug3-benchmark::@f111e0dcf5af09376579",
+					"jsonFile" : "target-smaug3-benchmark-e82f30049b2ca27f51ca.json",
+					"name" : "smaug3-benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "smaug3-kat-kem::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-3cdc54dc1d641fcd0522.json",
+					"name" : "smaug3-kat-kem",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "smaug3-kat-kem-main::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-main-9e08f1d5b7a1a3c625c6.json",
+					"name" : "smaug3-kat-kem-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "smaug3-main::@88f8480d3026dd189203",
+					"jsonFile" : "target-smaug3-main-216ff932a91bd9d0ab6d.json",
+					"name" : "smaug3-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "smaug3-meta::@128c04f13d50c2fb8bd9",
+					"jsonFile" : "target-smaug3-meta-0a068b05bdcb5dc39564.json",
+					"name" : "smaug3-meta",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "smaug3-meta-main::@128c04f13d50c2fb8bd9",
+					"jsonFile" : "target-smaug3-meta-main-d8f1f5a3fa30711bf11a.json",
+					"name" : "smaug3-meta-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "smaug5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-smaug5-f907e4cefab93ddbf4a5.json",
+					"name" : "smaug5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "smaug5-benchmark::@dfce2561f912d5e1005e",
+					"jsonFile" : "target-smaug5-benchmark-b2fd033fdcaf72fd254c.json",
+					"name" : "smaug5-benchmark",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "smaug5-kat-kem::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-33ca9932cfbbf32dbed6.json",
+					"name" : "smaug5-kat-kem",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "smaug5-kat-kem-main::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-main-f862e82514eb9bb0eb73.json",
+					"name" : "smaug5-kat-kem-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "smaug5-main::@72ccc564851827bfec3b",
+					"jsonFile" : "target-smaug5-main-0642d6104a0f7e417c31.json",
+					"name" : "smaug5-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "smaug5-meta::@15392e3a5428820d4076",
+					"jsonFile" : "target-smaug5-meta-90e5769fba59fb713134.json",
+					"name" : "smaug5-meta",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "smaug5-meta-main::@15392e3a5428820d4076",
+					"jsonFile" : "target-smaug5-meta-main-9ba97c8d9d0710d5c78a.json",
+					"name" : "smaug5-meta-main",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

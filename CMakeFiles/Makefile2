@@ -116,12 +116,14 @@ crypto_kem/PALOMA128/all: crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
 crypto_kem/PALOMA128/all: crypto_kem/PALOMA128/kat/all
 crypto_kem/PALOMA128/all: crypto_kem/PALOMA128/test/all
 crypto_kem/PALOMA128/all: crypto_kem/PALOMA128/benchmark/all
+crypto_kem/PALOMA128/all: crypto_kem/PALOMA128/metamorphic/all
 .PHONY : crypto_kem/PALOMA128/all
 
 # Recursive "preinstall" directory target.
 crypto_kem/PALOMA128/preinstall: crypto_kem/PALOMA128/kat/preinstall
 crypto_kem/PALOMA128/preinstall: crypto_kem/PALOMA128/test/preinstall
 crypto_kem/PALOMA128/preinstall: crypto_kem/PALOMA128/benchmark/preinstall
+crypto_kem/PALOMA128/preinstall: crypto_kem/PALOMA128/metamorphic/preinstall
 .PHONY : crypto_kem/PALOMA128/preinstall
 
 # Recursive "clean" directory target.
@@ -130,6 +132,7 @@ crypto_kem/PALOMA128/clean: crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/clean
 crypto_kem/PALOMA128/clean: crypto_kem/PALOMA128/kat/clean
 crypto_kem/PALOMA128/clean: crypto_kem/PALOMA128/test/clean
 crypto_kem/PALOMA128/clean: crypto_kem/PALOMA128/benchmark/clean
+crypto_kem/PALOMA128/clean: crypto_kem/PALOMA128/metamorphic/clean
 .PHONY : crypto_kem/PALOMA128/clean
 
 #=============================================================================
@@ -163,6 +166,23 @@ crypto_kem/PALOMA128/kat/preinstall:
 crypto_kem/PALOMA128/kat/clean: crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/clean
 crypto_kem/PALOMA128/kat/clean: crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/clean
 .PHONY : crypto_kem/PALOMA128/kat/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_kem/PALOMA128/metamorphic
+
+# Recursive "all" directory target.
+crypto_kem/PALOMA128/metamorphic/all: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/all
+crypto_kem/PALOMA128/metamorphic/all: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all
+.PHONY : crypto_kem/PALOMA128/metamorphic/all
+
+# Recursive "preinstall" directory target.
+crypto_kem/PALOMA128/metamorphic/preinstall:
+.PHONY : crypto_kem/PALOMA128/metamorphic/preinstall
+
+# Recursive "clean" directory target.
+crypto_kem/PALOMA128/metamorphic/clean: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/clean
+crypto_kem/PALOMA128/metamorphic/clean: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/clean
+.PHONY : crypto_kem/PALOMA128/metamorphic/clean
 
 #=============================================================================
 # Directory level rules for directory crypto_kem/PALOMA128/test
@@ -646,12 +666,12 @@ crypto_kem/SMAUG5/test/clean: crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=52,53,54 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=54,55 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : common/CMakeFiles/common.dir/rule
@@ -672,7 +692,7 @@ common/CMakeFiles/common.dir/clean:
 crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=49 "Built target RNG1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=50 "Built target RNG1"
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -699,12 +719,12 @@ crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=55,56,57,58,59,60 "Built target smaug1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=56,57,58,59,60,61 "Built target smaug1"
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
@@ -727,12 +747,12 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFi
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=66 "Built target smaug1-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67 "Built target smaug1-main"
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule
@@ -753,12 +773,12 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/clean:
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=63,64 "Built target smaug1-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65 "Built target smaug1-kat-kem"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/rule
@@ -782,12 +802,12 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65 "Built target smaug1-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=66 "Built target smaug1-kat-kem-main"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule
@@ -810,7 +830,7 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=61,62 "Built target smaug1-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=62,63,64 "Built target smaug1-benchmark"
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
@@ -836,7 +856,7 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean:
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67,68 "Built target smaug1-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=68,69 "Built target smaug1-meta"
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -865,12 +885,12 @@ crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SM
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=69 "Built target smaug1-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=70 "Built target smaug1-meta-main"
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
@@ -891,12 +911,12 @@ crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean:
 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=50 "Built target RNG3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51,52 "Built target RNG3"
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/rule
@@ -918,7 +938,7 @@ crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all: crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=70,71,72,73,74,75 "Built target smaug3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=71,72,73,74,75,76 "Built target smaug3"
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -946,7 +966,7 @@ crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all: crypto_kem/SMAUG3/CMakeFi
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all: crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=81 "Built target smaug3-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=82 "Built target smaug3-main"
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -972,12 +992,12 @@ crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/clean:
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=79 "Built target smaug3-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=79,80 "Built target smaug3-kat-kem"
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/rule
@@ -1001,12 +1021,12 @@ crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all: crypto_kem/SMAUG3/
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all: crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=80 "Built target smaug3-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=81 "Built target smaug3-kat-kem-main"
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/rule
@@ -1029,12 +1049,12 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all: crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=76,77,78 "Built target smaug3-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=77,78 "Built target smaug3-benchmark"
 .PHONY : crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/rule
@@ -1055,7 +1075,7 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/clean:
 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=82,83 "Built target smaug3-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=83,84 "Built target smaug3-meta"
 .PHONY : crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1084,7 +1104,7 @@ crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all: crypto_kem/SM
 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all: crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=84 "Built target smaug3-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=85 "Built target smaug3-meta-main"
 .PHONY : crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1110,7 +1130,7 @@ crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/clean:
 crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51 "Built target RNG5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=53 "Built target RNG5"
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1137,12 +1157,12 @@ crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all: crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=85,86,87,88,89,90,91 "Built target smaug5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=86,87,88,89,90,91 "Built target smaug5"
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/rule
@@ -1165,12 +1185,12 @@ crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all: crypto_kem/SMAUG5/CMakeFi
 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all: crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=96,97 "Built target smaug5-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=97 "Built target smaug5-main"
 .PHONY : crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/rule
@@ -1220,12 +1240,12 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all: crypto_kem/SMAUG5/
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=95 "Built target smaug5-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=95,96 "Built target smaug5-kat-kem-main"
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
@@ -1253,7 +1273,7 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all: crypto_kem/SMAU
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/rule
@@ -1308,7 +1328,7 @@ crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all: crypto_kem/SM
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/rule
@@ -1329,7 +1349,7 @@ crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/clean:
 crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=45 "Built target PALOMARNG1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=47 "Built target PALOMARNG1"
 .PHONY : crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1356,12 +1376,12 @@ crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all: common/CMakeFiles/common.dir/
 crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all: crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target PALOMA128"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target PALOMA128"
 .PHONY : crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/rule
@@ -1382,7 +1402,7 @@ crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/clean:
 crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=10 "Built target PALOMA128-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=13 "Built target PALOMA128-kat-kem"
 .PHONY : crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1411,12 +1431,12 @@ crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/all: crypto_kem/P
 crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/all: crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=11 "Built target PALOMA128-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=14 "Built target PALOMA128-kat-kem-main"
 .PHONY : crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/rule
@@ -1439,12 +1459,12 @@ crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/all: crypto_kem/PALOMA12
 crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/all: crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build.make crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build.make crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=12 "Built target PALOMA128-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=15 "Built target PALOMA128-main"
 .PHONY : crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/rule
@@ -1467,7 +1487,7 @@ crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/all: crypto_ke
 crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/all: crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build.make crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build.make crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=9 "Built target PALOMA128-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=11,12 "Built target PALOMA128-benchmark"
 .PHONY : crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1487,18 +1507,73 @@ crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/clean:
 .PHONY : crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/clean
 
 #=============================================================================
+# Target rules for target crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir
+
+# All Build rule for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1 "Built target PALOMA1-meta"
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule
+
+# Convenience name for target.
+PALOMA1-meta: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule
+.PHONY : PALOMA1-meta
+
+# clean rule for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/clean
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir
+
+# All Build rule for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all: crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/all
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all: crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/all
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=2 "Built target PALOMA1-meta-main"
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule
+
+# Convenience name for target.
+PALOMA1-meta-main: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule
+.PHONY : PALOMA1-meta-main
+
+# clean rule for target.
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/clean
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/clean
+
+#=============================================================================
 # Target rules for target crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir
 
 # All Build rule for target.
 crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=46,47 "Built target PALOMARNG3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=48 "Built target PALOMARNG3"
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/rule
@@ -1520,12 +1595,12 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all: common/CMakeFiles/common.dir/
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all: crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target PALOMA192"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=16,17,18,19,20,21,22,23 "Built target PALOMA192"
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/rule
@@ -1546,7 +1621,7 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/clean:
 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=23 "Built target PALOMA192-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=25 "Built target PALOMA192-kat-kem"
 .PHONY : crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1575,12 +1650,12 @@ crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all: crypto_kem/P
 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all: crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=24 "Built target PALOMA192-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=26 "Built target PALOMA192-kat-kem-main"
 .PHONY : crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/rule
@@ -1603,12 +1678,12 @@ crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all: crypto_kem/PALOMA19
 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build.make crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build.make crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=25 "Built target PALOMA192-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=27,28 "Built target PALOMA192-main"
 .PHONY : crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/rule
@@ -1631,12 +1706,12 @@ crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all: crypto_ke
 crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=22 "Built target PALOMA192-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=24 "Built target PALOMA192-benchmark"
 .PHONY : crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/rule
@@ -1657,7 +1732,7 @@ crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/clean:
 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=39,40 "Built target PALOMA3-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=41,42 "Built target PALOMA3-meta"
 .PHONY : crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1686,12 +1761,12 @@ crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all: crypto_ke
 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all: crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=41 "Built target PALOMA3-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=43 "Built target PALOMA3-meta-main"
 .PHONY : crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/rule
@@ -1712,7 +1787,7 @@ crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/clean:
 crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=48 "Built target PALOMARNG5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=49 "Built target PALOMARNG5"
 .PHONY : crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1739,12 +1814,12 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all: common/CMakeFiles/common.dir/
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all: crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34 "Built target PALOMA256"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=29,30,31,32,33,34,35,36 "Built target PALOMA256"
 .PHONY : crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/rule
@@ -1765,7 +1840,7 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/clean:
 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=36 "Built target PALOMA256-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=38 "Built target PALOMA256-kat-kem"
 .PHONY : crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1794,12 +1869,12 @@ crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/all: crypto_kem/P
 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/all: crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=37 "Built target PALOMA256-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=39 "Built target PALOMA256-kat-kem-main"
 .PHONY : crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/rule
@@ -1822,12 +1897,12 @@ crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/all: crypto_kem/PALOMA25
 crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/all: crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=38 "Built target PALOMA256-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=40 "Built target PALOMA256-main"
 .PHONY : crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/rule
@@ -1850,12 +1925,12 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/all: crypto_ke
 crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/all: crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=35 "Built target PALOMA256-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=37 "Built target PALOMA256-benchmark"
 .PHONY : crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/rule
@@ -1876,7 +1951,7 @@ crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/clean:
 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=42,43 "Built target PALOMA5-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=44,45 "Built target PALOMA5-meta"
 .PHONY : crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1905,12 +1980,12 @@ crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/all: crypto_ke
 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/all: crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=44 "Built target PALOMA5-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=46 "Built target PALOMA5-meta-main"
 .PHONY : crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule

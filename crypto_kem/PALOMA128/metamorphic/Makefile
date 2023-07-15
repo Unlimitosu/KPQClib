@@ -90,14 +90,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/unlimit/Downloads/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic//CMakeFiles/progress.marks
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/all
+	cd /home/unlimit/Downloads/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic//CMakeFiles/progress.marks
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/clean
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/clean
 .PHONY : clean
 
 # The main clean target
@@ -106,12 +106,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/preinstall
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/preinstall
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -120,39 +120,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/rule
-.PHONY : crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/rule
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule
 
 # Convenience name for target.
-PALOMA5-meta: crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/rule
-.PHONY : PALOMA5-meta
+PALOMA1-meta: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/rule
+.PHONY : PALOMA1-meta
 
 # fast build rule for target.
-PALOMA5-meta/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build
-.PHONY : PALOMA5-meta/fast
+PALOMA1-meta/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build
+.PHONY : PALOMA1-meta/fast
 
 # Convenience name for target.
-crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule
-.PHONY : crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule
+crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule
+.PHONY : crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule
 
 # Convenience name for target.
-PALOMA5-meta-main: crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/rule
-.PHONY : PALOMA5-meta-main
+PALOMA1-meta-main: crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/rule
+.PHONY : PALOMA1-meta-main
 
 # fast build rule for target.
-PALOMA5-meta-main/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build
-.PHONY : PALOMA5-meta-main/fast
+PALOMA1-meta-main/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build
+.PHONY : PALOMA1-meta-main/fast
 
 bit_contribution.o: bit_contribution.c.o
 .PHONY : bit_contribution.o
 
 # target to build an object file
 bit_contribution.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_contribution.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.o
 .PHONY : bit_contribution.c.o
 
 bit_contribution.i: bit_contribution.c.i
@@ -160,7 +160,7 @@ bit_contribution.i: bit_contribution.c.i
 
 # target to preprocess a source file
 bit_contribution.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_contribution.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.i
 .PHONY : bit_contribution.c.i
 
 bit_contribution.s: bit_contribution.c.s
@@ -168,7 +168,7 @@ bit_contribution.s: bit_contribution.c.s
 
 # target to generate assembly for a file
 bit_contribution.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_contribution.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.s
 .PHONY : bit_contribution.c.s
 
 bit_exclusion.o: bit_exclusion.c.o
@@ -176,7 +176,7 @@ bit_exclusion.o: bit_exclusion.c.o
 
 # target to build an object file
 bit_exclusion.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_exclusion.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.o
 .PHONY : bit_exclusion.c.o
 
 bit_exclusion.i: bit_exclusion.c.i
@@ -184,7 +184,7 @@ bit_exclusion.i: bit_exclusion.c.i
 
 # target to preprocess a source file
 bit_exclusion.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_exclusion.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.i
 .PHONY : bit_exclusion.c.i
 
 bit_exclusion.s: bit_exclusion.c.s
@@ -192,7 +192,7 @@ bit_exclusion.s: bit_exclusion.c.s
 
 # target to generate assembly for a file
 bit_exclusion.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_exclusion.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.s
 .PHONY : bit_exclusion.c.s
 
 meta_test.o: meta_test.c.o
@@ -200,7 +200,7 @@ meta_test.o: meta_test.c.o
 
 # target to build an object file
 meta_test.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o
 .PHONY : meta_test.c.o
 
 meta_test.i: meta_test.c.i
@@ -208,7 +208,7 @@ meta_test.i: meta_test.c.i
 
 # target to preprocess a source file
 meta_test.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.i
 .PHONY : meta_test.c.i
 
 meta_test.s: meta_test.c.s
@@ -216,7 +216,7 @@ meta_test.s: meta_test.c.s
 
 # target to generate assembly for a file
 meta_test.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.s
 .PHONY : meta_test.c.s
 
 # Help Target
@@ -227,8 +227,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... PALOMA5-meta"
-	@echo "... PALOMA5-meta-main"
+	@echo "... PALOMA1-meta"
+	@echo "... PALOMA1-meta-main"
 	@echo "... bit_contribution.o"
 	@echo "... bit_contribution.i"
 	@echo "... bit_contribution.s"

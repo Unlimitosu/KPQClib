@@ -36,8 +36,8 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     int n, t, k;
 
     t = 128;     
-    n = 6592;   
-    k = (n-(13*t));  
+    n = 5568;   
+    k = (n-(13*t));   
 
     pk  = (uint8_t*)calloc(pklen,           sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen,           sizeof(uint8_t));
