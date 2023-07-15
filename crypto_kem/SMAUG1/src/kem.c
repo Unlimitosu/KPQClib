@@ -60,6 +60,11 @@ int crypto_kem_encap(uint8_t *ctxt, uint8_t *ss, const uint8_t *pk) {
     uint8_t delta[DELTA_BYTES];
     randombytes(delta, DELTA_BYTES);
 
+    // fix random for metamorphic
+    for(int i = 0; i < DELTA_BYTES; i++){
+        delta[i] = 0x00;
+    }
+
     indcpa_enc(ctxt, pk, delta);
 
     if (KDF(ss, ctxt, delta, DELTA_BYTES))

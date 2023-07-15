@@ -36,7 +36,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
 
     pk  = (uint8_t*)calloc(pklen,                       sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen,                       sizeof(uint8_t));
-    buf = (uint8_t*)calloc(pklen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
+    buf = (uint8_t*)calloc(sklen + EXCLUSION_BYTELEN,   sizeof(uint8_t));
     m   = (uint8_t*)calloc(mlen,                        sizeof(uint8_t));
     c   = (uint8_t*)calloc(clen,                        sizeof(uint8_t));
     c2  = (uint8_t*)calloc(clen,                        sizeof(uint8_t));
@@ -71,6 +71,12 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
                 continue;
             } else {
                 printf("%s Bit Exclusion Test Fail: Failed on sk\n", ALGNAME);
+                for(int j = 0; j < crypto_bytes; j++){
+                    printf("%02x ", ss1[i]);
+                }printf("\n");
+                for(int j = 0; j < crypto_bytes; j++){
+                    printf("%02x ", ss2[i]);
+                }printf("\n");
                 flag = false;
                 goto EXIT;
             }
@@ -92,6 +98,12 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
                 continue;
             } else {
                 printf("%s Bit Exclusion Test Fail: Failed on ct\n", ALGNAME);
+                for(int j = 0; j < crypto_bytes; j++){
+                    printf("%02x ", ss1[i]);
+                }printf("\n");
+                for(int j = 0; j < crypto_bytes; j++){
+                    printf("%02x ", ss2[i]);
+                }printf("\n");
                 flag = false;
                 goto EXIT;
             }

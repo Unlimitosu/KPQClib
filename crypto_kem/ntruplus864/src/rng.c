@@ -8,9 +8,6 @@ You are solely responsible for determining the appropriateness of using and dist
 
 #include <string.h>
 #include "rng.h"
-#include <openssl/conf.h>
-#include <openssl/evp.h>
-#include <openssl/err.h>
 #include "aes.h"
 AES256_CTR_DRBG_struct  DRBG_ctx;
 

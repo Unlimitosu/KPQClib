@@ -2,7 +2,6 @@ set(kat_srcs
     kat_sign.c
 )
 
-find_package(OpenSSL)
 # Rank-2 SIGN
 set(KAT_SIGN_LIB_NAME5 ${PROJECT_NAME}-V-kat-sign)
 add_library(${KAT_SIGN_LIB_NAME5} SHARED ${kat_srcs})

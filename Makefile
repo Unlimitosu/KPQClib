@@ -442,537 +442,160 @@ smaug5-meta-main/fast:
 .PHONY : smaug5-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named haetae2_fips202
+# Target rules for targets named aimer1_fips202
 
 # Build rule for target.
-haetae2_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2_fips202
-.PHONY : haetae2_fips202
+aimer1_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer1_fips202
+.PHONY : aimer1_fips202
 
 # fast build rule for target.
-haetae2_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build
-.PHONY : haetae2_fips202/fast
+aimer1_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build
+.PHONY : aimer1_fips202/fast
 
 #=============================================================================
-# Target rules for targets named haetae2_RNG
+# Target rules for targets named aimer1_RNG
 
 # Build rule for target.
-haetae2_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2_RNG
-.PHONY : haetae2_RNG
+aimer1_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer1_RNG
+.PHONY : aimer1_RNG
 
 # fast build rule for target.
-haetae2_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build
-.PHONY : haetae2_RNG/fast
+aimer1_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build
+.PHONY : aimer1_RNG/fast
 
 #=============================================================================
-# Target rules for targets named haetae2
+# Target rules for targets named Almer-l1
 
 # Build rule for target.
-haetae2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2
-.PHONY : haetae2
+Almer-l1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1
+.PHONY : Almer-l1
 
 # fast build rule for target.
-haetae2/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build
-.PHONY : haetae2/fast
+Almer-l1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build.make crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build
+.PHONY : Almer-l1/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-main
+# Target rules for targets named Almer-l1-main
 
 # Build rule for target.
-haetae2-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-main
-.PHONY : haetae2-main
+Almer-l1-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-main
+.PHONY : Almer-l1-main
 
 # fast build rule for target.
-haetae2-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build
-.PHONY : haetae2-main/fast
+Almer-l1-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build
+.PHONY : Almer-l1-main/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-kat-sign
+# Target rules for targets named Almer-l1-testaim
 
 # Build rule for target.
-haetae2-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-kat-sign
-.PHONY : haetae2-kat-sign
+Almer-l1-testaim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testaim
+.PHONY : Almer-l1-testaim
 
 # fast build rule for target.
-haetae2-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build
-.PHONY : haetae2-kat-sign/fast
+Almer-l1-testaim/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build
+.PHONY : Almer-l1-testaim/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-kat-sign-main
+# Target rules for targets named Almer-l1-testtree
 
 # Build rule for target.
-haetae2-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-kat-sign-main
-.PHONY : haetae2-kat-sign-main
+Almer-l1-testtree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testtree
+.PHONY : Almer-l1-testtree
 
 # fast build rule for target.
-haetae2-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build
-.PHONY : haetae2-kat-sign-main/fast
+Almer-l1-testtree/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build
+.PHONY : Almer-l1-testtree/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-benchmark
+# Target rules for targets named Almer-l1-testsign
 
 # Build rule for target.
-haetae2-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-benchmark
-.PHONY : haetae2-benchmark
+Almer-l1-testsign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testsign
+.PHONY : Almer-l1-testsign
 
 # fast build rule for target.
-haetae2-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build.make crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build
-.PHONY : haetae2-benchmark/fast
+Almer-l1-testsign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build
+.PHONY : Almer-l1-testsign/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-meta
+# Target rules for targets named Almer-l1-kat-sign
 
 # Build rule for target.
-haetae2-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-meta
-.PHONY : haetae2-meta
+Almer-l1-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-kat-sign
+.PHONY : Almer-l1-kat-sign
 
 # fast build rule for target.
-haetae2-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build
-.PHONY : haetae2-meta/fast
+Almer-l1-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build
+.PHONY : Almer-l1-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named haetae2-meta-main
+# Target rules for targets named Almer-l1-kat-sign-main
 
 # Build rule for target.
-haetae2-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae2-meta-main
-.PHONY : haetae2-meta-main
+Almer-l1-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-kat-sign-main
+.PHONY : Almer-l1-kat-sign-main
 
 # fast build rule for target.
-haetae2-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build
-.PHONY : haetae2-meta-main/fast
+Almer-l1-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build
+.PHONY : Almer-l1-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named haetae3_fips202
+# Target rules for targets named Almer-l1-benchmark
 
 # Build rule for target.
-haetae3_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3_fips202
-.PHONY : haetae3_fips202
+Almer-l1-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-benchmark
+.PHONY : Almer-l1-benchmark
 
 # fast build rule for target.
-haetae3_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build
-.PHONY : haetae3_fips202/fast
+Almer-l1-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build.make crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build
+.PHONY : Almer-l1-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named haetae3_RNG
+# Target rules for targets named Almer-l1-meta
 
 # Build rule for target.
-haetae3_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3_RNG
-.PHONY : haetae3_RNG
+Almer-l1-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-meta
+.PHONY : Almer-l1-meta
 
 # fast build rule for target.
-haetae3_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build
-.PHONY : haetae3_RNG/fast
+Almer-l1-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build
+.PHONY : Almer-l1-meta/fast
 
 #=============================================================================
-# Target rules for targets named haetae3
+# Target rules for targets named Almer-l1-meta-main
 
 # Build rule for target.
-haetae3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3
-.PHONY : haetae3
+Almer-l1-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-meta-main
+.PHONY : Almer-l1-meta-main
 
 # fast build rule for target.
-haetae3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build
-.PHONY : haetae3/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-main
-
-# Build rule for target.
-haetae3-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-main
-.PHONY : haetae3-main
-
-# fast build rule for target.
-haetae3-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build
-.PHONY : haetae3-main/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-kat-sign
-
-# Build rule for target.
-haetae3-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-kat-sign
-.PHONY : haetae3-kat-sign
-
-# fast build rule for target.
-haetae3-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build
-.PHONY : haetae3-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-kat-sign-main
-
-# Build rule for target.
-haetae3-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-kat-sign-main
-.PHONY : haetae3-kat-sign-main
-
-# fast build rule for target.
-haetae3-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build
-.PHONY : haetae3-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-benchmark
-
-# Build rule for target.
-haetae3-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-benchmark
-.PHONY : haetae3-benchmark
-
-# fast build rule for target.
-haetae3-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build.make crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build
-.PHONY : haetae3-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-meta
-
-# Build rule for target.
-haetae3-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-meta
-.PHONY : haetae3-meta
-
-# fast build rule for target.
-haetae3-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build
-.PHONY : haetae3-meta/fast
-
-#=============================================================================
-# Target rules for targets named haetae3-meta-main
-
-# Build rule for target.
-haetae3-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae3-meta-main
-.PHONY : haetae3-meta-main
-
-# fast build rule for target.
-haetae3-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build
-.PHONY : haetae3-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named haetae5_fips202
-
-# Build rule for target.
-haetae5_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5_fips202
-.PHONY : haetae5_fips202
-
-# fast build rule for target.
-haetae5_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build
-.PHONY : haetae5_fips202/fast
-
-#=============================================================================
-# Target rules for targets named haetae5_RNG
-
-# Build rule for target.
-haetae5_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5_RNG
-.PHONY : haetae5_RNG
-
-# fast build rule for target.
-haetae5_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build
-.PHONY : haetae5_RNG/fast
-
-#=============================================================================
-# Target rules for targets named haetae5
-
-# Build rule for target.
-haetae5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5
-.PHONY : haetae5
-
-# fast build rule for target.
-haetae5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build
-.PHONY : haetae5/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-main
-
-# Build rule for target.
-haetae5-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-main
-.PHONY : haetae5-main
-
-# fast build rule for target.
-haetae5-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build.make crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build
-.PHONY : haetae5-main/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-kat-sign
-
-# Build rule for target.
-haetae5-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-kat-sign
-.PHONY : haetae5-kat-sign
-
-# fast build rule for target.
-haetae5-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build
-.PHONY : haetae5-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-kat-sign-main
-
-# Build rule for target.
-haetae5-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-kat-sign-main
-.PHONY : haetae5-kat-sign-main
-
-# fast build rule for target.
-haetae5-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build
-.PHONY : haetae5-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-benchmark
-
-# Build rule for target.
-haetae5-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-benchmark
-.PHONY : haetae5-benchmark
-
-# fast build rule for target.
-haetae5-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build.make crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build
-.PHONY : haetae5-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-meta
-
-# Build rule for target.
-haetae5-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-meta
-.PHONY : haetae5-meta
-
-# fast build rule for target.
-haetae5-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build
-.PHONY : haetae5-meta/fast
-
-#=============================================================================
-# Target rules for targets named haetae5-meta-main
-
-# Build rule for target.
-haetae5-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 haetae5-meta-main
-.PHONY : haetae5-meta-main
-
-# fast build rule for target.
-haetae5-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build
-.PHONY : haetae5-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612-RNG
-
-# Build rule for target.
-EnhpqsigRM-612-RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-RNG
-.PHONY : EnhpqsigRM-612-RNG
-
-# fast build rule for target.
-EnhpqsigRM-612-RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build
-.PHONY : EnhpqsigRM-612-RNG/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612
-
-# Build rule for target.
-EnhpqsigRM-612: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612
-.PHONY : EnhpqsigRM-612
-
-# fast build rule for target.
-EnhpqsigRM-612/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build
-.PHONY : EnhpqsigRM-612/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612-main
-
-# Build rule for target.
-EnhpqsigRM-612-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-main
-.PHONY : EnhpqsigRM-612-main
-
-# fast build rule for target.
-EnhpqsigRM-612-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build
-.PHONY : EnhpqsigRM-612-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612-kat-sign
-
-# Build rule for target.
-EnhpqsigRM-612-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign
-.PHONY : EnhpqsigRM-612-kat-sign
-
-# fast build rule for target.
-EnhpqsigRM-612-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build
-.PHONY : EnhpqsigRM-612-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612-kat-sign-main
-
-# Build rule for target.
-EnhpqsigRM-612-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign-main
-.PHONY : EnhpqsigRM-612-kat-sign-main
-
-# fast build rule for target.
-EnhpqsigRM-612-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build
-.PHONY : EnhpqsigRM-612-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-612-benchmark
-
-# Build rule for target.
-EnhpqsigRM-612-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-benchmark
-.PHONY : EnhpqsigRM-612-benchmark
-
-# fast build rule for target.
-EnhpqsigRM-612-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build
-.PHONY : EnhpqsigRM-612-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM612-meta
-
-# Build rule for target.
-EnhpqsigRM612-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM612-meta
-.PHONY : EnhpqsigRM612-meta
-
-# fast build rule for target.
-EnhpqsigRM612-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build
-.PHONY : EnhpqsigRM612-meta/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM612-meta-main
-
-# Build rule for target.
-EnhpqsigRM612-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM612-meta-main
-.PHONY : EnhpqsigRM612-meta-main
-
-# fast build rule for target.
-EnhpqsigRM612-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build
-.PHONY : EnhpqsigRM612-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613-RNG
-
-# Build rule for target.
-EnhpqsigRM-613-RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-RNG
-.PHONY : EnhpqsigRM-613-RNG
-
-# fast build rule for target.
-EnhpqsigRM-613-RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build
-.PHONY : EnhpqsigRM-613-RNG/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613
-
-# Build rule for target.
-EnhpqsigRM-613: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613
-.PHONY : EnhpqsigRM-613
-
-# fast build rule for target.
-EnhpqsigRM-613/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build
-.PHONY : EnhpqsigRM-613/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613-main
-
-# Build rule for target.
-EnhpqsigRM-613-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-main
-.PHONY : EnhpqsigRM-613-main
-
-# fast build rule for target.
-EnhpqsigRM-613-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build
-.PHONY : EnhpqsigRM-613-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613-kat-sign
-
-# Build rule for target.
-EnhpqsigRM-613-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign
-.PHONY : EnhpqsigRM-613-kat-sign
-
-# fast build rule for target.
-EnhpqsigRM-613-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build
-.PHONY : EnhpqsigRM-613-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613-kat-sign-main
-
-# Build rule for target.
-EnhpqsigRM-613-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign-main
-.PHONY : EnhpqsigRM-613-kat-sign-main
-
-# fast build rule for target.
-EnhpqsigRM-613-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build
-.PHONY : EnhpqsigRM-613-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named EnhpqsigRM-613-benchmark
-
-# Build rule for target.
-EnhpqsigRM-613-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-benchmark
-.PHONY : EnhpqsigRM-613-benchmark
-
-# fast build rule for target.
-EnhpqsigRM-613-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build
-.PHONY : EnhpqsigRM-613-benchmark/fast
+Almer-l1-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build
+.PHONY : Almer-l1-meta-main/fast
 
 # Help Target
 help:
@@ -982,51 +605,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EnhpqsigRM-612"
-	@echo "... EnhpqsigRM-612-RNG"
-	@echo "... EnhpqsigRM-612-benchmark"
-	@echo "... EnhpqsigRM-612-kat-sign"
-	@echo "... EnhpqsigRM-612-kat-sign-main"
-	@echo "... EnhpqsigRM-612-main"
-	@echo "... EnhpqsigRM-613"
-	@echo "... EnhpqsigRM-613-RNG"
-	@echo "... EnhpqsigRM-613-benchmark"
-	@echo "... EnhpqsigRM-613-kat-sign"
-	@echo "... EnhpqsigRM-613-kat-sign-main"
-	@echo "... EnhpqsigRM-613-main"
-	@echo "... EnhpqsigRM612-meta"
-	@echo "... EnhpqsigRM612-meta-main"
+	@echo "... Almer-l1"
+	@echo "... Almer-l1-benchmark"
+	@echo "... Almer-l1-kat-sign"
+	@echo "... Almer-l1-kat-sign-main"
+	@echo "... Almer-l1-main"
+	@echo "... Almer-l1-meta"
+	@echo "... Almer-l1-meta-main"
+	@echo "... Almer-l1-testaim"
+	@echo "... Almer-l1-testsign"
+	@echo "... Almer-l1-testtree"
 	@echo "... RNG1"
 	@echo "... RNG3"
 	@echo "... RNG5"
+	@echo "... aimer1_RNG"
+	@echo "... aimer1_fips202"
 	@echo "... common"
-	@echo "... haetae2"
-	@echo "... haetae2-benchmark"
-	@echo "... haetae2-kat-sign"
-	@echo "... haetae2-kat-sign-main"
-	@echo "... haetae2-main"
-	@echo "... haetae2-meta"
-	@echo "... haetae2-meta-main"
-	@echo "... haetae2_RNG"
-	@echo "... haetae2_fips202"
-	@echo "... haetae3"
-	@echo "... haetae3-benchmark"
-	@echo "... haetae3-kat-sign"
-	@echo "... haetae3-kat-sign-main"
-	@echo "... haetae3-main"
-	@echo "... haetae3-meta"
-	@echo "... haetae3-meta-main"
-	@echo "... haetae3_RNG"
-	@echo "... haetae3_fips202"
-	@echo "... haetae5"
-	@echo "... haetae5-benchmark"
-	@echo "... haetae5-kat-sign"
-	@echo "... haetae5-kat-sign-main"
-	@echo "... haetae5-main"
-	@echo "... haetae5-meta"
-	@echo "... haetae5-meta-main"
-	@echo "... haetae5_RNG"
-	@echo "... haetae5_fips202"
 	@echo "... smaug1"
 	@echo "... smaug1-benchmark"
 	@echo "... smaug1-kat-kem"

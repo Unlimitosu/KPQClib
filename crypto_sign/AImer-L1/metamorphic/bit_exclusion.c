@@ -48,7 +48,6 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
         buf[mlen + i/8] ^= 1 << (i % 8);
 
         aimer_sign(&pk, &sk, (const uint8_t*)buf, mlen, sig2, &siglen2);
-        
         if(memcmp(sig, sig2, siglen) != 0 || siglen != siglen2) {
             printf("%s Bit Exclusion Test Failed: Failed on messaage\n", ALGNAME);
             flag = false;

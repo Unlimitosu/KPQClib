@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+Almer-l_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
+
+//Value Computed by CMake
+Almer-l_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Almer-l_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -386,7 +395,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=41
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

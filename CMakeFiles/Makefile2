@@ -67,11 +67,7 @@ all: common/all
 all: crypto_kem/SMAUG1/all
 all: crypto_kem/SMAUG3/all
 all: crypto_kem/SMAUG5/all
-all: crypto_sign/HAETAE2/all
-all: crypto_sign/HAETAE3/all
-all: crypto_sign/HAETAE5/all
-all: crypto_sign/EnhpqsigRM612/all
-all: crypto_sign/EnhpqsigRM613/all
+all: crypto_sign/AImer-L1/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,11 +75,7 @@ preinstall: common/preinstall
 preinstall: crypto_kem/SMAUG1/preinstall
 preinstall: crypto_kem/SMAUG3/preinstall
 preinstall: crypto_kem/SMAUG5/preinstall
-preinstall: crypto_sign/HAETAE2/preinstall
-preinstall: crypto_sign/HAETAE3/preinstall
-preinstall: crypto_sign/HAETAE5/preinstall
-preinstall: crypto_sign/EnhpqsigRM612/preinstall
-preinstall: crypto_sign/EnhpqsigRM613/preinstall
+preinstall: crypto_sign/AImer-L1/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -91,11 +83,7 @@ clean: common/clean
 clean: crypto_kem/SMAUG1/clean
 clean: crypto_kem/SMAUG3/clean
 clean: crypto_kem/SMAUG5/clean
-clean: crypto_sign/HAETAE2/clean
-clean: crypto_sign/HAETAE3/clean
-clean: crypto_sign/HAETAE5/clean
-clean: crypto_sign/EnhpqsigRM612/clean
-clean: crypto_sign/EnhpqsigRM613/clean
+clean: crypto_sign/AImer-L1/clean
 .PHONY : clean
 
 #=============================================================================
@@ -390,450 +378,104 @@ crypto_kem/SMAUG5/test/clean: crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/
 .PHONY : crypto_kem/SMAUG5/test/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM612
+# Directory level rules for directory crypto_sign/AImer-L1
 
 # Recursive "all" directory target.
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/tests/all
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/kat/all
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/benchmark/all
-crypto_sign/EnhpqsigRM612/all: crypto_sign/EnhpqsigRM612/metamorphic/all
-.PHONY : crypto_sign/EnhpqsigRM612/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/tests/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/kat/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/benchmark/all
+crypto_sign/AImer-L1/all: crypto_sign/AImer-L1/metamorphic/all
+.PHONY : crypto_sign/AImer-L1/all
 
 # Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM612/preinstall: crypto_sign/EnhpqsigRM612/tests/preinstall
-crypto_sign/EnhpqsigRM612/preinstall: crypto_sign/EnhpqsigRM612/kat/preinstall
-crypto_sign/EnhpqsigRM612/preinstall: crypto_sign/EnhpqsigRM612/benchmark/preinstall
-crypto_sign/EnhpqsigRM612/preinstall: crypto_sign/EnhpqsigRM612/metamorphic/preinstall
-.PHONY : crypto_sign/EnhpqsigRM612/preinstall
+crypto_sign/AImer-L1/preinstall: crypto_sign/AImer-L1/tests/preinstall
+crypto_sign/AImer-L1/preinstall: crypto_sign/AImer-L1/kat/preinstall
+crypto_sign/AImer-L1/preinstall: crypto_sign/AImer-L1/benchmark/preinstall
+crypto_sign/AImer-L1/preinstall: crypto_sign/AImer-L1/metamorphic/preinstall
+.PHONY : crypto_sign/AImer-L1/preinstall
 
 # Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/clean
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/tests/clean
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/kat/clean
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/benchmark/clean
-crypto_sign/EnhpqsigRM612/clean: crypto_sign/EnhpqsigRM612/metamorphic/clean
-.PHONY : crypto_sign/EnhpqsigRM612/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/tests/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/kat/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/benchmark/clean
+crypto_sign/AImer-L1/clean: crypto_sign/AImer-L1/metamorphic/clean
+.PHONY : crypto_sign/AImer-L1/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM612/benchmark
+# Directory level rules for directory crypto_sign/AImer-L1/benchmark
 
 # Recursive "all" directory target.
-crypto_sign/EnhpqsigRM612/benchmark/all: crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/all
+crypto_sign/AImer-L1/benchmark/all: crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all
+.PHONY : crypto_sign/AImer-L1/benchmark/all
 
 # Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM612/benchmark/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/preinstall
+crypto_sign/AImer-L1/benchmark/preinstall:
+.PHONY : crypto_sign/AImer-L1/benchmark/preinstall
 
 # Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM612/benchmark/clean: crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/clean
+crypto_sign/AImer-L1/benchmark/clean: crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/clean
+.PHONY : crypto_sign/AImer-L1/benchmark/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM612/kat
+# Directory level rules for directory crypto_sign/AImer-L1/kat
 
 # Recursive "all" directory target.
-crypto_sign/EnhpqsigRM612/kat/all: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/all
-crypto_sign/EnhpqsigRM612/kat/all: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all
-.PHONY : crypto_sign/EnhpqsigRM612/kat/all
+crypto_sign/AImer-L1/kat/all: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/all
+crypto_sign/AImer-L1/kat/all: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all
+.PHONY : crypto_sign/AImer-L1/kat/all
 
 # Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM612/kat/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM612/kat/preinstall
+crypto_sign/AImer-L1/kat/preinstall:
+.PHONY : crypto_sign/AImer-L1/kat/preinstall
 
 # Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM612/kat/clean: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/clean
-crypto_sign/EnhpqsigRM612/kat/clean: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/kat/clean
+crypto_sign/AImer-L1/kat/clean: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/clean
+crypto_sign/AImer-L1/kat/clean: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/clean
+.PHONY : crypto_sign/AImer-L1/kat/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM612/metamorphic
+# Directory level rules for directory crypto_sign/AImer-L1/metamorphic
 
 # Recursive "all" directory target.
-crypto_sign/EnhpqsigRM612/metamorphic/all: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/all
-crypto_sign/EnhpqsigRM612/metamorphic/all: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/all
+crypto_sign/AImer-L1/metamorphic/all: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/all
+crypto_sign/AImer-L1/metamorphic/all: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all
+.PHONY : crypto_sign/AImer-L1/metamorphic/all
 
 # Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM612/metamorphic/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/preinstall
+crypto_sign/AImer-L1/metamorphic/preinstall:
+.PHONY : crypto_sign/AImer-L1/metamorphic/preinstall
 
 # Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM612/metamorphic/clean: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean
-crypto_sign/EnhpqsigRM612/metamorphic/clean: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/clean
+crypto_sign/AImer-L1/metamorphic/clean: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/clean
+crypto_sign/AImer-L1/metamorphic/clean: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/clean
+.PHONY : crypto_sign/AImer-L1/metamorphic/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM612/tests
+# Directory level rules for directory crypto_sign/AImer-L1/tests
 
 # Recursive "all" directory target.
-crypto_sign/EnhpqsigRM612/tests/all: crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all
-.PHONY : crypto_sign/EnhpqsigRM612/tests/all
+crypto_sign/AImer-L1/tests/all: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all
+crypto_sign/AImer-L1/tests/all: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all
+crypto_sign/AImer-L1/tests/all: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all
+crypto_sign/AImer-L1/tests/all: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all
+.PHONY : crypto_sign/AImer-L1/tests/all
 
 # Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM612/tests/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM612/tests/preinstall
+crypto_sign/AImer-L1/tests/preinstall:
+.PHONY : crypto_sign/AImer-L1/tests/preinstall
 
 # Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM612/tests/clean: crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/tests/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM613
-
-# Recursive "all" directory target.
-crypto_sign/EnhpqsigRM613/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
-crypto_sign/EnhpqsigRM613/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
-crypto_sign/EnhpqsigRM613/all: crypto_sign/EnhpqsigRM613/tests/all
-crypto_sign/EnhpqsigRM613/all: crypto_sign/EnhpqsigRM613/kat/all
-crypto_sign/EnhpqsigRM613/all: crypto_sign/EnhpqsigRM613/benchmark/all
-.PHONY : crypto_sign/EnhpqsigRM613/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM613/preinstall: crypto_sign/EnhpqsigRM613/tests/preinstall
-crypto_sign/EnhpqsigRM613/preinstall: crypto_sign/EnhpqsigRM613/kat/preinstall
-crypto_sign/EnhpqsigRM613/preinstall: crypto_sign/EnhpqsigRM613/benchmark/preinstall
-.PHONY : crypto_sign/EnhpqsigRM613/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM613/clean: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/clean
-crypto_sign/EnhpqsigRM613/clean: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/clean
-crypto_sign/EnhpqsigRM613/clean: crypto_sign/EnhpqsigRM613/tests/clean
-crypto_sign/EnhpqsigRM613/clean: crypto_sign/EnhpqsigRM613/kat/clean
-crypto_sign/EnhpqsigRM613/clean: crypto_sign/EnhpqsigRM613/benchmark/clean
-.PHONY : crypto_sign/EnhpqsigRM613/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM613/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/EnhpqsigRM613/benchmark/all: crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM613/benchmark/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM613/benchmark/clean: crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM613/kat
-
-# Recursive "all" directory target.
-crypto_sign/EnhpqsigRM613/kat/all: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/all
-crypto_sign/EnhpqsigRM613/kat/all: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all
-.PHONY : crypto_sign/EnhpqsigRM613/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM613/kat/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM613/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM613/kat/clean: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/clean
-crypto_sign/EnhpqsigRM613/kat/clean: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/EnhpqsigRM613/tests
-
-# Recursive "all" directory target.
-crypto_sign/EnhpqsigRM613/tests/all: crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all
-.PHONY : crypto_sign/EnhpqsigRM613/tests/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/EnhpqsigRM613/tests/preinstall:
-.PHONY : crypto_sign/EnhpqsigRM613/tests/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/EnhpqsigRM613/tests/clean: crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/tests/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE2
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/test/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/kat/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/benchmark/all
-crypto_sign/HAETAE2/all: crypto_sign/HAETAE2/metamorphic/all
-.PHONY : crypto_sign/HAETAE2/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE2/preinstall: crypto_sign/HAETAE2/test/preinstall
-crypto_sign/HAETAE2/preinstall: crypto_sign/HAETAE2/kat/preinstall
-crypto_sign/HAETAE2/preinstall: crypto_sign/HAETAE2/benchmark/preinstall
-crypto_sign/HAETAE2/preinstall: crypto_sign/HAETAE2/metamorphic/preinstall
-.PHONY : crypto_sign/HAETAE2/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/test/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/kat/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/benchmark/clean
-crypto_sign/HAETAE2/clean: crypto_sign/HAETAE2/metamorphic/clean
-.PHONY : crypto_sign/HAETAE2/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE2/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE2/benchmark/all: crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all
-.PHONY : crypto_sign/HAETAE2/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE2/benchmark/preinstall:
-.PHONY : crypto_sign/HAETAE2/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE2/benchmark/clean: crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE2/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE2/kat
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE2/kat/all: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/all
-crypto_sign/HAETAE2/kat/all: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all
-.PHONY : crypto_sign/HAETAE2/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE2/kat/preinstall:
-.PHONY : crypto_sign/HAETAE2/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE2/kat/clean: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/clean
-crypto_sign/HAETAE2/kat/clean: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE2/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE2/metamorphic/all: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
-crypto_sign/HAETAE2/metamorphic/all: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all
-.PHONY : crypto_sign/HAETAE2/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE2/metamorphic/preinstall:
-.PHONY : crypto_sign/HAETAE2/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE2/metamorphic/clean: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/clean
-crypto_sign/HAETAE2/metamorphic/clean: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE2/test
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE2/test/all: crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all
-.PHONY : crypto_sign/HAETAE2/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE2/test/preinstall:
-.PHONY : crypto_sign/HAETAE2/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE2/test/clean: crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE3
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/test/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/kat/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/benchmark/all
-crypto_sign/HAETAE3/all: crypto_sign/HAETAE3/metamorphic/all
-.PHONY : crypto_sign/HAETAE3/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE3/preinstall: crypto_sign/HAETAE3/test/preinstall
-crypto_sign/HAETAE3/preinstall: crypto_sign/HAETAE3/kat/preinstall
-crypto_sign/HAETAE3/preinstall: crypto_sign/HAETAE3/benchmark/preinstall
-crypto_sign/HAETAE3/preinstall: crypto_sign/HAETAE3/metamorphic/preinstall
-.PHONY : crypto_sign/HAETAE3/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/test/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/kat/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/benchmark/clean
-crypto_sign/HAETAE3/clean: crypto_sign/HAETAE3/metamorphic/clean
-.PHONY : crypto_sign/HAETAE3/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE3/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE3/benchmark/all: crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all
-.PHONY : crypto_sign/HAETAE3/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE3/benchmark/preinstall:
-.PHONY : crypto_sign/HAETAE3/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE3/benchmark/clean: crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE3/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE3/kat
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE3/kat/all: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all
-crypto_sign/HAETAE3/kat/all: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all
-.PHONY : crypto_sign/HAETAE3/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE3/kat/preinstall:
-.PHONY : crypto_sign/HAETAE3/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE3/kat/clean: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/clean
-crypto_sign/HAETAE3/kat/clean: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE3/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE3/metamorphic/all: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/all
-crypto_sign/HAETAE3/metamorphic/all: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all
-.PHONY : crypto_sign/HAETAE3/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE3/metamorphic/preinstall:
-.PHONY : crypto_sign/HAETAE3/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE3/metamorphic/clean: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/clean
-crypto_sign/HAETAE3/metamorphic/clean: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE3/test
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE3/test/all: crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all
-.PHONY : crypto_sign/HAETAE3/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE3/test/preinstall:
-.PHONY : crypto_sign/HAETAE3/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE3/test/clean: crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE5
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/test/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/kat/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/benchmark/all
-crypto_sign/HAETAE5/all: crypto_sign/HAETAE5/metamorphic/all
-.PHONY : crypto_sign/HAETAE5/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE5/preinstall: crypto_sign/HAETAE5/test/preinstall
-crypto_sign/HAETAE5/preinstall: crypto_sign/HAETAE5/kat/preinstall
-crypto_sign/HAETAE5/preinstall: crypto_sign/HAETAE5/benchmark/preinstall
-crypto_sign/HAETAE5/preinstall: crypto_sign/HAETAE5/metamorphic/preinstall
-.PHONY : crypto_sign/HAETAE5/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/test/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/kat/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/benchmark/clean
-crypto_sign/HAETAE5/clean: crypto_sign/HAETAE5/metamorphic/clean
-.PHONY : crypto_sign/HAETAE5/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE5/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE5/benchmark/all: crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all
-.PHONY : crypto_sign/HAETAE5/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE5/benchmark/preinstall:
-.PHONY : crypto_sign/HAETAE5/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE5/benchmark/clean: crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE5/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE5/kat
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE5/kat/all: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/all
-crypto_sign/HAETAE5/kat/all: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all
-.PHONY : crypto_sign/HAETAE5/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE5/kat/preinstall:
-.PHONY : crypto_sign/HAETAE5/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE5/kat/clean: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/clean
-crypto_sign/HAETAE5/kat/clean: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE5/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE5/metamorphic/all: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/all
-crypto_sign/HAETAE5/metamorphic/all: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all
-.PHONY : crypto_sign/HAETAE5/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE5/metamorphic/preinstall:
-.PHONY : crypto_sign/HAETAE5/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE5/metamorphic/clean: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/clean
-crypto_sign/HAETAE5/metamorphic/clean: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/HAETAE5/test
-
-# Recursive "all" directory target.
-crypto_sign/HAETAE5/test/all: crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all
-.PHONY : crypto_sign/HAETAE5/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/HAETAE5/test/preinstall:
-.PHONY : crypto_sign/HAETAE5/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/HAETAE5/test/clean: crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/test/clean
+crypto_sign/AImer-L1/tests/clean: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/clean
+crypto_sign/AImer-L1/tests/clean: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/clean
+crypto_sign/AImer-L1/tests/clean: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/clean
+crypto_sign/AImer-L1/tests/clean: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/clean
+.PHONY : crypto_sign/AImer-L1/tests/clean
 
 #=============================================================================
 # Target rules for target common/CMakeFiles/common.dir
@@ -842,12 +484,12 @@ crypto_sign/HAETAE5/test/clean: crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=23,24 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=35,36,37,38 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : common/CMakeFiles/common.dir/rule
@@ -868,7 +510,7 @@ common/CMakeFiles/common.dir/clean:
 crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=21 "Built target RNG1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=26 "Built target RNG1"
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -895,12 +537,12 @@ crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=68,69,70,71 "Built target smaug1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=39,40,41,42,43,44,45,46 "Built target smaug1"
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
@@ -923,12 +565,12 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFi
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=76 "Built target smaug1-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=54 "Built target smaug1-main"
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/rule
@@ -949,7 +591,7 @@ crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/clean:
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=74 "Built target smaug1-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51 "Built target smaug1-kat-kem"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -978,12 +620,12 @@ crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all: crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=75 "Built target smaug1-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=52,53 "Built target smaug1-kat-kem-main"
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/rule
@@ -1006,12 +648,12 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=72,73 "Built target smaug1-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=47,48,49,50 "Built target smaug1-benchmark"
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/rule
@@ -1032,12 +674,12 @@ crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean:
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=77 "Built target smaug1-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=55,56,57 "Built target smaug1-meta"
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/rule
@@ -1061,12 +703,12 @@ crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SM
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all: crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=78 "Built target smaug1-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=58 "Built target smaug1-meta-main"
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/rule
@@ -1087,12 +729,12 @@ crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/clean:
 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target RNG3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=27,28 "Built target RNG3"
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/rule
@@ -1114,12 +756,12 @@ crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all: crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=79,80,81,82 "Built target smaug3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67 "Built target smaug3"
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/rule
@@ -1142,12 +784,12 @@ crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all: crypto_kem/SMAUG3/CMakeFi
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all: crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target smaug3-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=74,75 "Built target smaug3-main"
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/rule
@@ -1168,12 +810,12 @@ crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/clean:
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=85 "Built target smaug3-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=71,72 "Built target smaug3-kat-kem"
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/rule
@@ -1197,12 +839,12 @@ crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all: crypto_kem/SMAUG3/
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all: crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=86 "Built target smaug3-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=73 "Built target smaug3-kat-kem-main"
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/rule
@@ -1225,12 +867,12 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all: crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=83,84 "Built target smaug3-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=68,69,70 "Built target smaug3-benchmark"
 .PHONY : crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/rule
@@ -1251,7 +893,7 @@ crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/clean:
 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=87,88 "Built target smaug3-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=76,77 "Built target smaug3-meta"
 .PHONY : crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1280,12 +922,12 @@ crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all: crypto_kem/SM
 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all: crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=89 "Built target smaug3-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=78,79 "Built target smaug3-meta-main"
 .PHONY : crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/rule
@@ -1306,12 +948,12 @@ crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/clean:
 crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=22 "Built target RNG5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=29,30 "Built target RNG5"
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/rule
@@ -1333,12 +975,12 @@ crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all: crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=90,91,92,93 "Built target smaug5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=80,81,82,83,84,85,86,87,88 "Built target smaug5"
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/rule
@@ -1361,12 +1003,12 @@ crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all: crypto_kem/SMAUG5/CMakeFi
 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all: crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target smaug5-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=95,96 "Built target smaug5-main"
 .PHONY : crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/rule
@@ -1387,7 +1029,7 @@ crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/clean:
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=96 "Built target smaug5-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=92 "Built target smaug5-kat-kem"
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1416,12 +1058,12 @@ crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all: crypto_kem/SMAUG5/
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all: crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=97 "Built target smaug5-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=93,94 "Built target smaug5-kat-kem-main"
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/rule
@@ -1444,12 +1086,12 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all: crypto_kem/SMAU
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all: crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build.make crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build.make crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=94,95 "Built target smaug5-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=89,90,91 "Built target smaug5-benchmark"
 .PHONY : crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/rule
@@ -1470,7 +1112,7 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/clean:
 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=98,99 "Built target smaug5-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=97,98 "Built target smaug5-meta"
 .PHONY : crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1499,12 +1141,12 @@ crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all: crypto_kem/SM
 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all: crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=100 "Built target smaug5-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=99,100 "Built target smaug5-meta-main"
 .PHONY : crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/rule
@@ -1519,1134 +1161,340 @@ crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/clean:
 .PHONY : crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir
+# Target rules for target crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir
 
 # All Build rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=38 "Built target haetae2_fips202"
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
+crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=32,33,34 "Built target aimer1_fips202"
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/rule: cmake_check_build_system
+crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/rule
+
+# Convenience name for target.
+aimer1_fips202: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/rule
+.PHONY : aimer1_fips202
+
+# clean rule for target.
+crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/clean
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir
+
+# All Build rule for target.
+crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=31 "Built target aimer1_RNG"
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/rule
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/rule
 
 # Convenience name for target.
-haetae2_fips202: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/rule
-.PHONY : haetae2_fips202
+aimer1_RNG: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/rule
+.PHONY : aimer1_RNG
 
 # clean rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/clean
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/clean
+crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/clean
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir
+# Target rules for target crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir
 
 # All Build rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=37 "Built target haetae2_RNG"
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
+crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build.make crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build.make crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Almer-l1"
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/rule
-
-# Convenience name for target.
-haetae2_RNG: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/rule
-.PHONY : haetae2_RNG
-
-# clean rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/clean
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/CMakeFiles/haetae2.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=25,26,27,28,29 "Built target haetae2"
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/rule
-
-# Convenience name for target.
-haetae2: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/rule
-.PHONY : haetae2
-
-# clean rule for target.
-crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/build.make crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/clean
-.PHONY : crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=34 "Built target haetae2-main"
-.PHONY : crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/rule
-
-# Convenience name for target.
-haetae2-main: crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/rule
-.PHONY : haetae2-main
-
-# clean rule for target.
-crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=32 "Built target haetae2-kat-sign"
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/rule
-
-# Convenience name for target.
-haetae2-kat-sign: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/rule
-.PHONY : haetae2-kat-sign
-
-# clean rule for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/clean
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=33 "Built target haetae2-kat-sign-main"
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/rule
-
-# Convenience name for target.
-haetae2-kat-sign-main: crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/rule
-.PHONY : haetae2-kat-sign-main
-
-# clean rule for target.
-crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/build.make crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build.make crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build.make crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=30,31 "Built target haetae2-benchmark"
-.PHONY : crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/rule
-
-# Convenience name for target.
-haetae2-benchmark: crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/rule
-.PHONY : haetae2-benchmark
-
-# clean rule for target.
-crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/build.make crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=35,36 "Built target haetae2-meta"
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/rule
-
-# Convenience name for target.
-haetae2-meta: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/rule
-.PHONY : haetae2-meta
-
-# clean rule for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/clean
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/all
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/all
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target haetae2-meta-main"
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/rule
-
-# Convenience name for target.
-haetae2-meta-main: crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/rule
-.PHONY : haetae2-meta-main
-
-# clean rule for target.
-crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target haetae3_fips202"
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/rule
-
-# Convenience name for target.
-haetae3_fips202: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/rule
-.PHONY : haetae3_fips202
-
-# clean rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/clean
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=52 "Built target haetae3_RNG"
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/rule
-
-# Convenience name for target.
-haetae3_RNG: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/rule
-.PHONY : haetae3_RNG
-
-# clean rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/clean
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/CMakeFiles/haetae3.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=39,40,41,42,43 "Built target haetae3"
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/rule
-
-# Convenience name for target.
-haetae3: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/rule
-.PHONY : haetae3
-
-# clean rule for target.
-crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/build.make crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/clean
-.PHONY : crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=48 "Built target haetae3-main"
-.PHONY : crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/rule
-
-# Convenience name for target.
-haetae3-main: crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/rule
-.PHONY : haetae3-main
-
-# clean rule for target.
-crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=46 "Built target haetae3-kat-sign"
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/rule
-
-# Convenience name for target.
-haetae3-kat-sign: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/rule
-.PHONY : haetae3-kat-sign
-
-# clean rule for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/clean
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=47 "Built target haetae3-kat-sign-main"
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/rule
-
-# Convenience name for target.
-haetae3-kat-sign-main: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/rule
-.PHONY : haetae3-kat-sign-main
-
-# clean rule for target.
-crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build.make crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build.make crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=44,45 "Built target haetae3-benchmark"
-.PHONY : crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/rule
-
-# Convenience name for target.
-haetae3-benchmark: crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/rule
-.PHONY : haetae3-benchmark
-
-# clean rule for target.
-crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/build.make crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=49,50 "Built target haetae3-meta"
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/rule
-
-# Convenience name for target.
-haetae3-meta: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/rule
-.PHONY : haetae3-meta
-
-# clean rule for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/clean
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/all
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/all
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51 "Built target haetae3-meta-main"
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/rule
-
-# Convenience name for target.
-haetae3-meta-main: crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/rule
-.PHONY : haetae3-meta-main
-
-# clean rule for target.
-crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/build.make crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67 "Built target haetae5_fips202"
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
-
-# Convenience name for target.
-haetae5_fips202: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
-.PHONY : haetae5_fips202
-
-# clean rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/clean
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=66 "Built target haetae5_RNG"
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
-
-# Convenience name for target.
-haetae5_RNG: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
-.PHONY : haetae5_RNG
-
-# clean rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/clean
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/CMakeFiles/haetae5.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=53,54,55,56,57 "Built target haetae5"
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
-
-# Convenience name for target.
-haetae5: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
-.PHONY : haetae5
-
-# clean rule for target.
-crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/clean
-.PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build.make crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build.make crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=62,63 "Built target haetae5-main"
-.PHONY : crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/rule
-
-# Convenience name for target.
-haetae5-main: crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/rule
-.PHONY : haetae5-main
-
-# clean rule for target.
-crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/build.make crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target haetae5-kat-sign"
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/rule
-
-# Convenience name for target.
-haetae5-kat-sign: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/rule
-.PHONY : haetae5-kat-sign
-
-# clean rule for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/clean
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=61 "Built target haetae5-kat-sign-main"
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/rule
-
-# Convenience name for target.
-haetae5-kat-sign-main: crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/rule
-.PHONY : haetae5-kat-sign-main
-
-# clean rule for target.
-crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/build.make crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build.make crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build.make crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=58,59,60 "Built target haetae5-benchmark"
-.PHONY : crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/rule: cmake_check_build_system
+crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/rule
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/rule
 
 # Convenience name for target.
-haetae5-benchmark: crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/rule
-.PHONY : haetae5-benchmark
+Almer-l1: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/rule
+.PHONY : Almer-l1
 
 # clean rule for target.
-crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/build.make crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/clean
-.PHONY : crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/clean
+crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build.make crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/clean
+.PHONY : crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir
+# Target rules for target crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir
 
 # All Build rule for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=64 "Built target haetae5-meta"
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=16 "Built target Almer-l1-main"
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/rule
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/rule
 
 # Convenience name for target.
-haetae5-meta: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/rule
-.PHONY : haetae5-meta
+Almer-l1-main: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/rule
+.PHONY : Almer-l1-main
 
 # clean rule for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/clean
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/clean
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/clean
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir
+# Target rules for target crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir
 
 # All Build rule for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/all
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/all
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/all
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65 "Built target haetae5-meta-main"
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=21,22 "Built target Almer-l1-testaim"
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/rule
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/rule
 
 # Convenience name for target.
-haetae5-meta-main: crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/rule
-.PHONY : haetae5-meta-main
+Almer-l1-testaim: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/rule
+.PHONY : Almer-l1-testaim
 
 # clean rule for target.
-crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/build.make crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/clean
-.PHONY : crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/clean
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/clean
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir
+# Target rules for target crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=4 "Built target EnhpqsigRM-612-RNG"
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=24,25 "Built target Almer-l1-testtree"
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 17
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/rule
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-612-RNG: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/rule
-.PHONY : EnhpqsigRM-612-RNG
+Almer-l1-testtree: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/rule
+.PHONY : Almer-l1-testtree
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/clean
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/clean
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir
+# Target rules for target crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2,3 "Built target EnhpqsigRM-612"
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=23 "Built target Almer-l1-testsign"
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/rule
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-612: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/rule
-.PHONY : EnhpqsigRM-612
+Almer-l1-testsign: crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/rule
+.PHONY : Almer-l1-testsign
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean
+crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/clean
+.PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir
+# Target rules for target crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=8 "Built target EnhpqsigRM-612-main"
-.PHONY : crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=12,13 "Built target Almer-l1-kat-sign"
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-612-main: crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/rule
-.PHONY : EnhpqsigRM-612-main
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=7 "Built target EnhpqsigRM-612-kat-sign"
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-612-kat-sign: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/rule
-.PHONY : EnhpqsigRM-612-kat-sign
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target EnhpqsigRM-612-kat-sign-main"
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/rule
-.PHONY : EnhpqsigRM-612-kat-sign-main
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=5,6 "Built target EnhpqsigRM-612-benchmark"
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-612-benchmark: crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/rule
-.PHONY : EnhpqsigRM-612-benchmark
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=18,19 "Built target EnhpqsigRM612-meta"
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/rule: cmake_check_build_system
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/rule
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM612-meta: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/rule
-.PHONY : EnhpqsigRM612-meta
+Almer-l1-kat-sign: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/rule
+.PHONY : Almer-l1-kat-sign
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/clean
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir
+# Target rules for target crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/all
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/all
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=20 "Built target EnhpqsigRM612-meta-main"
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=14,15 "Built target Almer-l1-kat-sign-main"
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/all
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/rule
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM612-meta-main: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/rule
-.PHONY : EnhpqsigRM612-meta-main
+Almer-l1-kat-sign-main: crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/rule
+.PHONY : Almer-l1-kat-sign-main
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/clean
+crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/clean
+.PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir
+# Target rules for target crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=13 "Built target EnhpqsigRM-613-RNG"
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build.make crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build.make crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=8,9,10,11 "Built target Almer-l1-benchmark"
+.PHONY : crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/rule
+.PHONY : crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-613-RNG: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/rule
-.PHONY : EnhpqsigRM-613-RNG
+Almer-l1-benchmark: crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/rule
+.PHONY : Almer-l1-benchmark
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/clean
+crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build.make crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/clean
+.PHONY : crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir
+# Target rules for target crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=9,10,11,12 "Built target EnhpqsigRM-613"
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=17,18,19 "Built target Almer-l1-meta"
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/rule
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-613: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/rule
-.PHONY : EnhpqsigRM-613
+Almer-l1-meta: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/rule
+.PHONY : Almer-l1-meta
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/clean
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/clean
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir
+# Target rules for target crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir
 
 # All Build rule for target.
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=17 "Built target EnhpqsigRM-613-main"
-.PHONY : crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=20 "Built target Almer-l1-meta-main"
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/all
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/rule
 
 # Convenience name for target.
-EnhpqsigRM-613-main: crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/rule
-.PHONY : EnhpqsigRM-613-main
+Almer-l1-meta-main: crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/rule
+.PHONY : Almer-l1-meta-main
 
 # clean rule for target.
-crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target EnhpqsigRM-613-kat-sign"
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-613-kat-sign: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/rule
-.PHONY : EnhpqsigRM-613-kat-sign
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=16 "Built target EnhpqsigRM-613-kat-sign-main"
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-613-kat-sign-main: crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/rule
-.PHONY : EnhpqsigRM-613-kat-sign-main
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/all
-crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all: crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=14,15 "Built target EnhpqsigRM-613-benchmark"
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/rule
-
-# Convenience name for target.
-EnhpqsigRM-613-benchmark: crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/rule
-.PHONY : EnhpqsigRM-613-benchmark
-
-# clean rule for target.
-crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/clean
-.PHONY : crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/clean
+crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/clean
+.PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -64,27 +64,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

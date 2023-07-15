@@ -9,8 +9,6 @@
 #include "parm.h"
 #include "rm.h"
 
-#include <openssl/sha.h>
-#include <openssl/evp.h>
 #include "sha2.h"
 
 #include <string.h>

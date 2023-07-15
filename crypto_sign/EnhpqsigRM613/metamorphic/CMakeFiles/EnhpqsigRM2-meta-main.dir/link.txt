@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/EnhpqsigRM2-meta-main.dir/meta_test.c.o" -o ../bin/EnhpqsigRM2-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/libs ../libs/libEnhpqsigRM2-meta.so 

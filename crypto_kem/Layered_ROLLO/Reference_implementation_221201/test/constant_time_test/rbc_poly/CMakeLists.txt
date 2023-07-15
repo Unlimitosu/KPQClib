@@ -4,10 +4,6 @@ set_target_properties(rbc PROPERTIES IMPORTED_LOCATION ${RBC_LIB_SOURCE})
 add_executable(test_cst_rbc_poly test_rbc_poly.c)
 
 target_link_libraries(test_cst_rbc_poly PUBLIC rbc)
-<<<<<<< HEAD
-target_link_libraries(test_cst_rbc_poly PUBLIC OpenSSL::Crypto)
-=======
->>>>>>> d2fee5c8896924c5a3af4500803434cb570d6603
 target_link_libraries(test_cst_rbc_poly PRIVATE ${NTL_LIB})
 target_link_libraries(test_cst_rbc_poly PRIVATE ${GMP_LIB})
 

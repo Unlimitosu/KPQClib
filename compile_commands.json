@@ -223,19 +223,19 @@
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=5 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_contribution.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=5 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
   "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/meta_test.c.o"
 },
@@ -360,657 +360,159 @@
   "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -Dhaetae2_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/haetae2_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/fips202.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2_fips202.dir/src/fips202.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -Dhaetae2_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/haetae2_RNG.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2_RNG.dir/src/randombytes.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/poly.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/poly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/ntt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/ntt.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/ntt.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/aimer1_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/reduce.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/reduce.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/reduce.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aim128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aim128.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/polyvec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polyvec.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polyvec.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/polyvec.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/polymat.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polymat.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polymat.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/polymat.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/rounding.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/rounding.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/rounding.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/rounding.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/polydbl.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polydbl.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/polydbl.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/polydbl.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/api.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/api.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/sampler.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/sampler.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/sampler.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/sampler.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/packing.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/packing.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/packing.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/packing.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/sign.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae2.dir/src/symmetric-shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/symmetric-shake.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/symmetric-shake.c",
-  "output": "crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/symmetric-shake.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/field/field128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/field/field128.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/test/main.c",
-  "output": "crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-main.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "output": "crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/__/src/randombytes.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/../include -std=gnu11 -fPIC -o CMakeFiles/haetae2-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/kat_sign.c",
-  "output": "crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign.dir/kat_sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/../include -std=gnu11 -o CMakeFiles/haetae2-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/HAETAE2/kat/CMakeFiles/haetae2-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/speed.c",
-  "output": "crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/speed.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
+  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/cpucycles.c",
-  "output": "crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/cpucycles.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark/speed_print.c",
-  "output": "crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae2-benchmark.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/src/randombytes.c",
-  "output": "crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/__/src/randombytes.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae2-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_contribution.c",
-  "output": "crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae2-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_exclusion.c",
-  "output": "crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -Dhaetae2_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae2-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_verify.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/bit_verify.c",
-  "output": "crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/bit_verify.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/../include -std=gnu11 -o CMakeFiles/haetae2-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/metamorphic/meta_test.c",
-  "output": "crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -Dhaetae3_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/haetae3_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/fips202.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3_fips202.dir/src/fips202.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -Dhaetae3_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/haetae3_RNG.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3_RNG.dir/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/poly.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/poly.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/ntt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/ntt.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/ntt.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/reduce.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/reduce.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/reduce.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/polyvec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polyvec.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polyvec.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/polyvec.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/polymat.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polymat.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polymat.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/polymat.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/rounding.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/rounding.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/rounding.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/rounding.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/polydbl.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polydbl.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/polydbl.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/polydbl.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/sampler.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/sampler.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/sampler.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/sampler.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/packing.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/packing.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/packing.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/packing.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/sign.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae3.dir/src/symmetric-shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/symmetric-shake.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/symmetric-shake.c",
-  "output": "crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/symmetric-shake.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/test/main.c",
-  "output": "crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/main.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-main.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "output": "crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/__/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/../include -std=gnu11 -fPIC -o CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/kat_sign.c",
-  "output": "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/../include -std=gnu11 -o CMakeFiles/haetae3-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/speed.c",
-  "output": "crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/cpucycles.c",
-  "output": "crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark/speed_print.c",
-  "output": "crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/speed_print.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae3-benchmark.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/src/randombytes.c",
-  "output": "crypto_sign/HAETAE3/benchmark/CMakeFiles/haetae3-benchmark.dir/__/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_contribution.c",
-  "output": "crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/bit_contribution.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_exclusion.c",
-  "output": "crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/bit_exclusion.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -Dhaetae3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae3-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_verify.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/bit_verify.c",
-  "output": "crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta.dir/bit_verify.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/../include -std=gnu11 -o CMakeFiles/haetae3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE3/metamorphic/meta_test.c",
-  "output": "crypto_sign/HAETAE3/metamorphic/CMakeFiles/haetae3-meta-main.dir/meta_test.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -Dhaetae5_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/haetae5_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/fips202.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -Dhaetae5_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/haetae5_RNG.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/poly.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/ntt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/ntt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/ntt.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/reduce.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/reduce.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/polyvec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polyvec.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polyvec.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/polymat.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polymat.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polymat.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/rounding.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/rounding.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/rounding.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/polydbl.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polydbl.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/polydbl.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/sampler.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/sampler.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/sampler.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/packing.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/packing.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/packing.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/sign.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/haetae5.dir/src/symmetric-shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/symmetric-shake.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/symmetric-shake.c",
-  "output": "crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/test/main.c",
-  "output": "crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/main.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/test",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-main.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "output": "crypto_sign/HAETAE5/test/CMakeFiles/haetae5-main.dir/__/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/../include -std=gnu11 -fPIC -o CMakeFiles/haetae5-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/kat_sign.c",
-  "output": "crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign.dir/kat_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/../include -std=gnu11 -o CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/HAETAE5/kat/CMakeFiles/haetae5-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed.c",
-  "output": "crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/cpucycles.c",
-  "output": "crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark/speed_print.c",
-  "output": "crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/speed_print.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/benchmark",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/haetae5-benchmark.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/src/randombytes.c",
-  "output": "crypto_sign/HAETAE5/benchmark/CMakeFiles/haetae5-benchmark.dir/__/src/randombytes.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_contribution.c",
-  "output": "crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/bit_contribution.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_exclusion.c",
-  "output": "crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/bit_exclusion.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -Dhaetae5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/haetae5-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_verify.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/bit_verify.c",
-  "output": "crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta.dir/bit_verify.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic",
-  "command": "/usr/bin/cc -DHAETAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/../include -std=gnu11 -o CMakeFiles/haetae5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE5/metamorphic/meta_test.c",
-  "output": "crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/meta_test.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/EnhpqsigRM-612-RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O1 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c",
-  "output": "crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/tests",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/tests/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/tests/main.c",
-  "output": "crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/main.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat",
-  "command": "/usr/bin/cc -DEnhpqsigRM_612_kat_sign_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/../include -std=gnu11 -fPIC -o CMakeFiles/EnhpqsigRM-612-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/kat_sign.c",
-  "output": "crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/kat_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/../include -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed.c",
-  "output": "crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/cpucycles.c",
-  "output": "crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-612-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed_print.c",
-  "output": "crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/speed_print.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic",
-  "command": "/usr/bin/cc -DEnhpqsigRM612_meta_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c",
-  "output": "crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic",
-  "command": "/usr/bin/cc -DEnhpqsigRM612_meta_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c",
-  "output": "crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic",
-  "command": "/usr/bin/cc -DEnhpqsigRM612_meta_EXPORTS -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c",
-  "output": "crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/../include -std=gnu11 -o CMakeFiles/EnhpqsigRM612-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/meta_test.c",
-  "output": "crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/meta_test.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/EnhpqsigRM-613-RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rng.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/common.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/common.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/common.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/keypair.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/keypair.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/keypair.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/matrix.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/matrix.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/matrix.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/nearest_vector.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/nearest_vector.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/nearest_vector.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/nearest_vector.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/open.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/open.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/open.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/open.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/rm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rm.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rm.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/rm.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/rng.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/EnhpqsigRM-613.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/src/sign.c",
-  "output": "crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/tests",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-613-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/tests/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/tests/main.c",
-  "output": "crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/main.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat",
-  "command": "/usr/bin/cc -DEnhpqsigRM_613_kat_sign_EXPORTS -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/../include -std=gnu11 -fPIC -o CMakeFiles/EnhpqsigRM-613-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/kat_sign.c",
-  "output": "crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/kat_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/../include -std=gnu11 -o CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-613-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/speed.c",
-  "output": "crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-613-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/cpucycles.c",
-  "output": "crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark",
-  "command": "/usr/bin/cc -DpqsigRM_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/EnhpqsigRM-613-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/speed_print.c",
-  "output": "crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o"
 }
 ]
