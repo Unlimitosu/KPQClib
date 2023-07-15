@@ -28,11 +28,15 @@ make clean
 ```
 
 ## FAQ
-### How to run PALOMA family?
+### Segmentation fault(or stack corruption) during run PALOMA family
 To run PALOMA family, you need to increase the stack size to 51200.
 ```
 ulimit -s 51200
 ```
+
+### Metamorphic test result is not same with given table in README.
+To run metamorphic testing, you should fix the random values.
+Try after fixing the ```randombytes``` functions into fixed values. We left them in comments for each function.
 
 ## Metamorphic Testing
 ### KEM
@@ -42,9 +46,9 @@ ulimit -s 51200
 |IPCC f3||||X||
 |IPCC f4||||X||
 |Layered ROLLO||||X||
-|PALOMA 128||||X||
-|PALOMA 192|F|S||X||
-|PALOMA 256|F|S||X||
+|PALOMA 128|S|S||X||
+|PALOMA 192|S|S||X||
+|PALOMA 256|S|S||X||
 |SMAUG 1|S|S||O||
 |SMAUG 3|S|S||O|Segmentation Fault|
 |SMAUG 5|S|S||O||
@@ -73,7 +77,7 @@ ulimit -s 51200
 |HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
 |MQ-Sign 72-46||||X|Sign not generated|
 |MQ-Sign 112-72||||X||
-|NCC-Sign 2||||X||
+|NCC-Sign 2||||X|make error on metamorphic|
 |NCC-Sign 3||||X||
 |NCC-Sign 5||||X||
 |Peregrine 512||||X||
