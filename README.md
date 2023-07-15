@@ -28,11 +28,15 @@ make clean
 ```
 
 ## FAQ
-### How to run PALOMA family?
+### Segmentation fault(or stack corruption) during run PALOMA family
 To run PALOMA family, you need to increase the stack size to 51200.
 ```
 ulimit -s 51200
 ```
+
+### Metamorphic test result is not same with given table in README.
+To run metamorphic testing, you should fix the random values.
+Try after fixing the ```randombytes``` functions into fixed values. We left them in comments for each function.
 
 ## Metamorphic Testing
 ### KEM
