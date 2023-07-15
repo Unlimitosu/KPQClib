@@ -46,9 +46,9 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 |IPCC f3||||X||
 |IPCC f4||||X||
 |Layered ROLLO||||X||
-|PALOMA 128||||X||
-|PALOMA 192|F|S||X||
-|PALOMA 256|F|S||X||
+|PALOMA 128|S|S||X||
+|PALOMA 192|S|S||X||
+|PALOMA 256|S|S||X||
 |SMAUG 1|S|S||O||
 |SMAUG 3|S|S||O|Segmentation Fault|
 |SMAUG 5|S|S||O||
