@@ -1078,6 +1078,162 @@ GCKSign5-meta-main/fast:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build
 .PHONY : GCKSign5-meta-main/fast
 
+#=============================================================================
+# Target rules for targets named MQS256_72_46_RNG
+
+# Build rule for target.
+MQS256_72_46_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46_RNG
+.PHONY : MQS256_72_46_RNG
+
+# fast build rule for target.
+MQS256_72_46_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46_RNG.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46_RNG.dir/build
+.PHONY : MQS256_72_46_RNG/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46LIB
+
+# Build rule for target.
+MQS256_72_46LIB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46LIB
+.PHONY : MQS256_72_46LIB
+
+# fast build rule for target.
+MQS256_72_46LIB/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46LIB.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46LIB.dir/build
+.PHONY : MQS256_72_46LIB/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46LIB-main1
+
+# Build rule for target.
+MQS256_72_46LIB-main1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46LIB-main1
+.PHONY : MQS256_72_46LIB-main1
+
+# fast build rule for target.
+MQS256_72_46LIB-main1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build
+.PHONY : MQS256_72_46LIB-main1/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46LIB-main2
+
+# Build rule for target.
+MQS256_72_46LIB-main2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46LIB-main2
+.PHONY : MQS256_72_46LIB-main2
+
+# fast build rule for target.
+MQS256_72_46LIB-main2/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build
+.PHONY : MQS256_72_46LIB-main2/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46-benchmark
+
+# Build rule for target.
+MQS256_72_46-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46-benchmark
+.PHONY : MQS256_72_46-benchmark
+
+# fast build rule for target.
+MQS256_72_46-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/build.make crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256_72_46-benchmark.dir/build
+.PHONY : MQS256_72_46-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46-meta
+
+# Build rule for target.
+MQS256_72_46-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46-meta
+.PHONY : MQS256_72_46-meta
+
+# fast build rule for target.
+MQS256_72_46-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build
+.PHONY : MQS256_72_46-meta/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_72_46-meta-main
+
+# Build rule for target.
+MQS256_72_46-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_72_46-meta-main
+.PHONY : MQS256_72_46-meta-main
+
+# fast build rule for target.
+MQS256_72_46-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build
+.PHONY : MQS256_72_46-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_112_72_RNG
+
+# Build rule for target.
+MQS256_112_72_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_112_72_RNG
+.PHONY : MQS256_112_72_RNG
+
+# fast build rule for target.
+MQS256_112_72_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256_112_72_RNG.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256_112_72_RNG.dir/build
+.PHONY : MQS256_112_72_RNG/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_112_72LIB
+
+# Build rule for target.
+MQS256_112_72LIB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_112_72LIB
+.PHONY : MQS256_112_72LIB
+
+# fast build rule for target.
+MQS256_112_72LIB/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256_112_72LIB.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256_112_72LIB.dir/build
+.PHONY : MQS256_112_72LIB/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_112_72LIB-main1
+
+# Build rule for target.
+MQS256_112_72LIB-main1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_112_72LIB-main1
+.PHONY : MQS256_112_72LIB-main1
+
+# fast build rule for target.
+MQS256_112_72LIB-main1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256_112_72LIB-main1.dir/build.make crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256_112_72LIB-main1.dir/build
+.PHONY : MQS256_112_72LIB-main1/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_112_72LIB-main2
+
+# Build rule for target.
+MQS256_112_72LIB-main2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_112_72LIB-main2
+.PHONY : MQS256_112_72LIB-main2
+
+# fast build rule for target.
+MQS256_112_72LIB-main2/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256_112_72LIB-main2.dir/build.make crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256_112_72LIB-main2.dir/build
+.PHONY : MQS256_112_72LIB-main2/fast
+
+#=============================================================================
+# Target rules for targets named MQS256_112_72-benchmark
+
+# Build rule for target.
+MQS256_112_72-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256_112_72-benchmark
+.PHONY : MQS256_112_72-benchmark
+
+# fast build rule for target.
+MQS256_112_72-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build
+.PHONY : MQS256_112_72-benchmark/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1107,6 +1263,18 @@ help:
 	@echo "... GCKSign3-meta-main"
 	@echo "... GCKSign5-meta"
 	@echo "... GCKSign5-meta-main"
+	@echo "... MQS256_112_72-benchmark"
+	@echo "... MQS256_112_72LIB"
+	@echo "... MQS256_112_72LIB-main1"
+	@echo "... MQS256_112_72LIB-main2"
+	@echo "... MQS256_112_72_RNG"
+	@echo "... MQS256_72_46-benchmark"
+	@echo "... MQS256_72_46-meta"
+	@echo "... MQS256_72_46-meta-main"
+	@echo "... MQS256_72_46LIB"
+	@echo "... MQS256_72_46LIB-main1"
+	@echo "... MQS256_72_46LIB-main2"
+	@echo "... MQS256_72_46_RNG"
 	@echo "... PALOMA128"
 	@echo "... PALOMA128-benchmark"
 	@echo "... PALOMA128-kat-kem"

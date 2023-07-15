@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/benchmark
+# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

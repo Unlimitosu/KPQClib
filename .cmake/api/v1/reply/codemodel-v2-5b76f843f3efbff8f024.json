@@ -17,7 +17,9 @@
 						26,
 						31,
 						36,
-						41
+						41,
+						46,
+						50
 					],
 					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -39,7 +41,7 @@
 					"source" : "common",
 					"targetIndexes" : 
 					[
-						46
+						58
 					]
 				},
 				{
@@ -61,8 +63,8 @@
 					"source" : "crypto_kem/SMAUG1",
 					"targetIndexes" : 
 					[
-						43,
-						53
+						55,
+						65
 					]
 				},
 				{
@@ -77,7 +79,7 @@
 					"source" : "crypto_kem/SMAUG1/test",
 					"targetIndexes" : 
 					[
-						57
+						69
 					]
 				},
 				{
@@ -92,8 +94,8 @@
 					"source" : "crypto_kem/SMAUG1/kat",
 					"targetIndexes" : 
 					[
-						55,
-						56
+						67,
+						68
 					]
 				},
 				{
@@ -108,7 +110,7 @@
 					"source" : "crypto_kem/SMAUG1/benchmark",
 					"targetIndexes" : 
 					[
-						54
+						66
 					]
 				},
 				{
@@ -123,8 +125,8 @@
 					"source" : "crypto_kem/SMAUG1/metamorphic",
 					"targetIndexes" : 
 					[
-						58,
-						59
+						70,
+						71
 					]
 				},
 				{
@@ -146,8 +148,8 @@
 					"source" : "crypto_kem/SMAUG3",
 					"targetIndexes" : 
 					[
-						44,
-						60
+						56,
+						72
 					]
 				},
 				{
@@ -162,7 +164,7 @@
 					"source" : "crypto_kem/SMAUG3/test",
 					"targetIndexes" : 
 					[
-						64
+						76
 					]
 				},
 				{
@@ -177,8 +179,8 @@
 					"source" : "crypto_kem/SMAUG3/kat",
 					"targetIndexes" : 
 					[
-						62,
-						63
+						74,
+						75
 					]
 				},
 				{
@@ -193,7 +195,7 @@
 					"source" : "crypto_kem/SMAUG3/benchmark",
 					"targetIndexes" : 
 					[
-						61
+						73
 					]
 				},
 				{
@@ -208,8 +210,8 @@
 					"source" : "crypto_kem/SMAUG3/metamorphic",
 					"targetIndexes" : 
 					[
-						65,
-						66
+						77,
+						78
 					]
 				},
 				{
@@ -231,8 +233,8 @@
 					"source" : "crypto_kem/SMAUG5",
 					"targetIndexes" : 
 					[
-						45,
-						67
+						57,
+						79
 					]
 				},
 				{
@@ -247,7 +249,7 @@
 					"source" : "crypto_kem/SMAUG5/test",
 					"targetIndexes" : 
 					[
-						71
+						83
 					]
 				},
 				{
@@ -262,8 +264,8 @@
 					"source" : "crypto_kem/SMAUG5/kat",
 					"targetIndexes" : 
 					[
-						69,
-						70
+						81,
+						82
 					]
 				},
 				{
@@ -278,7 +280,7 @@
 					"source" : "crypto_kem/SMAUG5/benchmark",
 					"targetIndexes" : 
 					[
-						68
+						80
 					]
 				},
 				{
@@ -293,8 +295,8 @@
 					"source" : "crypto_kem/SMAUG5/metamorphic",
 					"targetIndexes" : 
 					[
-						72,
-						73
+						84,
+						85
 					]
 				},
 				{
@@ -315,8 +317,8 @@
 					"source" : "crypto_kem/PALOMA128",
 					"targetIndexes" : 
 					[
-						21,
-						40
+						33,
+						52
 					]
 				},
 				{
@@ -331,8 +333,8 @@
 					"source" : "crypto_kem/PALOMA128/kat",
 					"targetIndexes" : 
 					[
-						23,
-						24
+						35,
+						36
 					]
 				},
 				{
@@ -347,7 +349,7 @@
 					"source" : "crypto_kem/PALOMA128/test",
 					"targetIndexes" : 
 					[
-						25
+						37
 					]
 				},
 				{
@@ -362,7 +364,7 @@
 					"source" : "crypto_kem/PALOMA128/benchmark",
 					"targetIndexes" : 
 					[
-						22
+						34
 					]
 				},
 				{
@@ -384,8 +386,8 @@
 					"source" : "crypto_kem/PALOMA192",
 					"targetIndexes" : 
 					[
-						26,
-						41
+						38,
+						53
 					]
 				},
 				{
@@ -400,8 +402,8 @@
 					"source" : "crypto_kem/PALOMA192/kat",
 					"targetIndexes" : 
 					[
-						28,
-						29
+						40,
+						41
 					]
 				},
 				{
@@ -416,7 +418,7 @@
 					"source" : "crypto_kem/PALOMA192/test",
 					"targetIndexes" : 
 					[
-						30
+						42
 					]
 				},
 				{
@@ -431,7 +433,7 @@
 					"source" : "crypto_kem/PALOMA192/benchmark",
 					"targetIndexes" : 
 					[
-						27
+						39
 					]
 				},
 				{
@@ -446,8 +448,8 @@
 					"source" : "crypto_kem/PALOMA192/metamorphic",
 					"targetIndexes" : 
 					[
-						36,
-						37
+						48,
+						49
 					]
 				},
 				{
@@ -469,8 +471,8 @@
 					"source" : "crypto_kem/PALOMA256",
 					"targetIndexes" : 
 					[
-						31,
-						42
+						43,
+						54
 					]
 				},
 				{
@@ -485,8 +487,8 @@
 					"source" : "crypto_kem/PALOMA256/kat",
 					"targetIndexes" : 
 					[
-						33,
-						34
+						45,
+						46
 					]
 				},
 				{
@@ -501,7 +503,7 @@
 					"source" : "crypto_kem/PALOMA256/test",
 					"targetIndexes" : 
 					[
-						35
+						47
 					]
 				},
 				{
@@ -516,7 +518,7 @@
 					"source" : "crypto_kem/PALOMA256/benchmark",
 					"targetIndexes" : 
 					[
-						32
+						44
 					]
 				},
 				{
@@ -531,8 +533,8 @@
 					"source" : "crypto_kem/PALOMA256/metamorphic",
 					"targetIndexes" : 
 					[
-						38,
-						39
+						50,
+						51
 					]
 				},
 				{
@@ -555,8 +557,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						47,
-						48
+						59,
+						60
 					]
 				},
 				{
@@ -641,8 +643,8 @@
 					"targetIndexes" : 
 					[
 						5,
-						49,
-						50
+						61,
+						62
 					]
 				},
 				{
@@ -727,8 +729,8 @@
 					"targetIndexes" : 
 					[
 						10,
-						51,
-						52
+						63,
+						64
 					]
 				},
 				{
@@ -792,6 +794,127 @@
 						19,
 						20
 					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46",
+					"childIndexes" : 
+					[
+						47,
+						48,
+						49
+					],
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46-0904421c9f84693ff8e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "crypto_sign/MQS256-72-46",
+					"targetIndexes" : 
+					[
+						29,
+						32
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/test",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.test-24a5b5e6adb1b89e389b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 11,
+					"source" : "crypto_sign/MQS256-72-46/test",
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/benchmark",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.benchmark-066f79a56a0ba6fb36ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 11,
+					"source" : "crypto_sign/MQS256-72-46/benchmark",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-72-46/metamorphic",
+					"jsonFile" : "directory-crypto_sign.MQS256-72-46.metamorphic-1b0395ea618e3488b228.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 46,
+					"projectIndex" : 11,
+					"source" : "crypto_sign/MQS256-72-46/metamorphic",
+					"targetIndexes" : 
+					[
+						27,
+						28
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-112-72",
+					"childIndexes" : 
+					[
+						51,
+						52
+					],
+					"jsonFile" : "directory-crypto_sign.MQS256-112-72-7f70e5d678abcf8832cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/MQS256-112-72",
+					"targetIndexes" : 
+					[
+						22,
+						25
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-112-72/test",
+					"jsonFile" : "directory-crypto_sign.MQS256-112-72.test-efbaa3248bfbf01b511b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/MQS256-112-72/test",
+					"targetIndexes" : 
+					[
+						23,
+						24
+					]
+				},
+				{
+					"build" : "crypto_sign/MQS256-112-72/benchmark",
+					"jsonFile" : "directory-crypto_sign.MQS256-112-72.benchmark-109e31c04ebbf2fac575.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 12,
+					"source" : "crypto_sign/MQS256-112-72/benchmark",
+					"targetIndexes" : 
+					[
+						21
+					]
 				}
 			],
 			"name" : "",
@@ -809,7 +932,9 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12
 					],
 					"directoryIndexes" : 
 					[
@@ -826,7 +951,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						46
+						58
 					]
 				},
 				{
@@ -842,14 +967,14 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						43,
-						53,
-						54,
 						55,
-						56,
-						57,
-						58,
-						59
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71
 					]
 				},
 				{
@@ -865,14 +990,14 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						44,
-						60,
-						61,
-						62,
-						63,
-						64,
-						65,
-						66
+						56,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
 					]
 				},
 				{
@@ -888,14 +1013,14 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						45,
-						67,
-						68,
-						69,
-						70,
-						71,
-						72,
-						73
+						57,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
 					]
 				},
 				{
@@ -910,12 +1035,12 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						21,
-						22,
-						23,
-						24,
-						25,
-						40
+						33,
+						34,
+						35,
+						36,
+						37,
+						52
 					]
 				},
 				{
@@ -931,14 +1056,14 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						26,
-						27,
-						28,
-						29,
-						30,
-						36,
-						37,
-						41
+						38,
+						39,
+						40,
+						41,
+						42,
+						48,
+						49,
+						53
 					]
 				},
 				{
@@ -954,14 +1079,14 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						31,
-						32,
-						33,
-						34,
-						35,
-						38,
-						39,
-						42
+						43,
+						44,
+						45,
+						46,
+						47,
+						50,
+						51,
+						54
 					]
 				},
 				{
@@ -984,8 +1109,8 @@
 						4,
 						15,
 						16,
-						47,
-						48
+						59,
+						60
 					]
 				},
 				{
@@ -1008,8 +1133,8 @@
 						9,
 						17,
 						18,
-						49,
-						50
+						61,
+						62
 					]
 				},
 				{
@@ -1032,8 +1157,47 @@
 						14,
 						19,
 						20,
+						63,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46,
+						47,
+						48,
+						49
+					],
+					"name" : "MQS256_72_46",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50,
 						51,
 						52
+					],
+					"name" : "MQS256_112_72",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23,
+						24,
+						25
 					]
 				}
 			],
@@ -1185,6 +1349,90 @@
 					"jsonFile" : "target-GCKSign5-meta-main-15fd18ebcdedb22536c8.json",
 					"name" : "GCKSign5-meta-main",
 					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "MQS256_112_72-benchmark::@378562675d067e1dff81",
+					"jsonFile" : "target-MQS256_112_72-benchmark-c24bedfd6cfb086e1953.json",
+					"name" : "MQS256_112_72-benchmark",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "MQS256_112_72LIB::@530ac24d2fe7c5fc927e",
+					"jsonFile" : "target-MQS256_112_72LIB-911384278e0ed4ab6d95.json",
+					"name" : "MQS256_112_72LIB",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "MQS256_112_72LIB-main1::@6fd2f470159577cf1cb1",
+					"jsonFile" : "target-MQS256_112_72LIB-main1-87ab8ec02f15392d9e56.json",
+					"name" : "MQS256_112_72LIB-main1",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "MQS256_112_72LIB-main2::@6fd2f470159577cf1cb1",
+					"jsonFile" : "target-MQS256_112_72LIB-main2-aced84993a878d137e33.json",
+					"name" : "MQS256_112_72LIB-main2",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "MQS256_112_72_RNG::@530ac24d2fe7c5fc927e",
+					"jsonFile" : "target-MQS256_112_72_RNG-dec3b9bbad28eb5545a0.json",
+					"name" : "MQS256_112_72_RNG",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "MQS256_72_46-benchmark::@dabac76ea6d31bba5c7b",
+					"jsonFile" : "target-MQS256_72_46-benchmark-f2382e68f212e746d8ee.json",
+					"name" : "MQS256_72_46-benchmark",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "MQS256_72_46-meta::@b22ae495f9adfd0a9721",
+					"jsonFile" : "target-MQS256_72_46-meta-f8ac6d174e222edc1cbe.json",
+					"name" : "MQS256_72_46-meta",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "MQS256_72_46-meta-main::@b22ae495f9adfd0a9721",
+					"jsonFile" : "target-MQS256_72_46-meta-main-fd85514022e83457508f.json",
+					"name" : "MQS256_72_46-meta-main",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "MQS256_72_46LIB::@25819ff24d9d893c9106",
+					"jsonFile" : "target-MQS256_72_46LIB-06fb550294709efde06b.json",
+					"name" : "MQS256_72_46LIB",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "MQS256_72_46LIB-main1::@c8c7bd2ce70b8429b82c",
+					"jsonFile" : "target-MQS256_72_46LIB-main1-996f3ee8a3e43fc48688.json",
+					"name" : "MQS256_72_46LIB-main1",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "MQS256_72_46LIB-main2::@c8c7bd2ce70b8429b82c",
+					"jsonFile" : "target-MQS256_72_46LIB-main2-4031bad8ea9b4c7c8f7e.json",
+					"name" : "MQS256_72_46LIB-main2",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "MQS256_72_46_RNG::@25819ff24d9d893c9106",
+					"jsonFile" : "target-MQS256_72_46_RNG-231afcda6197e5b2e03c.json",
+					"name" : "MQS256_72_46_RNG",
+					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 17,

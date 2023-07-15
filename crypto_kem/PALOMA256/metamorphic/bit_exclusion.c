@@ -32,6 +32,10 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     PARAM PALOMAparam;
     int n, t, k;
 
+    t = 128;     
+    n = 6592;   
+    k = (n-(13*t));  
+
     pk  = (uint8_t*)calloc(pklen,           sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen + EXCLUSION_BYTELEN,           sizeof(uint8_t));
     buf = (uint8_t*)calloc(sklen + EXCLUSION_BYTELEN,           sizeof(uint8_t));

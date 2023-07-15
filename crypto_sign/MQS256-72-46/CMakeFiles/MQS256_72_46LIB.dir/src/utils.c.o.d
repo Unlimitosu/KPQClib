@@ -1,7 +1,7 @@
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256_72_46LIB.dir/src/utils.c.o: \
- /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/src/utils.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/src/utils.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

@@ -45,8 +45,8 @@ add_subdirectory(crypto_sign/GCKSign-V)
 #add_subdirectory(crypto_sign/EnhpqsigRM613)
 # add_subdirectory(crypto_sign/Peregrine512)
 # add_subdirectory(crypto_sign/Peregrine1024)
-# add_subdirectory(crypto_sign/MQS256-72-46)
-# add_subdirectory(crypto_sign/MQS256-112-72)
+add_subdirectory(crypto_sign/MQS256-72-46)
+add_subdirectory(crypto_sign/MQS256-112-72)
 # add_subdirectory(crypto_sign/Solmae1024)
 
 

@@ -35,6 +35,11 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     PARAM PALOMAparam;
     int n, t, k;
 
+    t = 128;     
+    n = 5568;   
+    k = (n-(13*t));    
+
+
     pk  = (uint8_t*)calloc(pklen,           sizeof(uint8_t));
     sk  = (uint8_t*)calloc(sklen,           sizeof(uint8_t));
     buf = (uint8_t*)calloc(sklen,           sizeof(uint8_t));
@@ -56,6 +61,7 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
 
         buf[i/8] ^= 1 << (i % 8); //! change sk
 
+        printf("print\n");
         for(int j=0; j<crypto_bytes; j++){
             printf("%02x ", buf[j]);
         }printf("\n");

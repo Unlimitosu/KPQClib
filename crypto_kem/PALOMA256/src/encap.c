@@ -82,13 +82,13 @@ void Encap(OUT u64* key, OUT u64* r, OUT u64* s_hat,  IN u64* pk, IN int n, IN i
 
     /* 256비트 난수 생성 */
     u64 rp[4]={0,};    
-    randbitgen(rp,256);
+    //randbitgen(rp,256);
 
     /* 해밍무게가 t인 랜덤 벡터 생성 */
     u64 ep[MAXN/64]={0,};
     u64 e_hat[MAXN/64]={0,};
 
-    GenRandErrVec(ep, rp, n, t);
+    //GenRandErrVec(ep, rp, n, t);
 
     /* r = ROG(ep) */
     int check = 0;

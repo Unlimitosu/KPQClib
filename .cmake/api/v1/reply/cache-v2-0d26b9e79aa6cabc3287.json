@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "46"
+			"value" : "53"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1264,6 +1264,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/unlimit/Downloads/KPQClean"
+		},
+		{
+			"name" : "MQS256_112_72_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72"
+		},
+		{
+			"name" : "MQS256_112_72_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MQS256_112_72_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72"
+		},
+		{
+			"name" : "MQS256_72_46_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46"
+		},
+		{
+			"name" : "MQS256_72_46_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MQS256_72_46_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46"
 		},
 		{
 			"name" : "PALOMA_BINARY_DIR",

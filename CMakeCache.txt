@@ -246,6 +246,24 @@ KPQClean_IS_TOP_LEVEL:STATIC=ON
 KPQClean_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean
 
 //Value Computed by CMake
+MQS256_112_72_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72
+
+//Value Computed by CMake
+MQS256_112_72_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MQS256_112_72_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72
+
+//Value Computed by CMake
+MQS256_72_46_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46
+
+//Value Computed by CMake
+MQS256_72_46_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MQS256_72_46_SOURCE_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46
+
+//Value Computed by CMake
 PALOMA_BINARY_DIR:STATIC=/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256
 
 //Value Computed by CMake
@@ -377,7 +395,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=46
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=53
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
