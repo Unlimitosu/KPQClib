@@ -360,159 +360,381 @@
   "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -Dgcksign2_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -o CMakeFiles/gcksign2_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/fips202.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/src/fips202.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -Dgcksign2_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/gcksign2_RNG.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/src/NIST/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/fips202.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/fips202.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -Daimer1_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/aimer1_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/NIST/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aim128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aim128.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/pack.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/pack.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/pack.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/symmetric.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/symmetric.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/aes256ctr.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/aes256ctr.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/poly.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/poly.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/api.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/api.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/reduce.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/reduce.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/hash.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/sample.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/sample.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/sample.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/sample.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II",
+  "command": "/usr/bin/cc -DGCKSign_II_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-II.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/src/sign.c",
+  "output": "crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/tree.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/test",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -o CMakeFiles/GCKSign-II-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/test/main.c",
+  "output": "crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/field/field128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
-  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/field/field128.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat",
+  "command": "/usr/bin/cc -DGCKSign_II_kat_sign_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c",
+  "output": "crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
-  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/../include -std=gnu11 -o CMakeFiles/GCKSign-II-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
-  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -o CMakeFiles/GCKSign-II-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/speed.c",
+  "output": "crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
-  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -o CMakeFiles/GCKSign-II-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.c",
+  "output": "crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/cpucycles.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
-  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -std=gnu11 -o CMakeFiles/GCKSign-II-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/benchmark/speed_print.c",
+  "output": "crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/speed_print.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
-  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign2_meta_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign2-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
-  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign2_meta_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign2-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
-  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign2_meta_EXPORTS -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign2-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/bit_verify.c",
+  "output": "crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/bit_verify.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
-  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/../include -std=gnu11 -o CMakeFiles/GCKSign2-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-II/metamorphic/meta_test.c",
+  "output": "crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
-  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -Dgcksign3_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -o CMakeFiles/gcksign3_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/fips202.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/src/fips202.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
-  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -Dgcksign3_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/gcksign3_RNG.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/src/NIST/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
-  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/fips202.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/fips202.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
-  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/NIST/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
-  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
-  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/pack.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/pack.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/pack.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/symmetric.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/aes256ctr.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/poly.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/reduce.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/sample.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/sample.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/sample.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/sample.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III",
+  "command": "/usr/bin/cc -DGCKSign_III_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-III.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/src/sign.c",
+  "output": "crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/test",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -o CMakeFiles/GCKSign-III-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/test/main.c",
+  "output": "crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat",
+  "command": "/usr/bin/cc -DGCKSign_III_kat_sign_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign-III-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/kat_sign.c",
+  "output": "crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/kat_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/../include -std=gnu11 -o CMakeFiles/GCKSign-III-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -o CMakeFiles/GCKSign-III-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/speed.c",
+  "output": "crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -o CMakeFiles/GCKSign-III-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/cpucycles.c",
+  "output": "crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -std=gnu11 -o CMakeFiles/GCKSign-III-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/benchmark/speed_print.c",
+  "output": "crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign3_meta_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign3_meta_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign3_meta_EXPORTS -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign3-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/bit_verify.c",
+  "output": "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/kat -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/../include -std=gnu11 -o CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-III/metamorphic/meta_test.c",
+  "output": "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -Dgcksign5_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/fips202.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -Dgcksign5_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/gcksign5_RNG.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/src/NIST/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/fips202.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/fips202.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/NIST/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/NIST/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/NIST/rng.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/NIST/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/pack.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/pack.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/pack.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/symmetric.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/symmetric.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/symmetric.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/symmetric.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/aes256ctr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/aes256ctr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/aes256ctr.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/aes256ctr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/poly.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/reduce.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/reduce.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/reduce.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/reduce.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/sample.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/sample.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/sample.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/sample.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/GCKSign-V.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/src/sign.c",
+  "output": "crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/test",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/GCKSign-V-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/test/main.c",
+  "output": "crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -DGCKSign_V_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/kat_sign.c",
+  "output": "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/../include -std=gnu11 -o CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/GCKSign-V-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/speed.c",
+  "output": "crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/GCKSign-V-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/cpucycles.c",
+  "output": "crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/GCKSign-V-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/benchmark/speed_print.c",
+  "output": "crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign5_meta_EXPORTS -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign5_meta_EXPORTS -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign5_meta_EXPORTS -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/GCKSign5-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/bit_verify.c",
+  "output": "crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic",
+  "command": "/usr/bin/cc -DGCKSign_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/../include -std=gnu11 -o CMakeFiles/GCKSign5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/metamorphic/meta_test.c",
+  "output": "crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/meta_test.c.o"
 }
 ]

@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/GCKSign5-meta-main.dir/meta_test.c.o" -o ../bin/GCKSign5-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/libs ../libs/libGCKSign5-meta.so ../libs/libGCKSign-V.so ../libs/libgcksign5_fips202.so -lm ../libs/libgcksign5_RNG.so ../../../common/libcommon.a 

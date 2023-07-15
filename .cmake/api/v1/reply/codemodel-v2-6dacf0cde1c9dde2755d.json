@@ -1,0 +1,1110 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7,
+						12,
+						17,
+						22,
+						27
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG1-53fecabe092aea8474f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1",
+					"targetIndexes" : 
+					[
+						21,
+						31
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.test-559efab1437d5fc67265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/test",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.kat-4fe072ebd738d971617c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/kat",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.benchmark-0981b1c09a340fc7954e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/benchmark",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG1/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG1.metamorphic-f863d1ec7d7cd636f962.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/SMAUG1/metamorphic",
+					"targetIndexes" : 
+					[
+						36,
+						37
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG3-0cd692015e0076005f39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3",
+					"targetIndexes" : 
+					[
+						22,
+						38
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.test-3b1abec5e28c6ad25e9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/test",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.kat-e1fe53197af0dfb00aff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/kat",
+					"targetIndexes" : 
+					[
+						40,
+						41
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.benchmark-49e5222fb48e61ac1e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/benchmark",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG3/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG3.metamorphic-611805005f98dd4fd84f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "crypto_kem/SMAUG3/metamorphic",
+					"targetIndexes" : 
+					[
+						43,
+						44
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5",
+					"childIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-crypto_kem.SMAUG5-ee60d15432a31e2dd577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5",
+					"targetIndexes" : 
+					[
+						23,
+						45
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/test",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.test-74986b4c49c712f589ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/test",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/kat",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.kat-4d43b705381128d16bf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/kat",
+					"targetIndexes" : 
+					[
+						47,
+						48
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/benchmark",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.benchmark-1e9fc9b5fdc3a22d95ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/benchmark",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "crypto_kem/SMAUG5/metamorphic",
+					"jsonFile" : "directory-crypto_kem.SMAUG5.metamorphic-d4a2842d518870674955.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 4,
+					"source" : "crypto_kem/SMAUG5/metamorphic",
+					"targetIndexes" : 
+					[
+						50,
+						51
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-II",
+					"childIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21
+					],
+					"jsonFile" : "directory-crypto_sign.GCKSign-II-efbe11b93c767ebd28bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "crypto_sign/GCKSign-II",
+					"targetIndexes" : 
+					[
+						0,
+						25,
+						26
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-II/test",
+					"jsonFile" : "directory-crypto_sign.GCKSign-II.test-5249191a1e7073f12fff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_sign/GCKSign-II/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-II/kat",
+					"jsonFile" : "directory-crypto_sign.GCKSign-II.kat-5ccfc87c2102b1ace429.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_sign/GCKSign-II/kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-II/benchmark",
+					"jsonFile" : "directory-crypto_sign.GCKSign-II.benchmark-66b4d810399b8fdad8e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_sign/GCKSign-II/benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-II/metamorphic",
+					"jsonFile" : "directory-crypto_sign.GCKSign-II.metamorphic-11856cc5dab96c16864d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 5,
+					"source" : "crypto_sign/GCKSign-II/metamorphic",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-III",
+					"childIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26
+					],
+					"jsonFile" : "directory-crypto_sign.GCKSign-III-3cfc0169c731cb75462c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "crypto_sign/GCKSign-III",
+					"targetIndexes" : 
+					[
+						5,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-III/test",
+					"jsonFile" : "directory-crypto_sign.GCKSign-III.test-c3e50052d3b8fb77f6bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_sign/GCKSign-III/test",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-III/kat",
+					"jsonFile" : "directory-crypto_sign.GCKSign-III.kat-ca7d1b8c2bfdb0ce8312.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_sign/GCKSign-III/kat",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-III/benchmark",
+					"jsonFile" : "directory-crypto_sign.GCKSign-III.benchmark-c1f04efec6d64e2e2065.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_sign/GCKSign-III/benchmark",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-III/metamorphic",
+					"jsonFile" : "directory-crypto_sign.GCKSign-III.metamorphic-d15d753d20f3a7e43e30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 6,
+					"source" : "crypto_sign/GCKSign-III/metamorphic",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-V",
+					"childIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31
+					],
+					"jsonFile" : "directory-crypto_sign.GCKSign-V-c54a2726895f98a91292.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "crypto_sign/GCKSign-V",
+					"targetIndexes" : 
+					[
+						10,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-V/test",
+					"jsonFile" : "directory-crypto_sign.GCKSign-V.test-10efce8f59a089dc441c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_sign/GCKSign-V/test",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-V/kat",
+					"jsonFile" : "directory-crypto_sign.GCKSign-V.kat-9c67be9b180a088f8efa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_sign/GCKSign-V/kat",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-V/benchmark",
+					"jsonFile" : "directory-crypto_sign.GCKSign-V.benchmark-262be1a9607455e67285.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_sign/GCKSign-V/benchmark",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "crypto_sign/GCKSign-V/metamorphic",
+					"jsonFile" : "directory-crypto_sign.GCKSign-V.metamorphic-d5517bd94cc7206738fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 7,
+					"source" : "crypto_sign/GCKSign-V/metamorphic",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "smaug",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"name" : "GCKSign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						15,
+						16,
+						25,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26
+					],
+					"name" : "GCKSign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						17,
+						18,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"name" : "GCKSign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						19,
+						20,
+						29,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 17,
+					"id" : "GCKSign-II::@8e12f079934423174735",
+					"jsonFile" : "target-GCKSign-II-094b993da4f278df38e2.json",
+					"name" : "GCKSign-II",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "GCKSign-II-benchmark::@c9bd3de09eecde38bde9",
+					"jsonFile" : "target-GCKSign-II-benchmark-6e295f79d249a6225222.json",
+					"name" : "GCKSign-II-benchmark",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "GCKSign-II-kat-sign::@05a3d4275991c0660039",
+					"jsonFile" : "target-GCKSign-II-kat-sign-faefe34359229dcaa302.json",
+					"name" : "GCKSign-II-kat-sign",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "GCKSign-II-kat-sign-main::@05a3d4275991c0660039",
+					"jsonFile" : "target-GCKSign-II-kat-sign-main-08bbbf9e9875945ab1dd.json",
+					"name" : "GCKSign-II-kat-sign-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "GCKSign-II-main::@9b3752c26fe524d4fcca",
+					"jsonFile" : "target-GCKSign-II-main-c897ea867015fd408a2b.json",
+					"name" : "GCKSign-II-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "GCKSign-III::@ff92e1b0152bcd438a5b",
+					"jsonFile" : "target-GCKSign-III-f0a4007c1edf1921081b.json",
+					"name" : "GCKSign-III",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "GCKSign-III-benchmark::@89b59ad3016e9ae9b4e3",
+					"jsonFile" : "target-GCKSign-III-benchmark-c54d929d119b4b072d8d.json",
+					"name" : "GCKSign-III-benchmark",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "GCKSign-III-kat-sign::@9576c80bc3cef7b61ed5",
+					"jsonFile" : "target-GCKSign-III-kat-sign-1a657c1d054b75b94a12.json",
+					"name" : "GCKSign-III-kat-sign",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "GCKSign-III-kat-sign-main::@9576c80bc3cef7b61ed5",
+					"jsonFile" : "target-GCKSign-III-kat-sign-main-7d1bdacc46955cb44d8d.json",
+					"name" : "GCKSign-III-kat-sign-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "GCKSign-III-main::@e2131bd232cc38490bc1",
+					"jsonFile" : "target-GCKSign-III-main-7d4d4d1b0897a4e62026.json",
+					"name" : "GCKSign-III-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "GCKSign-V::@f93fb6f2a9a86db0b620",
+					"jsonFile" : "target-GCKSign-V-2e42233caf3694170457.json",
+					"name" : "GCKSign-V",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "GCKSign-V-benchmark::@fab5bcc07b7cb08b06ab",
+					"jsonFile" : "target-GCKSign-V-benchmark-332eadec7cbcdcc150a5.json",
+					"name" : "GCKSign-V-benchmark",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "GCKSign-V-kat-sign::@c2a210d87c06d788cd47",
+					"jsonFile" : "target-GCKSign-V-kat-sign-fb3c5234c05df3507408.json",
+					"name" : "GCKSign-V-kat-sign",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "GCKSign-V-kat-sign-main::@c2a210d87c06d788cd47",
+					"jsonFile" : "target-GCKSign-V-kat-sign-main-f99bc3abdb82ca57c18c.json",
+					"name" : "GCKSign-V-kat-sign-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "GCKSign-V-main::@57e72144b4fb7624f319",
+					"jsonFile" : "target-GCKSign-V-main-f542c5ef6315961f9244.json",
+					"name" : "GCKSign-V-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "GCKSign2-meta::@04076aa5dbbd877d13d0",
+					"jsonFile" : "target-GCKSign2-meta-db87b037c830c2bf543c.json",
+					"name" : "GCKSign2-meta",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "GCKSign2-meta-main::@04076aa5dbbd877d13d0",
+					"jsonFile" : "target-GCKSign2-meta-main-13bbb726bc0846a5c5f8.json",
+					"name" : "GCKSign2-meta-main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "GCKSign3-meta::@8f06fa5770724f96a9e6",
+					"jsonFile" : "target-GCKSign3-meta-decc3d4a068ea6c45111.json",
+					"name" : "GCKSign3-meta",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "GCKSign3-meta-main::@8f06fa5770724f96a9e6",
+					"jsonFile" : "target-GCKSign3-meta-main-82c15fbb6f466fe35ba0.json",
+					"name" : "GCKSign3-meta-main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "GCKSign5-meta::@980431e2141cacd143c9",
+					"jsonFile" : "target-GCKSign5-meta-a6991b674ac5a0b9400e.json",
+					"name" : "GCKSign5-meta",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "GCKSign5-meta-main::@980431e2141cacd143c9",
+					"jsonFile" : "target-GCKSign5-meta-main-15fd18ebcdedb22536c8.json",
+					"name" : "GCKSign5-meta-main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RNG1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-RNG1-e18df59d5f35189e9887.json",
+					"name" : "RNG1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "RNG3::@cca328812427fa002d3f",
+					"jsonFile" : "target-RNG3-7c5fbeaeaebb29b4af8b.json",
+					"name" : "RNG3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "RNG5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-RNG5-73e97f25e1f38d102035.json",
+					"name" : "RNG5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "gcksign2_RNG::@8e12f079934423174735",
+					"jsonFile" : "target-gcksign2_RNG-7b857b1c5f3ff30fdaeb.json",
+					"name" : "gcksign2_RNG",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "gcksign2_fips202::@8e12f079934423174735",
+					"jsonFile" : "target-gcksign2_fips202-d59406d031d8e221eb61.json",
+					"name" : "gcksign2_fips202",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "gcksign3_RNG::@ff92e1b0152bcd438a5b",
+					"jsonFile" : "target-gcksign3_RNG-440184c3c863e6ef2988.json",
+					"name" : "gcksign3_RNG",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "gcksign3_fips202::@ff92e1b0152bcd438a5b",
+					"jsonFile" : "target-gcksign3_fips202-7a8db10eed13be1589d1.json",
+					"name" : "gcksign3_fips202",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "gcksign5_RNG::@f93fb6f2a9a86db0b620",
+					"jsonFile" : "target-gcksign5_RNG-8366547104f843e2c9b1.json",
+					"name" : "gcksign5_RNG",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "gcksign5_fips202::@f93fb6f2a9a86db0b620",
+					"jsonFile" : "target-gcksign5_fips202-48967cbf3ad9034ff7d6.json",
+					"name" : "gcksign5_fips202",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smaug1::@4a938de4cb94e420dd19",
+					"jsonFile" : "target-smaug1-612f3f8c5b021af8c8f0.json",
+					"name" : "smaug1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "smaug1-benchmark::@bab662b6428817cafa24",
+					"jsonFile" : "target-smaug1-benchmark-a08f29f1816904bdabfe.json",
+					"name" : "smaug1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-ff24f601857fa3cab690.json",
+					"name" : "smaug1-kat-kem",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "smaug1-kat-kem-main::@09f4c0de50f3311b0bb9",
+					"jsonFile" : "target-smaug1-kat-kem-main-407022f841096a727e8b.json",
+					"name" : "smaug1-kat-kem-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "smaug1-main::@e87eab334ba447641674",
+					"jsonFile" : "target-smaug1-main-d82408ffdca76469a228.json",
+					"name" : "smaug1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "smaug1-meta::@67e0749b541f3c80a7d7",
+					"jsonFile" : "target-smaug1-meta-de131cd3038e8a2e6131.json",
+					"name" : "smaug1-meta",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "smaug1-meta-main::@67e0749b541f3c80a7d7",
+					"jsonFile" : "target-smaug1-meta-main-5b1cb6356f04daf32c3f.json",
+					"name" : "smaug1-meta-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "smaug3::@cca328812427fa002d3f",
+					"jsonFile" : "target-smaug3-4df3558eab795faabf9b.json",
+					"name" : "smaug3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "smaug3-benchmark::@f111e0dcf5af09376579",
+					"jsonFile" : "target-smaug3-benchmark-e82f30049b2ca27f51ca.json",
+					"name" : "smaug3-benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "smaug3-kat-kem::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-3cdc54dc1d641fcd0522.json",
+					"name" : "smaug3-kat-kem",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "smaug3-kat-kem-main::@cbd79981a1861bb686d6",
+					"jsonFile" : "target-smaug3-kat-kem-main-9e08f1d5b7a1a3c625c6.json",
+					"name" : "smaug3-kat-kem-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "smaug3-main::@88f8480d3026dd189203",
+					"jsonFile" : "target-smaug3-main-216ff932a91bd9d0ab6d.json",
+					"name" : "smaug3-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "smaug3-meta::@128c04f13d50c2fb8bd9",
+					"jsonFile" : "target-smaug3-meta-0a068b05bdcb5dc39564.json",
+					"name" : "smaug3-meta",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "smaug3-meta-main::@128c04f13d50c2fb8bd9",
+					"jsonFile" : "target-smaug3-meta-main-d8f1f5a3fa30711bf11a.json",
+					"name" : "smaug3-meta-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "smaug5::@8729cbb2aa595d1d6f90",
+					"jsonFile" : "target-smaug5-f907e4cefab93ddbf4a5.json",
+					"name" : "smaug5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "smaug5-benchmark::@dfce2561f912d5e1005e",
+					"jsonFile" : "target-smaug5-benchmark-b2fd033fdcaf72fd254c.json",
+					"name" : "smaug5-benchmark",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "smaug5-kat-kem::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-33ca9932cfbbf32dbed6.json",
+					"name" : "smaug5-kat-kem",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "smaug5-kat-kem-main::@4d3728794db5c6b62676",
+					"jsonFile" : "target-smaug5-kat-kem-main-f862e82514eb9bb0eb73.json",
+					"name" : "smaug5-kat-kem-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "smaug5-main::@72ccc564851827bfec3b",
+					"jsonFile" : "target-smaug5-main-0642d6104a0f7e417c31.json",
+					"name" : "smaug5-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "smaug5-meta::@15392e3a5428820d4076",
+					"jsonFile" : "target-smaug5-meta-90e5769fba59fb713134.json",
+					"name" : "smaug5-meta",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "smaug5-meta-main::@15392e3a5428820d4076",
+					"jsonFile" : "target-smaug5-meta-main-9ba97c8d9d0710d5c78a.json",
+					"name" : "smaug5-meta-main",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -18,6 +18,8 @@
         "sha2.h": "c",
         "stdio.h": "c",
         "randombytes.h": "c",
-        "assert.h": "c"
+        "assert.h": "c",
+        "sample.h": "c",
+        "fips202.h": "c"
     }
 }
