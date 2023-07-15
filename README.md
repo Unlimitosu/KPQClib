@@ -54,9 +54,9 @@ make clean
 |Enhanced pqsigRM 612||||X||
 |Enhanced pqsigRM 613||||X||
 |FIBS||||X||
-|GCKSign II||||X||
-|GCKSign III||||X||
-|GCKSign V||||X||
+|GCKSign II|S|S|S|X||
+|GCKSign III|S|S|S|X||
+|GCKSign V|S|S|S|X||
 |HAETAE 2|S|S||X|edit randombytes function in src/sign.c for meta|
 |HAETAE 3|S|S||X|edit randombytes function in src/sign.c for meta|
 |HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
