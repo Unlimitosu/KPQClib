@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nccsign-ori3.dir/src/packing.c.o.d"
   "CMakeFiles/nccsign-ori3.dir/src/poly.c.o"
   "CMakeFiles/nccsign-ori3.dir/src/poly.c.o.d"
+  "CMakeFiles/nccsign-ori3.dir/src/randombytes.c.o"
+  "CMakeFiles/nccsign-ori3.dir/src/randombytes.c.o.d"
   "CMakeFiles/nccsign-ori3.dir/src/reduce.c.o"
   "CMakeFiles/nccsign-ori3.dir/src/reduce.c.o.d"
   "CMakeFiles/nccsign-ori3.dir/src/rounding.c.o"

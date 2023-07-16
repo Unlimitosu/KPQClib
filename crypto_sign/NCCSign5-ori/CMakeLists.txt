@@ -24,6 +24,7 @@ set(NIMS_SRCS
   src/poly.c
   src/reduce.c
   src/rounding.c
+  src/randombytes.c
 )
 
 include_directories(include)
@@ -55,7 +56,7 @@ target_compile_options(${LIB_NAME5aes} PRIVATE ${C_FLAGS})
 add_subdirectory(test)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
-
+add_subdirectory(metamorphic)
 
 
 

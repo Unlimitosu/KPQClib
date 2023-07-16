@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign-ori3aes-meta.so -o ../libs/libnccsign-ori3aes-meta.so "CMakeFiles/nccsign-ori3aes-meta.dir/bit_contribution.c.o" "CMakeFiles/nccsign-ori3aes-meta.dir/bit_exclusion.c.o" "CMakeFiles/nccsign-ori3aes-meta.dir/bit_verify.c.o" 

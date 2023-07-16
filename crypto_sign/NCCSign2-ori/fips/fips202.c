@@ -21,14 +21,13 @@
 *
 * Returns the loaded 64-bit unsigned integer
 **************************************************/
-static uint64_t load64(const uint8_t x[8]) {
-  unsigned int i;
-  uint64_t r = 0;
+static uint64_t load64(const uint8_t *x) {
+    uint64_t r = 0;
+    for (size_t i = 0; i < 8; ++i) {
+        r |= (uint64_t)x[i] << 8 * i;
+    }
 
-  for(i=0;i<8;i++)
-    r |= (uint64_t)x[i] << 8*i;
-
-  return r;
+    return r;
 }
 
 /*************************************************

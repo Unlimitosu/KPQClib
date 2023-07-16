@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/KPQClean/crypto_sign/NCCSign5-ori/kat
+# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign5-ori/kat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
