@@ -61,7 +61,7 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 |NTRU+ 1152|S|S||X||
 
 ## DSA
-|Algorithm|BCT|BET|?|Done|Note|
+|Algorithm|BCT|BET|BVT|Done|Note|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |AIMer L1|S|S|S|X||
 |AIMer L3|S|S|S|X||
@@ -72,14 +72,14 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 |GCKSign II|S|S|S|X||
 |GCKSign III|S|S|S|X||
 |GCKSign V|S|S|S|X||
-|HAETAE 2|S|S||X||
-|HAETAE 3|S|S||X||
-|HAETAE 5|S|S||X||
+|HAETAE 2|S|S|S|X||
+|HAETAE 3|S|S|S|X||
+|HAETAE 5|S|S|S|X||
 |MQ-Sign 72-46|S|S|S|X||
 |MQ-Sign 112-72|S|S|S|X||
-|NCC-Sign 2||||X||
-|NCC-Sign 3||||X||
-|NCC-Sign 5||||X||
+|NCC-Sign 2|S|S|S|X||
+|NCC-Sign 3|S|S|S|X||
+|NCC-Sign 5|S|S|S|X||
 |Peregrine 512||||X||
 |Peregrine 1024||||X||
 |SOLMAE 512||||X||
