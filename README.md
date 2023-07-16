@@ -77,9 +77,9 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 |HAETAE 5|S|S||X||
 |MQ-Sign 72-46|S|S|S|X||
 |MQ-Sign 112-72|S|S|S|X||
-|NCC-Sign 2||||X||
-|NCC-Sign 3||||X||
-|NCC-Sign 5||||X||
+|NCC-Sign 2|S|S|S|X||
+|NCC-Sign 3|S|S|S|X||
+|NCC-Sign 5|S|S|S|X||
 |Peregrine 512||||X||
 |Peregrine 1024||||X||
 |SOLMAE 512||||X||
