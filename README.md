@@ -42,9 +42,9 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 ### KEM
 |Algorithm|BCT|BET|?|Done|Note|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|IPCC f1||||X||
-|IPCC f3||||X||
-|IPCC f4||||X||
+|IPCC f1||||X|Cannot run in Ubuntu|
+|IPCC f3||||X|Cannot run in Ubuntu|
+|IPCC f4||||X|Cannot run in Ubuntu|
 |Layered ROLLO||||X||
 |PALOMA 128|S|S||X||
 |PALOMA 192|S|S||X||
@@ -63,21 +63,21 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 ## DSA
 |Algorithm|BCT|BET|?|Done|Note|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|AIMer L1||||X|ERROR) sign not generated|
-|AIMer L3||||X||
-|AIMer L5||||X||
-|Enhanced pqsigRM 612||||X||
-|Enhanced pqsigRM 613||||X||
-|FIBS||||X||
+|AIMer L1|S|S|S|X||
+|AIMer L3|S|S|S|X||
+|AIMer L5|S|S|S|X||
+|Enhanced pqsigRM 612||||X|Too slow to test|
+|Enhanced pqsigRM 613||||X|Too slow to test|
+|FIBS||||X|Too slow to test|
 |GCKSign II|S|S|S|X||
 |GCKSign III|S|S|S|X||
 |GCKSign V|S|S|S|X||
-|HAETAE 2|S|S||X|edit randombytes function in src/sign.c for meta|
-|HAETAE 3|S|S||X|edit randombytes function in src/sign.c for meta|
-|HAETAE 5|S|S||X|edit randombytes function in src/sign.c for meta|
-|MQ-Sign 72-46||||X|Sign not generated|
-|MQ-Sign 112-72||||X||
-|NCC-Sign 2||||X|make error on metamorphic|
+|HAETAE 2|S|S||X||
+|HAETAE 3|S|S||X||
+|HAETAE 5|S|S||X||
+|MQ-Sign 72-46|S|S|S|X||
+|MQ-Sign 112-72|S|S|S|X||
+|NCC-Sign 2||||X||
 |NCC-Sign 3||||X||
 |NCC-Sign 5||||X||
 |Peregrine 512||||X||
