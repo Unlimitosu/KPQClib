@@ -99,10 +99,9 @@ EXIT:
     free(k2 ); 
 
     if(flag){
-        printf("%s Bit Exclusion Test Success\n", ALGNAME);
+        printf("%s Bit Contribution Test Success\n", ALGNAME);
         return BIT_CONTRIBUTION_SUCCESS;
     } else{
         return BIT_CONTRIBUTION_FAIL;
     }    
-
 }

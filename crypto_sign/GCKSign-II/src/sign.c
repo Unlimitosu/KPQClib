@@ -65,7 +65,7 @@ int crypto_sign(unsigned char *sm, unsigned long long *smlen,
             unsigned char *sk)
 {
     uint16_t nonce = 0;
-	unsigned char seed[32];
+	unsigned char seed[32] = {0,};
 	unsigned char tmp[POLY_BYTES];
 
 	int check = 0;
@@ -96,7 +96,7 @@ int crypto_sign(unsigned char *sm, unsigned long long *smlen,
 	unpack_poly(s[3], sk + 3*POLY_BYTES); 
 	#endif
 
-	randombytes(seed, 32);
+	//randombytes(seed, 32);
 
 	while(check == 0)
 	{

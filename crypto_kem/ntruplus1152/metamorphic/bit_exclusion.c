@@ -54,7 +54,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     // Encapsulation
     crypto_kem_enc(c, ss, pk);
 
-    for(int i = 1; i <= sklen; i++){
+    for(int i = 1; i < sklen; i++){
         memcpy(buf, sk, sklen);
         for(int j = 0; j < EXCLUSION_BYTELEN * 8; j++){
             buf[sklen + j/8] ^= 1 << (j%8);

@@ -280,18 +280,12 @@ crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/rng.c.o: crypto_kem/ntrupl
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/stdio2.h \
-  /usr/include/openssl/conf.h \
-  /usr/include/openssl/bio.h \
-  /usr/include/openssl/e_os2.h \
-  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
-  /usr/include/openssl/opensslv.h \
-  /usr/include/inttypes.h \
+  common/aes.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/openssl/crypto.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -322,49 +316,7 @@ crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/rng.c.o: crypto_kem/ntrupl
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/openssl/safestack.h \
-  /usr/include/openssl/stack.h \
-  /usr/include/openssl/ossl_typ.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/openssl/cryptoerr.h \
-  /usr/include/openssl/symhacks.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/openssl/bioerr.h \
-  /usr/include/openssl/lhash.h \
-  /usr/include/openssl/conferr.h \
-  /usr/include/openssl/evp.h \
-  /usr/include/openssl/evperr.h \
-  /usr/include/openssl/objects.h \
-  /usr/include/openssl/obj_mac.h \
-  /usr/include/openssl/asn1.h \
-  /usr/include/openssl/asn1err.h \
-  /usr/include/openssl/bn.h \
-  /usr/include/openssl/bnerr.h \
-  /usr/include/openssl/objectserr.h \
-  /usr/include/openssl/err.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  common/aes.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/sha256.c.o: crypto_kem/ntruplus864/src/sha256.c \
   /usr/include/stdc-predef.h \
@@ -481,60 +433,6 @@ crypto_kem/ntruplus864/src/symmetric.c:
 
 crypto_kem/ntruplus864/src/sha512.c:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/errno.h:
-
-/usr/include/openssl/err.h:
-
-/usr/include/openssl/asn1err.h:
-
-/usr/include/openssl/evperr.h:
-
-/usr/include/openssl/evp.h:
-
-/usr/include/openssl/lhash.h:
-
-/usr/include/openssl/bioerr.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/sched.h:
-
-/usr/include/openssl/symhacks.h:
-
-/usr/include/openssl/cryptoerr.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/limits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
-
-/usr/include/openssl/stack.h:
-
-/usr/include/openssl/safestack.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/openssl/asn1.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/time.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/openssl/e_os2.h:
-
-/usr/include/openssl/conf.h:
-
-/usr/include/openssl/conferr.h:
-
 crypto_kem/ntruplus864/src/rng.c:
 
 crypto_kem/ntruplus864/src/reduce.c:
@@ -555,13 +453,7 @@ crypto_kem/ntruplus864/include/rng.h:
 
 crypto_kem/ntruplus864/include/params.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/linux/limits.h:
-
 /usr/include/stdint.h:
-
-/usr/include/openssl/bn.h:
 
 common/aes.h:
 
@@ -585,8 +477,6 @@ crypto_kem/ntruplus864/include/crypto_stream.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/openssl/opensslv.h:
-
 /usr/include/stdc-predef.h:
 
 crypto_kem/ntruplus864/include/kem.h:
@@ -605,8 +495,6 @@ crypto_kem/ntruplus864/include/kem.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
@@ -615,13 +503,9 @@ crypto_kem/ntruplus864/include/kem.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -643,13 +527,9 @@ crypto_kem/ntruplus864/src/aes256ctr.c:
 
 /usr/include/features.h:
 
-/usr/include/openssl/ossl_typ.h:
-
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/openssl/objects.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -666,8 +546,6 @@ crypto_kem/ntruplus864/src/poly.c:
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h:
 
@@ -709,8 +587,6 @@ crypto_kem/ntruplus864/src/sha256.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/strings.h:
@@ -725,15 +601,11 @@ crypto_kem/ntruplus864/src/sha256.c:
 
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
-/usr/include/openssl/bnerr.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
-
-/usr/include/pthread.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h:
 
@@ -753,8 +625,6 @@ crypto_kem/ntruplus864/include/util.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
@@ -766,8 +636,6 @@ crypto_kem/ntruplus864/include/util.h:
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 crypto_kem/ntruplus864/include/ntt.h:
 
@@ -795,8 +663,6 @@ crypto_kem/ntruplus864/src/kem.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqintrin.h:
 
-/usr/include/openssl/objectserr.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bwintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/shaintrin.h:
@@ -809,10 +675,6 @@ crypto_kem/ntruplus864/src/kem.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmivlintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124fmapsintrin.h:
@@ -824,8 +686,6 @@ crypto_kem/ntruplus864/src/kem.c:
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnniintrin.h:
-
-/usr/include/openssl/obj_mac.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
@@ -842,8 +702,6 @@ crypto_kem/ntruplus864/src/kem.c:
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnnivlintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
-
-/usr/include/openssl/crypto.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bitalgintrin.h:
 
@@ -866,8 +724,6 @@ crypto_kem/ntruplus864/src/kem.c:
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512dqintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h:
-
-/usr/include/openssl/bio.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
 

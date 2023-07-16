@@ -63,7 +63,7 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
 
         crypto_sign(sm2, &smlen2, buf, mlen, sk);
         
-        if(memcmp(sm, sm2, smlen) == 0 || smlen != smlen2) {
+        if(memcmp(sm, sm2, smlen) != 0 || smlen != smlen2) {
             printf("%s Bit Exclusion Test Failed: Failed on messaage\n", ALGNAME);
             flag = false;
             goto EXIT;

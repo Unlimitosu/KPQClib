@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_kem/ntruplus1152/test",
+		"source" : "crypto_kem/ntruplus1152/test"
+	}
+}
