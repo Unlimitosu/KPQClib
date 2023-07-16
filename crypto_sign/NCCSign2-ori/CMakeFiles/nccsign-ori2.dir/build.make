@@ -139,10 +139,24 @@ crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/rounding.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2.dir/src/rounding.c.s"
 	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/src/rounding.c -o CMakeFiles/nccsign-ori2.dir/src/rounding.c.s
 
+crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/flags.make
+crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o: crypto_sign/NCCSign2-ori/src/randombytes.c
+crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o"
+	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o -MF CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o.d -o CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c
+
+crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2.dir/src/randombytes.c.i"
+	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c > CMakeFiles/nccsign-ori2.dir/src/randombytes.c.i
+
+crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2.dir/src/randombytes.c.s"
+	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c -o CMakeFiles/nccsign-ori2.dir/src/randombytes.c.s
+
 crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/flags.make
 crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o: crypto_sign/NCCSign2-ori/fips/symmetric-shake.c
 crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o"
 	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o -MF CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o.d -o CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/fips/symmetric-shake.c
 
 crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.i: cmake_force
@@ -160,6 +174,7 @@ nccsign__ori2_OBJECTS = \
 "CMakeFiles/nccsign-ori2.dir/src/poly.c.o" \
 "CMakeFiles/nccsign-ori2.dir/src/reduce.c.o" \
 "CMakeFiles/nccsign-ori2.dir/src/rounding.c.o" \
+"CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o" \
 "CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o"
 
 # External object files for target nccsign-ori2
@@ -170,10 +185,11 @@ crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMake
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/poly.c.o
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/reduce.c.o
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/rounding.c.o
+crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/fips/symmetric-shake.c.o
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so: crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libs/libnccsign-ori2.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libs/libnccsign-ori2.so"
 	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

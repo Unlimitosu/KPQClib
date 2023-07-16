@@ -598,6 +598,188 @@ Almer-l5-meta-main/fast:
 .PHONY : Almer-l5-meta-main/fast
 
 #=============================================================================
+# Target rules for targets named nccsign2_fips202
+
+# Build rule for target.
+nccsign2_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign2_fips202
+.PHONY : nccsign2_fips202
+
+# fast build rule for target.
+nccsign2_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/build
+.PHONY : nccsign2_fips202/fast
+
+#=============================================================================
+# Target rules for targets named nccsign2_aes256ctr
+
+# Build rule for target.
+nccsign2_aes256ctr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign2_aes256ctr
+.PHONY : nccsign2_aes256ctr
+
+# fast build rule for target.
+nccsign2_aes256ctr/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_aes256ctr.dir/build
+.PHONY : nccsign2_aes256ctr/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2
+
+# Build rule for target.
+nccsign-ori2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2
+.PHONY : nccsign-ori2
+
+# fast build rule for target.
+nccsign-ori2/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build
+.PHONY : nccsign-ori2/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2aes
+
+# Build rule for target.
+nccsign-ori2aes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes
+.PHONY : nccsign-ori2aes
+
+# fast build rule for target.
+nccsign-ori2aes/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build
+.PHONY : nccsign-ori2aes/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-main
+
+# Build rule for target.
+nccsign-ori2-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-main
+.PHONY : nccsign-ori2-main
+
+# fast build rule for target.
+nccsign-ori2-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build.make crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build
+.PHONY : nccsign-ori2-main/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2aes-main
+
+# Build rule for target.
+nccsign-ori2aes-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-main
+.PHONY : nccsign-ori2aes-main
+
+# fast build rule for target.
+nccsign-ori2aes-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2aes-main.dir/build.make crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2aes-main.dir/build
+.PHONY : nccsign-ori2aes-main/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-kat-sign
+
+# Build rule for target.
+nccsign-ori2-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-kat-sign
+.PHONY : nccsign-ori2-kat-sign
+
+# fast build rule for target.
+nccsign-ori2-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign.dir/build
+.PHONY : nccsign-ori2-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-kat-sign-main
+
+# Build rule for target.
+nccsign-ori2-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-kat-sign-main
+.PHONY : nccsign-ori2-kat-sign-main
+
+# fast build rule for target.
+nccsign-ori2-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign-main.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2-kat-sign-main.dir/build
+.PHONY : nccsign-ori2-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2aes-kat-sign
+
+# Build rule for target.
+nccsign-ori2aes-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-kat-sign
+.PHONY : nccsign-ori2aes-kat-sign
+
+# fast build rule for target.
+nccsign-ori2aes-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign.dir/build
+.PHONY : nccsign-ori2aes-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2aes-kat-sign-main
+
+# Build rule for target.
+nccsign-ori2aes-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-kat-sign-main
+.PHONY : nccsign-ori2aes-kat-sign-main
+
+# fast build rule for target.
+nccsign-ori2aes-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign-main.dir/build.make crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign-main.dir/build
+.PHONY : nccsign-ori2aes-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-benchmark
+
+# Build rule for target.
+nccsign-ori2-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-benchmark
+.PHONY : nccsign-ori2-benchmark
+
+# fast build rule for target.
+nccsign-ori2-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2-benchmark.dir/build.make crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2-benchmark.dir/build
+.PHONY : nccsign-ori2-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2aes-benchmark
+
+# Build rule for target.
+nccsign-ori2aes-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2aes-benchmark
+.PHONY : nccsign-ori2aes-benchmark
+
+# fast build rule for target.
+nccsign-ori2aes-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2aes-benchmark.dir/build.make crypto_sign/NCCSign2-ori/benchmark/CMakeFiles/nccsign-ori2aes-benchmark.dir/build
+.PHONY : nccsign-ori2aes-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-meta
+
+# Build rule for target.
+nccsign-ori2-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-meta
+.PHONY : nccsign-ori2-meta
+
+# fast build rule for target.
+nccsign-ori2-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/build.make crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/build
+.PHONY : nccsign-ori2-meta/fast
+
+#=============================================================================
+# Target rules for targets named nccsign-ori2-meta-main
+
+# Build rule for target.
+nccsign-ori2-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nccsign-ori2-meta-main
+.PHONY : nccsign-ori2-meta-main
+
+# fast build rule for target.
+nccsign-ori2-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta-main.dir/build.make crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta-main.dir/build
+.PHONY : nccsign-ori2-meta-main/fast
+
+#=============================================================================
 # Target rules for targets named MQS256-72-46_RNG
 
 # Build rule for target.
@@ -936,6 +1118,20 @@ help:
 	@echo "... aimer5_RNG"
 	@echo "... aimer5_fips202"
 	@echo "... common"
+	@echo "... nccsign-ori2"
+	@echo "... nccsign-ori2-benchmark"
+	@echo "... nccsign-ori2-kat-sign"
+	@echo "... nccsign-ori2-kat-sign-main"
+	@echo "... nccsign-ori2-main"
+	@echo "... nccsign-ori2-meta"
+	@echo "... nccsign-ori2-meta-main"
+	@echo "... nccsign-ori2aes"
+	@echo "... nccsign-ori2aes-benchmark"
+	@echo "... nccsign-ori2aes-kat-sign"
+	@echo "... nccsign-ori2aes-kat-sign-main"
+	@echo "... nccsign-ori2aes-main"
+	@echo "... nccsign2_aes256ctr"
+	@echo "... nccsign2_fips202"
 .PHONY : help
 
 

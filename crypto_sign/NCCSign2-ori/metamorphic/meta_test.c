@@ -6,7 +6,6 @@
 #include "bit_exclusion.h"
 #include "bit_verify.h"
 
-#include "randombytes.h"
 #include "sign.h"
 
 #define MLEN 59 // same with test/main.c

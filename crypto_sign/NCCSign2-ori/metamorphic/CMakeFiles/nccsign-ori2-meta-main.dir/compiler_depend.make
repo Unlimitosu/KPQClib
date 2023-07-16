@@ -71,7 +71,6 @@ crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta-main.dir/meta_
   crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.h \
   /usr/include/assert.h \
   crypto_sign/NCCSign2-ori/metamorphic/bit_verify.h \
-  crypto_sign/NCCSign2-ori/include/randombytes.h \
   crypto_sign/NCCSign2-ori/include/sign.h \
   crypto_sign/NCCSign2-ori/include/params.h \
   crypto_sign/NCCSign2-ori/include/config.h \
@@ -111,8 +110,6 @@ crypto_sign/NCCSign2-ori/metamorphic/bit_verify.h:
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-crypto_sign/NCCSign2-ori/include/randombytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 

@@ -322,6 +322,33 @@ src/poly.c.s:
 	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/src/poly.c.s
 .PHONY : src/poly.c.s
 
+src/randombytes.o: src/randombytes.c.o
+.PHONY : src/randombytes.o
+
+# target to build an object file
+src/randombytes.c.o:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/src/randombytes.c.o
+.PHONY : src/randombytes.c.o
+
+src/randombytes.i: src/randombytes.c.i
+.PHONY : src/randombytes.i
+
+# target to preprocess a source file
+src/randombytes.c.i:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/src/randombytes.c.i
+.PHONY : src/randombytes.c.i
+
+src/randombytes.s: src/randombytes.c.s
+.PHONY : src/randombytes.s
+
+# target to generate assembly for a file
+src/randombytes.c.s:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/src/randombytes.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/build.make crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2aes.dir/src/randombytes.c.s
+.PHONY : src/randombytes.c.s
+
 src/reduce.o: src/reduce.c.o
 .PHONY : src/reduce.o
 
@@ -433,6 +460,9 @@ help:
 	@echo "... src/poly.o"
 	@echo "... src/poly.i"
 	@echo "... src/poly.s"
+	@echo "... src/randombytes.o"
+	@echo "... src/randombytes.i"
+	@echo "... src/randombytes.s"
 	@echo "... src/reduce.o"
 	@echo "... src/reduce.i"
 	@echo "... src/reduce.s"

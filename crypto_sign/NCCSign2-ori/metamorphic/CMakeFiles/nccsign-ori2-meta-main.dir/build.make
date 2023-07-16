@@ -94,6 +94,8 @@ crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/me
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta-main.dir/build.make
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so
+crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/libs/libnccsign2_aes256ctr.so
+crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/libs/libnccsign2_fips202.so
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-meta-main: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta-main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/nccsign-ori2-meta-main"
 	cd /home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2-meta-main.dir/link.txt --verbose=$(VERBOSE)

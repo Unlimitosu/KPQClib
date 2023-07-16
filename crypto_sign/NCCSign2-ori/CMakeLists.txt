@@ -24,6 +24,7 @@ set(NIMS_SRCS
   src/poly.c
   src/reduce.c
   src/rounding.c
+  src/randombytes.c
 )
 
 include_directories(include)
@@ -41,16 +42,14 @@ set(LIB_NAME2 ${PROJECT_NAME}2)
 add_library(${LIB_NAME2} SHARED ${NIMS_SRCS} fips/symmetric-shake.c)
 target_compile_definitions(${LIB_NAME2} PUBLIC NIMS_MODE=2)
 target_compile_options(${LIB_NAME2} PRIVATE ${C_FLAGS})
-#target_link_libraries(${LIB_NAME2} INTERFACE nccsign2_fips202 m)
-#target_link_libraries(${LIB_NAME2} PUBLIC nccsign2_aes256ctr)
+#target_link_libraries(${LIB_NAME2} PUBLIC nccsign2_aes256ctr nccsign2_fips202)
 
 # HAETAE 2
 set(LIB_NAME2aes ${PROJECT_NAME}2aes)
 add_library(${LIB_NAME2aes} SHARED ${NIMS_SRCS} aes/symmetric-aes.c)
 target_compile_definitions(${LIB_NAME2aes} PUBLIC NIMS_MODE=2 NIMS_USE_AES)
 target_compile_options(${LIB_NAME2aes} PRIVATE ${C_FLAGS})
-#target_link_libraries(${LIB_NAME2} INTERFACE nccsign2_fips202 m)
-#target_link_libraries(${LIB_NAME2} PUBLIC nccsign2_aes256ctr)
+#target_link_libraries(${LIB_NAME2} PUBLIC nccsign2_aes256ctr nccsign2_fips202)
 
 add_subdirectory(test)
 add_subdirectory(kat)

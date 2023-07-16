@@ -5,7 +5,6 @@
 #include <memory.h>
 #include <assert.h>
 
-#include "randombytes.h"
 #include "sign.h"
 
 #include "bit_exclusion.h"

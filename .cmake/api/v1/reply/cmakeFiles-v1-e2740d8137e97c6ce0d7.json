@@ -281,6 +281,59 @@
 			"path" : "crypto_sign/AImer-L5/metamorphic/CMakeLists.txt"
 		},
 		{
+			"path" : "crypto_sign/NCCSign2-ori/CMakeLists.txt"
+		},
+		{
+			"path" : "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "crypto_sign/NCCSign2-ori/test/CMakeLists.txt"
+		},
+		{
+			"path" : "crypto_sign/NCCSign2-ori/kat/CMakeLists.txt"
+		},
+		{
+			"path" : "crypto_sign/NCCSign2-ori/benchmark/CMakeLists.txt"
+		},
+		{
+			"path" : "crypto_sign/NCCSign2-ori/metamorphic/CMakeLists.txt"
+		},
+		{
 			"path" : "crypto_sign/MQS256-72-46/CMakeLists.txt"
 		},
 		{

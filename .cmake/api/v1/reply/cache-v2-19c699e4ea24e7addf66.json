@@ -807,7 +807,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "32"
+			"value" : "37"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1884,6 +1884,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/unlimit/Downloads/KPQClean/common"
+		},
+		{
+			"name" : "nccsign-ori_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori"
+		},
+		{
+			"name" : "nccsign-ori_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "nccsign-ori_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori"
 		},
 		{
 			"name" : "pkgcfg_lib__OPENSSL_crypto",

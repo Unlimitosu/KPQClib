@@ -5,7 +5,6 @@
 #include <stdbool.h>
 #include <assert.h>
 
-#include "randombytes.h"
 #include "sign.h"
 
 #include "bit_contribution.h"

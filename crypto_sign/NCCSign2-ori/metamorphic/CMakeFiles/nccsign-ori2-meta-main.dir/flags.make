@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNIMS_MODE=2
 
-C_INCLUDES = -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/../include
+C_INCLUDES = -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/../include -I/home/unlimit/Downloads/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/../fips
 
 C_FLAGS = -std=gnu11
 
