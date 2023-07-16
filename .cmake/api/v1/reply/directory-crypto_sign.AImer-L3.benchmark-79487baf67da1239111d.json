@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/AImer-L3/benchmark",
+		"source" : "crypto_sign/AImer-L3/benchmark"
+	}
+}

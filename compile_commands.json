@@ -1,740 +1,848 @@
 [
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DRNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/RNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/rng.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakHash.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakHash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/dg.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/dg.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/dg.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakSponge.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakSponge.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/pack.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/pack.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake/KeccakP-1600-opt64.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/shake/KeccakP-1600-opt64.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/poly.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -Daimer1_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/aimer1_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/key.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/key.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/key.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aim128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aim128.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aim128.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/ciphertext.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/ciphertext.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/ciphertext.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_instances.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_instances.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/hwt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/hwt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/hwt.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer_internal.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer_internal.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/kem.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/aimer.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/aimer.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/aimer.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/fips202.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/api.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/api.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/api.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/io.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/io.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/io.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/hash.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -Dsmaug1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug1.dir/src/indcpa.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/indcpa.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/src/indcpa.c",
-  "output": "crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/test/main.c",
-  "output": "crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/src/tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/tree.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/src/tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -Dsmaug1_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/../include -std=gnu11 -fPIC -o CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/kat_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/kat_kem.c",
-  "output": "crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/kat_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l1.dir/field/field128.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field/field128.c",
+  "output": "crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/field/field128.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/../include -std=gnu11 -o CMakeFiles/smaug1-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/PQCgenKAT_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/kat/PQCgenKAT_kem.c",
-  "output": "crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/main.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c",
-  "output": "crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_aim.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/test_aim.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c",
-  "output": "crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_tree.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/test_tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c",
-  "output": "crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/tests/test_sign.c",
+  "output": "crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/test_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -Dsmaug1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/kat_sign.c",
+  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/kat_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -Dsmaug1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG1_KEM\\\" -DSMAUG_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/metamorphic/meta_test.c",
-  "output": "crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DRNG3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/RNG3.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/rng.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/cpucycles.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/cpucycles.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/dg.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/dg.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/dg.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/dg.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark/speed_print.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/speed_print.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/pack.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/pack.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/pack.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/src/rng.c",
+  "output": "crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/__/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/poly.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/poly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/key.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/key.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/key.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/key.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -DAlmer_l1_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/ciphertext.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/ciphertext.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/ciphertext.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/ciphertext.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/metamorphic/meta_test.c",
+  "output": "crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/hwt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/hwt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/hwt.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/hwt.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -Daimer3_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer3_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakHash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakHash.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/shake/KeccakHash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/kem.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -Daimer3_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer3_fips202.dir/shake/KeccakSponge.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakSponge.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakSponge.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/shake/KeccakSponge.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/fips202.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/fips202.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -Daimer3_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer3_fips202.dir/shake/KeccakP-1600-opt64.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakP-1600-opt64.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake/KeccakP-1600-opt64.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/shake/KeccakP-1600-opt64.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/io.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/io.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/io.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/io.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -Daimer3_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/aimer3_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -Dsmaug3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug3.dir/src/indcpa.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/indcpa.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/src/indcpa.c",
-  "output": "crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/indcpa.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/aim192.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aim192.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aim192.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/aim192.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/test",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug3-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/test/main.c",
-  "output": "crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/aimer_instances.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer_instances.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer_instances.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/aimer_instances.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/kat_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/kat_kem.c",
-  "output": "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/kat_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/aimer_internal.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer_internal.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer_internal.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/aimer_internal.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/../include -std=gnu11 -o CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c",
-  "output": "crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/aimer.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/aimer.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/aimer.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug3-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed.c",
-  "output": "crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/api.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/api.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/api.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/api.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug3-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/cpucycles.c",
-  "output": "crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/cpucycles.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/hash.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug3-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/benchmark/speed_print.c",
-  "output": "crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/src/tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/tree.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/src/tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -Dsmaug3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l3.dir/field/field192.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field/field192.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field/field192.c",
+  "output": "crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/field/field192.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG3_KEM\\\" -DSMAUG_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/metamorphic/meta_test.c",
-  "output": "crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/main.c",
+  "output": "crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DRNG5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/RNG5.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/rng.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-testaim.dir/test_aim.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_aim.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_aim.c",
+  "output": "crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/test_aim.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/dg.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/dg.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/dg.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/dg.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-testtree.dir/test_tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_tree.c",
+  "output": "crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/test_tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/pack.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/pack.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/pack.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/pack.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-testsign.dir/test_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/tests/test_sign.c",
+  "output": "crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/test_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/poly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/poly.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/poly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat",
+  "command": "/usr/bin/cc -DAlmer_l3_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/Almer-l3-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat/kat_sign.c",
+  "output": "crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign.dir/kat_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/key.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/key.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/key.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/key.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/ciphertext.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/ciphertext.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/ciphertext.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/ciphertext.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/speed.c",
+  "output": "crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/hwt.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/hwt.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/hwt.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/hwt.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/cpucycles.c",
+  "output": "crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/cpucycles.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/kem.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark/speed_print.c",
+  "output": "crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/speed_print.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/fips202.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/fips202.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l3-benchmark.dir/__/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/src/rng.c",
+  "output": "crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/__/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/io.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/io.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/io.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/io.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -Dsmaug5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/smaug5.dir/src/indcpa.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/indcpa.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/src/indcpa.c",
-  "output": "crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/src/indcpa.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -DAlmer_l3_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/test",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug5-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/test/main.c",
-  "output": "crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/metamorphic/meta_test.c",
+  "output": "crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_kat_kem_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/kat_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/kat_kem.c",
-  "output": "crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/kat_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -Daimer5_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer5_fips202.dir/shake/KeccakHash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakHash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakHash.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/aimer5_fips202.dir/shake/KeccakHash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/../include -std=gnu11 -o CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/PQCgenKAT_kem.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/kat/PQCgenKAT_kem.c",
-  "output": "crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/PQCgenKAT_kem.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -Daimer5_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer5_fips202.dir/shake/KeccakSponge.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakSponge.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakSponge.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/aimer5_fips202.dir/shake/KeccakSponge.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug5-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c",
-  "output": "crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -Daimer5_fips202_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/aimer5_fips202.dir/shake/KeccakP-1600-opt64.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakP-1600-opt64.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake/KeccakP-1600-opt64.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/aimer5_fips202.dir/shake/KeccakP-1600-opt64.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug5-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.c",
-  "output": "crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/cpucycles.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -Daimer5_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/aimer5_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/aimer5_RNG.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark",
-  "command": "/usr/bin/cc -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/smaug5-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.c",
-  "output": "crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed_print.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/aim256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aim256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aim256.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/aim256.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/aimer_instances.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer_instances.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer_instances.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/aimer_instances.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -Dsmaug5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/aimer_internal.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer_internal.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer_internal.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/aimer_internal.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"SMAUG5_KEM\\\" -DSMAUG_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/../include -std=gnu11 -o CMakeFiles/smaug5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/metamorphic/meta_test.c",
-  "output": "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/aimer.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/aimer.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/aimer.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMARNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/PALOMARNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/rng.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/api.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/api.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/api.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/api.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/gf_table_gen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gf_table_gen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gf_table_gen.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/gf_table_gen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/hash.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/gf.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gf.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gf.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/gf.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/gfpoly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gfpoly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/gfpoly.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/gfpoly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/src/tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/tree.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/src/tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/goppa_instance.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/goppa_instance.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/goppa_instance.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/goppa_instance.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/Almer-l5.dir/field/field256.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field/field256.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field/field256.c",
+  "output": "crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/field/field256.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/keygen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/keygen.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/keygen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/main.c",
+  "output": "crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/mat_mul.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/mat_mul.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/mat_mul.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/mat_mul.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_aim.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_aim.c",
+  "output": "crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/common.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/common.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/common.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-testtree.dir/test_tree.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_tree.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_tree.c",
+  "output": "crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testtree.dir/test_tree.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/lsh.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/lsh.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/lsh.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/lsh.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-testsign.dir/test_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/tests/test_sign.c",
+  "output": "crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testsign.dir/test_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/lsh512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/lsh512.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/lsh512.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/lsh512.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat",
+  "command": "/usr/bin/cc -DAlmer_l5_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -o CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat/kat_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat/kat_sign.c",
+  "output": "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/encap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/encap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/encap.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/encap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/decap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/decap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/decap.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/decap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/speed.c",
+  "output": "crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/PALOMA.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/PALOMA.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/PALOMA.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/PALOMA.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/cpucycles.c",
+  "output": "crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/cpucycles.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128",
-  "command": "/usr/bin/cc -DPALOMA128_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA128.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/src/rng.c",
-  "output": "crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark/speed_print.c",
+  "output": "crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/speed_print.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA128_KEM\\\" -DPALOMA128_kat_kem_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA128-kat-kem.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/KAT.c",
-  "output": "crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/benchmark",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Almer-l5-benchmark.dir/__/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/src/rng.c",
+  "output": "crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/__/src/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA128_KEM\\\" -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/../include -std=gnu11 -o CMakeFiles/PALOMA128-kat-kem-main.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat/KAT.c",
-  "output": "crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/test",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA128_KEM\\\" -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA128-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/test/main.c",
-  "output": "crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -DAlmer_l5_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Almer-l5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/benchmark",
-  "command": "/usr/bin/cc -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA128-benchmark.dir/benchmark.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/benchmark/benchmark.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/benchmark/benchmark.c",
-  "output": "crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/benchmark.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic",
+  "command": "/usr/bin/cc -DAIMER_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/include -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/field -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/shake -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/../include -std=gnu11 -o CMakeFiles/Almer-l5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/metamorphic/meta_test.c",
+  "output": "crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA1_meta_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA1_meta_EXPORTS -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_comm.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/../include -std=gnu11 -o CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/metamorphic/meta_test.c",
-  "output": "crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix_ref.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMARNG3_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/PALOMARNG3.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computation.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/gf.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gf.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gf.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/gfpoly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/parallel_matrix_op.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/keygen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/keygen.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/sign.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/mat_mul.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/common.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/common.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_prng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/lsh.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/lsh.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/lsh.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/lsh512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/lsh512.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/lsh512.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test/main.c",
+  "output": "crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/encap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/encap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/encap.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/decap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/decap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/decap.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/PALOMA.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192",
-  "command": "/usr/bin/cc -DPALOMA192_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA192.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/src/rng.c",
-  "output": "crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/__/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA192_KEM\\\" -DPALOMA192_kat_kem_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA192-kat-kem.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/KAT.c",
-  "output": "crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA192_KEM\\\" -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/../include -std=gnu11 -o CMakeFiles/PALOMA192-kat-kem-main.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat/KAT.c",
-  "output": "crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/test",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA192_KEM\\\" -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA192-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/test/main.c",
-  "output": "crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/benchmark",
-  "command": "/usr/bin/cc -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA192-benchmark.dir/benchmark.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/benchmark/benchmark.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/benchmark/benchmark.c",
-  "output": "crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/benchmark.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA3_meta_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA3-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-112-72_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA3_meta_EXPORTS -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA3-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_comm.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/../include -std=gnu11 -o CMakeFiles/PALOMA3-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/metamorphic/meta_test.c",
-  "output": "crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix_ref.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMARNG5_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/PALOMARNG5.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair_computation.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gf.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gf.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/gfpoly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gfpoly.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/gfpoly.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gfpoly.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/parallel_matrix_op.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/keygen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/keygen.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/keygen.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/mat_mul.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/mat_mul.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/mat_mul.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/mat_mul.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils_hash.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/common.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/common.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/common.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils_prng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/lsh.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/lsh512.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh512.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/lsh512.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test/main.c",
+  "output": "crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/main.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/encap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/encap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/encap.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/encap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/__/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/decap.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/decap.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/decap.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/decap.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/PQCgenKAT_sign.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/PALOMA.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256",
-  "command": "/usr/bin/cc -DPALOMA256_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/PALOMA256.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/rng.c",
-  "output": "crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/rng.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA256_kat_kem_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
-  "output": "crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_contribution.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/../include -std=gnu11 -o CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/KAT.c",
-  "output": "crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_exclusion.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"PALOMA256_KEM\\\" -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA256-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/test/main.c",
-  "output": "crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/main.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_verify.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark",
-  "command": "/usr/bin/cc -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/benchmark/benchmark.c",
-  "output": "crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/benchmark.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-112-72-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/meta_test.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA5_meta_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA5-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_contribution.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_contribution.c",
-  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_contribution.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA5_meta_EXPORTS -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/PALOMA5-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_exclusion.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/bit_exclusion.c",
-  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/bit_exclusion.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o"
 },
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic",
-  "command": "/usr/bin/cc -DPALOMA_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/../include -std=gnu11 -o CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/meta_test.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/metamorphic/meta_test.c",
-  "output": "crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.o"
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/sign.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test/main.c",
+  "output": "crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-148-96-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/meta_test.c.o"
 }
 ]

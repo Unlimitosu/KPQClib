@@ -30,7 +30,15 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     size_t siglen2 = 0;
     bool flag = true;
     int param = 0;
-    printf("%d \n", kem_siglen);
+
+#if   (_AIMER_L == 1)
+  param = AIMER_L1_PARAM1;
+#elif (_AIMER_L == 3)
+  param = AIMER_L3_PARAM1;
+#elif (_AIMER_L == 5)
+  param = AIMER_L5_PARAM1;
+#endif
+
     m    = (uint8_t*)calloc(mlen,   sizeof(uint8_t));
     sig  = (uint8_t*)calloc(kem_siglen, sizeof(uint8_t));
     sig2 = (uint8_t*)calloc(kem_siglen, sizeof(uint8_t));
@@ -42,11 +50,10 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
     assert(buf  != NULL);
 
     // set message with pseudorandom bytes
-    printf("message: ");
+
     for(int i = 0; i < mlen; i++){
         m[i] = rand() & 0xff;
-        printf("%02x ", m[i]);
-    }printf("\n");
+    }
 
     aimer_keygen(param++, &pk, &sk);
     aimer_sign(&pk, &sk, (const uint8_t*)m, mlen, sig, &siglen);
@@ -59,13 +66,6 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
         
         if(memcmp(sig, sig2, siglen) == 0 || siglen != siglen2) {
             printf("%s Bit Contribution Test Failed: Failed on messaage\n", ALGNAME);
-            for(int idx = 0; idx < siglen; idx++){
-                printf("%02x ", sig[idx]);
-            }printf("\n");
-            for(int idx = 0; idx < siglen2; idx++){
-                printf("%02x ", sig2[idx]);
-            }printf("\n");
-            printf("siglen:%d\nsiglen2:%d\n" , siglen, siglen2);
             flag = false;
             goto EXIT;
         }

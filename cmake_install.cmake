@@ -49,32 +49,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG1/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG3/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/SMAUG5/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA192/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -117,39 +117,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/rule
-.PHONY : crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/rule
+crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/rule
+.PHONY : crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/rule
 
 # Convenience name for target.
-MQS256_72_46-meta: crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/rule
-.PHONY : MQS256_72_46-meta
+MQS256-72-46-meta: crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/rule
+.PHONY : MQS256-72-46-meta
 
 # fast build rule for target.
-MQS256_72_46-meta/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build
-.PHONY : MQS256_72_46-meta/fast
+MQS256-72-46-meta/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build
+.PHONY : MQS256-72-46-meta/fast
 
 # Convenience name for target.
-crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/rule
-.PHONY : crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/rule
+crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/rule
+.PHONY : crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/rule
 
 # Convenience name for target.
-MQS256_72_46-meta-main: crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/rule
-.PHONY : MQS256_72_46-meta-main
+MQS256-72-46-meta-main: crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/rule
+.PHONY : MQS256-72-46-meta-main
 
 # fast build rule for target.
-MQS256_72_46-meta-main/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build
-.PHONY : MQS256_72_46-meta-main/fast
+MQS256-72-46-meta-main/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build
+.PHONY : MQS256-72-46-meta-main/fast
 
 bit_contribution.o: bit_contribution.c.o
 .PHONY : bit_contribution.o
 
 # target to build an object file
 bit_contribution.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_contribution.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o
 .PHONY : bit_contribution.c.o
 
 bit_contribution.i: bit_contribution.c.i
@@ -157,7 +157,7 @@ bit_contribution.i: bit_contribution.c.i
 
 # target to preprocess a source file
 bit_contribution.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_contribution.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.i
 .PHONY : bit_contribution.c.i
 
 bit_contribution.s: bit_contribution.c.s
@@ -165,7 +165,7 @@ bit_contribution.s: bit_contribution.c.s
 
 # target to generate assembly for a file
 bit_contribution.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_contribution.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.s
 .PHONY : bit_contribution.c.s
 
 bit_exclusion.o: bit_exclusion.c.o
@@ -173,7 +173,7 @@ bit_exclusion.o: bit_exclusion.c.o
 
 # target to build an object file
 bit_exclusion.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_exclusion.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o
 .PHONY : bit_exclusion.c.o
 
 bit_exclusion.i: bit_exclusion.c.i
@@ -181,7 +181,7 @@ bit_exclusion.i: bit_exclusion.c.i
 
 # target to preprocess a source file
 bit_exclusion.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_exclusion.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.i
 .PHONY : bit_exclusion.c.i
 
 bit_exclusion.s: bit_exclusion.c.s
@@ -189,15 +189,39 @@ bit_exclusion.s: bit_exclusion.c.s
 
 # target to generate assembly for a file
 bit_exclusion.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta.dir/bit_exclusion.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.s
 .PHONY : bit_exclusion.c.s
+
+bit_verify.o: bit_verify.c.o
+.PHONY : bit_verify.o
+
+# target to build an object file
+bit_verify.c.o:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o
+.PHONY : bit_verify.c.o
+
+bit_verify.i: bit_verify.c.i
+.PHONY : bit_verify.i
+
+# target to preprocess a source file
+bit_verify.c.i:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.i
+.PHONY : bit_verify.c.i
+
+bit_verify.s: bit_verify.c.s
+.PHONY : bit_verify.s
+
+# target to generate assembly for a file
+bit_verify.c.s:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.s
+.PHONY : bit_verify.c.s
 
 meta_test.o: meta_test.c.o
 .PHONY : meta_test.o
 
 # target to build an object file
 meta_test.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/meta_test.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.o
 .PHONY : meta_test.c.o
 
 meta_test.i: meta_test.c.i
@@ -205,7 +229,7 @@ meta_test.i: meta_test.c.i
 
 # target to preprocess a source file
 meta_test.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/meta_test.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.i
 .PHONY : meta_test.c.i
 
 meta_test.s: meta_test.c.s
@@ -213,7 +237,7 @@ meta_test.s: meta_test.c.s
 
 # target to generate assembly for a file
 meta_test.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256_72_46-meta-main.dir/meta_test.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.s
 .PHONY : meta_test.c.s
 
 # Help Target
@@ -224,14 +248,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MQS256_72_46-meta"
-	@echo "... MQS256_72_46-meta-main"
+	@echo "... MQS256-72-46-meta"
+	@echo "... MQS256-72-46-meta-main"
 	@echo "... bit_contribution.o"
 	@echo "... bit_contribution.i"
 	@echo "... bit_contribution.s"
 	@echo "... bit_exclusion.o"
 	@echo "... bit_exclusion.i"
 	@echo "... bit_exclusion.s"
+	@echo "... bit_verify.o"
+	@echo "... bit_verify.i"
+	@echo "... bit_verify.s"
 	@echo "... meta_test.o"
 	@echo "... meta_test.i"
 	@echo "... meta_test.s"

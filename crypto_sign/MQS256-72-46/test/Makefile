@@ -117,88 +117,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/rule
-.PHONY : crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/rule
+crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/rule
+.PHONY : crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/rule
 
 # Convenience name for target.
-MQS256_72_46LIB-main1: crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/rule
-.PHONY : MQS256_72_46LIB-main1
+MQS256-72-46-main: crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/rule
+.PHONY : MQS256-72-46-main
 
 # fast build rule for target.
-MQS256_72_46LIB-main1/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build
-.PHONY : MQS256_72_46LIB-main1/fast
+MQS256-72-46-main/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build
+.PHONY : MQS256-72-46-main/fast
 
-# Convenience name for target.
-crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/rule
-.PHONY : crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/rule
-
-# Convenience name for target.
-MQS256_72_46LIB-main2: crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/rule
-.PHONY : MQS256_72_46LIB-main2
-
-# fast build rule for target.
-MQS256_72_46LIB-main2/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build
-.PHONY : MQS256_72_46LIB-main2/fast
-
-__/src/rng.o: __/src/rng.c.o
-.PHONY : __/src/rng.o
+__/srcs/rng.o: __/srcs/rng.c.o
+.PHONY : __/srcs/rng.o
 
 # target to build an object file
-__/src/rng.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/__/src/rng.c.o
-.PHONY : __/src/rng.c.o
+__/srcs/rng.c.o:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.o
+.PHONY : __/srcs/rng.c.o
 
-__/src/rng.i: __/src/rng.c.i
-.PHONY : __/src/rng.i
-
-# target to preprocess a source file
-__/src/rng.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/__/src/rng.c.i
-.PHONY : __/src/rng.c.i
-
-__/src/rng.s: __/src/rng.c.s
-.PHONY : __/src/rng.s
-
-# target to generate assembly for a file
-__/src/rng.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/__/src/rng.c.s
-.PHONY : __/src/rng.c.s
-
-__/src/sign.o: __/src/sign.c.o
-.PHONY : __/src/sign.o
-
-# target to build an object file
-__/src/sign.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/__/src/sign.c.o
-.PHONY : __/src/sign.c.o
-
-__/src/sign.i: __/src/sign.c.i
-.PHONY : __/src/sign.i
+__/srcs/rng.i: __/srcs/rng.c.i
+.PHONY : __/srcs/rng.i
 
 # target to preprocess a source file
-__/src/sign.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/__/src/sign.c.i
-.PHONY : __/src/sign.c.i
+__/srcs/rng.c.i:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.i
+.PHONY : __/srcs/rng.c.i
 
-__/src/sign.s: __/src/sign.c.s
-.PHONY : __/src/sign.s
+__/srcs/rng.s: __/srcs/rng.c.s
+.PHONY : __/srcs/rng.s
 
 # target to generate assembly for a file
-__/src/sign.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/__/src/sign.c.s
-.PHONY : __/src/sign.c.s
+__/srcs/rng.c.s:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.s
+.PHONY : __/srcs/rng.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/main.c.o
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/main.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -206,8 +167,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/main.c.i
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/main.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -215,8 +175,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main1.dir/main.c.s
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256_72_46LIB-main2.dir/main.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -227,14 +186,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MQS256_72_46LIB-main1"
-	@echo "... MQS256_72_46LIB-main2"
-	@echo "... __/src/rng.o"
-	@echo "... __/src/rng.i"
-	@echo "... __/src/rng.s"
-	@echo "... __/src/sign.o"
-	@echo "... __/src/sign.i"
-	@echo "... __/src/sign.s"
+	@echo "... MQS256-72-46-main"
+	@echo "... __/srcs/rng.o"
+	@echo "... __/srcs/rng.i"
+	@echo "... __/srcs/rng.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

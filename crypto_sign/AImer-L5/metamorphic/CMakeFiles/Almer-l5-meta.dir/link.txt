@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libAlmer-l5-meta.so -o ../libs/libAlmer-l5-meta.so "CMakeFiles/Almer-l5-meta.dir/bit_contribution.c.o" "CMakeFiles/Almer-l5-meta.dir/bit_exclusion.c.o" 

@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/MQS256_72_463-meta-main.dir/meta_test.c.o" -o ../bin/MQS256_72_463-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/lib ../lib/libMQS256_72_463-meta.so 

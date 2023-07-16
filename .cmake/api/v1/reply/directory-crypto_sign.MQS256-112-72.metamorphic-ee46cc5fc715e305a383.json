@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/MQS256-112-72/metamorphic",
+		"source" : "crypto_sign/MQS256-112-72/metamorphic"
+	}
+}

@@ -13,8 +13,6 @@
 extern  "C" {
 #endif
 
-
-
 int byte_fdump(FILE * fp, const char * extra_msg , const unsigned char *v, unsigned n_byte);
 
 unsigned byte_fget( FILE * fp, unsigned char *v , unsigned n_byte );

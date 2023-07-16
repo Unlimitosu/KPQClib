@@ -130,628 +130,745 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named RNG1
+# Target rules for targets named aimer1_fips202
 
 # Build rule for target.
-RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG1
-.PHONY : RNG1
+aimer1_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer1_fips202
+.PHONY : aimer1_fips202
 
 # fast build rule for target.
-RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
-.PHONY : RNG1/fast
+aimer1_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build
+.PHONY : aimer1_fips202/fast
 
 #=============================================================================
-# Target rules for targets named smaug1
+# Target rules for targets named aimer1_RNG
 
 # Build rule for target.
-smaug1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1
-.PHONY : smaug1
+aimer1_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer1_RNG
+.PHONY : aimer1_RNG
 
 # fast build rule for target.
-smaug1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
-.PHONY : smaug1/fast
+aimer1_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_RNG.dir/build
+.PHONY : aimer1_RNG/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-main
+# Target rules for targets named Almer-l1
 
 # Build rule for target.
-smaug1-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-main
-.PHONY : smaug1-main
+Almer-l1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1
+.PHONY : Almer-l1
 
 # fast build rule for target.
-smaug1-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build.make crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/build
-.PHONY : smaug1-main/fast
+Almer-l1/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build.make crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/build
+.PHONY : Almer-l1/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-kat-kem
+# Target rules for targets named Almer-l1-main
 
 # Build rule for target.
-smaug1-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem
-.PHONY : smaug1-kat-kem
+Almer-l1-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-main
+.PHONY : Almer-l1-main
 
 # fast build rule for target.
-smaug1-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem.dir/build
-.PHONY : smaug1-kat-kem/fast
+Almer-l1-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/build
+.PHONY : Almer-l1-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-kat-kem-main
+# Target rules for targets named Almer-l1-testaim
 
 # Build rule for target.
-smaug1-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-kat-kem-main
-.PHONY : smaug1-kat-kem-main
+Almer-l1-testaim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testaim
+.PHONY : Almer-l1-testaim
 
 # fast build rule for target.
-smaug1-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build.make crypto_kem/SMAUG1/kat/CMakeFiles/smaug1-kat-kem-main.dir/build
-.PHONY : smaug1-kat-kem-main/fast
+Almer-l1-testaim/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/build
+.PHONY : Almer-l1-testaim/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-benchmark
+# Target rules for targets named Almer-l1-testtree
 
 # Build rule for target.
-smaug1-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-benchmark
-.PHONY : smaug1-benchmark
+Almer-l1-testtree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testtree
+.PHONY : Almer-l1-testtree
 
 # fast build rule for target.
-smaug1-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build.make crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
-.PHONY : smaug1-benchmark/fast
+Almer-l1-testtree/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/build
+.PHONY : Almer-l1-testtree/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-meta
+# Target rules for targets named Almer-l1-testsign
 
 # Build rule for target.
-smaug1-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta
-.PHONY : smaug1-meta
+Almer-l1-testsign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-testsign
+.PHONY : Almer-l1-testsign
 
 # fast build rule for target.
-smaug1-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta.dir/build
-.PHONY : smaug1-meta/fast
+Almer-l1-testsign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build.make crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/build
+.PHONY : Almer-l1-testsign/fast
 
 #=============================================================================
-# Target rules for targets named smaug1-meta-main
+# Target rules for targets named Almer-l1-kat-sign
 
 # Build rule for target.
-smaug1-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug1-meta-main
-.PHONY : smaug1-meta-main
+Almer-l1-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-kat-sign
+.PHONY : Almer-l1-kat-sign
 
 # fast build rule for target.
-smaug1-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build.make crypto_kem/SMAUG1/metamorphic/CMakeFiles/smaug1-meta-main.dir/build
-.PHONY : smaug1-meta-main/fast
+Almer-l1-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign.dir/build
+.PHONY : Almer-l1-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named RNG3
+# Target rules for targets named Almer-l1-kat-sign-main
 
 # Build rule for target.
-RNG3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG3
-.PHONY : RNG3
+Almer-l1-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-kat-sign-main
+.PHONY : Almer-l1-kat-sign-main
 
 # fast build rule for target.
-RNG3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/RNG3.dir/build
-.PHONY : RNG3/fast
+Almer-l1-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build.make crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/build
+.PHONY : Almer-l1-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug3
+# Target rules for targets named Almer-l1-benchmark
 
 # Build rule for target.
-smaug3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3
-.PHONY : smaug3
+Almer-l1-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-benchmark
+.PHONY : Almer-l1-benchmark
 
 # fast build rule for target.
-smaug3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build.make crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/build
-.PHONY : smaug3/fast
+Almer-l1-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build.make crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/build
+.PHONY : Almer-l1-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-main
+# Target rules for targets named Almer-l1-meta
 
 # Build rule for target.
-smaug3-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-main
-.PHONY : smaug3-main
+Almer-l1-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-meta
+.PHONY : Almer-l1-meta
 
 # fast build rule for target.
-smaug3-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build.make crypto_kem/SMAUG3/test/CMakeFiles/smaug3-main.dir/build
-.PHONY : smaug3-main/fast
+Almer-l1-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta.dir/build
+.PHONY : Almer-l1-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-kat-kem
+# Target rules for targets named Almer-l1-meta-main
 
 # Build rule for target.
-smaug3-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem
-.PHONY : smaug3-kat-kem
+Almer-l1-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l1-meta-main
+.PHONY : Almer-l1-meta-main
 
 # fast build rule for target.
-smaug3-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem.dir/build
-.PHONY : smaug3-kat-kem/fast
+Almer-l1-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build.make crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/build
+.PHONY : Almer-l1-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-kat-kem-main
+# Target rules for targets named aimer3_fips202
 
 # Build rule for target.
-smaug3-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-kat-kem-main
-.PHONY : smaug3-kat-kem-main
+aimer3_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer3_fips202
+.PHONY : aimer3_fips202
 
 # fast build rule for target.
-smaug3-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build.make crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/build
-.PHONY : smaug3-kat-kem-main/fast
+aimer3_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/build.make crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/build
+.PHONY : aimer3_fips202/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-benchmark
+# Target rules for targets named aimer3_RNG
 
 # Build rule for target.
-smaug3-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-benchmark
-.PHONY : smaug3-benchmark
+aimer3_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer3_RNG
+.PHONY : aimer3_RNG
 
 # fast build rule for target.
-smaug3-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build.make crypto_kem/SMAUG3/benchmark/CMakeFiles/smaug3-benchmark.dir/build
-.PHONY : smaug3-benchmark/fast
+aimer3_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/build.make crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/build
+.PHONY : aimer3_RNG/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-meta
+# Target rules for targets named Almer-l3
 
 # Build rule for target.
-smaug3-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta
-.PHONY : smaug3-meta
+Almer-l3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3
+.PHONY : Almer-l3
 
 # fast build rule for target.
-smaug3-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta.dir/build
-.PHONY : smaug3-meta/fast
+Almer-l3/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/build.make crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/build
+.PHONY : Almer-l3/fast
 
 #=============================================================================
-# Target rules for targets named smaug3-meta-main
+# Target rules for targets named Almer-l3-main
 
 # Build rule for target.
-smaug3-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug3-meta-main
-.PHONY : smaug3-meta-main
+Almer-l3-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-main
+.PHONY : Almer-l3-main
 
 # fast build rule for target.
-smaug3-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build.make crypto_kem/SMAUG3/metamorphic/CMakeFiles/smaug3-meta-main.dir/build
-.PHONY : smaug3-meta-main/fast
+Almer-l3-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/build.make crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/build
+.PHONY : Almer-l3-main/fast
 
 #=============================================================================
-# Target rules for targets named RNG5
+# Target rules for targets named Almer-l3-testaim
 
 # Build rule for target.
-RNG5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RNG5
-.PHONY : RNG5
+Almer-l3-testaim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-testaim
+.PHONY : Almer-l3-testaim
 
 # fast build rule for target.
-RNG5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/RNG5.dir/build
-.PHONY : RNG5/fast
+Almer-l3-testaim/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/build.make crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/build
+.PHONY : Almer-l3-testaim/fast
 
 #=============================================================================
-# Target rules for targets named smaug5
+# Target rules for targets named Almer-l3-testtree
 
 # Build rule for target.
-smaug5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5
-.PHONY : smaug5
+Almer-l3-testtree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-testtree
+.PHONY : Almer-l3-testtree
 
 # fast build rule for target.
-smaug5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build.make crypto_kem/SMAUG5/CMakeFiles/smaug5.dir/build
-.PHONY : smaug5/fast
+Almer-l3-testtree/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/build.make crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/build
+.PHONY : Almer-l3-testtree/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-main
+# Target rules for targets named Almer-l3-testsign
 
 # Build rule for target.
-smaug5-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-main
-.PHONY : smaug5-main
+Almer-l3-testsign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-testsign
+.PHONY : Almer-l3-testsign
 
 # fast build rule for target.
-smaug5-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build.make crypto_kem/SMAUG5/test/CMakeFiles/smaug5-main.dir/build
-.PHONY : smaug5-main/fast
+Almer-l3-testsign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/build.make crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/build
+.PHONY : Almer-l3-testsign/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-kat-kem
+# Target rules for targets named Almer-l3-kat-sign
 
 # Build rule for target.
-smaug5-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem
-.PHONY : smaug5-kat-kem
+Almer-l3-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-kat-sign
+.PHONY : Almer-l3-kat-sign
 
 # fast build rule for target.
-smaug5-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem.dir/build
-.PHONY : smaug5-kat-kem/fast
+Almer-l3-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign.dir/build.make crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign.dir/build
+.PHONY : Almer-l3-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-kat-kem-main
+# Target rules for targets named Almer-l3-kat-sign-main
 
 # Build rule for target.
-smaug5-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-kat-kem-main
-.PHONY : smaug5-kat-kem-main
+Almer-l3-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-kat-sign-main
+.PHONY : Almer-l3-kat-sign-main
 
 # fast build rule for target.
-smaug5-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build.make crypto_kem/SMAUG5/kat/CMakeFiles/smaug5-kat-kem-main.dir/build
-.PHONY : smaug5-kat-kem-main/fast
+Almer-l3-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/build.make crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/build
+.PHONY : Almer-l3-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-benchmark
+# Target rules for targets named Almer-l3-benchmark
 
 # Build rule for target.
-smaug5-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-benchmark
-.PHONY : smaug5-benchmark
+Almer-l3-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-benchmark
+.PHONY : Almer-l3-benchmark
 
 # fast build rule for target.
-smaug5-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build.make crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/build
-.PHONY : smaug5-benchmark/fast
+Almer-l3-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/build.make crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/build
+.PHONY : Almer-l3-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-meta
+# Target rules for targets named Almer-l3-meta
 
 # Build rule for target.
-smaug5-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta
-.PHONY : smaug5-meta
+Almer-l3-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-meta
+.PHONY : Almer-l3-meta
 
 # fast build rule for target.
-smaug5-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/build
-.PHONY : smaug5-meta/fast
+Almer-l3-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta.dir/build.make crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta.dir/build
+.PHONY : Almer-l3-meta/fast
 
 #=============================================================================
-# Target rules for targets named smaug5-meta-main
+# Target rules for targets named Almer-l3-meta-main
 
 # Build rule for target.
-smaug5-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smaug5-meta-main
-.PHONY : smaug5-meta-main
+Almer-l3-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l3-meta-main
+.PHONY : Almer-l3-meta-main
 
 # fast build rule for target.
-smaug5-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build.make crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/build
-.PHONY : smaug5-meta-main/fast
+Almer-l3-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/build.make crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/build
+.PHONY : Almer-l3-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMARNG1
+# Target rules for targets named aimer5_fips202
 
 # Build rule for target.
-PALOMARNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG1
-.PHONY : PALOMARNG1
+aimer5_fips202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer5_fips202
+.PHONY : aimer5_fips202
 
 # fast build rule for target.
-PALOMARNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMARNG1.dir/build
-.PHONY : PALOMARNG1/fast
+aimer5_fips202/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/CMakeFiles/aimer5_fips202.dir/build.make crypto_sign/AImer-L5/CMakeFiles/aimer5_fips202.dir/build
+.PHONY : aimer5_fips202/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA128
+# Target rules for targets named aimer5_RNG
 
 # Build rule for target.
-PALOMA128: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128
-.PHONY : PALOMA128
+aimer5_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aimer5_RNG
+.PHONY : aimer5_RNG
 
 # fast build rule for target.
-PALOMA128/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build.make crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/build
-.PHONY : PALOMA128/fast
+aimer5_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/CMakeFiles/aimer5_RNG.dir/build.make crypto_sign/AImer-L5/CMakeFiles/aimer5_RNG.dir/build
+.PHONY : aimer5_RNG/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA128-kat-kem
+# Target rules for targets named Almer-l5
 
 # Build rule for target.
-PALOMA128-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-kat-kem
-.PHONY : PALOMA128-kat-kem
+Almer-l5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5
+.PHONY : Almer-l5
 
 # fast build rule for target.
-PALOMA128-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem.dir/build
-.PHONY : PALOMA128-kat-kem/fast
+Almer-l5/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/build.make crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/build
+.PHONY : Almer-l5/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA128-kat-kem-main
+# Target rules for targets named Almer-l5-main
 
 # Build rule for target.
-PALOMA128-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-kat-kem-main
-.PHONY : PALOMA128-kat-kem-main
+Almer-l5-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-main
+.PHONY : Almer-l5-main
 
 # fast build rule for target.
-PALOMA128-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build.make crypto_kem/PALOMA128/kat/CMakeFiles/PALOMA128-kat-kem-main.dir/build
-.PHONY : PALOMA128-kat-kem-main/fast
+Almer-l5-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/build
+.PHONY : Almer-l5-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA128-main
+# Target rules for targets named Almer-l5-testaim
 
 # Build rule for target.
-PALOMA128-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-main
-.PHONY : PALOMA128-main
+Almer-l5-testaim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-testaim
+.PHONY : Almer-l5-testaim
 
 # fast build rule for target.
-PALOMA128-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build.make crypto_kem/PALOMA128/test/CMakeFiles/PALOMA128-main.dir/build
-.PHONY : PALOMA128-main/fast
+Almer-l5-testaim/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testaim.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testaim.dir/build
+.PHONY : Almer-l5-testaim/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA128-benchmark
+# Target rules for targets named Almer-l5-testtree
 
 # Build rule for target.
-PALOMA128-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA128-benchmark
-.PHONY : PALOMA128-benchmark
+Almer-l5-testtree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-testtree
+.PHONY : Almer-l5-testtree
 
 # fast build rule for target.
-PALOMA128-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build.make crypto_kem/PALOMA128/benchmark/CMakeFiles/PALOMA128-benchmark.dir/build
-.PHONY : PALOMA128-benchmark/fast
+Almer-l5-testtree/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testtree.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testtree.dir/build
+.PHONY : Almer-l5-testtree/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA1-meta
+# Target rules for targets named Almer-l5-testsign
 
 # Build rule for target.
-PALOMA1-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA1-meta
-.PHONY : PALOMA1-meta
+Almer-l5-testsign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-testsign
+.PHONY : Almer-l5-testsign
 
 # fast build rule for target.
-PALOMA1-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta.dir/build
-.PHONY : PALOMA1-meta/fast
+Almer-l5-testsign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testsign.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testsign.dir/build
+.PHONY : Almer-l5-testsign/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA1-meta-main
+# Target rules for targets named Almer-l5-kat-sign
 
 # Build rule for target.
-PALOMA1-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA1-meta-main
-.PHONY : PALOMA1-meta-main
+Almer-l5-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-kat-sign
+.PHONY : Almer-l5-kat-sign
 
 # fast build rule for target.
-PALOMA1-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build.make crypto_kem/PALOMA128/metamorphic/CMakeFiles/PALOMA1-meta-main.dir/build
-.PHONY : PALOMA1-meta-main/fast
+Almer-l5-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/build.make crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/build
+.PHONY : Almer-l5-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named PALOMARNG3
+# Target rules for targets named Almer-l5-kat-sign-main
 
 # Build rule for target.
-PALOMARNG3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG3
-.PHONY : PALOMARNG3
+Almer-l5-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-kat-sign-main
+.PHONY : Almer-l5-kat-sign-main
 
 # fast build rule for target.
-PALOMARNG3/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/build
-.PHONY : PALOMARNG3/fast
+Almer-l5-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/build.make crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/build
+.PHONY : Almer-l5-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA192
+# Target rules for targets named Almer-l5-benchmark
 
 # Build rule for target.
-PALOMA192: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192
-.PHONY : PALOMA192
+Almer-l5-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-benchmark
+.PHONY : Almer-l5-benchmark
 
 # fast build rule for target.
-PALOMA192/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build
-.PHONY : PALOMA192/fast
+Almer-l5-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/build.make crypto_sign/AImer-L5/benchmark/CMakeFiles/Almer-l5-benchmark.dir/build
+.PHONY : Almer-l5-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA192-kat-kem
+# Target rules for targets named Almer-l5-meta
 
 # Build rule for target.
-PALOMA192-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-kat-kem
-.PHONY : PALOMA192-kat-kem
+Almer-l5-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-meta
+.PHONY : Almer-l5-meta
 
 # fast build rule for target.
-PALOMA192-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem.dir/build
-.PHONY : PALOMA192-kat-kem/fast
+Almer-l5-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta.dir/build.make crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta.dir/build
+.PHONY : Almer-l5-meta/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA192-kat-kem-main
+# Target rules for targets named Almer-l5-meta-main
 
 # Build rule for target.
-PALOMA192-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-kat-kem-main
-.PHONY : PALOMA192-kat-kem-main
+Almer-l5-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Almer-l5-meta-main
+.PHONY : Almer-l5-meta-main
 
 # fast build rule for target.
-PALOMA192-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build.make crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/build
-.PHONY : PALOMA192-kat-kem-main/fast
+Almer-l5-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta-main.dir/build.make crypto_sign/AImer-L5/metamorphic/CMakeFiles/Almer-l5-meta-main.dir/build
+.PHONY : Almer-l5-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA192-main
+# Target rules for targets named MQS256-72-46_RNG
 
 # Build rule for target.
-PALOMA192-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-main
-.PHONY : PALOMA192-main
+MQS256-72-46_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46_RNG
+.PHONY : MQS256-72-46_RNG
 
 # fast build rule for target.
-PALOMA192-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build.make crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/build
-.PHONY : PALOMA192-main/fast
+MQS256-72-46_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build
+.PHONY : MQS256-72-46_RNG/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA192-benchmark
+# Target rules for targets named MQS256-72-46
 
 # Build rule for target.
-PALOMA192-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA192-benchmark
-.PHONY : PALOMA192-benchmark
+MQS256-72-46: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46
+.PHONY : MQS256-72-46
 
 # fast build rule for target.
-PALOMA192-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build
-.PHONY : PALOMA192-benchmark/fast
+MQS256-72-46/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/build
+.PHONY : MQS256-72-46/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA3-meta
+# Target rules for targets named MQS256-72-46-main
 
 # Build rule for target.
-PALOMA3-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA3-meta
-.PHONY : PALOMA3-meta
+MQS256-72-46-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-main
+.PHONY : MQS256-72-46-main
 
 # fast build rule for target.
-PALOMA3-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta.dir/build
-.PHONY : PALOMA3-meta/fast
+MQS256-72-46-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build
+.PHONY : MQS256-72-46-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA3-meta-main
+# Target rules for targets named MQS256-72-46-kat-sign-main
 
 # Build rule for target.
-PALOMA3-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA3-meta-main
-.PHONY : PALOMA3-meta-main
+MQS256-72-46-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-kat-sign-main
+.PHONY : MQS256-72-46-kat-sign-main
 
 # fast build rule for target.
-PALOMA3-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build.make crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/build
-.PHONY : PALOMA3-meta-main/fast
+MQS256-72-46-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/build.make crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/build
+.PHONY : MQS256-72-46-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMARNG5
+# Target rules for targets named MQS256-72-46-benchmark
 
 # Build rule for target.
-PALOMARNG5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMARNG5
-.PHONY : PALOMARNG5
+MQS256-72-46-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-benchmark
+.PHONY : MQS256-72-46-benchmark
 
 # fast build rule for target.
-PALOMARNG5/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMARNG5.dir/build
-.PHONY : PALOMARNG5/fast
+MQS256-72-46-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/build.make crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/build
+.PHONY : MQS256-72-46-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA256
+# Target rules for targets named MQS256-72-46-meta
 
 # Build rule for target.
-PALOMA256: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256
-.PHONY : PALOMA256
+MQS256-72-46-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-meta
+.PHONY : MQS256-72-46-meta
 
 # fast build rule for target.
-PALOMA256/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build.make crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/build
-.PHONY : PALOMA256/fast
+MQS256-72-46-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build
+.PHONY : MQS256-72-46-meta/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA256-kat-kem
+# Target rules for targets named MQS256-72-46-meta-main
 
 # Build rule for target.
-PALOMA256-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem
-.PHONY : PALOMA256-kat-kem
+MQS256-72-46-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-meta-main
+.PHONY : MQS256-72-46-meta-main
 
 # fast build rule for target.
-PALOMA256-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem.dir/build
-.PHONY : PALOMA256-kat-kem/fast
+MQS256-72-46-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build
+.PHONY : MQS256-72-46-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA256-kat-kem-main
+# Target rules for targets named MQS256-112-72_RNG
 
 # Build rule for target.
-PALOMA256-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-kat-kem-main
-.PHONY : PALOMA256-kat-kem-main
+MQS256-112-72_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72_RNG
+.PHONY : MQS256-112-72_RNG
 
 # fast build rule for target.
-PALOMA256-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build.make crypto_kem/PALOMA256/kat/CMakeFiles/PALOMA256-kat-kem-main.dir/build
-.PHONY : PALOMA256-kat-kem-main/fast
+MQS256-112-72_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/build
+.PHONY : MQS256-112-72_RNG/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA256-main
+# Target rules for targets named MQS256-112-72
 
 # Build rule for target.
-PALOMA256-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-main
-.PHONY : PALOMA256-main
+MQS256-112-72: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72
+.PHONY : MQS256-112-72
 
 # fast build rule for target.
-PALOMA256-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build.make crypto_kem/PALOMA256/test/CMakeFiles/PALOMA256-main.dir/build
-.PHONY : PALOMA256-main/fast
+MQS256-112-72/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/build
+.PHONY : MQS256-112-72/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA256-benchmark
+# Target rules for targets named MQS256-112-72-main
 
 # Build rule for target.
-PALOMA256-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA256-benchmark
-.PHONY : PALOMA256-benchmark
+MQS256-112-72-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-main
+.PHONY : MQS256-112-72-main
 
 # fast build rule for target.
-PALOMA256-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build.make crypto_kem/PALOMA256/benchmark/CMakeFiles/PALOMA256-benchmark.dir/build
-.PHONY : PALOMA256-benchmark/fast
+MQS256-112-72-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/build.make crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/build
+.PHONY : MQS256-112-72-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA5-meta
+# Target rules for targets named MQS256-112-72-kat-sign-main
 
 # Build rule for target.
-PALOMA5-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA5-meta
-.PHONY : PALOMA5-meta
+MQS256-112-72-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-kat-sign-main
+.PHONY : MQS256-112-72-kat-sign-main
 
 # fast build rule for target.
-PALOMA5-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta.dir/build
-.PHONY : PALOMA5-meta/fast
+MQS256-112-72-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/build.make crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/build
+.PHONY : MQS256-112-72-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named PALOMA5-meta-main
+# Target rules for targets named MQS256-112-72-benchmark
 
 # Build rule for target.
-PALOMA5-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PALOMA5-meta-main
-.PHONY : PALOMA5-meta-main
+MQS256-112-72-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-benchmark
+.PHONY : MQS256-112-72-benchmark
 
 # fast build rule for target.
-PALOMA5-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build.make crypto_kem/PALOMA256/metamorphic/CMakeFiles/PALOMA5-meta-main.dir/build
-.PHONY : PALOMA5-meta-main/fast
+MQS256-112-72-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build
+.PHONY : MQS256-112-72-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-112-72-meta
+
+# Build rule for target.
+MQS256-112-72-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-meta
+.PHONY : MQS256-112-72-meta
+
+# fast build rule for target.
+MQS256-112-72-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/build.make crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/build
+.PHONY : MQS256-112-72-meta/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-112-72-meta-main
+
+# Build rule for target.
+MQS256-112-72-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-meta-main
+.PHONY : MQS256-112-72-meta-main
+
+# fast build rule for target.
+MQS256-112-72-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/build.make crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/build
+.PHONY : MQS256-112-72-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96_RNG
+
+# Build rule for target.
+MQS256-148-96_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96_RNG
+.PHONY : MQS256-148-96_RNG
+
+# fast build rule for target.
+MQS256-148-96_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build
+.PHONY : MQS256-148-96_RNG/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96
+
+# Build rule for target.
+MQS256-148-96: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96
+.PHONY : MQS256-148-96
+
+# fast build rule for target.
+MQS256-148-96/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build
+.PHONY : MQS256-148-96/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96-main
+
+# Build rule for target.
+MQS256-148-96-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-main
+.PHONY : MQS256-148-96-main
+
+# fast build rule for target.
+MQS256-148-96-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/build.make crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/build
+.PHONY : MQS256-148-96-main/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96-kat-sign-main
+
+# Build rule for target.
+MQS256-148-96-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-kat-sign-main
+.PHONY : MQS256-148-96-kat-sign-main
+
+# fast build rule for target.
+MQS256-148-96-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/build.make crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/build
+.PHONY : MQS256-148-96-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96-benchmark
+
+# Build rule for target.
+MQS256-148-96-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-benchmark
+.PHONY : MQS256-148-96-benchmark
+
+# fast build rule for target.
+MQS256-148-96-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/build.make crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/build
+.PHONY : MQS256-148-96-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96-meta
+
+# Build rule for target.
+MQS256-148-96-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-meta
+.PHONY : MQS256-148-96-meta
+
+# fast build rule for target.
+MQS256-148-96-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/build.make crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/build
+.PHONY : MQS256-148-96-meta/fast
+
+#=============================================================================
+# Target rules for targets named MQS256-148-96-meta-main
+
+# Build rule for target.
+MQS256-148-96-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-meta-main
+.PHONY : MQS256-148-96-meta-main
+
+# fast build rule for target.
+MQS256-148-96-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/build.make crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/build
+.PHONY : MQS256-148-96-meta-main/fast
 
 # Help Target
 help:
@@ -761,55 +878,64 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... PALOMA1-meta"
-	@echo "... PALOMA1-meta-main"
-	@echo "... PALOMA128"
-	@echo "... PALOMA128-benchmark"
-	@echo "... PALOMA128-kat-kem"
-	@echo "... PALOMA128-kat-kem-main"
-	@echo "... PALOMA128-main"
-	@echo "... PALOMA192"
-	@echo "... PALOMA192-benchmark"
-	@echo "... PALOMA192-kat-kem"
-	@echo "... PALOMA192-kat-kem-main"
-	@echo "... PALOMA192-main"
-	@echo "... PALOMA256"
-	@echo "... PALOMA256-benchmark"
-	@echo "... PALOMA256-kat-kem"
-	@echo "... PALOMA256-kat-kem-main"
-	@echo "... PALOMA256-main"
-	@echo "... PALOMA3-meta"
-	@echo "... PALOMA3-meta-main"
-	@echo "... PALOMA5-meta"
-	@echo "... PALOMA5-meta-main"
-	@echo "... PALOMARNG1"
-	@echo "... PALOMARNG3"
-	@echo "... PALOMARNG5"
-	@echo "... RNG1"
-	@echo "... RNG3"
-	@echo "... RNG5"
+	@echo "... Almer-l1"
+	@echo "... Almer-l1-benchmark"
+	@echo "... Almer-l1-kat-sign"
+	@echo "... Almer-l1-kat-sign-main"
+	@echo "... Almer-l1-main"
+	@echo "... Almer-l1-meta"
+	@echo "... Almer-l1-meta-main"
+	@echo "... Almer-l1-testaim"
+	@echo "... Almer-l1-testsign"
+	@echo "... Almer-l1-testtree"
+	@echo "... Almer-l3"
+	@echo "... Almer-l3-benchmark"
+	@echo "... Almer-l3-kat-sign"
+	@echo "... Almer-l3-kat-sign-main"
+	@echo "... Almer-l3-main"
+	@echo "... Almer-l3-meta"
+	@echo "... Almer-l3-meta-main"
+	@echo "... Almer-l3-testaim"
+	@echo "... Almer-l3-testsign"
+	@echo "... Almer-l3-testtree"
+	@echo "... Almer-l5"
+	@echo "... Almer-l5-benchmark"
+	@echo "... Almer-l5-kat-sign"
+	@echo "... Almer-l5-kat-sign-main"
+	@echo "... Almer-l5-main"
+	@echo "... Almer-l5-meta"
+	@echo "... Almer-l5-meta-main"
+	@echo "... Almer-l5-testaim"
+	@echo "... Almer-l5-testsign"
+	@echo "... Almer-l5-testtree"
+	@echo "... MQS256-112-72"
+	@echo "... MQS256-112-72-benchmark"
+	@echo "... MQS256-112-72-kat-sign-main"
+	@echo "... MQS256-112-72-main"
+	@echo "... MQS256-112-72-meta"
+	@echo "... MQS256-112-72-meta-main"
+	@echo "... MQS256-112-72_RNG"
+	@echo "... MQS256-148-96"
+	@echo "... MQS256-148-96-benchmark"
+	@echo "... MQS256-148-96-kat-sign-main"
+	@echo "... MQS256-148-96-main"
+	@echo "... MQS256-148-96-meta"
+	@echo "... MQS256-148-96-meta-main"
+	@echo "... MQS256-148-96_RNG"
+	@echo "... MQS256-72-46"
+	@echo "... MQS256-72-46-benchmark"
+	@echo "... MQS256-72-46-kat-sign-main"
+	@echo "... MQS256-72-46-main"
+	@echo "... MQS256-72-46-meta"
+	@echo "... MQS256-72-46-meta-main"
+	@echo "... MQS256-72-46_RNG"
+	@echo "... aimer1_RNG"
+	@echo "... aimer1_fips202"
+	@echo "... aimer3_RNG"
+	@echo "... aimer3_fips202"
+	@echo "... aimer5_RNG"
+	@echo "... aimer5_fips202"
 	@echo "... common"
-	@echo "... smaug1"
-	@echo "... smaug1-benchmark"
-	@echo "... smaug1-kat-kem"
-	@echo "... smaug1-kat-kem-main"
-	@echo "... smaug1-main"
-	@echo "... smaug1-meta"
-	@echo "... smaug1-meta-main"
-	@echo "... smaug3"
-	@echo "... smaug3-benchmark"
-	@echo "... smaug3-kat-kem"
-	@echo "... smaug3-kat-kem-main"
-	@echo "... smaug3-main"
-	@echo "... smaug3-meta"
-	@echo "... smaug3-meta-main"
-	@echo "... smaug5"
-	@echo "... smaug5-benchmark"
-	@echo "... smaug5-kat-kem"
-	@echo "... smaug5-kat-kem-main"
-	@echo "... smaug5-main"
-	@echo "... smaug5-meta"
-	@echo "... smaug5-meta-main"
 .PHONY : help
 
 

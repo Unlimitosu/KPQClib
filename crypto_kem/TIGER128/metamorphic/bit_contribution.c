@@ -50,7 +50,9 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
 
     // Encapsulation
     KEM_Enc(c, ss, pk); // BCT, BET -> pk only & memcmp -> ct only //! through pk, gen ss and c, c is ciphertext of ss
-
+    // for(int i = 0; i<sklen; i++){
+    //     printf("%02x ", sk[i]);
+    // }printf("\n");
     for(int i = 0; i < sklen; i++){
         memcpy(buf, sk, sklen);
 
@@ -64,11 +66,16 @@ int KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
             continue;
         } else {
             printf("%s Bit Contribution Test Fail: Failed on sk\n", ALGNAME);
+            for(int i = 0; i < crypto_bytes; i++){
+                printf("%02x ", ss1[i]);
+            }printf("\n");
+            for(int i = 0; i < crypto_bytes; i++){
+                printf("%02x ", ss2[i]);
+            }printf("\n");
             flag = false;
             goto EXIT;
         }
     }
-    printf("sklen: %d\n", sklen);
 
     // ss, c contribution
     free(buf);
@@ -102,7 +109,7 @@ EXIT:
     free(k2 ); 
 
     if(flag){
-        printf("%s Bit Exclusion Test Success\n", ALGNAME);
+        printf("%s Bit Contribution Test Success\n", ALGNAME);
         return BIT_CONTRIBUTION_SUCCESS;
     } else{
         return BIT_CONTRIBUTION_FAIL;

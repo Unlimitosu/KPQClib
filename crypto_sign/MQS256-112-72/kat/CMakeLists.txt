@@ -1,12 +1,4 @@
-set(kat_srcs
-    kat_sign.c
-)
+set(KAT_SIGN_LIB_NAME3 ${PROJECT_NAME}-112-72)
+add_executable(${KAT_SIGN_LIB_NAME3}-kat-sign-main PQCgenKAT_sign.c)
+target_link_libraries(${KAT_SIGN_LIB_NAME3}-kat-sign-main ${LIB_NAME3})
 
-# Rank-2 SIGN
-set(KAT_SIGN_LIB_NAME5 ${PROJECT_NAME}5-kat-sign)
-add_library(${KAT_SIGN_LIB_NAME5} SHARED ${kat_srcs})
-target_include_directories(${KAT_SIGN_LIB_NAME5} PUBLIC ../include)
-target_compile_definitions(${KAT_SIGN_LIB_NAME5} PUBLIC HAETAE_MODE=5)
-
-add_executable(${KAT_SIGN_LIB_NAME5}-main PQCgenKAT_sign.c)
-target_link_libraries(${KAT_SIGN_LIB_NAME5}-main ${KAT_SIGN_LIB_NAME5} ${LIB_NAME5})

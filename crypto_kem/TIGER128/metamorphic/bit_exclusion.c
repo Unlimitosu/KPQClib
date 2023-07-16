@@ -56,44 +56,40 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
     // Encapsulation
     KEM_Enc(c, ss, pk);
 
-    for(int i = 1; i <= sklen; i++){
-        memcpy(buf, sk, sklen);
-        for(int j = 0; j < EXCLUSION_BYTELEN * 8; j++){
-            buf[sklen + j/8] ^= 1 << (j%8);
+    for(int j = 0; j < EXCLUSION_BYTELEN * 8; j++){
+    memcpy(buf, sk, sklen);
+        buf[sklen + j/8] ^= 1 << (j%8);
 
-            KEM_dec(ss1, c, sk,  pk);
-            KEM_dec(ss2, c, buf, pk);
+        KEM_dec(ss1, c, sk,  pk);
+        KEM_dec(ss2, c, buf, pk);
 
-            if(memcmp(ss1, ss2, crypto_bytes) == 0){
-                continue;
-            } else {
-                printf("%s Bit Exclusion Test Fail: Failed on sk\n", ALGNAME);
-                flag = false;
-                goto EXIT;
-            }
+        if(memcmp(ss1, ss2, crypto_bytes) == 0){
+            continue;
+        } else {
+            printf("%s Bit Exclusion Test Fail: Failed on sk\n", ALGNAME);
+            flag = false;
+            goto EXIT;
         }
     }
 
     free(buf);
     buf = (uint8_t*)calloc(clen + EXCLUSION_BYTELEN, sizeof(uint8_t));
-    for(int i = 0; i < clen; i++){
-        memcpy(buf, c, clen);
+    for(int j = 0; j < EXCLUSION_BYTELEN * 8; j++){
+    memcpy(buf, c, clen);
+        buf[clen + j/8] ^= 1 << (j%8);
 
-        for(int j = 0; j < EXCLUSION_BYTELEN * 8; j++){
-            buf[clen + j/8] ^= 1 << (j%8);
+        KEM_dec(ss1, c, sk, pk);
+        KEM_dec(ss2, buf, sk, pk);
 
-            KEM_dec(ss1, c, sk, pk);
-            KEM_dec(ss2, buf, sk, pk);
-
-            if(memcmp(ss1, ss2, crypto_bytes) == 0){
-                continue;
-            } else {
-                printf("%s Bit Exclusion Test Fail: Failed on ct\n", ALGNAME);
-                flag = false;
-                goto EXIT;
-            }
+        if(memcmp(ss1, ss2, crypto_bytes) == 0){
+            continue;
+        } else {
+            printf("%s Bit Exclusion Test Fail: Failed on ct\n", ALGNAME);
+            flag = false;
+            goto EXIT;
         }
     }
+
 
 EXIT:
     free(pk ); 

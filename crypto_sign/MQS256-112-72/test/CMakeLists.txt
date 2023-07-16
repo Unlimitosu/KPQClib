@@ -1,5 +1,3 @@
-add_executable(${LIB_NAME_112_72}-main1 main.c ${PROJECT_SOURCE_DIR}/src/rng.c)
-add_executable(${LIB_NAME_112_72}-main2 main.c ${PROJECT_SOURCE_DIR}/src/sign.c)
-# message((${LIB_NAME_112_72}))
-target_link_libraries(${LIB_NAME_112_72}-main1 ${LIB_NAME_112_72})
-target_link_libraries(${LIB_NAME_112_72}-main2 ${LIB_NAME_112_72})
+add_executable(${LIB_NAME3}-main main.c ${PROJECT_SOURCE_DIR}/srcs/rng.c)
+target_compile_definitions(${LIB_NAME3} PUBLIC MQS256_MODE=3)
+target_link_libraries(${LIB_NAME3}-main ${LIB_NAME3})

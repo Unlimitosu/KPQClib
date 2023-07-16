@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libMQS256_72_463-meta.so -o ../lib/libMQS256_72_463-meta.so "CMakeFiles/MQS256_72_463-meta.dir/bit_contribution.c.o" "CMakeFiles/MQS256_72_463-meta.dir/bit_exclusion.c.o" 

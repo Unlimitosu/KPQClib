@@ -49,6 +49,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/cmake_install.cmake")
 endif()
 

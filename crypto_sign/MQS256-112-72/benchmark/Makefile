@@ -117,73 +117,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/rule:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/rule
-.PHONY : crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/rule
+crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/rule:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/rule
+.PHONY : crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/rule
 
 # Convenience name for target.
-MQS256_112_72-benchmark: crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/rule
-.PHONY : MQS256_112_72-benchmark
+MQS256-112-72-benchmark: crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/rule
+.PHONY : MQS256-112-72-benchmark
 
 # fast build rule for target.
-MQS256_112_72-benchmark/fast:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build
-.PHONY : MQS256_112_72-benchmark/fast
+MQS256-112-72-benchmark/fast:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build
+.PHONY : MQS256-112-72-benchmark/fast
 
-__/src/rng.o: __/src/rng.c.o
-.PHONY : __/src/rng.o
-
-# target to build an object file
-__/src/rng.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/__/src/rng.c.o
-.PHONY : __/src/rng.c.o
-
-__/src/rng.i: __/src/rng.c.i
-.PHONY : __/src/rng.i
-
-# target to preprocess a source file
-__/src/rng.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/__/src/rng.c.i
-.PHONY : __/src/rng.c.i
-
-__/src/rng.s: __/src/rng.c.s
-.PHONY : __/src/rng.s
-
-# target to generate assembly for a file
-__/src/rng.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/__/src/rng.c.s
-.PHONY : __/src/rng.c.s
-
-cpucycles.o: cpucycles.c.o
-.PHONY : cpucycles.o
+__/srcs/rng.o: __/srcs/rng.c.o
+.PHONY : __/srcs/rng.o
 
 # target to build an object file
-cpucycles.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/cpucycles.c.o
-.PHONY : cpucycles.c.o
+__/srcs/rng.c.o:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.o
+.PHONY : __/srcs/rng.c.o
 
-cpucycles.i: cpucycles.c.i
-.PHONY : cpucycles.i
+__/srcs/rng.i: __/srcs/rng.c.i
+.PHONY : __/srcs/rng.i
 
 # target to preprocess a source file
-cpucycles.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/cpucycles.c.i
-.PHONY : cpucycles.c.i
+__/srcs/rng.c.i:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.i
+.PHONY : __/srcs/rng.c.i
 
-cpucycles.s: cpucycles.c.s
-.PHONY : cpucycles.s
+__/srcs/rng.s: __/srcs/rng.c.s
+.PHONY : __/srcs/rng.s
 
 # target to generate assembly for a file
-cpucycles.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/cpucycles.c.s
-.PHONY : cpucycles.c.s
+__/srcs/rng.c.s:
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.s
+.PHONY : __/srcs/rng.c.s
 
 speed.o: speed.c.o
 .PHONY : speed.o
 
 # target to build an object file
 speed.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed.c.o
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.o
 .PHONY : speed.c.o
 
 speed.i: speed.c.i
@@ -191,7 +167,7 @@ speed.i: speed.c.i
 
 # target to preprocess a source file
 speed.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed.c.i
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.i
 .PHONY : speed.c.i
 
 speed.s: speed.c.s
@@ -199,32 +175,8 @@ speed.s: speed.c.s
 
 # target to generate assembly for a file
 speed.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed.c.s
+	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.s
 .PHONY : speed.c.s
-
-speed_print.o: speed_print.c.o
-.PHONY : speed_print.o
-
-# target to build an object file
-speed_print.c.o:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed_print.c.o
-.PHONY : speed_print.c.o
-
-speed_print.i: speed_print.c.i
-.PHONY : speed_print.i
-
-# target to preprocess a source file
-speed_print.c.i:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed_print.c.i
-.PHONY : speed_print.c.i
-
-speed_print.s: speed_print.c.s
-.PHONY : speed_print.s
-
-# target to generate assembly for a file
-speed_print.c.s:
-	cd /home/unlimit/Downloads/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256_112_72-benchmark.dir/speed_print.c.s
-.PHONY : speed_print.c.s
 
 # Help Target
 help:
@@ -234,19 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MQS256_112_72-benchmark"
-	@echo "... __/src/rng.o"
-	@echo "... __/src/rng.i"
-	@echo "... __/src/rng.s"
-	@echo "... cpucycles.o"
-	@echo "... cpucycles.i"
-	@echo "... cpucycles.s"
+	@echo "... MQS256-112-72-benchmark"
+	@echo "... __/srcs/rng.o"
+	@echo "... __/srcs/rng.i"
+	@echo "... __/srcs/rng.s"
 	@echo "... speed.o"
 	@echo "... speed.i"
 	@echo "... speed.s"
-	@echo "... speed_print.o"
-	@echo "... speed_print.i"
-	@echo "... speed_print.s"
 .PHONY : help
 
 

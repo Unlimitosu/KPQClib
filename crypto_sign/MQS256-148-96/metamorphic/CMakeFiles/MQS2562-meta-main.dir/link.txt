@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/MQS2562-meta-main.dir/meta_test.c.o -o ../bin/MQS2562-meta-main  -Wl,-rpath,/home/sj/KPQCleanv2/KPQClean/crypto_sign/MQS256-72-46/libs ../libs/libMQS2562-meta.so ../libs/libMQS256-72-46.so ../libs/libMQS256-72-46_RNG.so ../../../common/libcommon.a 

@@ -6,34 +6,36 @@
 #define _MQSS
 
 //#define _MQS256_72_46
-//#define _MQS256_112_72
+#define _MQS256_112_72
 //#define _MQS256_148_96
 
 
 #define _TYPE MQSS
 
-//#if defined _MQS256_72_46
-// #define _GFSIZE 256
-// #define _V 72
-// #define _O 46
-// #define _HASH_LEN 64
-// #define MAX_DEPTH 1
+#if defined _MQS256_72_46
+#define _GFSIZE 256
+#define _V 72
+#define _O 46
+#define _HASH_LEN 64
+#define MAX_DEPTH 1
 
-// #elif defined _MQS256_112_72
+#elif defined _MQS256_112_72
 #define _GFSIZE 256
 #define _V 112
 #define _O 72
 #define _HASH_LEN 64
 #define MAX_DEPTH 3
 
-// #elif defined _MQS256_148_96
-// #define _GFSIZE 256
-// #define _V 148
-// #define _O 96
-// #define _HASH_LEN 64
-// #define MAX_DEPTH 5
+#elif defined _MQS256_148_96
+#define _GFSIZE 256
+#define _V 148
+#define _O 96
+#define _HASH_LEN 64
+#define MAX_DEPTH 5
 
-//#endif
+#else
+error: has to define a parameter.
+#endif
 
 #define STR1(x) #x
 	// #define THE_NAME(gf,v,o) "MQSC(" STR1(gf) "," STR1(v) "," STR1(o) ")"

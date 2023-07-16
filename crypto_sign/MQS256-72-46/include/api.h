@@ -11,7 +11,6 @@
 
 #define CRYPTO_ALGNAME _S_NAME 
 
-#define SEEDBYTES 32
 
 #ifdef  __cplusplus
 extern  "C" {

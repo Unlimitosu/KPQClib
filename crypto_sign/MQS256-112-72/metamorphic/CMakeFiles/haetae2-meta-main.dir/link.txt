@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/haetae2-meta-main.dir/meta_test.c.o" -o ../bin/haetae2-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/HAETAE2/libs ../libs/libhaetae2-meta.so ../libs/libhaetae2.so ../libs/libhaetae2_fips202.so -lm ../libs/libhaetae2_RNG.so ../../../common/libcommon.a 

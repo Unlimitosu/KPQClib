@@ -226,7 +226,11 @@ void Decryption(unsigned char *Message, const unsigned char *c, const unsigned c
 	int neg_start = 0, back_position = HS;	
 	for (i = 0; i < LWE_N; ++i) {
 		if (sk[i] == 0x01){sk_s[neg_start++] = i;}
-		if (sk[i] == 0xff){sk_s[--back_position] = i;}
+		else if (sk[i] == 0xff){sk_s[--back_position] = i;}
+		// else if (sk[i] == 0x00) {continue;}
+		// else{
+		// 	return;
+		// }
 	}
 
 //// Step2 : Compute Message_hat_prime = c2 - c1 * s. ////
