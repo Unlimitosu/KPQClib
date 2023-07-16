@@ -64,35 +64,17 @@ CMAKE_BINARY_DIR = /home/unlimit/Downloads/KPQClean
 
 # The main recursive "all" target.
 all: common/all
-all: crypto_kem/ntruplus576/all
-all: crypto_kem/ntruplus768/all
-all: crypto_kem/ntruplus864/all
-all: crypto_kem/ntruplus1152/all
-all: crypto_sign/GCKSign-II/all
-all: crypto_sign/GCKSign-III/all
-all: crypto_sign/GCKSign-V/all
+all: crypto_sign/Solmae1024/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: common/preinstall
-preinstall: crypto_kem/ntruplus576/preinstall
-preinstall: crypto_kem/ntruplus768/preinstall
-preinstall: crypto_kem/ntruplus864/preinstall
-preinstall: crypto_kem/ntruplus1152/preinstall
-preinstall: crypto_sign/GCKSign-II/preinstall
-preinstall: crypto_sign/GCKSign-III/preinstall
-preinstall: crypto_sign/GCKSign-V/preinstall
+preinstall: crypto_sign/Solmae1024/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: common/clean
-clean: crypto_kem/ntruplus576/clean
-clean: crypto_kem/ntruplus768/clean
-clean: crypto_kem/ntruplus864/clean
-clean: crypto_kem/ntruplus1152/clean
-clean: crypto_sign/GCKSign-II/clean
-clean: crypto_sign/GCKSign-III/clean
-clean: crypto_sign/GCKSign-V/clean
+clean: crypto_sign/Solmae1024/clean
 .PHONY : clean
 
 #=============================================================================
@@ -111,654 +93,96 @@ common/clean: common/CMakeFiles/common.dir/clean
 .PHONY : common/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus1152
+# Directory level rules for directory crypto_sign/Solmae1024
 
 # Recursive "all" directory target.
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/test/all
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/kat/all
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/benchmark/all
-crypto_kem/ntruplus1152/all: crypto_kem/ntruplus1152/metamorphic/all
-.PHONY : crypto_kem/ntruplus1152/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/test/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/kat/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/benchmark/all
+crypto_sign/Solmae1024/all: crypto_sign/Solmae1024/metamorphic/all
+.PHONY : crypto_sign/Solmae1024/all
 
 # Recursive "preinstall" directory target.
-crypto_kem/ntruplus1152/preinstall: crypto_kem/ntruplus1152/test/preinstall
-crypto_kem/ntruplus1152/preinstall: crypto_kem/ntruplus1152/kat/preinstall
-crypto_kem/ntruplus1152/preinstall: crypto_kem/ntruplus1152/benchmark/preinstall
-crypto_kem/ntruplus1152/preinstall: crypto_kem/ntruplus1152/metamorphic/preinstall
-.PHONY : crypto_kem/ntruplus1152/preinstall
+crypto_sign/Solmae1024/preinstall: crypto_sign/Solmae1024/test/preinstall
+crypto_sign/Solmae1024/preinstall: crypto_sign/Solmae1024/kat/preinstall
+crypto_sign/Solmae1024/preinstall: crypto_sign/Solmae1024/benchmark/preinstall
+crypto_sign/Solmae1024/preinstall: crypto_sign/Solmae1024/metamorphic/preinstall
+.PHONY : crypto_sign/Solmae1024/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/clean
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/clean
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/test/clean
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/kat/clean
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/benchmark/clean
-crypto_kem/ntruplus1152/clean: crypto_kem/ntruplus1152/metamorphic/clean
-.PHONY : crypto_kem/ntruplus1152/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/test/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/kat/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/benchmark/clean
+crypto_sign/Solmae1024/clean: crypto_sign/Solmae1024/metamorphic/clean
+.PHONY : crypto_sign/Solmae1024/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus1152/benchmark
+# Directory level rules for directory crypto_sign/Solmae1024/benchmark
 
 # Recursive "all" directory target.
-crypto_kem/ntruplus1152/benchmark/all: crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all
-.PHONY : crypto_kem/ntruplus1152/benchmark/all
+crypto_sign/Solmae1024/benchmark/all: crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all
+.PHONY : crypto_sign/Solmae1024/benchmark/all
 
 # Recursive "preinstall" directory target.
-crypto_kem/ntruplus1152/benchmark/preinstall:
-.PHONY : crypto_kem/ntruplus1152/benchmark/preinstall
+crypto_sign/Solmae1024/benchmark/preinstall:
+.PHONY : crypto_sign/Solmae1024/benchmark/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/ntruplus1152/benchmark/clean: crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus1152/benchmark/clean
+crypto_sign/Solmae1024/benchmark/clean: crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/clean
+.PHONY : crypto_sign/Solmae1024/benchmark/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus1152/kat
+# Directory level rules for directory crypto_sign/Solmae1024/kat
 
 # Recursive "all" directory target.
-crypto_kem/ntruplus1152/kat/all: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/all
-crypto_kem/ntruplus1152/kat/all: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all
-.PHONY : crypto_kem/ntruplus1152/kat/all
+crypto_sign/Solmae1024/kat/all: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
+crypto_sign/Solmae1024/kat/all: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all
+.PHONY : crypto_sign/Solmae1024/kat/all
 
 # Recursive "preinstall" directory target.
-crypto_kem/ntruplus1152/kat/preinstall:
-.PHONY : crypto_kem/ntruplus1152/kat/preinstall
+crypto_sign/Solmae1024/kat/preinstall:
+.PHONY : crypto_sign/Solmae1024/kat/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/ntruplus1152/kat/clean: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/clean
-crypto_kem/ntruplus1152/kat/clean: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/kat/clean
+crypto_sign/Solmae1024/kat/clean: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean
+crypto_sign/Solmae1024/kat/clean: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/kat/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus1152/metamorphic
+# Directory level rules for directory crypto_sign/Solmae1024/metamorphic
 
 # Recursive "all" directory target.
-crypto_kem/ntruplus1152/metamorphic/all: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/all
-crypto_kem/ntruplus1152/metamorphic/all: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all
-.PHONY : crypto_kem/ntruplus1152/metamorphic/all
+crypto_sign/Solmae1024/metamorphic/all: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
+crypto_sign/Solmae1024/metamorphic/all: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all
+.PHONY : crypto_sign/Solmae1024/metamorphic/all
 
 # Recursive "preinstall" directory target.
-crypto_kem/ntruplus1152/metamorphic/preinstall:
-.PHONY : crypto_kem/ntruplus1152/metamorphic/preinstall
+crypto_sign/Solmae1024/metamorphic/preinstall:
+.PHONY : crypto_sign/Solmae1024/metamorphic/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/ntruplus1152/metamorphic/clean: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/clean
-crypto_kem/ntruplus1152/metamorphic/clean: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/metamorphic/clean
+crypto_sign/Solmae1024/metamorphic/clean: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean
+crypto_sign/Solmae1024/metamorphic/clean: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/metamorphic/clean
 
 #=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus1152/test
+# Directory level rules for directory crypto_sign/Solmae1024/test
 
 # Recursive "all" directory target.
-crypto_kem/ntruplus1152/test/all: crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all
-.PHONY : crypto_kem/ntruplus1152/test/all
+crypto_sign/Solmae1024/test/all: crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all
+.PHONY : crypto_sign/Solmae1024/test/all
 
 # Recursive "preinstall" directory target.
-crypto_kem/ntruplus1152/test/preinstall:
-.PHONY : crypto_kem/ntruplus1152/test/preinstall
+crypto_sign/Solmae1024/test/preinstall:
+.PHONY : crypto_sign/Solmae1024/test/preinstall
 
 # Recursive "clean" directory target.
-crypto_kem/ntruplus1152/test/clean: crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus576
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/test/all
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/kat/all
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/benchmark/all
-crypto_kem/ntruplus576/all: crypto_kem/ntruplus576/metamorphic/all
-.PHONY : crypto_kem/ntruplus576/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus576/preinstall: crypto_kem/ntruplus576/test/preinstall
-crypto_kem/ntruplus576/preinstall: crypto_kem/ntruplus576/kat/preinstall
-crypto_kem/ntruplus576/preinstall: crypto_kem/ntruplus576/benchmark/preinstall
-crypto_kem/ntruplus576/preinstall: crypto_kem/ntruplus576/metamorphic/preinstall
-.PHONY : crypto_kem/ntruplus576/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/clean
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/clean
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/test/clean
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/kat/clean
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/benchmark/clean
-crypto_kem/ntruplus576/clean: crypto_kem/ntruplus576/metamorphic/clean
-.PHONY : crypto_kem/ntruplus576/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus576/benchmark
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus576/benchmark/all: crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all
-.PHONY : crypto_kem/ntruplus576/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus576/benchmark/preinstall:
-.PHONY : crypto_kem/ntruplus576/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus576/benchmark/clean: crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus576/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus576/kat
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus576/kat/all: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/all
-crypto_kem/ntruplus576/kat/all: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all
-.PHONY : crypto_kem/ntruplus576/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus576/kat/preinstall:
-.PHONY : crypto_kem/ntruplus576/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus576/kat/clean: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/clean
-crypto_kem/ntruplus576/kat/clean: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus576/metamorphic
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus576/metamorphic/all: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/all
-crypto_kem/ntruplus576/metamorphic/all: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all
-.PHONY : crypto_kem/ntruplus576/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus576/metamorphic/preinstall:
-.PHONY : crypto_kem/ntruplus576/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus576/metamorphic/clean: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/clean
-crypto_kem/ntruplus576/metamorphic/clean: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus576/test
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus576/test/all: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all
-.PHONY : crypto_kem/ntruplus576/test/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus576/test/preinstall:
-.PHONY : crypto_kem/ntruplus576/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus576/test/clean: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus768
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/test/all
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/kat/all
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/benchmark/all
-crypto_kem/ntruplus768/all: crypto_kem/ntruplus768/metamorphic/all
-.PHONY : crypto_kem/ntruplus768/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus768/preinstall: crypto_kem/ntruplus768/test/preinstall
-crypto_kem/ntruplus768/preinstall: crypto_kem/ntruplus768/kat/preinstall
-crypto_kem/ntruplus768/preinstall: crypto_kem/ntruplus768/benchmark/preinstall
-crypto_kem/ntruplus768/preinstall: crypto_kem/ntruplus768/metamorphic/preinstall
-.PHONY : crypto_kem/ntruplus768/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/clean
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/test/clean
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/kat/clean
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/benchmark/clean
-crypto_kem/ntruplus768/clean: crypto_kem/ntruplus768/metamorphic/clean
-.PHONY : crypto_kem/ntruplus768/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus768/benchmark
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus768/benchmark/all: crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all
-.PHONY : crypto_kem/ntruplus768/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus768/benchmark/preinstall:
-.PHONY : crypto_kem/ntruplus768/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus768/benchmark/clean: crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus768/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus768/kat
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus768/kat/all: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/all
-crypto_kem/ntruplus768/kat/all: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all
-.PHONY : crypto_kem/ntruplus768/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus768/kat/preinstall:
-.PHONY : crypto_kem/ntruplus768/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus768/kat/clean: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/clean
-crypto_kem/ntruplus768/kat/clean: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus768/metamorphic
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus768/metamorphic/all: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
-crypto_kem/ntruplus768/metamorphic/all: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all
-.PHONY : crypto_kem/ntruplus768/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus768/metamorphic/preinstall:
-.PHONY : crypto_kem/ntruplus768/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus768/metamorphic/clean: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/clean
-crypto_kem/ntruplus768/metamorphic/clean: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus768/test
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus768/test/all: crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all
-.PHONY : crypto_kem/ntruplus768/test/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus768/test/preinstall:
-.PHONY : crypto_kem/ntruplus768/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus768/test/clean: crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus864
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/test/all
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/kat/all
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/benchmark/all
-crypto_kem/ntruplus864/all: crypto_kem/ntruplus864/metamorphic/all
-.PHONY : crypto_kem/ntruplus864/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus864/preinstall: crypto_kem/ntruplus864/test/preinstall
-crypto_kem/ntruplus864/preinstall: crypto_kem/ntruplus864/kat/preinstall
-crypto_kem/ntruplus864/preinstall: crypto_kem/ntruplus864/benchmark/preinstall
-crypto_kem/ntruplus864/preinstall: crypto_kem/ntruplus864/metamorphic/preinstall
-.PHONY : crypto_kem/ntruplus864/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/clean
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/clean
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/test/clean
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/kat/clean
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/benchmark/clean
-crypto_kem/ntruplus864/clean: crypto_kem/ntruplus864/metamorphic/clean
-.PHONY : crypto_kem/ntruplus864/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus864/benchmark
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus864/benchmark/all: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all
-.PHONY : crypto_kem/ntruplus864/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus864/benchmark/preinstall:
-.PHONY : crypto_kem/ntruplus864/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus864/benchmark/clean: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus864/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus864/kat
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus864/kat/all: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/all
-crypto_kem/ntruplus864/kat/all: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all
-.PHONY : crypto_kem/ntruplus864/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus864/kat/preinstall:
-.PHONY : crypto_kem/ntruplus864/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus864/kat/clean: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/clean
-crypto_kem/ntruplus864/kat/clean: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus864/metamorphic
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus864/metamorphic/all: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/all
-crypto_kem/ntruplus864/metamorphic/all: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all
-.PHONY : crypto_kem/ntruplus864/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus864/metamorphic/preinstall:
-.PHONY : crypto_kem/ntruplus864/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus864/metamorphic/clean: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/clean
-crypto_kem/ntruplus864/metamorphic/clean: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/ntruplus864/test
-
-# Recursive "all" directory target.
-crypto_kem/ntruplus864/test/all: crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all
-.PHONY : crypto_kem/ntruplus864/test/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/ntruplus864/test/preinstall:
-.PHONY : crypto_kem/ntruplus864/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/ntruplus864/test/clean: crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-II
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/test/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/kat/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/benchmark/all
-crypto_sign/GCKSign-II/all: crypto_sign/GCKSign-II/metamorphic/all
-.PHONY : crypto_sign/GCKSign-II/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/test/preinstall
-crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/kat/preinstall
-crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/benchmark/preinstall
-crypto_sign/GCKSign-II/preinstall: crypto_sign/GCKSign-II/metamorphic/preinstall
-.PHONY : crypto_sign/GCKSign-II/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/test/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/kat/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/benchmark/clean
-crypto_sign/GCKSign-II/clean: crypto_sign/GCKSign-II/metamorphic/clean
-.PHONY : crypto_sign/GCKSign-II/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-II/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-II/benchmark/all: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
-.PHONY : crypto_sign/GCKSign-II/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-II/benchmark/preinstall:
-.PHONY : crypto_sign/GCKSign-II/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-II/benchmark/clean: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-II/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-II/kat
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-II/kat/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
-crypto_sign/GCKSign-II/kat/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
-.PHONY : crypto_sign/GCKSign-II/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-II/kat/preinstall:
-.PHONY : crypto_sign/GCKSign-II/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-II/kat/clean: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
-crypto_sign/GCKSign-II/kat/clean: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-II/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-II/metamorphic/all: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/all
-crypto_sign/GCKSign-II/metamorphic/all: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all
-.PHONY : crypto_sign/GCKSign-II/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-II/metamorphic/preinstall:
-.PHONY : crypto_sign/GCKSign-II/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-II/metamorphic/clean: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/clean
-crypto_sign/GCKSign-II/metamorphic/clean: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-II/test
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-II/test/all: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
-.PHONY : crypto_sign/GCKSign-II/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-II/test/preinstall:
-.PHONY : crypto_sign/GCKSign-II/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-II/test/clean: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-III
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/test/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/kat/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/benchmark/all
-crypto_sign/GCKSign-III/all: crypto_sign/GCKSign-III/metamorphic/all
-.PHONY : crypto_sign/GCKSign-III/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/test/preinstall
-crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/kat/preinstall
-crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/benchmark/preinstall
-crypto_sign/GCKSign-III/preinstall: crypto_sign/GCKSign-III/metamorphic/preinstall
-.PHONY : crypto_sign/GCKSign-III/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/test/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/kat/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/benchmark/clean
-crypto_sign/GCKSign-III/clean: crypto_sign/GCKSign-III/metamorphic/clean
-.PHONY : crypto_sign/GCKSign-III/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-III/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-III/benchmark/all: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
-.PHONY : crypto_sign/GCKSign-III/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-III/benchmark/preinstall:
-.PHONY : crypto_sign/GCKSign-III/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-III/benchmark/clean: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-III/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-III/kat
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-III/kat/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
-crypto_sign/GCKSign-III/kat/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
-.PHONY : crypto_sign/GCKSign-III/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-III/kat/preinstall:
-.PHONY : crypto_sign/GCKSign-III/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-III/kat/clean: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
-crypto_sign/GCKSign-III/kat/clean: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-III/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-III/metamorphic/all: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/all
-crypto_sign/GCKSign-III/metamorphic/all: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all
-.PHONY : crypto_sign/GCKSign-III/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-III/metamorphic/preinstall:
-.PHONY : crypto_sign/GCKSign-III/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-III/metamorphic/clean: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/clean
-crypto_sign/GCKSign-III/metamorphic/clean: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-III/test
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-III/test/all: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
-.PHONY : crypto_sign/GCKSign-III/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-III/test/preinstall:
-.PHONY : crypto_sign/GCKSign-III/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-III/test/clean: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/test/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-V
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/test/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/kat/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/benchmark/all
-crypto_sign/GCKSign-V/all: crypto_sign/GCKSign-V/metamorphic/all
-.PHONY : crypto_sign/GCKSign-V/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/test/preinstall
-crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/kat/preinstall
-crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/benchmark/preinstall
-crypto_sign/GCKSign-V/preinstall: crypto_sign/GCKSign-V/metamorphic/preinstall
-.PHONY : crypto_sign/GCKSign-V/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/test/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/kat/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/benchmark/clean
-crypto_sign/GCKSign-V/clean: crypto_sign/GCKSign-V/metamorphic/clean
-.PHONY : crypto_sign/GCKSign-V/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-V/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-V/benchmark/all: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
-.PHONY : crypto_sign/GCKSign-V/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-V/benchmark/preinstall:
-.PHONY : crypto_sign/GCKSign-V/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-V/benchmark/clean: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-V/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-V/kat
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-V/kat/all: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
-crypto_sign/GCKSign-V/kat/all: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all
-.PHONY : crypto_sign/GCKSign-V/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-V/kat/preinstall:
-.PHONY : crypto_sign/GCKSign-V/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-V/kat/clean: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/clean
-crypto_sign/GCKSign-V/kat/clean: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-V/metamorphic
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-V/metamorphic/all: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all
-crypto_sign/GCKSign-V/metamorphic/all: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all
-.PHONY : crypto_sign/GCKSign-V/metamorphic/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-V/metamorphic/preinstall:
-.PHONY : crypto_sign/GCKSign-V/metamorphic/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-V/metamorphic/clean: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/clean
-crypto_sign/GCKSign-V/metamorphic/clean: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/metamorphic/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/GCKSign-V/test
-
-# Recursive "all" directory target.
-crypto_sign/GCKSign-V/test/all: crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all
-.PHONY : crypto_sign/GCKSign-V/test/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/GCKSign-V/test/preinstall:
-.PHONY : crypto_sign/GCKSign-V/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/GCKSign-V/test/clean: crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/test/clean
+crypto_sign/Solmae1024/test/clean: crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/test/clean
 
 #=============================================================================
 # Target rules for target common/CMakeFiles/common.dir
@@ -767,12 +191,12 @@ crypto_sign/GCKSign-V/test/clean: crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=38,39 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=40,41,42,43 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : common/CMakeFiles/common.dir/rule
@@ -787,1627 +211,223 @@ common/CMakeFiles/common.dir/clean:
 .PHONY : common/CMakeFiles/common.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir
+# Target rules for target crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=72 "Built target ntruplus576RNG1"
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
+crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2 "Built target SOLMAE1024_RNG"
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/rule
-
-# Convenience name for target.
-ntruplus576RNG1: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/rule
-.PHONY : ntruplus576RNG1
-
-# clean rule for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/clean
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=59,60,61,62,63,64 "Built target ntruplus576"
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/rule
-
-# Convenience name for target.
-ntruplus576: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/rule
-.PHONY : ntruplus576
-
-# clean rule for target.
-crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/clean
-.PHONY : crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=69 "Built target ntruplus576-main"
-.PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/rule
-
-# Convenience name for target.
-ntruplus576-main: crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/rule
-.PHONY : ntruplus576-main
-
-# clean rule for target.
-crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=67 "Built target ntruplus576-kat-kem"
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/rule
-
-# Convenience name for target.
-ntruplus576-kat-kem: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/rule
-.PHONY : ntruplus576-kat-kem
-
-# clean rule for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/clean
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=68 "Built target ntruplus576-kat-kem-main"
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/rule
-
-# Convenience name for target.
-ntruplus576-kat-kem-main: crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/rule
-.PHONY : ntruplus576-kat-kem-main
-
-# clean rule for target.
-crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65,66 "Built target ntruplus576-benchmark"
-.PHONY : crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/rule
-
-# Convenience name for target.
-ntruplus576-benchmark: crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/rule
-.PHONY : ntruplus576-benchmark
-
-# clean rule for target.
-crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=70 "Built target ntruplus576-meta"
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/rule
-
-# Convenience name for target.
-ntruplus576-meta: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/rule
-.PHONY : ntruplus576-meta
-
-# clean rule for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/clean
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/all
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all: crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/all
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=71 "Built target ntruplus576-meta-main"
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/rule
-
-# Convenience name for target.
-ntruplus576-meta-main: crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/rule
-.PHONY : ntruplus576-meta-main
-
-# clean rule for target.
-crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=86 "Built target ntruplus768RNG1"
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/rule
-
-# Convenience name for target.
-ntruplus768RNG1: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/rule
-.PHONY : ntruplus768RNG1
-
-# clean rule for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/clean
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=73,74,75,76,77,78 "Built target ntruplus768"
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/rule
-
-# Convenience name for target.
-ntruplus768: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/rule
-.PHONY : ntruplus768
-
-# clean rule for target.
-crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean
-.PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=82 "Built target ntruplus768-main"
-.PHONY : crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/rule
-
-# Convenience name for target.
-ntruplus768-main: crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/rule
-.PHONY : ntruplus768-main
-
-# clean rule for target.
-crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target ntruplus768-kat-kem"
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/rule
-
-# Convenience name for target.
-ntruplus768-kat-kem: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/rule
-.PHONY : ntruplus768-kat-kem
-
-# clean rule for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/clean
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=81 "Built target ntruplus768-kat-kem-main"
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/rule
-
-# Convenience name for target.
-ntruplus768-kat-kem-main: crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/rule
-.PHONY : ntruplus768-kat-kem-main
-
-# clean rule for target.
-crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=79,80 "Built target ntruplus768-benchmark"
-.PHONY : crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/rule
-
-# Convenience name for target.
-ntruplus768-benchmark: crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/rule
-.PHONY : ntruplus768-benchmark
-
-# clean rule for target.
-crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=83,84 "Built target ntruplus768-meta"
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/rule: cmake_check_build_system
+crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/rule
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/rule
 
 # Convenience name for target.
-ntruplus768-meta: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/rule
-.PHONY : ntruplus768-meta
+SOLMAE1024_RNG: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/rule
+.PHONY : SOLMAE1024_RNG
 
 # clean rule for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/clean
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/clean
+crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/clean
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir
+# Target rules for target crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/all
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=85 "Built target ntruplus768-meta-main"
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all
+crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Solmae1024"
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all
+crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/rule
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/rule
 
 # Convenience name for target.
-ntruplus768-meta-main: crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/rule
-.PHONY : ntruplus768-meta-main
+Solmae1024: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/rule
+.PHONY : Solmae1024
 
 # clean rule for target.
-crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/clean
+crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/clean
+.PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir
+# Target rules for target crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=100 "Built target ntruplus864RNG1"
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
+crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=30,31,32 "Built target Solmae1024-main"
+.PHONY : crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
+crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/rule
+.PHONY : crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/rule
 
 # Convenience name for target.
-ntruplus864RNG1: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/rule
-.PHONY : ntruplus864RNG1
+Solmae1024-main: crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/rule
+.PHONY : Solmae1024-main
 
 # clean rule for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/clean
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/clean
+crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir
+# Target rules for target crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=87,88,89,90,91 "Built target ntruplus864"
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=26,27 "Built target Solmae1024-kat-sign"
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/rule
-
-# Convenience name for target.
-ntruplus864: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/rule
-.PHONY : ntruplus864
-
-# clean rule for target.
-crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/clean
-.PHONY : crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=96 "Built target ntruplus864-main"
-.PHONY : crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/rule
-
-# Convenience name for target.
-ntruplus864-main: crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/rule
-.PHONY : ntruplus864-main
-
-# clean rule for target.
-crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=94 "Built target ntruplus864-kat-kem"
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/rule
-
-# Convenience name for target.
-ntruplus864-kat-kem: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/rule
-.PHONY : ntruplus864-kat-kem
-
-# clean rule for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/clean
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=95 "Built target ntruplus864-kat-kem-main"
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/rule
-
-# Convenience name for target.
-ntruplus864-kat-kem-main: crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/rule
-.PHONY : ntruplus864-kat-kem-main
-
-# clean rule for target.
-crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=92,93 "Built target ntruplus864-benchmark"
-.PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/rule
-
-# Convenience name for target.
-ntruplus864-benchmark: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/rule
-.PHONY : ntruplus864-benchmark
-
-# clean rule for target.
-crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=97,98 "Built target ntruplus864-meta"
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/rule: cmake_check_build_system
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/rule
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule
 
 # Convenience name for target.
-ntruplus864-meta: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/rule
-.PHONY : ntruplus864-meta
+Solmae1024-kat-sign: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule
+.PHONY : Solmae1024-kat-sign
 
 # clean rule for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/clean
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/clean
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir
+# Target rules for target crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/all
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all: crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/all
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=99 "Built target ntruplus864-meta-main"
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=28,29 "Built target Solmae1024-kat-sign-main"
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/all
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/rule
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
 
 # Convenience name for target.
-ntruplus864-meta-main: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/rule
-.PHONY : ntruplus864-meta-main
+Solmae1024-kat-sign-main: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
+.PHONY : Solmae1024-kat-sign-main
 
 # clean rule for target.
-crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean
+crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir
+# Target rules for target crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=58 "Built target ntruplus1152RNG1"
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
+crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=22,23,24,25 "Built target Solmae1024-benchmark"
+.PHONY : crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
+crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/rule
+.PHONY : crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/rule
 
 # Convenience name for target.
-ntruplus1152RNG1: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/rule
-.PHONY : ntruplus1152RNG1
+Solmae1024-benchmark: crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/rule
+.PHONY : Solmae1024-benchmark
 
 # clean rule for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/clean
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/clean
+crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/clean
+.PHONY : crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir
+# Target rules for target crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=45,46,47,48,49,50 "Built target ntruplus1152"
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=33,34,35,36,37 "Built target Solmae1024-meta"
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/rule
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/rule
 
 # Convenience name for target.
-ntruplus1152: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/rule
-.PHONY : ntruplus1152
+Solmae1024-meta: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/rule
+.PHONY : Solmae1024-meta
 
 # clean rule for target.
-crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/clean
-.PHONY : crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/clean
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir
+# Target rules for target crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir
 
 # All Build rule for target.
-crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=55 "Built target ntruplus1152-main"
-.PHONY : crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: common/CMakeFiles/common.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=38,39 "Built target Solmae1024-meta-main"
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/all
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/rule
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/rule
 
 # Convenience name for target.
-ntruplus1152-main: crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/rule
-.PHONY : ntruplus1152-main
+Solmae1024-meta-main: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/rule
+.PHONY : Solmae1024-meta-main
 
 # clean rule for target.
-crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=53 "Built target ntruplus1152-kat-kem"
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/rule
-
-# Convenience name for target.
-ntruplus1152-kat-kem: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/rule
-.PHONY : ntruplus1152-kat-kem
-
-# clean rule for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/clean
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=54 "Built target ntruplus1152-kat-kem-main"
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/rule
-
-# Convenience name for target.
-ntruplus1152-kat-kem-main: crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/rule
-.PHONY : ntruplus1152-kat-kem-main
-
-# clean rule for target.
-crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51,52 "Built target ntruplus1152-benchmark"
-.PHONY : crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/rule
-
-# Convenience name for target.
-ntruplus1152-benchmark: crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/rule
-.PHONY : ntruplus1152-benchmark
-
-# clean rule for target.
-crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/clean
-.PHONY : crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=56 "Built target ntruplus1152-meta"
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/rule
-
-# Convenience name for target.
-ntruplus1152-meta: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/rule
-.PHONY : ntruplus1152-meta
-
-# clean rule for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/clean
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir
-
-# All Build rule for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/all
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all: crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/all
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=57 "Built target ntruplus1152-meta-main"
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/rule
-
-# Convenience name for target.
-ntruplus1152-meta-main: crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/rule
-.PHONY : ntruplus1152-meta-main
-
-# clean rule for target.
-crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/clean
-.PHONY : crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num= "Built target gcksign2_fips202"
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule
-
-# Convenience name for target.
-gcksign2_fips202: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/rule
-.PHONY : gcksign2_fips202
-
-# clean rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=40 "Built target gcksign2_RNG"
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule
-
-# Convenience name for target.
-gcksign2_RNG: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/rule
-.PHONY : gcksign2_RNG
-
-# clean rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2,3,4 "Built target GCKSign-II"
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule
-
-# Convenience name for target.
-GCKSign-II: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/rule
-.PHONY : GCKSign-II
-
-# clean rule for target.
-crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
-.PHONY : crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=9 "Built target GCKSign-II-main"
-.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule
-
-# Convenience name for target.
-GCKSign-II-main: crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/rule
-.PHONY : GCKSign-II-main
-
-# clean rule for target.
-crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=7 "Built target GCKSign-II-kat-sign"
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule
-
-# Convenience name for target.
-GCKSign-II-kat-sign: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule
-.PHONY : GCKSign-II-kat-sign
-
-# clean rule for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=8 "Built target GCKSign-II-kat-sign-main"
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule
-
-# Convenience name for target.
-GCKSign-II-kat-sign-main: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/rule
-.PHONY : GCKSign-II-kat-sign-main
-
-# clean rule for target.
-crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=5,6 "Built target GCKSign-II-benchmark"
-.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule
-
-# Convenience name for target.
-GCKSign-II-benchmark: crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/rule
-.PHONY : GCKSign-II-benchmark
-
-# clean rule for target.
-crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=29,30 "Built target GCKSign2-meta"
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/rule
-
-# Convenience name for target.
-GCKSign2-meta: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/rule
-.PHONY : GCKSign2-meta
-
-# clean rule for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/clean
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/all
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/all
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all: crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/all
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=31 "Built target GCKSign2-meta-main"
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/rule
-
-# Convenience name for target.
-GCKSign2-meta-main: crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/rule
-.PHONY : GCKSign2-meta-main
-
-# clean rule for target.
-crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=42 "Built target gcksign3_fips202"
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule
-
-# Convenience name for target.
-gcksign3_fips202: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/rule
-.PHONY : gcksign3_fips202
-
-# clean rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=41 "Built target gcksign3_RNG"
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule
-
-# Convenience name for target.
-gcksign3_RNG: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/rule
-.PHONY : gcksign3_RNG
-
-# clean rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=10,11,12,13,14 "Built target GCKSign-III"
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule
-
-# Convenience name for target.
-GCKSign-III: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/rule
-.PHONY : GCKSign-III
-
-# clean rule for target.
-crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
-.PHONY : crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=19 "Built target GCKSign-III-main"
-.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule
-
-# Convenience name for target.
-GCKSign-III-main: crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/rule
-.PHONY : GCKSign-III-main
-
-# clean rule for target.
-crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=17 "Built target GCKSign-III-kat-sign"
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule
-
-# Convenience name for target.
-GCKSign-III-kat-sign: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/rule
-.PHONY : GCKSign-III-kat-sign
-
-# clean rule for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=18 "Built target GCKSign-III-kat-sign-main"
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule
-
-# Convenience name for target.
-GCKSign-III-kat-sign-main: crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/rule
-.PHONY : GCKSign-III-kat-sign-main
-
-# clean rule for target.
-crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=15,16 "Built target GCKSign-III-benchmark"
-.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
-
-# Convenience name for target.
-GCKSign-III-benchmark: crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/rule
-.PHONY : GCKSign-III-benchmark
-
-# clean rule for target.
-crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=32,33 "Built target GCKSign3-meta"
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/rule
-
-# Convenience name for target.
-GCKSign3-meta: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/rule
-.PHONY : GCKSign3-meta
-
-# clean rule for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/clean
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/all
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/all
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all: crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/all
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=34 "Built target GCKSign3-meta-main"
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/rule
-
-# Convenience name for target.
-GCKSign3-meta-main: crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/rule
-.PHONY : GCKSign3-meta-main
-
-# clean rule for target.
-crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=44 "Built target gcksign5_fips202"
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/rule
-
-# Convenience name for target.
-gcksign5_fips202: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/rule
-.PHONY : gcksign5_fips202
-
-# clean rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/clean
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=43 "Built target gcksign5_RNG"
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/rule
-
-# Convenience name for target.
-gcksign5_RNG: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/rule
-.PHONY : gcksign5_RNG
-
-# clean rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/clean
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=20,21,22,23 "Built target GCKSign-V"
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/rule
-
-# Convenience name for target.
-GCKSign-V: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/rule
-.PHONY : GCKSign-V
-
-# clean rule for target.
-crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/clean
-.PHONY : crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=28 "Built target GCKSign-V-main"
-.PHONY : crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/rule
-
-# Convenience name for target.
-GCKSign-V-main: crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/rule
-.PHONY : GCKSign-V-main
-
-# clean rule for target.
-crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=26 "Built target GCKSign-V-kat-sign"
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/rule
-
-# Convenience name for target.
-GCKSign-V-kat-sign: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/rule
-.PHONY : GCKSign-V-kat-sign
-
-# clean rule for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/clean
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=27 "Built target GCKSign-V-kat-sign-main"
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/rule
-
-# Convenience name for target.
-GCKSign-V-kat-sign-main: crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/rule
-.PHONY : GCKSign-V-kat-sign-main
-
-# clean rule for target.
-crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=24,25 "Built target GCKSign-V-benchmark"
-.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
-
-# Convenience name for target.
-GCKSign-V-benchmark: crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/rule
-.PHONY : GCKSign-V-benchmark
-
-# clean rule for target.
-crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
-.PHONY : crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=35,36 "Built target GCKSign5-meta"
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/rule
-
-# Convenience name for target.
-GCKSign5-meta: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/rule
-.PHONY : GCKSign5-meta
-
-# clean rule for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/clean
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir
-
-# All Build rule for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/all
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/all
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/all
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=37 "Built target GCKSign5-meta-main"
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/rule
-
-# Convenience name for target.
-GCKSign5-meta-main: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/rule
-.PHONY : GCKSign5-meta-main
-
-# clean rule for target.
-crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/clean
-.PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/clean
+crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/clean
+.PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

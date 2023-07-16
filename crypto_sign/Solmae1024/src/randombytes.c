@@ -6,7 +6,9 @@
 prng p;
 
 int randombytes(uint8_t *buf, size_t n){
+  
   Zf(prng_get_bytes)(&p, buf, n);
+  
   return -1;
 }
 

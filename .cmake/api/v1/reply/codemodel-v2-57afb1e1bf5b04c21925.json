@@ -1,0 +1,253 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-crypto_sign.Solmae1024-faadd66e0ffcad3eb169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/Solmae1024",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/test",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.test-f36c1640dec6b66fb0c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/Solmae1024/test",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/kat",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.kat-17533b580970cfd00f70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/Solmae1024/kat",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/benchmark",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.benchmark-56176740f9864c1eeecc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/Solmae1024/benchmark",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/metamorphic",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.metamorphic-a9eba255671a21abe793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_sign/Solmae1024/metamorphic",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Solmae1024",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "SOLMAE1024_RNG::@1a6ab5f8325e2779682a",
+					"jsonFile" : "target-SOLMAE1024_RNG-78e2a99f5cdda1b27867.json",
+					"name" : "SOLMAE1024_RNG",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Solmae1024::@1a6ab5f8325e2779682a",
+					"jsonFile" : "target-Solmae1024-abbfe9732e0a76a5226f.json",
+					"name" : "Solmae1024",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Solmae1024-benchmark::@db253e4d454a268d0df1",
+					"jsonFile" : "target-Solmae1024-benchmark-cbe0850164a146faade4.json",
+					"name" : "Solmae1024-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Solmae1024-kat-sign::@e7b003a15d293f7b372c",
+					"jsonFile" : "target-Solmae1024-kat-sign-66f15b10de7a66a18de9.json",
+					"name" : "Solmae1024-kat-sign",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Solmae1024-kat-sign-main::@e7b003a15d293f7b372c",
+					"jsonFile" : "target-Solmae1024-kat-sign-main-0a447869d14c94f8ed68.json",
+					"name" : "Solmae1024-kat-sign-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Solmae1024-main::@afcd0fb7137781ef0057",
+					"jsonFile" : "target-Solmae1024-main-1f1204029da493f2ec5d.json",
+					"name" : "Solmae1024-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Solmae1024-meta::@e48608885d2dc5edab8a",
+					"jsonFile" : "target-Solmae1024-meta-22bfd05603cacb0fe3b8.json",
+					"name" : "Solmae1024-meta",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Solmae1024-meta-main::@e48608885d2dc5edab8a",
+					"jsonFile" : "target-Solmae1024-meta-main-aeaf237fcff8a807b473.json",
+					"name" : "Solmae1024-meta-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

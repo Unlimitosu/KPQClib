@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae10241024-meta.so -o ../lib/libSolmae10241024-meta.so CMakeFiles/Solmae10241024-meta.dir/bit_contribution.c.o 

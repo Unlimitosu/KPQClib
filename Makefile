@@ -130,771 +130,108 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576RNG1
+# Target rules for targets named SOLMAE1024_RNG
 
 # Build rule for target.
-ntruplus576RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576RNG1
-.PHONY : ntruplus576RNG1
+SOLMAE1024_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOLMAE1024_RNG
+.PHONY : SOLMAE1024_RNG
 
 # fast build rule for target.
-ntruplus576RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576RNG1.dir/build
-.PHONY : ntruplus576RNG1/fast
+SOLMAE1024_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build
+.PHONY : SOLMAE1024_RNG/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576
+# Target rules for targets named Solmae1024
 
 # Build rule for target.
-ntruplus576: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576
-.PHONY : ntruplus576
+Solmae1024: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024
+.PHONY : Solmae1024
 
 # fast build rule for target.
-ntruplus576/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build.make crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/build
-.PHONY : ntruplus576/fast
+Solmae1024/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build
+.PHONY : Solmae1024/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-main
+# Target rules for targets named Solmae1024-main
 
 # Build rule for target.
-ntruplus576-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-main
-.PHONY : ntruplus576-main
+Solmae1024-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-main
+.PHONY : Solmae1024-main
 
 # fast build rule for target.
-ntruplus576-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build.make crypto_kem/ntruplus576/test/CMakeFiles/ntruplus576-main.dir/build
-.PHONY : ntruplus576-main/fast
+Solmae1024-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build
+.PHONY : Solmae1024-main/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-kat-kem
+# Target rules for targets named Solmae1024-kat-sign
 
 # Build rule for target.
-ntruplus576-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem
-.PHONY : ntruplus576-kat-kem
+Solmae1024-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-kat-sign
+.PHONY : Solmae1024-kat-sign
 
 # fast build rule for target.
-ntruplus576-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem.dir/build
-.PHONY : ntruplus576-kat-kem/fast
+Solmae1024-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
+.PHONY : Solmae1024-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-kat-kem-main
+# Target rules for targets named Solmae1024-kat-sign-main
 
 # Build rule for target.
-ntruplus576-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-kat-kem-main
-.PHONY : ntruplus576-kat-kem-main
+Solmae1024-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-kat-sign-main
+.PHONY : Solmae1024-kat-sign-main
 
 # fast build rule for target.
-ntruplus576-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build.make crypto_kem/ntruplus576/kat/CMakeFiles/ntruplus576-kat-kem-main.dir/build
-.PHONY : ntruplus576-kat-kem-main/fast
+Solmae1024-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
+.PHONY : Solmae1024-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-benchmark
+# Target rules for targets named Solmae1024-benchmark
 
 # Build rule for target.
-ntruplus576-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-benchmark
-.PHONY : ntruplus576-benchmark
+Solmae1024-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-benchmark
+.PHONY : Solmae1024-benchmark
 
 # fast build rule for target.
-ntruplus576-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build.make crypto_kem/ntruplus576/benchmark/CMakeFiles/ntruplus576-benchmark.dir/build
-.PHONY : ntruplus576-benchmark/fast
+Solmae1024-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build
+.PHONY : Solmae1024-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-meta
+# Target rules for targets named Solmae1024-meta
 
 # Build rule for target.
-ntruplus576-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta
-.PHONY : ntruplus576-meta
+Solmae1024-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-meta
+.PHONY : Solmae1024-meta
 
 # fast build rule for target.
-ntruplus576-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta.dir/build
-.PHONY : ntruplus576-meta/fast
+Solmae1024-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build
+.PHONY : Solmae1024-meta/fast
 
 #=============================================================================
-# Target rules for targets named ntruplus576-meta-main
+# Target rules for targets named Solmae1024-meta-main
 
 # Build rule for target.
-ntruplus576-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus576-meta-main
-.PHONY : ntruplus576-meta-main
+Solmae1024-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-meta-main
+.PHONY : Solmae1024-meta-main
 
 # fast build rule for target.
-ntruplus576-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build.make crypto_kem/ntruplus576/metamorphic/CMakeFiles/ntruplus576-meta-main.dir/build
-.PHONY : ntruplus576-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768RNG1
-
-# Build rule for target.
-ntruplus768RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768RNG1
-.PHONY : ntruplus768RNG1
-
-# fast build rule for target.
-ntruplus768RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/build
-.PHONY : ntruplus768RNG1/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768
-
-# Build rule for target.
-ntruplus768: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768
-.PHONY : ntruplus768
-
-# fast build rule for target.
-ntruplus768/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build.make crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build
-.PHONY : ntruplus768/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-main
-
-# Build rule for target.
-ntruplus768-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-main
-.PHONY : ntruplus768-main
-
-# fast build rule for target.
-ntruplus768-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build
-.PHONY : ntruplus768-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-kat-kem
-
-# Build rule for target.
-ntruplus768-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem
-.PHONY : ntruplus768-kat-kem
-
-# fast build rule for target.
-ntruplus768-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem.dir/build
-.PHONY : ntruplus768-kat-kem/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-kat-kem-main
-
-# Build rule for target.
-ntruplus768-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-kat-kem-main
-.PHONY : ntruplus768-kat-kem-main
-
-# fast build rule for target.
-ntruplus768-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build.make crypto_kem/ntruplus768/kat/CMakeFiles/ntruplus768-kat-kem-main.dir/build
-.PHONY : ntruplus768-kat-kem-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-benchmark
-
-# Build rule for target.
-ntruplus768-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-benchmark
-.PHONY : ntruplus768-benchmark
-
-# fast build rule for target.
-ntruplus768-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build.make crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/build
-.PHONY : ntruplus768-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-meta
-
-# Build rule for target.
-ntruplus768-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta
-.PHONY : ntruplus768-meta
-
-# fast build rule for target.
-ntruplus768-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build
-.PHONY : ntruplus768-meta/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus768-meta-main
-
-# Build rule for target.
-ntruplus768-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus768-meta-main
-.PHONY : ntruplus768-meta-main
-
-# fast build rule for target.
-ntruplus768-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/build
-.PHONY : ntruplus768-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864RNG1
-
-# Build rule for target.
-ntruplus864RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864RNG1
-.PHONY : ntruplus864RNG1
-
-# fast build rule for target.
-ntruplus864RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864RNG1.dir/build
-.PHONY : ntruplus864RNG1/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864
-
-# Build rule for target.
-ntruplus864: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864
-.PHONY : ntruplus864
-
-# fast build rule for target.
-ntruplus864/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build.make crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/build
-.PHONY : ntruplus864/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-main
-
-# Build rule for target.
-ntruplus864-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-main
-.PHONY : ntruplus864-main
-
-# fast build rule for target.
-ntruplus864-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build.make crypto_kem/ntruplus864/test/CMakeFiles/ntruplus864-main.dir/build
-.PHONY : ntruplus864-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-kat-kem
-
-# Build rule for target.
-ntruplus864-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem
-.PHONY : ntruplus864-kat-kem
-
-# fast build rule for target.
-ntruplus864-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem.dir/build
-.PHONY : ntruplus864-kat-kem/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-kat-kem-main
-
-# Build rule for target.
-ntruplus864-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-kat-kem-main
-.PHONY : ntruplus864-kat-kem-main
-
-# fast build rule for target.
-ntruplus864-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build.make crypto_kem/ntruplus864/kat/CMakeFiles/ntruplus864-kat-kem-main.dir/build
-.PHONY : ntruplus864-kat-kem-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-benchmark
-
-# Build rule for target.
-ntruplus864-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-benchmark
-.PHONY : ntruplus864-benchmark
-
-# fast build rule for target.
-ntruplus864-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build.make crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build
-.PHONY : ntruplus864-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-meta
-
-# Build rule for target.
-ntruplus864-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta
-.PHONY : ntruplus864-meta
-
-# fast build rule for target.
-ntruplus864-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta.dir/build
-.PHONY : ntruplus864-meta/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus864-meta-main
-
-# Build rule for target.
-ntruplus864-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus864-meta-main
-.PHONY : ntruplus864-meta-main
-
-# fast build rule for target.
-ntruplus864-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build.make crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build
-.PHONY : ntruplus864-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152RNG1
-
-# Build rule for target.
-ntruplus1152RNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152RNG1
-.PHONY : ntruplus1152RNG1
-
-# fast build rule for target.
-ntruplus1152RNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152RNG1.dir/build
-.PHONY : ntruplus1152RNG1/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152
-
-# Build rule for target.
-ntruplus1152: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152
-.PHONY : ntruplus1152
-
-# fast build rule for target.
-ntruplus1152/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build.make crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/build
-.PHONY : ntruplus1152/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-main
-
-# Build rule for target.
-ntruplus1152-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-main
-.PHONY : ntruplus1152-main
-
-# fast build rule for target.
-ntruplus1152-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build.make crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/build
-.PHONY : ntruplus1152-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-kat-kem
-
-# Build rule for target.
-ntruplus1152-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem
-.PHONY : ntruplus1152-kat-kem
-
-# fast build rule for target.
-ntruplus1152-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem.dir/build
-.PHONY : ntruplus1152-kat-kem/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-kat-kem-main
-
-# Build rule for target.
-ntruplus1152-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-kat-kem-main
-.PHONY : ntruplus1152-kat-kem-main
-
-# fast build rule for target.
-ntruplus1152-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build.make crypto_kem/ntruplus1152/kat/CMakeFiles/ntruplus1152-kat-kem-main.dir/build
-.PHONY : ntruplus1152-kat-kem-main/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-benchmark
-
-# Build rule for target.
-ntruplus1152-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-benchmark
-.PHONY : ntruplus1152-benchmark
-
-# fast build rule for target.
-ntruplus1152-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build.make crypto_kem/ntruplus1152/benchmark/CMakeFiles/ntruplus1152-benchmark.dir/build
-.PHONY : ntruplus1152-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-meta
-
-# Build rule for target.
-ntruplus1152-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta
-.PHONY : ntruplus1152-meta
-
-# fast build rule for target.
-ntruplus1152-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/build
-.PHONY : ntruplus1152-meta/fast
-
-#=============================================================================
-# Target rules for targets named ntruplus1152-meta-main
-
-# Build rule for target.
-ntruplus1152-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ntruplus1152-meta-main
-.PHONY : ntruplus1152-meta-main
-
-# fast build rule for target.
-ntruplus1152-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build.make crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta-main.dir/build
-.PHONY : ntruplus1152-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named gcksign2_fips202
-
-# Build rule for target.
-gcksign2_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign2_fips202
-.PHONY : gcksign2_fips202
-
-# fast build rule for target.
-gcksign2_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_fips202.dir/build
-.PHONY : gcksign2_fips202/fast
-
-#=============================================================================
-# Target rules for targets named gcksign2_RNG
-
-# Build rule for target.
-gcksign2_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign2_RNG
-.PHONY : gcksign2_RNG
-
-# fast build rule for target.
-gcksign2_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/gcksign2_RNG.dir/build
-.PHONY : gcksign2_RNG/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-II
-
-# Build rule for target.
-GCKSign-II: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II
-.PHONY : GCKSign-II
-
-# fast build rule for target.
-GCKSign-II/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build.make crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/build
-.PHONY : GCKSign-II/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-II-main
-
-# Build rule for target.
-GCKSign-II-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-main
-.PHONY : GCKSign-II-main
-
-# fast build rule for target.
-GCKSign-II-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build.make crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/build
-.PHONY : GCKSign-II-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-II-kat-sign
-
-# Build rule for target.
-GCKSign-II-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-kat-sign
-.PHONY : GCKSign-II-kat-sign
-
-# fast build rule for target.
-GCKSign-II-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
-.PHONY : GCKSign-II-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-II-kat-sign-main
-
-# Build rule for target.
-GCKSign-II-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-kat-sign-main
-.PHONY : GCKSign-II-kat-sign-main
-
-# fast build rule for target.
-GCKSign-II-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build
-.PHONY : GCKSign-II-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-II-benchmark
-
-# Build rule for target.
-GCKSign-II-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-II-benchmark
-.PHONY : GCKSign-II-benchmark
-
-# fast build rule for target.
-GCKSign-II-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build.make crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/build
-.PHONY : GCKSign-II-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign2-meta
-
-# Build rule for target.
-GCKSign2-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign2-meta
-.PHONY : GCKSign2-meta
-
-# fast build rule for target.
-GCKSign2-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta.dir/build
-.PHONY : GCKSign2-meta/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign2-meta-main
-
-# Build rule for target.
-GCKSign2-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign2-meta-main
-.PHONY : GCKSign2-meta-main
-
-# fast build rule for target.
-GCKSign2-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build.make crypto_sign/GCKSign-II/metamorphic/CMakeFiles/GCKSign2-meta-main.dir/build
-.PHONY : GCKSign2-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named gcksign3_fips202
-
-# Build rule for target.
-gcksign3_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign3_fips202
-.PHONY : gcksign3_fips202
-
-# fast build rule for target.
-gcksign3_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/build
-.PHONY : gcksign3_fips202/fast
-
-#=============================================================================
-# Target rules for targets named gcksign3_RNG
-
-# Build rule for target.
-gcksign3_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign3_RNG
-.PHONY : gcksign3_RNG
-
-# fast build rule for target.
-gcksign3_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/build
-.PHONY : gcksign3_RNG/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-III
-
-# Build rule for target.
-GCKSign-III: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III
-.PHONY : GCKSign-III
-
-# fast build rule for target.
-GCKSign-III/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build.make crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/build
-.PHONY : GCKSign-III/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-III-main
-
-# Build rule for target.
-GCKSign-III-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-main
-.PHONY : GCKSign-III-main
-
-# fast build rule for target.
-GCKSign-III-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build.make crypto_sign/GCKSign-III/test/CMakeFiles/GCKSign-III-main.dir/build
-.PHONY : GCKSign-III-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-III-kat-sign
-
-# Build rule for target.
-GCKSign-III-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-kat-sign
-.PHONY : GCKSign-III-kat-sign
-
-# fast build rule for target.
-GCKSign-III-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/build
-.PHONY : GCKSign-III-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-III-kat-sign-main
-
-# Build rule for target.
-GCKSign-III-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-kat-sign-main
-.PHONY : GCKSign-III-kat-sign-main
-
-# fast build rule for target.
-GCKSign-III-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build.make crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign-main.dir/build
-.PHONY : GCKSign-III-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-III-benchmark
-
-# Build rule for target.
-GCKSign-III-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-III-benchmark
-.PHONY : GCKSign-III-benchmark
-
-# fast build rule for target.
-GCKSign-III-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build.make crypto_sign/GCKSign-III/benchmark/CMakeFiles/GCKSign-III-benchmark.dir/build
-.PHONY : GCKSign-III-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign3-meta
-
-# Build rule for target.
-GCKSign3-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign3-meta
-.PHONY : GCKSign3-meta
-
-# fast build rule for target.
-GCKSign3-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/build
-.PHONY : GCKSign3-meta/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign3-meta-main
-
-# Build rule for target.
-GCKSign3-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign3-meta-main
-.PHONY : GCKSign3-meta-main
-
-# fast build rule for target.
-GCKSign3-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build.make crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/build
-.PHONY : GCKSign3-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named gcksign5_fips202
-
-# Build rule for target.
-gcksign5_fips202: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign5_fips202
-.PHONY : gcksign5_fips202
-
-# fast build rule for target.
-gcksign5_fips202/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/build
-.PHONY : gcksign5_fips202/fast
-
-#=============================================================================
-# Target rules for targets named gcksign5_RNG
-
-# Build rule for target.
-gcksign5_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcksign5_RNG
-.PHONY : gcksign5_RNG
-
-# fast build rule for target.
-gcksign5_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/build
-.PHONY : gcksign5_RNG/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-V
-
-# Build rule for target.
-GCKSign-V: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V
-.PHONY : GCKSign-V
-
-# fast build rule for target.
-GCKSign-V/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build.make crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/build
-.PHONY : GCKSign-V/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-V-main
-
-# Build rule for target.
-GCKSign-V-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V-main
-.PHONY : GCKSign-V-main
-
-# fast build rule for target.
-GCKSign-V-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build.make crypto_sign/GCKSign-V/test/CMakeFiles/GCKSign-V-main.dir/build
-.PHONY : GCKSign-V-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-V-kat-sign
-
-# Build rule for target.
-GCKSign-V-kat-sign: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V-kat-sign
-.PHONY : GCKSign-V-kat-sign
-
-# fast build rule for target.
-GCKSign-V-kat-sign/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/build
-.PHONY : GCKSign-V-kat-sign/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-V-kat-sign-main
-
-# Build rule for target.
-GCKSign-V-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V-kat-sign-main
-.PHONY : GCKSign-V-kat-sign-main
-
-# fast build rule for target.
-GCKSign-V-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build.make crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/build
-.PHONY : GCKSign-V-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign-V-benchmark
-
-# Build rule for target.
-GCKSign-V-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign-V-benchmark
-.PHONY : GCKSign-V-benchmark
-
-# fast build rule for target.
-GCKSign-V-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build.make crypto_sign/GCKSign-V/benchmark/CMakeFiles/GCKSign-V-benchmark.dir/build
-.PHONY : GCKSign-V-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign5-meta
-
-# Build rule for target.
-GCKSign5-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign5-meta
-.PHONY : GCKSign5-meta
-
-# fast build rule for target.
-GCKSign5-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/build
-.PHONY : GCKSign5-meta/fast
-
-#=============================================================================
-# Target rules for targets named GCKSign5-meta-main
-
-# Build rule for target.
-GCKSign5-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GCKSign5-meta-main
-.PHONY : GCKSign5-meta-main
-
-# fast build rule for target.
-GCKSign5-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build
-.PHONY : GCKSign5-meta-main/fast
+Solmae1024-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build
+.PHONY : Solmae1024-meta-main/fast
 
 # Help Target
 help:
@@ -904,66 +241,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... GCKSign-II"
-	@echo "... GCKSign-II-benchmark"
-	@echo "... GCKSign-II-kat-sign"
-	@echo "... GCKSign-II-kat-sign-main"
-	@echo "... GCKSign-II-main"
-	@echo "... GCKSign-III"
-	@echo "... GCKSign-III-benchmark"
-	@echo "... GCKSign-III-kat-sign"
-	@echo "... GCKSign-III-kat-sign-main"
-	@echo "... GCKSign-III-main"
-	@echo "... GCKSign-V"
-	@echo "... GCKSign-V-benchmark"
-	@echo "... GCKSign-V-kat-sign"
-	@echo "... GCKSign-V-kat-sign-main"
-	@echo "... GCKSign-V-main"
-	@echo "... GCKSign2-meta"
-	@echo "... GCKSign2-meta-main"
-	@echo "... GCKSign3-meta"
-	@echo "... GCKSign3-meta-main"
-	@echo "... GCKSign5-meta"
-	@echo "... GCKSign5-meta-main"
+	@echo "... SOLMAE1024_RNG"
+	@echo "... Solmae1024"
+	@echo "... Solmae1024-benchmark"
+	@echo "... Solmae1024-kat-sign"
+	@echo "... Solmae1024-kat-sign-main"
+	@echo "... Solmae1024-main"
+	@echo "... Solmae1024-meta"
+	@echo "... Solmae1024-meta-main"
 	@echo "... common"
-	@echo "... gcksign2_RNG"
-	@echo "... gcksign2_fips202"
-	@echo "... gcksign3_RNG"
-	@echo "... gcksign3_fips202"
-	@echo "... gcksign5_RNG"
-	@echo "... gcksign5_fips202"
-	@echo "... ntruplus1152"
-	@echo "... ntruplus1152-benchmark"
-	@echo "... ntruplus1152-kat-kem"
-	@echo "... ntruplus1152-kat-kem-main"
-	@echo "... ntruplus1152-main"
-	@echo "... ntruplus1152-meta"
-	@echo "... ntruplus1152-meta-main"
-	@echo "... ntruplus1152RNG1"
-	@echo "... ntruplus576"
-	@echo "... ntruplus576-benchmark"
-	@echo "... ntruplus576-kat-kem"
-	@echo "... ntruplus576-kat-kem-main"
-	@echo "... ntruplus576-main"
-	@echo "... ntruplus576-meta"
-	@echo "... ntruplus576-meta-main"
-	@echo "... ntruplus576RNG1"
-	@echo "... ntruplus768"
-	@echo "... ntruplus768-benchmark"
-	@echo "... ntruplus768-kat-kem"
-	@echo "... ntruplus768-kat-kem-main"
-	@echo "... ntruplus768-main"
-	@echo "... ntruplus768-meta"
-	@echo "... ntruplus768-meta-main"
-	@echo "... ntruplus768RNG1"
-	@echo "... ntruplus864"
-	@echo "... ntruplus864-benchmark"
-	@echo "... ntruplus864-kat-kem"
-	@echo "... ntruplus864-kat-kem-main"
-	@echo "... ntruplus864-main"
-	@echo "... ntruplus864-meta"
-	@echo "... ntruplus864-meta-main"
-	@echo "... ntruplus864RNG1"
 .PHONY : help
 
 
