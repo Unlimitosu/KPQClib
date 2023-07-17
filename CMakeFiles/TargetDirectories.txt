@@ -586,6 +586,9 @@
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/benchmark/CMakeFiles/edit_cache.dir
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/benchmark/CMakeFiles/rebuild_cache.dir
+/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir
+/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/const_test/CMakeFiles/edit_cache.dir
+/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/const_test/CMakeFiles/rebuild_cache.dir
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir
 /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/CMakeFiles/edit_cache.dir

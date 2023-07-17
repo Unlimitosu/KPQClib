@@ -57,3 +57,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/benchmark/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/const_test/cmake_install.cmake")
+endif()
+

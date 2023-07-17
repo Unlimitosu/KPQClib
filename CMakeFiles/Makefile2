@@ -3051,12 +3051,14 @@ crypto_sign/Peregrine512/all: crypto_sign/Peregrine512/CMakeFiles/Peregrine512.d
 crypto_sign/Peregrine512/all: crypto_sign/Peregrine512/test/all
 crypto_sign/Peregrine512/all: crypto_sign/Peregrine512/kat/all
 crypto_sign/Peregrine512/all: crypto_sign/Peregrine512/benchmark/all
+crypto_sign/Peregrine512/all: crypto_sign/Peregrine512/const_test/all
 .PHONY : crypto_sign/Peregrine512/all
 
 # Recursive "preinstall" directory target.
 crypto_sign/Peregrine512/preinstall: crypto_sign/Peregrine512/test/preinstall
 crypto_sign/Peregrine512/preinstall: crypto_sign/Peregrine512/kat/preinstall
 crypto_sign/Peregrine512/preinstall: crypto_sign/Peregrine512/benchmark/preinstall
+crypto_sign/Peregrine512/preinstall: crypto_sign/Peregrine512/const_test/preinstall
 .PHONY : crypto_sign/Peregrine512/preinstall
 
 # Recursive "clean" directory target.
@@ -3065,6 +3067,7 @@ crypto_sign/Peregrine512/clean: crypto_sign/Peregrine512/CMakeFiles/Peregrine512
 crypto_sign/Peregrine512/clean: crypto_sign/Peregrine512/test/clean
 crypto_sign/Peregrine512/clean: crypto_sign/Peregrine512/kat/clean
 crypto_sign/Peregrine512/clean: crypto_sign/Peregrine512/benchmark/clean
+crypto_sign/Peregrine512/clean: crypto_sign/Peregrine512/const_test/clean
 .PHONY : crypto_sign/Peregrine512/clean
 
 #=============================================================================
@@ -3081,6 +3084,21 @@ crypto_sign/Peregrine512/benchmark/preinstall:
 # Recursive "clean" directory target.
 crypto_sign/Peregrine512/benchmark/clean: crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/clean
 .PHONY : crypto_sign/Peregrine512/benchmark/clean
+
+#=============================================================================
+# Directory level rules for directory crypto_sign/Peregrine512/const_test
+
+# Recursive "all" directory target.
+crypto_sign/Peregrine512/const_test/all: crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/all
+.PHONY : crypto_sign/Peregrine512/const_test/all
+
+# Recursive "preinstall" directory target.
+crypto_sign/Peregrine512/const_test/preinstall:
+.PHONY : crypto_sign/Peregrine512/const_test/preinstall
+
+# Recursive "clean" directory target.
+crypto_sign/Peregrine512/const_test/clean: crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/clean
+.PHONY : crypto_sign/Peregrine512/const_test/clean
 
 #=============================================================================
 # Directory level rules for directory crypto_sign/Peregrine512/kat
@@ -3894,12 +3912,12 @@ crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta-main.dir/clean:
 crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/build.make crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/build.make crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGERRNG1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=51 "Built target TIGERRNG1"
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/rule
@@ -3926,7 +3944,7 @@ crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/all: crypto_kem/TIGER128/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/rule
@@ -3981,7 +3999,7 @@ crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/all: crypto_kem/TIG
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/rule
@@ -4009,7 +4027,7 @@ crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/all: crypto_kem/TIGER128/C
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/test/CMakeFiles/TIGER128-main.dir/rule
@@ -4037,7 +4055,7 @@ crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/all: crypto_kem/
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/benchmark/CMakeFiles/TIGER128-benchmark.dir/rule
@@ -4092,7 +4110,7 @@ crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/all: crypto_ke
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/rule
@@ -4113,12 +4131,12 @@ crypto_kem/TIGER128/metamorphic/CMakeFiles/TIGER128-meta-main.dir/clean:
 crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/build.make crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/build.make crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=51 "Built target TIGERRNG3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGERRNG3"
 .PHONY : crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER192/CMakeFiles/TIGERRNG3.dir/rule
@@ -4145,7 +4163,7 @@ crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/all: crypto_kem/TIGER192/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/rule
@@ -4195,7 +4213,7 @@ crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/all: crypto_kem/TIG
 crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/all: crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/build.make crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/build.make crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGER192-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=48 "Built target TIGER192-kat-kem-main"
 .PHONY : crypto_kem/TIGER192/kat/CMakeFiles/TIGER192-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4223,12 +4241,12 @@ crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/all: crypto_kem/TIGER192/C
 crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/all: crypto_kem/TIGER192/CMakeFiles/TIGER192.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/build.make crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/build.make crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=48 "Built target TIGER192-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGER192-main"
 .PHONY : crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER192/test/CMakeFiles/TIGER192-main.dir/rule
@@ -4256,7 +4274,7 @@ crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/all: crypto_kem/
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER192/benchmark/CMakeFiles/TIGER192-benchmark.dir/rule
@@ -4311,7 +4329,7 @@ crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/all: crypto_ke
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER192/metamorphic/CMakeFiles/TIGER192-meta-main.dir/rule
@@ -4385,12 +4403,12 @@ crypto_kem/TIGER256/CMakeFiles/TIGER256.dir/clean:
 crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGER256-kat-kem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=50 "Built target TIGER256-kat-kem"
 .PHONY : crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/rule
@@ -4414,7 +4432,7 @@ crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/all: crypto_kem/TIG
 crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/all: crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build.make crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=50 "Built target TIGER256-kat-kem-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target TIGER256-kat-kem-main"
 .PHONY : crypto_kem/TIGER256/kat/CMakeFiles/TIGER256-kat-kem-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4825,12 +4843,12 @@ crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all: crypto_kem/ntru
 crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build.make crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target ntruplus768-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=89 "Built target ntruplus768-main"
 .PHONY : crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/ntruplus768/test/CMakeFiles/ntruplus768-main.dir/rule
@@ -4934,12 +4952,12 @@ crypto_kem/ntruplus768/benchmark/CMakeFiles/ntruplus768-benchmark.dir/clean:
 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build.make crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=89 "Built target ntruplus768-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target ntruplus768-meta"
 .PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/rule
@@ -4968,7 +4986,7 @@ crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all: cry
 
 # Build rule for subdir invocation for target.
 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/rule
@@ -5673,12 +5691,12 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all: common/CMakeFiles/common.dir/
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all: crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build.make crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=31,32 "Built target PALOMA192"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=31 "Built target PALOMA192"
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/rule
@@ -5733,7 +5751,7 @@ crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all: crypto_kem/P
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/kat/CMakeFiles/PALOMA192-kat-kem-main.dir/rule
@@ -5761,7 +5779,7 @@ crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all: crypto_kem/PALOMA19
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/test/CMakeFiles/PALOMA192-main.dir/rule
@@ -5784,7 +5802,7 @@ crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all: crypto_ke
 crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build.make crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target PALOMA192-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=32 "Built target PALOMA192-benchmark"
 .PHONY : crypto_kem/PALOMA192/benchmark/CMakeFiles/PALOMA192-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5844,7 +5862,7 @@ crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all: crypto_ke
 
 # Build rule for subdir invocation for target.
 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/PALOMA192/metamorphic/CMakeFiles/PALOMA3-meta-main.dir/rule
@@ -6111,12 +6129,12 @@ crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all: common/CMakeFiles/common.dir/all
 crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target IPCC1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=22 "Built target IPCC1"
 .PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/rule
@@ -6171,7 +6189,7 @@ crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all: crypto_kem/IPCC_f1
 
 # Build rule for subdir invocation for target.
 crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/rule
@@ -6199,7 +6217,7 @@ crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all: crypto_kem/IPCC_f1/CMakeF
 
 # Build rule for subdir invocation for target.
 crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/rule
@@ -6227,7 +6245,7 @@ crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all: crypto_kem/IPCC
 
 # Build rule for subdir invocation for target.
 crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/rule
@@ -6658,12 +6676,12 @@ crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: crypto_sign/HAETAE2/CM
 crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all: crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build.make crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target haetae2-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=57 "Built target haetae2-main"
 .PHONY : crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/rule
@@ -6769,12 +6787,12 @@ crypto_sign/HAETAE2/benchmark/CMakeFiles/haetae2-benchmark.dir/clean:
 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build.make crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=57 "Built target haetae2-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target haetae2-meta"
 .PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta.dir/rule
@@ -6804,7 +6822,7 @@ crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all: crypto_sig
 
 # Build rule for subdir invocation for target.
 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/HAETAE2/metamorphic/CMakeFiles/haetae2-meta-main.dir/rule
@@ -6907,12 +6925,12 @@ crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: crypto_sign/HAETAE3/CM
 crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all: crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build.make crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=60 "Built target haetae3-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target haetae3-main"
 .PHONY : crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/HAETAE3/test/CMakeFiles/haetae3-main.dir/rule
@@ -6963,12 +6981,12 @@ crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HA
 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all: crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build.make crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target haetae3-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=60 "Built target haetae3-kat-sign-main"
 .PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign-main.dir/rule
@@ -7323,12 +7341,12 @@ crypto_sign/HAETAE5/metamorphic/CMakeFiles/haetae5-meta-main.dir/clean:
 crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build.make crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target aimer1_fips202"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=52 "Built target aimer1_fips202"
 .PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/CMakeFiles/aimer1_fips202.dir/rule
@@ -7410,7 +7428,7 @@ crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all: crypto_sign/AImer-L
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-main.dir/rule
@@ -7439,7 +7457,7 @@ crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all: crypto_sign/AIme
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testaim.dir/rule
@@ -7468,7 +7486,7 @@ crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all: crypto_sign/AIm
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testtree.dir/rule
@@ -7497,7 +7515,7 @@ crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all: crypto_sign/AIm
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/tests/CMakeFiles/Almer-l1-testsign.dir/rule
@@ -7553,7 +7571,7 @@ crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all: crypto_sign/
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/kat/CMakeFiles/Almer-l1-kat-sign-main.dir/rule
@@ -7582,7 +7600,7 @@ crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all: crypto_sig
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/benchmark/CMakeFiles/Almer-l1-benchmark.dir/rule
@@ -7638,7 +7656,7 @@ crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all: crypto_s
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L1/metamorphic/CMakeFiles/Almer-l1-meta-main.dir/rule
@@ -7685,12 +7703,12 @@ crypto_sign/AImer-L3/CMakeFiles/aimer3_fips202.dir/clean:
 crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/build.make crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/build.make crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=52 "Built target aimer3_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target aimer3_RNG"
 .PHONY : crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/CMakeFiles/aimer3_RNG.dir/rule
@@ -7717,7 +7735,7 @@ crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/all: crypto_sign/AImer-L3/CMakeFile
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/CMakeFiles/Almer-l3.dir/rule
@@ -7746,7 +7764,7 @@ crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/all: crypto_sign/AImer-L
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-main.dir/rule
@@ -7775,7 +7793,7 @@ crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/all: crypto_sign/AIme
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testaim.dir/rule
@@ -7804,7 +7822,7 @@ crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/all: crypto_sign/AIm
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testtree.dir/rule
@@ -7833,7 +7851,7 @@ crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/all: crypto_sign/AIm
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/tests/CMakeFiles/Almer-l3-testsign.dir/rule
@@ -7889,7 +7907,7 @@ crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/all: crypto_sign/
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/kat/CMakeFiles/Almer-l3-kat-sign-main.dir/rule
@@ -7918,7 +7936,7 @@ crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/all: crypto_sig
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/benchmark/CMakeFiles/Almer-l3-benchmark.dir/rule
@@ -7974,7 +7992,7 @@ crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/all: crypto_s
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L3/metamorphic/CMakeFiles/Almer-l3-meta-main.dir/rule
@@ -8077,12 +8095,12 @@ crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/all: crypto_sign/AImer-L
 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/all: crypto_sign/AImer-L5/CMakeFiles/Almer-l5.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/build.make crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target Almer-l5-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=8 "Built target Almer-l5-main"
 .PHONY : crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/rule
@@ -8220,12 +8238,12 @@ crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/all: crypto_sign/
 crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/all: crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/build.make crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/build.make crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=8 "Built target Almer-l5-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target Almer-l5-kat-sign-main"
 .PHONY : crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign-main.dir/rule
@@ -8927,12 +8945,12 @@ crypto_sign/NCCSign3-ori/test/CMakeFiles/nccsign-ori3aes-main.dir/clean:
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/build.make crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=71 "Built target nccsign-ori3-kat-sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target nccsign-ori3-kat-sign"
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign.dir/rule
@@ -8961,7 +8979,7 @@ crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/all: cryp
 
 # Build rule for subdir invocation for target.
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3-kat-sign-main.dir/rule
@@ -9040,12 +9058,12 @@ crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/all: cr
 crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/all: crypto_sign/NCCSign3-ori/CMakeFiles/nccsign-ori3.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/build.make crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/build.make crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target nccsign-ori3-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=71 "Built target nccsign-ori3-benchmark"
 .PHONY : crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/NCCSign3-ori/benchmark/CMakeFiles/nccsign-ori3-benchmark.dir/rule
@@ -9750,12 +9768,12 @@ crypto_sign/GCKSign-II/test/CMakeFiles/GCKSign-II-main.dir/clean:
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=16 "Built target GCKSign-II-kat-sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target GCKSign-II-kat-sign"
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/rule
@@ -9780,7 +9798,7 @@ crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_s
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build.make crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target GCKSign-II-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=16 "Built target GCKSign-II-kat-sign-main"
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -10363,12 +10381,12 @@ crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_
 crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all: crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build.make crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=22 "Built target GCKSign5-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target GCKSign5-meta-main"
 .PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/GCKSign-V/metamorphic/CMakeFiles/GCKSign5-meta-main.dir/rule
@@ -10827,12 +10845,12 @@ crypto_sign/EnhpqsigRM613/metamorphic/CMakeFiles/EnhpqsigRM613-meta-main.dir/cle
 crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=40 "Built target Peregrine512_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target Peregrine512_RNG"
 .PHONY : crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/rule
@@ -10879,12 +10897,12 @@ crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/clean:
 crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/all: crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build.make crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build.make crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target Peregrine512-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=40 "Built target Peregrine512-main"
 .PHONY : crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/rule
@@ -10949,6 +10967,32 @@ Peregrine512-benchmark: crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine5
 crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/clean:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build.make crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/clean
 .PHONY : crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/clean
+
+#=============================================================================
+# Target rules for target crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir
+
+# All Build rule for target.
+crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/all: crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/all
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build.make crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build.make crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target Peregrine512-const-test-main"
+.PHONY : crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/all
+
+# Build rule for subdir invocation for target.
+crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+.PHONY : crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/rule
+
+# Convenience name for target.
+Peregrine512-const-test-main: crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/rule
+.PHONY : Peregrine512-const-test-main
+
+# clean rule for target.
+crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build.make crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/clean
+.PHONY : crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/clean
 
 #=============================================================================
 # Target rules for target crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir
@@ -11087,12 +11131,12 @@ crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/clean
 crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num= "Built target SOLMAE1024_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=41 "Built target SOLMAE1024_RNG"
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/rule
@@ -11114,7 +11158,7 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: common/CMakeFiles/common.d
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=41,42 "Built target Solmae1024"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=42 "Built target Solmae1024"
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 
 # Build rule for subdir invocation for target.
