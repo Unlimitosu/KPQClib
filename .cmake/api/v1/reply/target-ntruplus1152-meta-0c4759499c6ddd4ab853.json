@@ -1,0 +1,172 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/ntruplus1152/lib/libntruplus1152-meta.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/ntruplus1152/metamorphic/CMakeLists.txt",
+			"crypto_kem/ntruplus1152/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NTRU_MODE=1152"
+				},
+				{
+					"define" : "ntruplus1152_meta_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/kat"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "ntruplus1152-meta::@608484282c6e16417d97",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "ntruplus1152-meta",
+	"nameOnDisk" : "libntruplus1152-meta.so",
+	"paths" : 
+	{
+		"build" : "crypto_kem/ntruplus1152/metamorphic",
+		"source" : "crypto_kem/ntruplus1152/metamorphic"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/ntruplus1152/metamorphic/bit_contribution.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/ntruplus1152/metamorphic/bit_exclusion.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

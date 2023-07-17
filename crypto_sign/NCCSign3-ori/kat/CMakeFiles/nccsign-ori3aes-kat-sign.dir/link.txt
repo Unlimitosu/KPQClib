@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign-ori3aes-kat-sign.so -o ../libs/libnccsign-ori3aes-kat-sign.so "CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign-ori3aes-kat-sign.so -o ../libs/libnccsign-ori3aes-kat-sign.so CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o 

@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/Almer-l1-main.dir/main.c.o" -o ../bin/Almer-l1-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L1/libs ../libs/libAlmer-l1.so ../libs/libaimer1_fips202.so -lm ../libs/libaimer1_RNG.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/Almer-l1-main.dir/main.c.o -o ../bin/Almer-l1-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L1/libs ../libs/libAlmer-l1.so ../libs/libaimer1_fips202.so -lm ../libs/libaimer1_RNG.so ../../../common/libcommon.a 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/test
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

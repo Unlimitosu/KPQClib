@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign2-meta.so -o ../libs/libGCKSign2-meta.so "CMakeFiles/GCKSign2-meta.dir/bit_contribution.c.o" "CMakeFiles/GCKSign2-meta.dir/bit_exclusion.c.o" "CMakeFiles/GCKSign2-meta.dir/bit_verify.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign2-meta.so -o ../libs/libGCKSign2-meta.so CMakeFiles/GCKSign2-meta.dir/bit_contribution.c.o CMakeFiles/GCKSign2-meta.dir/bit_exclusion.c.o CMakeFiles/GCKSign2-meta.dir/bit_verify.c.o 

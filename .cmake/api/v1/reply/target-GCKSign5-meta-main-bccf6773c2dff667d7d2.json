@@ -1,0 +1,204 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/GCKSign-V/bin/GCKSign5-meta-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/GCKSign-V/metamorphic/CMakeLists.txt",
+			"crypto_sign/GCKSign-V/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GCKSign_MODE=5"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/include/NIST"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/metamorphic/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gcksign5_fips202::@f93fb6f2a9a86db0b620"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gcksign5_RNG::@f93fb6f2a9a86db0b620"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "GCKSign-V::@f93fb6f2a9a86db0b620"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "GCKSign5-meta::@980431e2141cacd143c9"
+		}
+	],
+	"id" : "GCKSign5-meta-main::@980431e2141cacd143c9",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/libs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libGCKSign5-meta.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libGCKSign-V.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libgcksign5_fips202.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libgcksign5_RNG.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "GCKSign5-meta-main",
+	"nameOnDisk" : "GCKSign5-meta-main",
+	"paths" : 
+	{
+		"build" : "crypto_sign/GCKSign-V/metamorphic",
+		"source" : "crypto_sign/GCKSign-V/metamorphic"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/GCKSign-V/metamorphic/meta_test.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

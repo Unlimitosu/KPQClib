@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign-III-kat-sign.so -o ../libs/libGCKSign-III-kat-sign.so "CMakeFiles/GCKSign-III-kat-sign.dir/kat_sign.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign-III-kat-sign.so -o ../libs/libGCKSign-III-kat-sign.so CMakeFiles/GCKSign-III-kat-sign.dir/kat_sign.c.o 

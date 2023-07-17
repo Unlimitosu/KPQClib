@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/TIGER192-main.dir/main.c.o" -o ../bin/TIGER192-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER192/lib ../lib/libTIGER192.so ../lib/libTIGERRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/TIGER192-main.dir/main.c.o -o ../bin/TIGER192-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER192/lib ../lib/libTIGER192.so ../lib/libTIGERRNG3.so ../../../common/libcommon.a 

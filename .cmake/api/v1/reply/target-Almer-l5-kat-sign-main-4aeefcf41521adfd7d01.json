@@ -1,0 +1,210 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_sign/AImer-L5/bin/Almer-l5-kat-sign-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_sign/AImer-L5/kat/CMakeLists.txt",
+			"crypto_sign/AImer-L5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AIMER_MODE=5"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/field"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/shake"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "aimer5_fips202::@221ede9066277e163850"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "aimer5_RNG::@221ede9066277e163850"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Almer-l5::@221ede9066277e163850"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Almer-l5-kat-sign::@ec19e235362d9283eee5"
+		}
+	],
+	"id" : "Almer-l5-kat-sign-main::@ec19e235362d9283eee5",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/libs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libAlmer-l5-kat-sign.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libs/libAlmer-l5.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libaimer5_fips202.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libs/libaimer5_RNG.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "Almer-l5-kat-sign-main",
+	"nameOnDisk" : "Almer-l5-kat-sign-main",
+	"paths" : 
+	{
+		"build" : "crypto_sign/AImer-L5/kat",
+		"source" : "crypto_sign/AImer-L5/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_sign/AImer-L5/kat/PQCgenKAT_sign.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

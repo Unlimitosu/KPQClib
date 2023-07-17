@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus768-meta.so -o ../lib/libntruplus768-meta.so "CMakeFiles/ntruplus768-meta.dir/bit_contribution.c.o" "CMakeFiles/ntruplus768-meta.dir/bit_exclusion.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus768-meta.so -o ../lib/libntruplus768-meta.so CMakeFiles/ntruplus768-meta.dir/bit_contribution.c.o CMakeFiles/ntruplus768-meta.dir/bit_exclusion.c.o 

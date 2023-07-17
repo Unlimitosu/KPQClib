@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER128-meta.so -o ../lib/libTIGER128-meta.so "CMakeFiles/TIGER128-meta.dir/bit_contribution.c.o" "CMakeFiles/TIGER128-meta.dir/bit_exclusion.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER128-meta.so -o ../lib/libTIGER128-meta.so CMakeFiles/TIGER128-meta.dir/bit_contribution.c.o CMakeFiles/TIGER128-meta.dir/bit_exclusion.c.o 

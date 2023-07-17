@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-meta.so -o ../lib/libSolmae1024-meta.so "CMakeFiles/Solmae1024-meta.dir/katrng.c.o" "CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o" "CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o" "CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-meta.so -o ../lib/libSolmae1024-meta.so CMakeFiles/Solmae1024-meta.dir/katrng.c.o CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o 

@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-kat-sign.so -o ../lib/libSolmae1024-kat-sign.so "CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-kat-sign.so -o ../lib/libSolmae1024-kat-sign.so CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o 

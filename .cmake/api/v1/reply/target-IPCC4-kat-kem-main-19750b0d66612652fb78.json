@@ -1,0 +1,196 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/IPCC_f4/bin/IPCC4-kat-kem-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/IPCC_f4/kat/CMakeLists.txt",
+			"crypto_kem/IPCC_f4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CRYPTO_ALGNAME=\"IPCC_f4\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "IPCC_f=4"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f4/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f4/kat"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f4/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "IPCCRNG4::@e964d78f3c7b6d5c4fc5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "IPCC4::@e964d78f3c7b6d5c4fc5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "IPCC4-kat-kem::@a072473934caeea23468"
+		}
+	],
+	"id" : "IPCC4-kat-kem-main::@a072473934caeea23468",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f4/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libIPCC4-kat-kem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libIPCC4.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libIPCCRNG4.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "IPCC4-kat-kem-main",
+	"nameOnDisk" : "IPCC4-kat-kem-main",
+	"paths" : 
+	{
+		"build" : "crypto_kem/IPCC_f4/kat",
+		"source" : "crypto_kem/IPCC_f4/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/IPCC_f4/kat/PQCgenKAT_pke.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -8,11 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/unlimit/Downloads/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o" "gcc" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o" "gcc" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/CMakeFiles/gcksign5_RNG.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

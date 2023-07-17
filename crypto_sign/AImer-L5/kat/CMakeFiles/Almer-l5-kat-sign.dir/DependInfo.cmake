@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/unlimit/Downloads/KPQClean/crypto_sign/AImer-L5/kat/kat_sign.c" "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/kat/kat_sign.c" "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/AImer-L5/kat/CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

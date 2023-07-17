@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_kem/IPCC_f4/kat",
+		"source" : "crypto_kem/IPCC_f4/kat"
+	}
+}

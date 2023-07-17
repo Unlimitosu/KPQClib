@@ -1,0 +1,186 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto_kem/SMAUG5/bin/smaug5-kat-kem-main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto_kem/SMAUG5/kat/CMakeLists.txt",
+			"crypto_kem/SMAUG5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CRYPTO_ALGNAME=\"SMAUG5_KEM\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SMAUG_MODE=5"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/kat/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "common::@bfc844598bd03e848b3c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "RNG5::@8729cbb2aa595d1d6f90"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "smaug5::@8729cbb2aa595d1d6f90"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "smaug5-kat-kem::@4d3728794db5c6b62676"
+		}
+	],
+	"id" : "smaug5-kat-kem-main::@4d3728794db5c6b62676",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libsmaug5-kat-kem.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libsmaug5.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../lib/libRNG5.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../common/libcommon.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "smaug5-kat-kem-main",
+	"nameOnDisk" : "smaug5-kat-kem-main",
+	"paths" : 
+	{
+		"build" : "crypto_kem/SMAUG5/kat",
+		"source" : "crypto_kem/SMAUG5/kat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto_kem/SMAUG5/kat/PQCgenKAT_kem.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

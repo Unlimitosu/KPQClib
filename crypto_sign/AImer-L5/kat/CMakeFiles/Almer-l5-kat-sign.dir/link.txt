@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libAlmer-l5-kat-sign.so -o ../libs/libAlmer-l5-kat-sign.so "CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libAlmer-l5-kat-sign.so -o ../libs/libAlmer-l5-kat-sign.so CMakeFiles/Almer-l5-kat-sign.dir/kat_sign.c.o 

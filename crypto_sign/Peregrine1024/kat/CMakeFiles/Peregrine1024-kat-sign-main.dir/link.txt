@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o" -o ../bin/Peregrine1024-kat-sign-main  -Wl,-rpath,/home/unlimit/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 
+/usr/bin/cc CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o -o ../bin/Peregrine1024-kat-sign-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 

@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER192-meta.so -o ../lib/libTIGER192-meta.so "CMakeFiles/TIGER192-meta.dir/bit_contribution.c.o" "CMakeFiles/TIGER192-meta.dir/bit_exclusion.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER192-meta.so -o ../lib/libTIGER192-meta.so CMakeFiles/TIGER192-meta.dir/bit_contribution.c.o CMakeFiles/TIGER192-meta.dir/bit_exclusion.c.o 

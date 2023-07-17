@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/GCKSign-III/metamorphic",
+		"source" : "crypto_sign/GCKSign-III/metamorphic"
+	}
+}
