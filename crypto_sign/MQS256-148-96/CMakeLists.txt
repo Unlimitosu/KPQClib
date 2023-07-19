@@ -28,7 +28,7 @@ set(MQS256_SRCS
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -g -fomit-frame-pointer -Wall -Wextra -Wpedantic)
+  set(C_FLAGS -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic)
 endif()
 
 

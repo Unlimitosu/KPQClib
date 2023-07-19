@@ -32,6 +32,11 @@
 #include "keygen.h"
 #include "encap.h"
 #include "decap.h"
+#include <x86intrin.h>
+
+unsigned long long cpucycles(){
+    return __rdtsc();
+}
 
 //gcc -Wl,-stack_size -Wl,0x20000000 -O2 gf_table_gen.c gf.c gfpoly.c goppa_instance.c keygen.c mat_mul.c common.c lsh.c lsh512.c encap.c decap.c paloma.c rng.c benchmark.c
 
@@ -51,7 +56,7 @@ int main(){
 	srand(time(NULL));
 
     int count = 100;
-    clock_t start1, end1;
+    unsigned long long start1, end1;
     float ttkeygen=0, ttencap=0, ttdecap=0;
     
     
@@ -60,30 +65,30 @@ int main(){
         u64 sk[(MAXN*13/64) + (MAXT*13/64) + (13*MAXT*13*MAXT/64) + 4 ]={0,}; // L + g(X) + S + P 순서
         u64 pk[13*MAXT*(MAXN-(13*MAXT))/64]={0,};       // 서브행렬
 
-        start1 = clock();
+        start1 = cpucycles();
         GenKeyPair(pk, sk, &PALOMAParam);
-        end1 = clock();
+        end1 = cpucycles();
 
-        ttkeygen += (float)(end1 - start1)/CLOCKS_PER_SEC;          //*********
+        ttkeygen += (float)(end1 - start1)/count;          //*********
         //==============encap===========
 
         u64 key[4]={0,};
         u64 r[4]={0,};
         u64 shat[13*MAXT/64]={0,};
 
-        start1 = clock();
+        start1 = cpucycles();
         Encap(key,r,shat,pk,n,k,t);
-        end1 = clock();
+        end1 = cpucycles();
 
-        ttencap += (float)(end1 - start1)/CLOCKS_PER_SEC;          //*********
+        ttencap += (float)(end1 - start1)/count;          //*********
         //==============decap=============
         u64 recoverkey[4]={0,};
         
-        start1 = clock();
+        start1 = cpucycles();
         Decap(recoverkey, sk, r, shat, &PALOMAParam);
-        end1 = clock();
+        end1 = cpucycles();
         
-        ttdecap += (float)(end1 - start1)/CLOCKS_PER_SEC;       
+        ttdecap += (float)(end1 - start1)/count;       
 
         for(int i=0;i<4;i++){
             if(key[i]!=recoverkey[i]){

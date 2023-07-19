@@ -1,7 +1,7 @@
 crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/src/vrfy.c.o: \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/src/vrfy.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/src/vrfy.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/inner.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -50,7 +50,7 @@ crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/src/vrfy.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

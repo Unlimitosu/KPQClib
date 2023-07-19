@@ -11,6 +11,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/lsh_local.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/lsh_def.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \

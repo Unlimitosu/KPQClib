@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "crypto_sign/Solmae512/test",
+		"source" : "crypto_sign/Solmae512/test"
+	}
+}

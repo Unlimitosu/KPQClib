@@ -1,5 +1,5 @@
 crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/speed.c.o: \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/benchmark/speed.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -60,8 +60,8 @@ crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/speed.c
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/inner.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/fpr.h
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/fpr.h

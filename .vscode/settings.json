@@ -21,6 +21,7 @@
         "assert.h": "c",
         "sample.h": "c",
         "fips202.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "type_traits": "c"
     }
 }

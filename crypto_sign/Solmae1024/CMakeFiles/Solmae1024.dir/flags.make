@@ -6,5 +6,5 @@ C_DEFINES = -DSolmae1024_EXPORTS
 
 C_INCLUDES = -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common
 
-C_FLAGS = -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm
+C_FLAGS = -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm
 

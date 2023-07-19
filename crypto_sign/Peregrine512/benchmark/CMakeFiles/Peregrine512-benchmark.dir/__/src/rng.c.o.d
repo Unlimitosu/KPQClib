@@ -1,12 +1,12 @@
 crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/__/src/rng.c.o: \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/src/rng.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/src/rng.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/inner.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -45,7 +45,7 @@ crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/__/src/
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

@@ -2,6 +2,7 @@
 #include "MultiEnc.h"
 #include "Decryption.h"
 #include <time.h>
+#include <stdio.h>
 
 
 
@@ -25,6 +26,7 @@ type EncType1(type(*cipher)[CIPHER_DIM + 2],
 {
 	//* First Graph Encryption
 	// printf("========poly1========\n");
+	printf("cipher var size: %d\n", sizeof(cipher));
 	type poly1[G1fTerms][maxDIM + 2] = { 0, };
 	type numTERMS1 = Encryption(poly1, message1,
 		G1numCs, G1fDim, GraphNeighbor1, v_nieg_1, G1numVertex, Graph1Start);
@@ -43,13 +45,17 @@ type EncType1(type(*cipher)[CIPHER_DIM + 2],
 	type dstTERMS = 0;
 
 	for (type tmpIdx = 0; tmpIdx < MULterms; tmpIdx++) {
-		for (type i = 0; i < MULpoly[tmpIdx][0] + 2; i++)
+		for (type i = 0; i < MULpoly[tmpIdx][0] + 2; i++){
+			//printf("dstTERMS = %d, tmpIdx = %d, i = %d\n", dstTERMS, tmpIdx, i);
 			cipher[dstTERMS][i] = MULpoly[tmpIdx][i];
+		}
 		dstTERMS++;
 	}
 	for (type tmpIdx = 0; tmpIdx < numTERMS1; tmpIdx++) {
-		for (type i = 0; i < poly1[tmpIdx][0] + 2; i++)
+		for (type i = 0; i < poly1[tmpIdx][0] + 2; i++){
+			//printf("dstTERMS = %d, tmpIdx = %d, i = %d\n", dstTERMS, tmpIdx, i);
 			cipher[dstTERMS][i] = poly1[tmpIdx][i];
+		}
 		dstTERMS++;
 	}
 	for (type tmpIdx = 0; tmpIdx < numTERMS2; tmpIdx++) {

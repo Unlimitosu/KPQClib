@@ -27,9 +27,9 @@ void AES256_CTR_DRBG_Update(unsigned char *provided_data, unsigned char *Key,
                             unsigned char *V);
 
 int seedexpander_init(AES_XOF_struct *ctx, unsigned char *seed,
-                      unsigned char *diversifier, unsigned long maxlen);
+                      unsigned char *diversifier, unsigned long long maxlen);
 
-int seedexpander(AES_XOF_struct *ctx, unsigned char *x, unsigned long xlen);
+int seedexpander(AES_XOF_struct *ctx, unsigned char *x, unsigned long long xlen);
 
 void randombytes_init(unsigned char *entropy_input,
                       unsigned char *personalization_string,

@@ -6,5 +6,5 @@ C_DEFINES = -DPALOMA256_EXPORTS -DPALOMA_MODE=5
 
 C_INCLUDES = -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat -I/home/unlimit/Downloads/KPQClean/common
 
-C_FLAGS = -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra
+C_FLAGS = -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra
 

@@ -1,5 +1,5 @@
 crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/kat/PQCgenKAT_sign.c \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -60,8 +60,8 @@ crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/PQCgenKAT
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/inner.h \
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/unlimit/KPQClean/crypto_sign/Peregrine512/include/fpr.h
+ /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/fpr.h

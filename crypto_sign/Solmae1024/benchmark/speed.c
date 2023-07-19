@@ -7,8 +7,13 @@
 #include "speed_print.h"
 #include "api.h"
 #include "poly.h"
+#include <x86intrin.h>
 
 #define NTESTS 1000
+
+unsigned long long cpucycle(){
+    return __rdtsc();
+}
 
 uint64_t t[NTESTS];
 secret_key sk;   
@@ -41,14 +46,14 @@ int main()
 
     unsigned char m[32];
     printf("sign start....\n");
-    srt = clock();
-    for (i = 0; i < 1; i++)
+    unsigned long long start = cpucycle();
+    for (i = 0; i < NTESTS; i++)
     {
-        t[i] = cpucycles();
         sign(m, &sk, &s);
     }
-    ed = clock();
-    printf("time elapsed: %.16fms\n\n", (double)(ed - srt - overhead * NTESTS) *
+    unsigned long long end = cpucycle();
+    printf("sign: %d\n", (end-start)/NTESTS);
+    printf("time elapsed: %.8fms\n\n", (double)(end - start - overhead * NTESTS) *
                                            1000 / CLOCKS_PER_SEC / NTESTS);
 
     srt = clock();
@@ -58,6 +63,7 @@ int main()
        verify(m, &pk, &s);
     }
     ed = clock();
+    print_results("verify: ", t, NTESTS);
     printf("time elapsed: %.8fms\n\n", (double)(ed - srt - overhead * NTESTS) *
                                            1000 / CLOCKS_PER_SEC / NTESTS);
 

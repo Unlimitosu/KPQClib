@@ -1,5 +1,95 @@
 [
 {
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCCRNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/IPCCRNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/pke.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/pke.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/pke.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Keygen.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Keygen.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Keygen.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Encryption.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Encryption.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Encryption.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Encryption.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/MultiEnc.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/MultiEnc.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/MultiEnc.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/MultiEnc.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Decryption.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Decryption.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Decryption.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Decryption.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/verify.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
+  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/fips202.c",
+  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/fips202.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"IPCC_f1\\\" -DIPCC1_kat_kem_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/../include -std=gnu11 -fPIC -o CMakeFiles/IPCC1-kat-kem.dir/PQCgenKAT_pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
+  "output": "crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/PQCgenKAT_pke.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat",
+  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"IPCC_f1\\\" -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/../include -std=gnu11 -o CMakeFiles/IPCC1-kat-kem-main.dir/PQCgenKAT_pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
+  "output": "crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/PQCgenKAT_pke.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test",
+  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test/main.c",
+  "output": "crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
+  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed.c",
+  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
+  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/cpucycles.c",
+  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
+  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed_print.c",
+  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/speed_print.c.o"
+},
+{
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
   "command": "/usr/bin/cc -DSOLMAE1024_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -lm -o CMakeFiles/SOLMAE1024_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
@@ -7,109 +97,109 @@
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/common.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/common.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/common.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/common.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/falcon_keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/falcon_keygen.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/falcon_keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/falcon_keygen.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/falcon_keygen.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/falcon_keygen.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fips202.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fips202.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fips202.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/fips202.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/nist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/nist.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/nist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/nist.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/nist.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/nist.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/poly.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/poly.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/poly.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/randombytes.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/randombytes.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/randombytes.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/randombytes.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/samplerZ.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/samplerZ.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/samplerZ.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/samplerZ.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/samplerZ.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/samplerZ.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/sign.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/sign.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/sign.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/vrfy.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/vrfy.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/vrfy.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/vrfy.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/vrfy.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/vrfy.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/codec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/codec.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/codec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/codec.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/codec.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/codec.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fft.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fft.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fft.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fft.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fft.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/fft.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fpr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fpr.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/fpr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fpr.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/fpr.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/fpr.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/keygen.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/keygen.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/keygen.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/keygen.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/normaldist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/normaldist.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/normaldist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/normaldist.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/normaldist.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/normaldist.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/precomp.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/precomp.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/precomp.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/precomp.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/precomp.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/precomp.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/rng.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/shake.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/shake.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/shake.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/shake.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
-  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -g -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/test_dist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/test_dist.c",
+  "command": "/usr/bin/cc -DSolmae1024_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae1024.dir/src/test_dist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/test_dist.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/test_dist.c",
   "output": "crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/test_dist.c.o"
 },
@@ -184,5 +274,191 @@
   "command": "/usr/bin/cc -DSOLMAE_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/metamorphic/../include -std=gnu11 -o CMakeFiles/Solmae1024-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/metamorphic/meta_test.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/metamorphic/meta_test.c",
   "output": "crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSOLMAE512_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -lm -o CMakeFiles/SOLMAE512_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/rng.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/common.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/common.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/common.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/common.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/falcon_keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/falcon_keygen.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/falcon_keygen.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/falcon_keygen.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fips202.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fips202.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/fips202.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/nist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/nist.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/nist.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/nist.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/poly.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/poly.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/poly.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/randombytes.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/randombytes.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/randombytes.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/samplerZ.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/samplerZ.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/samplerZ.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/samplerZ.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/sign.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/vrfy.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/vrfy.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/vrfy.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/vrfy.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/codec.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/codec.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/codec.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/codec.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/fft.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fft.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fft.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/fft.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/fpr.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fpr.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/fpr.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/fpr.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/keygen.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/keygen.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/keygen.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/normaldist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/normaldist.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/normaldist.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/normaldist.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/precomp.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/precomp.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/precomp.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/precomp.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/rng.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/shake.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/shake.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/shake.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/shake.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512",
+  "command": "/usr/bin/cc -DSolmae512_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -lm -o CMakeFiles/Solmae512.dir/src/test_dist.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/test_dist.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/test_dist.c",
+  "output": "crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/src/test_dist.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/test",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/test/main.c",
+  "output": "crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/test",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-main.dir/__/src/randombytes.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/randombytes.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/src/randombytes.c",
+  "output": "crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/__/src/randombytes.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat",
+  "command": "/usr/bin/cc -DSolmae512_kat_sign_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/../include -std=gnu11 -fPIC -o CMakeFiles/Solmae512-kat-sign.dir/katrng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/katrng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/katrng.c",
+  "output": "crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/katrng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/../include -std=gnu11 -o CMakeFiles/Solmae512-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed.c",
+  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/cpucycles.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/cpucycles.c",
+  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/cpucycles.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
+  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed_print.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed_print.c",
+  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/speed_print.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",
+  "command": "/usr/bin/cc -DSOLMAE_MODE=1 -DSolmae512_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Solmae512-meta.dir/katrng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/katrng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/katrng.c",
+  "output": "crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/katrng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",
+  "command": "/usr/bin/cc -DSOLMAE_MODE=1 -DSolmae512_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Solmae512-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",
+  "command": "/usr/bin/cc -DSOLMAE_MODE=1 -DSolmae512_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Solmae512-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",
+  "command": "/usr/bin/cc -DSOLMAE_MODE=1 -DSolmae512_meta_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/Solmae512-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/bit_verify.c",
+  "output": "crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",
+  "command": "/usr/bin/cc -DSOLMAE_MODE=1 -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/../include -std=gnu11 -o CMakeFiles/Solmae512-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic/meta_test.c",
+  "output": "crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/meta_test.c.o"
 }
 ]

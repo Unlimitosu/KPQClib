@@ -17,7 +17,7 @@ void AES256_ECB(unsigned char *key, unsigned char *ctr, unsigned char *buffer);
  seed and diversifier
  */
 int seedexpander_init(AES_XOF_struct *ctx, unsigned char *seed,
-                      unsigned char *diversifier, unsigned long maxlen) {
+                      unsigned char *diversifier, unsigned long long maxlen) {
     if (maxlen >= 0x100000000)
         return RNG_BAD_MAXLEN;
 
@@ -47,8 +47,8 @@ int seedexpander_init(AES_XOF_struct *ctx, unsigned char *seed,
     x    - returns the XOF data
     xlen - number of bytes to return
  */
-int seedexpander(AES_XOF_struct *ctx, unsigned char *x, unsigned long xlen) {
-    unsigned long offset;
+int seedexpander(AES_XOF_struct *ctx, unsigned char *x, unsigned long long xlen) {
+    unsigned long long offset;
 
     if (x == NULL)
         return RNG_BAD_OUTBUF;

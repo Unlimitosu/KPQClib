@@ -23,19 +23,19 @@
 #define SEEDBYTES 48
 int main(){
     srand(time(NULL));
-    printf("SOLMAE1024 metamorphic test start...\n");
+    printf("SOLMAE512 metamorphic test start...\n");
 
     KPQCLEAN_METAMORPHIC_bit_contribution_test_kem(
         CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-        0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE1024");
+        0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE512");
 
-    // KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
-    //     CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-    //     0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE1024");
+    KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
+        CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
+        0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE512");
 
     KPQCLEAN_METAMORPHIC_bit_verify_test_kem(
         CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, 0, SEEDBYTES, 
-        0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE1024");
+        0, CRYPTO_BYTES+SEEDBYTES, "SOLMAE512");
    
     return 0;
 }

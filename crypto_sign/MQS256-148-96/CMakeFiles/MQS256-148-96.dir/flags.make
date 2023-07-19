@@ -6,5 +6,5 @@ C_DEFINES = -DMQS256_148_96_EXPORTS -DMQS256_MODE=5
 
 C_INCLUDES = -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common
 
-C_FLAGS = -std=gnu11 -fPIC -g -fomit-frame-pointer -Wall -Wextra -Wpedantic
+C_FLAGS = -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic
 

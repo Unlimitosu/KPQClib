@@ -28,6 +28,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/keygen.h \
   crypto_kem/PALOMA256/include/gf.h \
   crypto_kem/PALOMA256/include/encap.h \
@@ -61,6 +63,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/common.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/lsh.h \
   crypto_kem/PALOMA256/include/lsh_def.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
@@ -105,6 +109,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/decap.c.o: crypto_kem/PALOMA25
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/keygen.h \
   crypto_kem/PALOMA256/include/encap.h
 
@@ -137,7 +143,9 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/encap.c.o: crypto_kem/PALOMA25
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf.c.o: crypto_kem/PALOMA256/src/gf.c \
   /usr/include/stdc-predef.h \
@@ -164,7 +172,9 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf.c.o: crypto_kem/PALOMA256/s
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: crypto_kem/PALOMA256/src/gf_table_gen.c \
   /usr/include/stdc-predef.h \
@@ -193,6 +203,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: crypto_kem/P
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/time.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -221,13 +233,16 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: crypto_kem/P
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gfpoly.c.o: crypto_kem/PALOMA256/src/gfpoly.c \
   /usr/include/stdc-predef.h \
@@ -256,6 +271,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gfpoly.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/gf.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -279,13 +296,16 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gfpoly.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: crypto_kem/PALOMA256/src/goppa_instance.c \
   /usr/include/stdc-predef.h \
@@ -326,13 +346,16 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: crypto_kem
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -343,6 +366,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: crypto_kem
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/rng.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/keygen.c.o: crypto_kem/PALOMA256/src/keygen.c \
@@ -374,6 +399,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/keygen.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   crypto_kem/PALOMA256/include/mat_mul.h \
   crypto_kem/PALOMA256/include/common.h \
   /usr/include/stdlib.h \
@@ -398,13 +425,16 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/keygen.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh.c.o: crypto_kem/PALOMA256/src/lsh.c \
   /usr/include/stdc-predef.h \
@@ -444,6 +474,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o: crypto_kem/PALOMA2
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   crypto_kem/PALOMA256/include/lsh_local.h \
   crypto_kem/PALOMA256/include/lsh_def.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
@@ -485,6 +517,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/mat_mul.c.o: crypto_kem/PALOMA
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/time.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -524,6 +558,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/rng.c.o: crypto_kem/PALOMA256/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   common/aes.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
   /usr/include/stdint.h \
@@ -551,31 +587,40 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/rng.c.o: crypto_kem/PALOMA256/
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
 
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
@@ -593,6 +638,10 @@ common/aes.h:
 
 crypto_kem/PALOMA256/src/rng.c:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/strings.h:
 
 crypto_kem/PALOMA256/src/lsh512.c:
@@ -605,7 +654,7 @@ crypto_kem/PALOMA256/src/keygen.c:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -631,11 +680,11 @@ crypto_kem/PALOMA256/src/mat_mul.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-crypto_kem/PALOMA256/include/keygen.h:
+/usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -652,6 +701,8 @@ crypto_kem/PALOMA256/include/rng.h:
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 crypto_kem/PALOMA256/include/gf.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -676,6 +727,12 @@ crypto_kem/PALOMA256/include/gf_table_gen.h:
 crypto_kem/PALOMA256/src/PALOMA.c:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+crypto_kem/PALOMA256/include/keygen.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -703,13 +760,13 @@ crypto_kem/PALOMA256/include/goppa_instance.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-crypto_kem/PALOMA256/include/encap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -719,9 +776,13 @@ crypto_kem/PALOMA256/include/encap.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+crypto_kem/PALOMA256/include/encap.h:
+
 crypto_kem/PALOMA256/src/common.c:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/stdc-predef.h:
 
@@ -741,13 +802,17 @@ crypto_kem/PALOMA256/include/mat_mul.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 crypto_kem/PALOMA256/include/lsh_def.h:
 
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
 crypto_kem/PALOMA256/include/lsh512.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
 
 crypto_kem/PALOMA256/src/decap.c:
 
@@ -780,7 +845,3 @@ crypto_kem/PALOMA256/src/gf_table_gen.c:
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:

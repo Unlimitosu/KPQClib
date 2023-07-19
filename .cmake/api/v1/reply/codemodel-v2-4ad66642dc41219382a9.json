@@ -1,0 +1,551 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						11
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "crypto_kem/IPCC_f1",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-crypto_kem.IPCC_f1-7d7a5a9d91685213a24f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/IPCC_f1",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "crypto_kem/IPCC_f1/kat",
+					"jsonFile" : "directory-crypto_kem.IPCC_f1.kat-f49aba21ec72808b049f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/IPCC_f1/kat",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "crypto_kem/IPCC_f1/test",
+					"jsonFile" : "directory-crypto_kem.IPCC_f1.test-d2aacaa8d994a1577d16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/IPCC_f1/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "crypto_kem/IPCC_f1/benchmark",
+					"jsonFile" : "directory-crypto_kem.IPCC_f1.benchmark-5a88cf75a89393685e5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "crypto_kem/IPCC_f1/benchmark",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-crypto_sign.Solmae1024-faadd66e0ffcad3eb169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "crypto_sign/Solmae1024",
+					"targetIndexes" : 
+					[
+						6,
+						8
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/test",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.test-f36c1640dec6b66fb0c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_sign/Solmae1024/test",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/kat",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.kat-17533b580970cfd00f70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_sign/Solmae1024/kat",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/benchmark",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.benchmark-56176740f9864c1eeecc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_sign/Solmae1024/benchmark",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae1024/metamorphic",
+					"jsonFile" : "directory-crypto_sign.Solmae1024.metamorphic-a9eba255671a21abe793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "crypto_sign/Solmae1024/metamorphic",
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae512",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-crypto_sign.Solmae512-7e978d738b2370356e8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "crypto_sign/Solmae512",
+					"targetIndexes" : 
+					[
+						7,
+						15
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae512/test",
+					"jsonFile" : "directory-crypto_sign.Solmae512.test-b4730bc5451c3ba0d0b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "crypto_sign/Solmae512/test",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae512/kat",
+					"jsonFile" : "directory-crypto_sign.Solmae512.kat-3dc28a00c00b032cde1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "crypto_sign/Solmae512/kat",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae512/benchmark",
+					"jsonFile" : "directory-crypto_sign.Solmae512.benchmark-a50883a608a014503f04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "crypto_sign/Solmae512/benchmark",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "crypto_sign/Solmae512/metamorphic",
+					"jsonFile" : "directory-crypto_sign.Solmae512.metamorphic-49975fa01ecd77a31984.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "crypto_sign/Solmae512/metamorphic",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KPQClean"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "IPCC",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "Solmae1024",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "Solmae512",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "IPCC1::@e3b1ef3cb2d1d45a37a4",
+					"jsonFile" : "target-IPCC1-73351568a296352430d6.json",
+					"name" : "IPCC1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "IPCC1-benchmark::@091d220362066b28133f",
+					"jsonFile" : "target-IPCC1-benchmark-513cfef07b39534f7f36.json",
+					"name" : "IPCC1-benchmark",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "IPCC1-kat-kem::@3b52c27c5ff7a433c3fa",
+					"jsonFile" : "target-IPCC1-kat-kem-6590bdd38d14adaf7ae9.json",
+					"name" : "IPCC1-kat-kem",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "IPCC1-kat-kem-main::@3b52c27c5ff7a433c3fa",
+					"jsonFile" : "target-IPCC1-kat-kem-main-cd8f17d5c74b85773cd4.json",
+					"name" : "IPCC1-kat-kem-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "IPCC1-main::@6525a2c9e02680189c42",
+					"jsonFile" : "target-IPCC1-main-b9d063126c2b80dabd5e.json",
+					"name" : "IPCC1-main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "IPCCRNG1::@e3b1ef3cb2d1d45a37a4",
+					"jsonFile" : "target-IPCCRNG1-fc9c9d8e1b384d97ce53.json",
+					"name" : "IPCCRNG1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SOLMAE1024_RNG::@1a6ab5f8325e2779682a",
+					"jsonFile" : "target-SOLMAE1024_RNG-78e2a99f5cdda1b27867.json",
+					"name" : "SOLMAE1024_RNG",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SOLMAE512_RNG::@9fcf0c0b499930bd4334",
+					"jsonFile" : "target-SOLMAE512_RNG-bcfebcca93181ae037b4.json",
+					"name" : "SOLMAE512_RNG",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Solmae1024::@1a6ab5f8325e2779682a",
+					"jsonFile" : "target-Solmae1024-c2a0da0474ef395e0029.json",
+					"name" : "Solmae1024",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Solmae1024-benchmark::@db253e4d454a268d0df1",
+					"jsonFile" : "target-Solmae1024-benchmark-cbe0850164a146faade4.json",
+					"name" : "Solmae1024-benchmark",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Solmae1024-kat-sign::@e7b003a15d293f7b372c",
+					"jsonFile" : "target-Solmae1024-kat-sign-66f15b10de7a66a18de9.json",
+					"name" : "Solmae1024-kat-sign",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Solmae1024-kat-sign-main::@e7b003a15d293f7b372c",
+					"jsonFile" : "target-Solmae1024-kat-sign-main-0a447869d14c94f8ed68.json",
+					"name" : "Solmae1024-kat-sign-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Solmae1024-main::@afcd0fb7137781ef0057",
+					"jsonFile" : "target-Solmae1024-main-1f1204029da493f2ec5d.json",
+					"name" : "Solmae1024-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Solmae1024-meta::@e48608885d2dc5edab8a",
+					"jsonFile" : "target-Solmae1024-meta-22bfd05603cacb0fe3b8.json",
+					"name" : "Solmae1024-meta",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Solmae1024-meta-main::@e48608885d2dc5edab8a",
+					"jsonFile" : "target-Solmae1024-meta-main-aeaf237fcff8a807b473.json",
+					"name" : "Solmae1024-meta-main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Solmae512::@9fcf0c0b499930bd4334",
+					"jsonFile" : "target-Solmae512-55356d6ae3c364cc8d79.json",
+					"name" : "Solmae512",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Solmae512-benchmark::@60230d2bbf94ec08d22d",
+					"jsonFile" : "target-Solmae512-benchmark-273d9f5a9b6e22e7c207.json",
+					"name" : "Solmae512-benchmark",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Solmae512-kat-sign::@d7f561eb313e06fe0c4f",
+					"jsonFile" : "target-Solmae512-kat-sign-989ee7312c8f1ae6cf80.json",
+					"name" : "Solmae512-kat-sign",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Solmae512-kat-sign-main::@d7f561eb313e06fe0c4f",
+					"jsonFile" : "target-Solmae512-kat-sign-main-fcf3e5c8bfe8b1dcf7c9.json",
+					"name" : "Solmae512-kat-sign-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Solmae512-main::@837b11c1b10a464b4799",
+					"jsonFile" : "target-Solmae512-main-2303f419627a002a1876.json",
+					"name" : "Solmae512-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Solmae512-meta::@a38d1c4553eb4644a733",
+					"jsonFile" : "target-Solmae512-meta-29750f63a1369aed73bc.json",
+					"name" : "Solmae512-meta",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Solmae512-meta-main::@a38d1c4553eb4644a733",
+					"jsonFile" : "target-Solmae512-meta-main-69022d805b8d41aa3eb0.json",
+					"name" : "Solmae512-meta-main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-b2906dcfc80b3a557cd0.json",
+					"name" : "common",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unlimit/Downloads/KPQClean",
+		"source" : "/home/unlimit/Downloads/KPQClean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
