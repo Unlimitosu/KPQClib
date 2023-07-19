@@ -1,20 +1,21 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: \
- /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/kat/api.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/config.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -24,6 +25,7 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
@@ -32,3 +34,12 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/encap.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/decap.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/config.h
+=======
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/keygen.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/encap.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/decap.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/config.h
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512
+=======
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,16 +48,33 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/test/cmake_install.cmake")
+=======
+  include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/test/cmake_install.cmake")
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/kat/cmake_install.cmake")
+=======
+  include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/kat/cmake_install.cmake")
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/benchmark/cmake_install.cmake")
+=======
+  include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/benchmark/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/const_test/cmake_install.cmake")
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
 endif()
 

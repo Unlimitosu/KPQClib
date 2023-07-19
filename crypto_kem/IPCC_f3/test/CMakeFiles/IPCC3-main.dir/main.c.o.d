@@ -1,4 +1,5 @@
 crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
+<<<<<<< HEAD
  /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f3/test/main.c \
  /usr/include/stdc-predef.h \
  /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f3/include/params.h \
@@ -13,6 +14,23 @@ crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+=======
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/test/main.c \
+ /usr/include/stdc-predef.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/include/params.h \
+ /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -22,11 +40,18 @@ crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+=======
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
@@ -46,6 +71,10 @@ crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+<<<<<<< HEAD
+=======
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/memory.h \
@@ -56,7 +85,11 @@ crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+<<<<<<< HEAD
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+=======
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -66,4 +99,8 @@ crypto_kem/IPCC_f3/test/CMakeFiles/IPCC3-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+<<<<<<< HEAD
  /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f3/include/rng.h
+=======
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/include/rng.h
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b

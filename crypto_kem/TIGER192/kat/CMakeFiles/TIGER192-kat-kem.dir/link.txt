@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER192-kat-kem.so -o ../lib/libTIGER192-kat-kem.so "CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER192-kat-kem.so -o ../lib/libTIGER192-kat-kem.so CMakeFiles/TIGER192-kat-kem.dir/kat_kem.c.o 

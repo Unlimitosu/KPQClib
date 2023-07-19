@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libaimer3_fips202.so -o libs/libaimer3_fips202.so CMakeFiles/aimer3_fips202.dir/shake/KeccakHash.c.o CMakeFiles/aimer3_fips202.dir/shake/KeccakSponge.c.o "CMakeFiles/aimer3_fips202.dir/shake/KeccakP-1600-opt64.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libaimer3_fips202.so -o libs/libaimer3_fips202.so CMakeFiles/aimer3_fips202.dir/shake/KeccakHash.c.o CMakeFiles/aimer3_fips202.dir/shake/KeccakSponge.c.o CMakeFiles/aimer3_fips202.dir/shake/KeccakP-1600-opt64.c.o 

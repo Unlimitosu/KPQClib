@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/kat/PQCgenKAT_kem.c" "crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o" "gcc" "crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/kat/PQCgenKAT_kem.c" "crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o" "gcc" "crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem-main.dir/PQCgenKAT_kem.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/kat/CMakeFiles/TIGER128-kat-kem.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/CMakeFiles/TIGERRNG1.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

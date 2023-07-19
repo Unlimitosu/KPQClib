@@ -1,4 +1,5 @@
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computation.c.o: \
+<<<<<<< HEAD
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c \
  /usr/include/stdc-predef.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
@@ -7,16 +8,32 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computatio
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+=======
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c \
+ /usr/include/stdc-predef.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+=======
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+<<<<<<< HEAD
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair_computation.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/blas_comm.h \
@@ -34,6 +51,23 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computatio
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/mqs_blas.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/blas.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/parallel_matrix_op.h \
+=======
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair_computation.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas_comm.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas_u32.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/gf16.h \
+ /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas_comm.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas_matrix.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/mqs_blas.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/blas.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/parallel_matrix_op.h \
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -53,6 +87,7 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computatio
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -63,3 +98,13 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computatio
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include/utils_malloc.h
+=======
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/MQS256-72-46/include/utils_malloc.h
+>>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b

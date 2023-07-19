@@ -32,7 +32,7 @@ else()
 endif()
 
 
-find_package(OpenSSL REQUIRED)
+# find_package(OpenSSL REQUIRED)
 include_directories(include)
 include_directories(${CMAKE_SOURCE_DIR}/common)
 

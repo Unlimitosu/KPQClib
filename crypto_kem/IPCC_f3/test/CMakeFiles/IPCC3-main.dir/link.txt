@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/IPCC3-main.dir/main.c.o" -o ../bin/IPCC3-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f3/lib ../lib/libIPCC3.so ../lib/libIPCCRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/IPCC3-main.dir/main.c.o -o ../bin/IPCC3-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/lib ../lib/libIPCC3.so ../lib/libIPCCRNG3.so ../../../common/libcommon.a 

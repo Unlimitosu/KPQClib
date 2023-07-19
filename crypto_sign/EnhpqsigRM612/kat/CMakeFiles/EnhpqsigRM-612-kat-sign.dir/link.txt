@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM-612-kat-sign.so -o ../libs/libEnhpqsigRM-612-kat-sign.so "CMakeFiles/EnhpqsigRM-612-kat-sign.dir/kat_sign.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM-612-kat-sign.so -o ../libs/libEnhpqsigRM-612-kat-sign.so CMakeFiles/EnhpqsigRM-612-kat-sign.dir/kat_sign.c.o 
