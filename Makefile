@@ -130,84 +130,6 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named IPCCRNG1
-
-# Build rule for target.
-IPCCRNG1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCCRNG1
-.PHONY : IPCCRNG1
-
-# fast build rule for target.
-IPCCRNG1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build
-.PHONY : IPCCRNG1/fast
-
-#=============================================================================
-# Target rules for targets named IPCC1
-
-# Build rule for target.
-IPCC1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCC1
-.PHONY : IPCC1
-
-# fast build rule for target.
-IPCC1/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build
-.PHONY : IPCC1/fast
-
-#=============================================================================
-# Target rules for targets named IPCC1-kat-kem
-
-# Build rule for target.
-IPCC1-kat-kem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCC1-kat-kem
-.PHONY : IPCC1-kat-kem
-
-# fast build rule for target.
-IPCC1-kat-kem/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build
-.PHONY : IPCC1-kat-kem/fast
-
-#=============================================================================
-# Target rules for targets named IPCC1-kat-kem-main
-
-# Build rule for target.
-IPCC1-kat-kem-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCC1-kat-kem-main
-.PHONY : IPCC1-kat-kem-main
-
-# fast build rule for target.
-IPCC1-kat-kem-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build
-.PHONY : IPCC1-kat-kem-main/fast
-
-#=============================================================================
-# Target rules for targets named IPCC1-main
-
-# Build rule for target.
-IPCC1-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCC1-main
-.PHONY : IPCC1-main
-
-# fast build rule for target.
-IPCC1-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build.make crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build
-.PHONY : IPCC1-main/fast
-
-#=============================================================================
-# Target rules for targets named IPCC1-benchmark
-
-# Build rule for target.
-IPCC1-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IPCC1-benchmark
-.PHONY : IPCC1-benchmark
-
-# fast build rule for target.
-IPCC1-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build.make crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build
-.PHONY : IPCC1-benchmark/fast
-
-#=============================================================================
 # Target rules for targets named SOLMAE1024_RNG
 
 # Build rule for target.
@@ -377,19 +299,6 @@ Solmae512-kat-sign-main/fast:
 .PHONY : Solmae512-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named Solmae512-benchmark
-
-# Build rule for target.
-Solmae512-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-benchmark
-.PHONY : Solmae512-benchmark
-
-# fast build rule for target.
-Solmae512-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build.make crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build
-.PHONY : Solmae512-benchmark/fast
-
-#=============================================================================
 # Target rules for targets named Solmae512-meta
 
 # Build rule for target.
@@ -423,12 +332,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... IPCC1"
-	@echo "... IPCC1-benchmark"
-	@echo "... IPCC1-kat-kem"
-	@echo "... IPCC1-kat-kem-main"
-	@echo "... IPCC1-main"
-	@echo "... IPCCRNG1"
 	@echo "... SOLMAE1024_RNG"
 	@echo "... SOLMAE512_RNG"
 	@echo "... Solmae1024"
@@ -439,7 +342,6 @@ help:
 	@echo "... Solmae1024-meta"
 	@echo "... Solmae1024-meta-main"
 	@echo "... Solmae512"
-	@echo "... Solmae512-benchmark"
 	@echo "... Solmae512-kat-sign"
 	@echo "... Solmae512-kat-sign-main"
 	@echo "... Solmae512-main"

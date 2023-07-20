@@ -13,7 +13,6 @@
 #include <openssl/err.h>
 */
 #include <stdint.h>
-// #include "aes.h"
 
 AES256_CTR_DRBG_struct DRBG_ctx;
 
@@ -174,7 +173,7 @@ int random_bytes(unsigned char *x, unsigned long long xlen)
 	unsigned char block[16];
 	int i = 0;
 
-	// xlen: Number of bytes to be extracted
+	// xlen:  Number of bytes to be extracted
 	while (xlen > 0)
 	{
 		// increment V
@@ -438,20 +437,12 @@ aes256_encrypt(const uint32_t *skey, void *data)
 	enc32be(buf + 12, s3);
 }
 
-// For given ctr and key, generate encrypted date by AES256_ECB into buffer 
-// void AES256_ECB(unsigned char *key, unsigned char *ctr, unsigned char *buffer)
-// {
-	// uint32_t skey[60];
-
-	// aes256_keysched(skey, key);
-	// memmove(buffer, ctr, 16);
-	// aes256_encrypt(skey, buffer);
-// }
+//  For given ctr and key, generate encrypted date by AES256_ECB into buffer 
 void AES256_ECB(unsigned char *key, unsigned char *ctr, unsigned char *buffer)
 {
-    aes256ctx ctx;
-    aes256_ecb_keyexp(&ctx, key);
-    aes256_ecb(buffer, ctr, 1, &ctx);
-    aes256_ctx_release(&ctx);
-}
+	uint32_t skey[60];
 
+	aes256_keysched(skey, key);
+	memmove(buffer, ctr, 16);
+	aes256_encrypt(skey, buffer);
+}

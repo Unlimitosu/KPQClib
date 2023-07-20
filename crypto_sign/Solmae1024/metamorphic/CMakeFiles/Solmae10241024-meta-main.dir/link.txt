@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Solmae10241024-meta-main.dir/meta_test.c.o -o ../bin/Solmae10241024-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean/crypto_sign/Solmae1024/lib ../lib/libSolmae10241024-meta.so ../lib/libSolmae1024.so ../../../common/libcommon.a ../lib/libSOLMAE1024_RNG.so 

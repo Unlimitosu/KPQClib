@@ -9,7 +9,6 @@
 #define katrng_h
 
 #include <stdio.h>
-#include "aes.h"
 
 #define RNG_SUCCESS 0
 #define RNG_BAD_MAXLEN -1

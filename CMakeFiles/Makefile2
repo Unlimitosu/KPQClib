@@ -64,21 +64,18 @@ CMAKE_BINARY_DIR = /home/unlimit/Downloads/KPQClean
 
 # The main recursive "all" target.
 all: common/all
-all: crypto_kem/IPCC_f1/all
 all: crypto_sign/Solmae1024/all
 all: crypto_sign/Solmae512/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: common/preinstall
-preinstall: crypto_kem/IPCC_f1/preinstall
 preinstall: crypto_sign/Solmae1024/preinstall
 preinstall: crypto_sign/Solmae512/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: common/clean
-clean: crypto_kem/IPCC_f1/clean
 clean: crypto_sign/Solmae1024/clean
 clean: crypto_sign/Solmae512/clean
 .PHONY : clean
@@ -97,78 +94,6 @@ common/preinstall:
 # Recursive "clean" directory target.
 common/clean: common/CMakeFiles/common.dir/clean
 .PHONY : common/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/IPCC_f1
-
-# Recursive "all" directory target.
-crypto_kem/IPCC_f1/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-crypto_kem/IPCC_f1/all: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-crypto_kem/IPCC_f1/all: crypto_kem/IPCC_f1/kat/all
-crypto_kem/IPCC_f1/all: crypto_kem/IPCC_f1/test/all
-crypto_kem/IPCC_f1/all: crypto_kem/IPCC_f1/benchmark/all
-.PHONY : crypto_kem/IPCC_f1/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/IPCC_f1/preinstall: crypto_kem/IPCC_f1/kat/preinstall
-crypto_kem/IPCC_f1/preinstall: crypto_kem/IPCC_f1/test/preinstall
-crypto_kem/IPCC_f1/preinstall: crypto_kem/IPCC_f1/benchmark/preinstall
-.PHONY : crypto_kem/IPCC_f1/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/IPCC_f1/clean: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/clean
-crypto_kem/IPCC_f1/clean: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/clean
-crypto_kem/IPCC_f1/clean: crypto_kem/IPCC_f1/kat/clean
-crypto_kem/IPCC_f1/clean: crypto_kem/IPCC_f1/test/clean
-crypto_kem/IPCC_f1/clean: crypto_kem/IPCC_f1/benchmark/clean
-.PHONY : crypto_kem/IPCC_f1/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/IPCC_f1/benchmark
-
-# Recursive "all" directory target.
-crypto_kem/IPCC_f1/benchmark/all: crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all
-.PHONY : crypto_kem/IPCC_f1/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/IPCC_f1/benchmark/preinstall:
-.PHONY : crypto_kem/IPCC_f1/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/IPCC_f1/benchmark/clean: crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/clean
-.PHONY : crypto_kem/IPCC_f1/benchmark/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/IPCC_f1/kat
-
-# Recursive "all" directory target.
-crypto_kem/IPCC_f1/kat/all: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/all
-crypto_kem/IPCC_f1/kat/all: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all
-.PHONY : crypto_kem/IPCC_f1/kat/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/IPCC_f1/kat/preinstall:
-.PHONY : crypto_kem/IPCC_f1/kat/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/IPCC_f1/kat/clean: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/clean
-crypto_kem/IPCC_f1/kat/clean: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/clean
-.PHONY : crypto_kem/IPCC_f1/kat/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_kem/IPCC_f1/test
-
-# Recursive "all" directory target.
-crypto_kem/IPCC_f1/test/all: crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all
-.PHONY : crypto_kem/IPCC_f1/test/all
-
-# Recursive "preinstall" directory target.
-crypto_kem/IPCC_f1/test/preinstall:
-.PHONY : crypto_kem/IPCC_f1/test/preinstall
-
-# Recursive "clean" directory target.
-crypto_kem/IPCC_f1/test/clean: crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/clean
-.PHONY : crypto_kem/IPCC_f1/test/clean
 
 #=============================================================================
 # Directory level rules for directory crypto_sign/Solmae1024
@@ -270,14 +195,12 @@ crypto_sign/Solmae512/all: crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/al
 crypto_sign/Solmae512/all: crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all
 crypto_sign/Solmae512/all: crypto_sign/Solmae512/test/all
 crypto_sign/Solmae512/all: crypto_sign/Solmae512/kat/all
-crypto_sign/Solmae512/all: crypto_sign/Solmae512/benchmark/all
 crypto_sign/Solmae512/all: crypto_sign/Solmae512/metamorphic/all
 .PHONY : crypto_sign/Solmae512/all
 
 # Recursive "preinstall" directory target.
 crypto_sign/Solmae512/preinstall: crypto_sign/Solmae512/test/preinstall
 crypto_sign/Solmae512/preinstall: crypto_sign/Solmae512/kat/preinstall
-crypto_sign/Solmae512/preinstall: crypto_sign/Solmae512/benchmark/preinstall
 crypto_sign/Solmae512/preinstall: crypto_sign/Solmae512/metamorphic/preinstall
 .PHONY : crypto_sign/Solmae512/preinstall
 
@@ -286,24 +209,8 @@ crypto_sign/Solmae512/clean: crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/
 crypto_sign/Solmae512/clean: crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/clean
 crypto_sign/Solmae512/clean: crypto_sign/Solmae512/test/clean
 crypto_sign/Solmae512/clean: crypto_sign/Solmae512/kat/clean
-crypto_sign/Solmae512/clean: crypto_sign/Solmae512/benchmark/clean
 crypto_sign/Solmae512/clean: crypto_sign/Solmae512/metamorphic/clean
 .PHONY : crypto_sign/Solmae512/clean
-
-#=============================================================================
-# Directory level rules for directory crypto_sign/Solmae512/benchmark
-
-# Recursive "all" directory target.
-crypto_sign/Solmae512/benchmark/all: crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all
-.PHONY : crypto_sign/Solmae512/benchmark/all
-
-# Recursive "preinstall" directory target.
-crypto_sign/Solmae512/benchmark/preinstall:
-.PHONY : crypto_sign/Solmae512/benchmark/preinstall
-
-# Recursive "clean" directory target.
-crypto_sign/Solmae512/benchmark/clean: crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/clean
-.PHONY : crypto_sign/Solmae512/benchmark/clean
 
 #=============================================================================
 # Directory level rules for directory crypto_sign/Solmae512/kat
@@ -361,7 +268,7 @@ crypto_sign/Solmae512/test/clean: crypto_sign/Solmae512/test/CMakeFiles/Solmae51
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=97,98,99,100 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=75,76,77,78 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
@@ -381,177 +288,13 @@ common/CMakeFiles/common.dir/clean:
 .PHONY : common/CMakeFiles/common.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=19,20 "Built target IPCCRNG1"
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/rule
-
-# Convenience name for target.
-IPCCRNG1: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/rule
-.PHONY : IPCCRNG1
-
-# clean rule for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/clean
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target IPCC1"
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/rule
-
-# Convenience name for target.
-IPCC1: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/rule
-.PHONY : IPCC1
-
-# clean rule for target.
-crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/build.make crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/clean
-.PHONY : crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/all:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=13,14 "Built target IPCC1-kat-kem"
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/rule
-
-# Convenience name for target.
-IPCC1-kat-kem: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/rule
-.PHONY : IPCC1-kat-kem
-
-# clean rule for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/clean
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=15,16 "Built target IPCC1-kat-kem-main"
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/rule
-
-# Convenience name for target.
-IPCC1-kat-kem-main: crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/rule
-.PHONY : IPCC1-kat-kem-main
-
-# clean rule for target.
-crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/build.make crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/clean
-.PHONY : crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build.make crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build.make crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=17,18 "Built target IPCC1-main"
-.PHONY : crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 16
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/rule
-
-# Convenience name for target.
-IPCC1-main: crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/rule
-.PHONY : IPCC1-main
-
-# clean rule for target.
-crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/build.make crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/clean
-.PHONY : crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/clean
-
-#=============================================================================
-# Target rules for target crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir
-
-# All Build rule for target.
-crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/all
-crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all: crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build.make crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build.make crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=9,10,11,12 "Built target IPCC1-benchmark"
-.PHONY : crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/rule
-
-# Convenience name for target.
-IPCC1-benchmark: crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/rule
-.PHONY : IPCC1-benchmark
-
-# clean rule for target.
-crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/build.make crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/clean
-.PHONY : crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/clean
-
-#=============================================================================
 # Target rules for target crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir
 
 # All Build rule for target.
 crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=21,22 "Built target SOLMAE1024_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=1,2 "Built target SOLMAE1024_RNG"
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 
 # Build rule for subdir invocation for target.
@@ -578,12 +321,12 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: common/CMakeFiles/common.d
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all: crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target Solmae1024"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target Solmae1024"
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/rule
@@ -606,12 +349,12 @@ crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all: crypto_sign/Solm
 crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=51,52,53 "Built target Solmae1024-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=32,33,34 "Built target Solmae1024-main"
 .PHONY : crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/rule
@@ -632,7 +375,7 @@ crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/clean:
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=47,48 "Built target Solmae1024-kat-sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=28,29 "Built target Solmae1024-kat-sign"
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
@@ -661,12 +404,12 @@ crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: crypto_s
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=49,50 "Built target Solmae1024-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=30,31 "Built target Solmae1024-kat-sign-main"
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
@@ -689,12 +432,12 @@ crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all: crypto
 crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all: crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=43,44,45,46 "Built target Solmae1024-benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=24,25,26,27 "Built target Solmae1024-benchmark"
 .PHONY : crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/rule
@@ -715,7 +458,7 @@ crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/clean:
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=54,55,56,57,58 "Built target Solmae1024-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=35,36,37,38,39 "Built target Solmae1024-meta"
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,12 +487,12 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: cryp
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=59,60 "Built target Solmae1024-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=40,41 "Built target Solmae1024-meta-main"
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/rule
@@ -770,7 +513,7 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/clean:
 crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/build.make crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/build.make crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=23,24 "Built target SOLMAE512_RNG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=3,4 "Built target SOLMAE512_RNG"
 .PHONY : crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/all
 
 # Build rule for subdir invocation for target.
@@ -797,12 +540,12 @@ crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all: common/CMakeFiles/common.dir
 crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all: crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/build.make crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/build.make crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target Solmae512"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target Solmae512"
 .PHONY : crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/rule
@@ -825,12 +568,12 @@ crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/all: crypto_sign/Solmae
 crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/all: crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/build.make crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/build.make crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=87,88,89 "Built target Solmae512-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=65,66,67 "Built target Solmae512-main"
 .PHONY : crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/rule
@@ -851,7 +594,7 @@ crypto_sign/Solmae512/test/CMakeFiles/Solmae512-main.dir/clean:
 crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/build.make crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/build.make crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=83,84 "Built target Solmae512-kat-sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=61,62 "Built target Solmae512-kat-sign"
 .PHONY : crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/all
 
 # Build rule for subdir invocation for target.
@@ -880,12 +623,12 @@ crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/all: crypto_sig
 crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/all: crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/build.make crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/build.make crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=85,86 "Built target Solmae512-kat-sign-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=63,64 "Built target Solmae512-kat-sign-main"
 .PHONY : crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/rule
@@ -900,41 +643,13 @@ crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/clean:
 .PHONY : crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/clean
 
 #=============================================================================
-# Target rules for target crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir
-
-# All Build rule for target.
-crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all: common/CMakeFiles/common.dir/all
-crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all: crypto_sign/Solmae512/CMakeFiles/SOLMAE512_RNG.dir/all
-crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all: crypto_sign/Solmae512/CMakeFiles/Solmae512.dir/all
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build.make crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/depend
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build.make crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=79,80,81,82 "Built target Solmae512-benchmark"
-.PHONY : crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all
-
-# Build rule for subdir invocation for target.
-crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 28
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
-.PHONY : crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/rule
-
-# Convenience name for target.
-Solmae512-benchmark: crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/rule
-.PHONY : Solmae512-benchmark
-
-# clean rule for target.
-crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/build.make crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/clean
-.PHONY : crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/clean
-
-#=============================================================================
 # Target rules for target crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir
 
 # All Build rule for target.
 crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/all:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/build.make crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/build.make crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=90,91,92,93,94 "Built target Solmae512-meta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=68,69,70,71,72 "Built target Solmae512-meta"
 .PHONY : crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -963,12 +678,12 @@ crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/all: crypto
 crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/all: crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta.dir/all
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/build.make crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/build.make crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=95,96 "Built target Solmae512-meta-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/unlimit/Downloads/KPQClean/CMakeFiles --progress-num=73,74 "Built target Solmae512-meta-main"
 .PHONY : crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/all
 
 # Build rule for subdir invocation for target.
 crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/unlimit/Downloads/KPQClean/CMakeFiles 0
 .PHONY : crypto_sign/Solmae512/metamorphic/CMakeFiles/Solmae512-meta-main.dir/rule

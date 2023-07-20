@@ -1,10 +1,10 @@
 #include "param.h"
 
-extern double precomp_b10[SOLMAE_D];
-extern double precomp_b11[SOLMAE_D];
-extern double precomp_b20[SOLMAE_D];
-extern double precomp_b21[SOLMAE_D];
-extern double precomp_h[SOLMAE_D];
+extern double precomp_b10[];
+extern double precomp_b11[];
+extern double precomp_b20[];
+extern double precomp_b21[];
+extern double precomp_h[];
 
 
 void load_B(secret_key* sk);

@@ -1,95 +1,5 @@
 [
 {
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCCRNG1_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/IPCCRNG1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCCRNG1.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/pke.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/pke.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/pke.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Keygen.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Keygen.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Keygen.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Keygen.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Encryption.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Encryption.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Encryption.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Encryption.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/MultiEnc.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/MultiEnc.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/MultiEnc.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/MultiEnc.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/Decryption.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Decryption.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/Decryption.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/Decryption.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/rng.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/rng.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/verify.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/verify.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/verify.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1",
-  "command": "/usr/bin/cc -DIPCC1_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -o CMakeFiles/IPCC1.dir/src/fips202.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/fips202.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/src/fips202.c",
-  "output": "crypto_kem/IPCC_f1/CMakeFiles/IPCC1.dir/src/fips202.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"IPCC_f1\\\" -DIPCC1_kat_kem_EXPORTS -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/../include -std=gnu11 -fPIC -o CMakeFiles/IPCC1-kat-kem.dir/PQCgenKAT_pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
-  "output": "crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem.dir/PQCgenKAT_pke.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat",
-  "command": "/usr/bin/cc -DCRYPTO_ALGNAME=\\\"IPCC_f1\\\" -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/../include -std=gnu11 -o CMakeFiles/IPCC1-kat-kem-main.dir/PQCgenKAT_pke.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat/PQCgenKAT_pke.c",
-  "output": "crypto_kem/IPCC_f1/kat/CMakeFiles/IPCC1-kat-kem-main.dir/PQCgenKAT_pke.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test",
-  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test/main.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/test/main.c",
-  "output": "crypto_kem/IPCC_f1/test/CMakeFiles/IPCC1-main.dir/main.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
-  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed.c",
-  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
-  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/cpucycles.c",
-  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark",
-  "command": "/usr/bin/cc -DIPCC_f=1 -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/include -I/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/kat -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/IPCC1-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_kem/IPCC_f1/benchmark/speed_print.c",
-  "output": "crypto_kem/IPCC_f1/benchmark/CMakeFiles/IPCC1-benchmark.dir/speed_print.c.o"
-},
-{
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
   "command": "/usr/bin/cc -DSOLMAE1024_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -lm -o CMakeFiles/SOLMAE1024_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
@@ -412,24 +322,6 @@
   "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/../include -std=gnu11 -o CMakeFiles/Solmae512-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/PQCgenKAT_sign.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/kat/PQCgenKAT_sign.c",
   "output": "crypto_sign/Solmae512/kat/CMakeFiles/Solmae512-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
-  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed.c",
-  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/speed.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
-  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/cpucycles.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/cpucycles.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/cpucycles.c",
-  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/cpucycles.c.o"
-},
-{
-  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark",
-  "command": "/usr/bin/cc  -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/Solmae512-benchmark.dir/speed_print.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed_print.c",
-  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/benchmark/speed_print.c",
-  "output": "crypto_sign/Solmae512/benchmark/CMakeFiles/Solmae512-benchmark.dir/speed_print.c.o"
 },
 {
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/metamorphic",

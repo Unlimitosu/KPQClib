@@ -22,7 +22,7 @@ signature s;
 
 int main()
 {
-    printf("Solmae1024 benchmark start...\n");
+    printf("Solmae512 benchmark start...\n");
 
     int i = 0;
     clock_t srt, ed;

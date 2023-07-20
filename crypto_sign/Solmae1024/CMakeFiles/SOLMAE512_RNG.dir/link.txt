@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libSOLMAE512_RNG.so -o lib/libSOLMAE512_RNG.so CMakeFiles/SOLMAE512_RNG.dir/src/rng.c.o 

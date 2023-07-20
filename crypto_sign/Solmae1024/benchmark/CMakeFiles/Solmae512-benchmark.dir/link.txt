@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/Solmae512-benchmark.dir/speed.c.o" "CMakeFiles/Solmae512-benchmark.dir/cpucycles.c.o" "CMakeFiles/Solmae512-benchmark.dir/speed_print.c.o" -o ../bin/Solmae512-benchmark  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae512/lib ../lib/libSolmae512.so -lm ../../../common/libcommon.a ../lib/libSOLMAE512_RNG.so 
