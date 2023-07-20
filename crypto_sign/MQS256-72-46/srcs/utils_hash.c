@@ -5,7 +5,7 @@
 
 #include "utils_hash.h"
 
-#include "openssl/sha.h"
+//#include "sha.h"
 #include "sha2.h"
 
 

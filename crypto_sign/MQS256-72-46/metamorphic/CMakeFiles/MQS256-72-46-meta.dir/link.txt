@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libMQS256-72-46-meta.so -o ../libs/libMQS256-72-46-meta.so CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libMQS256-72-46-meta.so -o ../libs/libMQS256-72-46-meta.so "CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o" "CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o" "CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o" 

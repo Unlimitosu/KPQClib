@@ -22,6 +22,8 @@
         "sample.h": "c",
         "fips202.h": "c",
         "stdlib.h": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "hash_len_config.h": "c",
+        "sha.h": "c"
     }
 }

@@ -47,20 +47,14 @@ int KPQCLEAN_METAMORPHIC_bit_exclusion_test_kem(
 
     crypto_sign_keypair(pk, sk);
     crypto_sign(sm, &smlen, m, mlen, sk);
-    for(int j=0;j<200;j++){
-                printf("%02X ",sm[j]);
-            }printf("\n");
+
     for(int i = 1; i < EXCLUSION_BYTELEN * 8; i++){
         memcpy(buf, m, mlen + EXCLUSION_BYTELEN);
         buf[mlen + i/8] ^= 1 << (i % 8);
 
 
         crypto_sign(sm2, &smlen2, m, mlen, sk);
-        for(int j=0;j<200;j++){
-                printf("%02X ",sm2[j]);
-            }printf("\n");
 
-            getchar();
         if(memcmp(sm, sm2, smlen) != 0 || smlen != smlen2) {
             printf("%s Bit Exclusion Test Failed: Failed on messaage\n", ALGNAME);
             for(int j=0;j<200;j++){

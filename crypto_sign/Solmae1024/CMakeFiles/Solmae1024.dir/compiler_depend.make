@@ -1967,14 +1967,6 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o: crypto_sign/Solma
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
-  crypto_sign/Solmae1024/include/api.h \
-  crypto_sign/Solmae1024/include/poly.h \
-  crypto_sign/Solmae1024/include/param.h \
-  crypto_sign/Solmae1024/include/fpr.h \
-  crypto_sign/Solmae1024/include/poly.h \
-  crypto_sign/Solmae1024/include/param.h \
-  crypto_sign/Solmae1024/include/fips202.h \
-  crypto_sign/Solmae1024/include/randombytes.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -1997,12 +1989,21 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o: crypto_sign/Solma
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  crypto_sign/Solmae1024/include/inner.h \
-  crypto_sign/Solmae1024/include/config.h \
+  /usr/include/memory.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  crypto_sign/Solmae1024/include/api.h \
+  crypto_sign/Solmae1024/include/poly.h \
+  crypto_sign/Solmae1024/include/param.h \
+  crypto_sign/Solmae1024/include/fpr.h \
+  crypto_sign/Solmae1024/include/poly.h \
+  crypto_sign/Solmae1024/include/param.h \
+  crypto_sign/Solmae1024/include/fips202.h \
+  crypto_sign/Solmae1024/include/randombytes.h \
+  crypto_sign/Solmae1024/include/inner.h \
+  crypto_sign/Solmae1024/include/config.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
@@ -2356,6 +2357,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/vrfy.c.o: crypto_sign/Solma
 
 
 crypto_sign/Solmae1024/include/test_dist.h:
+
+/usr/include/memory.h:
 
 /usr/include/asm-generic/errno.h:
 

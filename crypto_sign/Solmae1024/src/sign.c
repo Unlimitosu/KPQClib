@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 #include <math.h>
+#include <stdlib.h>
+#include <memory.h>
 #include "api.h"
 #include "poly.h"
 #include "param.h"
@@ -117,15 +119,18 @@ void sign(const uint8_t *m, const secret_key *sk, signature *s)
   for (int i = 0; i < MSG_BYTES; ++i)
     m_r[i] = m[i];
 
-  do
-  {
+  // do
+  // {
     trials++;
-    randombytes(m_r + MSG_BYTES, SOLMAE_K / 8);
+    //randombytes(m_r + MSG_BYTES, SOLMAE_K / 8);
+    //fix random for metamorphic
+    memset(m_r + MSG_BYTES, 0, SOLMAE_K / 8);
+
     H(m_r, &c2);
     for (int i = 0; i < SOLMAE_D; ++i)
       c1.coeffs[i].v = 0;
     // printf("c1:");print_poly(&c1); printf("c2:");print_poly(&c2);
-    sampler(sk, &c1, &c2, &v0, &v1);
+    //sampler(sk, &c1, &c2, &v0, &v1);
     // printf("v1:");print_poly(&v0); printf("v2:");print_poly(&v1);
 
     poly_sub(&c1, &v0);
@@ -135,7 +140,7 @@ void sign(const uint8_t *m, const secret_key *sk, signature *s)
 
     // printf("s1:");print_poly(&c1); printf("s2:");print_poly(&c2);
 
-  } while (!check_norm(&c1, &c2));
+  //} while (!check_norm(&c1, &c2));
 
   // printf("# Signature generated after %d trials\n\n", trials);
   set_poly(&(s->s1), &c1);

@@ -1,5 +1,383 @@
 [
 {
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_comm.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix_ref.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/blas_matrix.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair_computation.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs_keypair.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/mqs.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/parallel_matrix_op.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/sign.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_prng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46",
+  "command": "/usr/bin/cc -DMQS256_72_46_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-72-46.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/utils.c",
+  "output": "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test/main.c",
+  "output": "crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-72-46-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c",
+  "output": "crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_72_46_meta_EXPORTS -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=2 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/sign.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96",
+  "command": "/usr/bin/cc -DMQS256_148_96_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/utils.c",
+  "output": "crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test/main.c",
+  "output": "crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-148-96-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/srcs/rng.c",
+  "output": "crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_148_96_meta_EXPORTS -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-148-96-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=5 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-148-96-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-148-96/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/meta_test.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -o CMakeFiles/MQS256-112-72_RNG.dir/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_comm.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_comm.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_comm.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_comm.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix_ref.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix_ref.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix_ref.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix_ref.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/blas_matrix.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/blas_matrix.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair_computation.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair_computation.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair_computation.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair_computation.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs_keypair.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs_keypair.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/mqs.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/mqs.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/mqs.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/parallel_matrix_op.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/parallel_matrix_op.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/parallel_matrix_op.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/parallel_matrix_op.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils_hash.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_hash.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_hash.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils_hash.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils_prng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_prng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils_prng.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils_prng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72",
+  "command": "/usr/bin/cc -DMQS256_112_72_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -o CMakeFiles/MQS256-112-72.dir/srcs/utils.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c",
+  "output": "crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-main.dir/main.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test/main.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test/main.c",
+  "output": "crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/main.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/test",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-main.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat/PQCgenKAT_sign.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/kat/PQCgenKAT_sign.c",
+  "output": "crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark/speed.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark/speed.c",
+  "output": "crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/speed.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/benchmark",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -o CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/srcs/rng.c",
+  "output": "crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/__/srcs/rng.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_contribution.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_contribution.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_contribution.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_contribution.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_exclusion.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_exclusion.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_exclusion.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_exclusion.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_112_72_meta_EXPORTS -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -fPIC -o CMakeFiles/MQS256-112-72-meta.dir/bit_verify.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_verify.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/bit_verify.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/bit_verify.c.o"
+},
+{
+  "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic",
+  "command": "/usr/bin/cc -DMQS256_MODE=3 -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/include -I/home/unlimit/Downloads/KPQClean/common -I/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include -std=gnu11 -o CMakeFiles/MQS256-112-72-meta-main.dir/meta_test.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/meta_test.c",
+  "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-112-72/metamorphic/meta_test.c",
+  "output": "crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/meta_test.c.o"
+},
+{
   "directory": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024",
   "command": "/usr/bin/cc -DSOLMAE1024_RNG_EXPORTS -I/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/include -I/home/unlimit/Downloads/KPQClean/common -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -lm -o CMakeFiles/SOLMAE1024_RNG.dir/src/rng.c.o -c /home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
   "file": "/home/unlimit/Downloads/KPQClean/crypto_sign/Solmae1024/src/rng.c",
