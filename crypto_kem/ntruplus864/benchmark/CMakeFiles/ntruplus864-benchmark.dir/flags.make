@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNTRU_MODE=864
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus864/kat
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/kat
 
 C_FLAGS = -std=gnu11
 

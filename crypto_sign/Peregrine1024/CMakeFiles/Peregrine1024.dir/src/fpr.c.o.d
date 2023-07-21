@@ -1,15 +1,8 @@
 crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/src/fpr.c.o: \
-<<<<<<< HEAD
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024/src/fpr.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine1024/src/fpr.c \
  /usr/include/stdc-predef.h \
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024/include/inner.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/src/fpr.c \
- /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine1024/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -59,11 +52,7 @@ crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/src/fpr.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-<<<<<<< HEAD
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine1024/include/fpr.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine1024/include/fpr.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

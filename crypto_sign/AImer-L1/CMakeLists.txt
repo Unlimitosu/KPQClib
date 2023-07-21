@@ -57,5 +57,5 @@ target_link_libraries(${LIB_NAME1} PUBLIC common)
 add_subdirectory(tests)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
-
+add_subdirectory(const_test)
 add_subdirectory(metamorphic)

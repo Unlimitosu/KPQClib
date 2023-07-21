@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DTIGER256_meta_EXPORTS -DTIGER_MODE=5
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER256/include -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER256/kat -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER256/metamorphic/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER256/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER256/kat -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER256/metamorphic/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

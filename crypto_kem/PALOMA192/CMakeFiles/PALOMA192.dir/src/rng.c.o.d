@@ -1,7 +1,7 @@
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA192/src/rng.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/rng.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA192/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/rng.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,18 +23,12 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/aes.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/stdlib.h \
@@ -68,11 +62,8 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
-<<<<<<< HEAD
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h /usr/include/string.h \
-=======
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/string.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \

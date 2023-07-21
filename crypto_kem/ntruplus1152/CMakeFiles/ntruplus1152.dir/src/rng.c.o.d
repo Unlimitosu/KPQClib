@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/src/rng.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/src/rng.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,15 +13,10 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
-<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -32,18 +27,12 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/aes.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/stdlib.h \

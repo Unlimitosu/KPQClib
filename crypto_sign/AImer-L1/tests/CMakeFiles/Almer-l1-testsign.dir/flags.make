@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DAIMER_MODE=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L1/include -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L1/field -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L1/shake -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/field -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/shake -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

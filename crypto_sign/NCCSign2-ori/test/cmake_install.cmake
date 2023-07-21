@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/NCCSign2-ori/test
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,5 +1,5 @@
 crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/sha512.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus864/src/sha512.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/src/sha512.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -17,4 +17,4 @@ crypto_kem/ntruplus864/CMakeFiles/ntruplus864.dir/src/sha512.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus864/include/sha2.h
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/include/sha2.h

@@ -1,11 +1,11 @@
 crypto_sign/GCKSign-III/kat/CMakeFiles/GCKSign-III-kat-sign.dir/kat_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/kat/kat_sign.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/kat/kat_sign.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/kat/api.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/include/params.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/include/sign.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/include/params.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/include/sign.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

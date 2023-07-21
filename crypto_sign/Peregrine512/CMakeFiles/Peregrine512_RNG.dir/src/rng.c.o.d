@@ -1,9 +1,5 @@
 crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/src/rng.c.o: \
-<<<<<<< HEAD
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/src/rng.c \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/src/rng.c \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine512/src/rng.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -12,13 +8,8 @@ crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/src/rng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-<<<<<<< HEAD
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/inner.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine512/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -61,11 +52,7 @@ crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/src/rng.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-<<<<<<< HEAD
- /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

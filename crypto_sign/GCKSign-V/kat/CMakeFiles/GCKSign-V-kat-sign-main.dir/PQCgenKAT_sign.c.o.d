@@ -1,5 +1,5 @@
 crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,6 +51,6 @@ crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign-main.dir/PQCgenKAT_sign.
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/include/NIST/rng.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/kat/api.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/GCKSign-V/include/params.h
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/NIST/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/params.h

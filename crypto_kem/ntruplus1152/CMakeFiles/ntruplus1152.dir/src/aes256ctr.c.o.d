@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,14 +21,10 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
-=======
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -60,76 +56,8 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
-<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512dqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmavlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmivlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124fmapsintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124vnniwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnniintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnnivlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqvlintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bitalgintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/shaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/lzcntintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/bmiintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/bmi2intrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/fmaintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/xtestintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/cetintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/gfniintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/pconfigintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/cldemoteintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/rdseedintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h \
- /home/unlimit/Downloads/KPQClean/common/aes.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
@@ -214,9 +142,8 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/aes.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

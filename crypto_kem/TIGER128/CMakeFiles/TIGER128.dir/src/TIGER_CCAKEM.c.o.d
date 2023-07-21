@@ -1,5 +1,5 @@
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,14 +21,10 @@ crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/time.h \
-=======
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/time.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -63,18 +59,13 @@ crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
  /usr/include/strings.h \
-<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/TIGER128/include/TIGER_CPAPKE.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/include/TIGER_CPAPKE.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/include/TIGER_CPAPKE.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/include/params.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/include/rng.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common/fips202.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER128/include/xef.h
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/common/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/include/xef.h

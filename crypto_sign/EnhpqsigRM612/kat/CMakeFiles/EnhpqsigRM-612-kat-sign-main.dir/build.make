@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0717_final/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0717_final/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.di
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/flags.make
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o: crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -MF CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o.d -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -MF CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o.d -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c
 
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c > CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c > CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.i
 
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat/PQCgenKAT_sign.c -o CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/PQCgenKAT_sign.c.s
 
 # Object files for target EnhpqsigRM-612-kat-sign-main
 EnhpqsigRM__612__kat__sign__main_OBJECTS = \
@@ -97,18 +97,18 @@ crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/Enhpqsig
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612-RNG.so
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: common/libcommon.a
 crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main: crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/EnhpqsigRM-612-kat-sign-main"
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/EnhpqsigRM-612-kat-sign-main"
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build: crypto_sign/EnhpqsigRM612/bin/EnhpqsigRM-612-kat-sign-main
 .PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build
 
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/cmake_clean.cmake
 .PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/clean
 
 crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0717_final/KPQClean /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat /home/mingiiiiiiii/KPQClean_0717_final/KPQClean /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/depend
 

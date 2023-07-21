@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/TIGER256-meta-main.dir/meta_test.c.o -o ../bin/TIGER256-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/TIGER256/lib ../lib/libTIGER256-meta.so ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/TIGER256-meta-main.dir/meta_test.c.o -o ../bin/TIGER256-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER256/lib ../lib/libTIGER256-meta.so ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 

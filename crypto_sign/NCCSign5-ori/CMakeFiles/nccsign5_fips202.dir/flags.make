@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dnccsign5_fips202_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/NCCSign5-ori/include -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/NCCSign5-ori/aes -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/NCCSign5-ori/fips -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/aes -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/fips -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common
 
 C_FLAGS = -fPIC -std=gnu11
 

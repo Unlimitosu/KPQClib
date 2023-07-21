@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f4/test
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f4/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

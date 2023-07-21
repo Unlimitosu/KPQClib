@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o -o ../bin/Almer-l5-testaim  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/AImer-L5/libs ../libs/libAlmer-l5.so ../libs/libaimer5_fips202.so -lm ../libs/libaimer5_RNG.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o -o ../bin/Almer-l5-testaim  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/libs ../libs/libAlmer-l5.so ../libs/libaimer5_fips202.so -lm ../libs/libaimer5_RNG.so ../../../common/libcommon.a 

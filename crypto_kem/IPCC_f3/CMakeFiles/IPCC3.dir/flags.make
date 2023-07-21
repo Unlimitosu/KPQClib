@@ -4,11 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DIPCC3_EXPORTS -DIPCC_f=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/include -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/IPCC_f3/kat -I/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f3/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f3/kat -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common
 
-<<<<<<< HEAD
-C_FLAGS = -std=gnu11 -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra
-=======
-C_FLAGS = -fPIC -g -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11
 

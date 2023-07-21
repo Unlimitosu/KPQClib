@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0717_final/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0717_final/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_sign/NCCSign5-ori/metamorphic//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/metamorphic//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/clean
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/rule
 .PHONY : crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ nccsign-ori5-meta: crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-
 
 # fast build rule for target.
 nccsign-ori5-meta/fast:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build
 .PHONY : nccsign-ori5-meta/fast
 
 # Convenience name for target.
 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/rule
 .PHONY : crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ nccsign-ori5-meta-main: crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-
 
 # fast build rule for target.
 nccsign-ori5-meta-main/fast:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build
 .PHONY : nccsign-ori5-meta-main/fast
 
 # Convenience name for target.
 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/rule
 .PHONY : crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ nccsign-ori5aes-meta: crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-or
 
 # fast build rule for target.
 nccsign-ori5aes-meta/fast:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build
 .PHONY : nccsign-ori5aes-meta/fast
 
 # Convenience name for target.
 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/rule
 .PHONY : crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ nccsign-ori5aes-meta-main: crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsi
 
 # fast build rule for target.
 nccsign-ori5aes-meta-main/fast:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build
 .PHONY : nccsign-ori5aes-meta-main/fast
 
 bit_contribution.o: bit_contribution.c.o
@@ -177,8 +177,8 @@ bit_contribution.o: bit_contribution.c.o
 
 # target to build an object file
 bit_contribution.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.o
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.o
 .PHONY : bit_contribution.c.o
 
 bit_contribution.i: bit_contribution.c.i
@@ -186,8 +186,8 @@ bit_contribution.i: bit_contribution.c.i
 
 # target to preprocess a source file
 bit_contribution.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.i
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.i
 .PHONY : bit_contribution.c.i
 
 bit_contribution.s: bit_contribution.c.s
@@ -195,8 +195,8 @@ bit_contribution.s: bit_contribution.c.s
 
 # target to generate assembly for a file
 bit_contribution.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.s
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_contribution.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_contribution.c.s
 .PHONY : bit_contribution.c.s
 
 bit_exclusion.o: bit_exclusion.c.o
@@ -204,8 +204,8 @@ bit_exclusion.o: bit_exclusion.c.o
 
 # target to build an object file
 bit_exclusion.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.o
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.o
 .PHONY : bit_exclusion.c.o
 
 bit_exclusion.i: bit_exclusion.c.i
@@ -213,8 +213,8 @@ bit_exclusion.i: bit_exclusion.c.i
 
 # target to preprocess a source file
 bit_exclusion.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.i
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.i
 .PHONY : bit_exclusion.c.i
 
 bit_exclusion.s: bit_exclusion.c.s
@@ -222,8 +222,8 @@ bit_exclusion.s: bit_exclusion.c.s
 
 # target to generate assembly for a file
 bit_exclusion.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.s
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_exclusion.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_exclusion.c.s
 .PHONY : bit_exclusion.c.s
 
 bit_verify.o: bit_verify.c.o
@@ -231,8 +231,8 @@ bit_verify.o: bit_verify.c.o
 
 # target to build an object file
 bit_verify.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.o
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.o
 .PHONY : bit_verify.c.o
 
 bit_verify.i: bit_verify.c.i
@@ -240,8 +240,8 @@ bit_verify.i: bit_verify.c.i
 
 # target to preprocess a source file
 bit_verify.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.i
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.i
 .PHONY : bit_verify.c.i
 
 bit_verify.s: bit_verify.c.s
@@ -249,8 +249,8 @@ bit_verify.s: bit_verify.c.s
 
 # target to generate assembly for a file
 bit_verify.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.s
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta.dir/bit_verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta.dir/bit_verify.c.s
 .PHONY : bit_verify.c.s
 
 meta_test.o: meta_test.c.o
@@ -258,8 +258,8 @@ meta_test.o: meta_test.c.o
 
 # target to build an object file
 meta_test.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.o
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.o
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.o
 .PHONY : meta_test.c.o
 
 meta_test.i: meta_test.c.i
@@ -267,8 +267,8 @@ meta_test.i: meta_test.c.i
 
 # target to preprocess a source file
 meta_test.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.i
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.i
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.i
 .PHONY : meta_test.c.i
 
 meta_test.s: meta_test.c.s
@@ -276,8 +276,8 @@ meta_test.s: meta_test.c.s
 
 # target to generate assembly for a file
 meta_test.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.s
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5-meta-main.dir/meta_test.c.s
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/build.make crypto_sign/NCCSign5-ori/metamorphic/CMakeFiles/nccsign-ori5aes-meta-main.dir/meta_test.c.s
 .PHONY : meta_test.c.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0717_final/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

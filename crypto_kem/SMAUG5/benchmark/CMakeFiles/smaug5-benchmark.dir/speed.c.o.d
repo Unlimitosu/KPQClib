@@ -1,5 +1,5 @@
 crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -35,19 +35,19 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/kem.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/ciphertext.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/hash.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/indcpa.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/hwt.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/kem.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/ciphertext.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/hash.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/indcpa.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/hwt.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -66,11 +66,11 @@ crypto_kem/SMAUG5/benchmark/CMakeFiles/smaug5-benchmark.dir/speed.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/io.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/key.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/dg.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/rng.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/pack.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/io.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/key.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/dg.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/pack.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/include/parameters.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/benchmark/speed_print.h

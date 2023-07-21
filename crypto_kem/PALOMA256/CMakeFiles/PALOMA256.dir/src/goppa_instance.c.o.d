@@ -1,9 +1,9 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/src/goppa_instance.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/goppa_instance.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/goppa_instance.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/config.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -44,15 +44,10 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
-<<<<<<< HEAD
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-=======
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -60,11 +55,6 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/goppa_instance.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA256/include/rng.h
-=======
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/rng.h
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/rng.h

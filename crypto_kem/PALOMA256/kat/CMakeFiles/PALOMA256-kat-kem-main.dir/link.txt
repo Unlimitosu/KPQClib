@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA256-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/lib ../lib/libPALOMA256-kat-kem.so ../lib/libPALOMA256.so ../lib/libPALOMARNG5.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/PALOMA256-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA256-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/lib ../lib/libPALOMA256-kat-kem.so ../lib/libPALOMA256.so ../lib/libPALOMARNG5.so ../../../common/libcommon.a 

@@ -2968,6 +2968,7 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 	pk = xmalloc(pk_len);
 	sm = xmalloc(3300 + over_len);
 
+	//todo poison sk
 	poison(&sk, sk_len);
 	is_poisoned(&sk, sk_len);
 

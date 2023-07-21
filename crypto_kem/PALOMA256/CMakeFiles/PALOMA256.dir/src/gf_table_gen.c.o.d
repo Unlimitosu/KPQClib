@@ -1,9 +1,9 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/config.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/gf.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,14 +25,10 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/time.h \
-=======
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/time.h \
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \

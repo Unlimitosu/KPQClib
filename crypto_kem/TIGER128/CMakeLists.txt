@@ -44,6 +44,6 @@ add_subdirectory(kat)
 add_subdirectory(test)
 add_subdirectory(benchmark)
 add_subdirectory(metamorphic)
-
+add_subdirectory(const_test)
 
 

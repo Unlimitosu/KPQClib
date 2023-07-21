@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o: \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/src/kem.c \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/src/kem.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -17,10 +17,10 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/kem.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/params.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/params.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/kem.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -29,19 +29,11 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-<<<<<<< HEAD
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/symmetric.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/poly.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/verify.h \
- /home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h
-=======
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/symmetric.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/verify.h \
- /home/mingiiiiiiii/KPQClean_0717_final/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h
->>>>>>> fb8ee99415046a9560bd45ed7853be1f5bc66a7b
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/symmetric.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/verify.h \
+ /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h
