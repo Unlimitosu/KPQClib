@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -56,6 +56,6 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contributi
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/assert.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/common/aes.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.h \
+ /home/mingiiiiiiii/test/KPQClean/common/aes.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.h

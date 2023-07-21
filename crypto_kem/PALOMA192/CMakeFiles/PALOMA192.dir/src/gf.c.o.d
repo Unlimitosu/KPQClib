@@ -1,8 +1,8 @@
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/gf.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/config.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

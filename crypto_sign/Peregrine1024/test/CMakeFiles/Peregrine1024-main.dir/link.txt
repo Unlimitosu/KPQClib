@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/Peregrine1024-main.dir/main.c.o -o ../bin/Peregrine1024-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 
+/usr/bin/cc CMakeFiles/Peregrine1024-main.dir/main.c.o -o ../bin/Peregrine1024-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024/lib ../lib/libPeregrine1024.so -lm 

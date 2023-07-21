@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/smaug1-const-test-main.dir/constant_time_test.c.o -o ../bin/smaug1-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/lib ../lib/libsmaug1-const-test.so ../lib/libsmaug1.so ../lib/libRNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/smaug1-const-test-main.dir/constant_time_test.c.o -o ../bin/smaug1-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/lib ../lib/libsmaug1-const-test.so ../lib/libsmaug1.so ../lib/libRNG1.so ../../../common/libcommon.a 

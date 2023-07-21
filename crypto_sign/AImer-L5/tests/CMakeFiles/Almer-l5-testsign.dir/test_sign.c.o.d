@@ -1,7 +1,7 @@
 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testsign.dir/test_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/tests/test_sign.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/tests/test_sign.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

@@ -1,8 +1,8 @@
 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/tests/test_aim.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/tests/test_aim.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aim.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aim.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -29,10 +29,10 @@ crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-testaim.dir/test_aim.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aim256.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/field/field.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/field/field256.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aim256.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/field/field.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/field/field256.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

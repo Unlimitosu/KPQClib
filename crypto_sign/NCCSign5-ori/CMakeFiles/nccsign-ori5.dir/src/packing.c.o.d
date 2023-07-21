@@ -1,9 +1,9 @@
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5.dir/src/packing.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/packing.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/packing.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,9 +19,9 @@ crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5.dir/src/packing.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
  /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \

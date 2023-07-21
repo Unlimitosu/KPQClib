@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dgcksign2_RNG_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/kat
+C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/NIST -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11
 

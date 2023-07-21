@@ -1,5 +1,5 @@
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -43,7 +43,7 @@ crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombyte
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/include/randombytes.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/randombytes.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \

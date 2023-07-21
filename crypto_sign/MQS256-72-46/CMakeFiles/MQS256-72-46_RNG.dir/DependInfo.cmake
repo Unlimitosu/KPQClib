@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c" "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o" "gcc" "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c" "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o" "gcc" "crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o.d"
   )
 
 # Targets to which this target links.

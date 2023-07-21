@@ -1,11 +1,11 @@
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/const_test/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/sign.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/const_test/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/sign.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/poly.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -1,5 +1,5 @@
 crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,10 +51,10 @@ crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/PQCgenKAT
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h

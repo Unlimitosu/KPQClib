@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/GCKSign-II-main.dir/main.c.o -o ../bin/GCKSign-II-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/libs ../libs/libGCKSign-II.so ../libs/libgcksign2_fips202.so -lm ../libs/libgcksign2_RNG.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/GCKSign-II-main.dir/main.c.o -o ../bin/GCKSign-II-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/libs ../libs/libGCKSign-II.so ../libs/libgcksign2_fips202.so -lm ../libs/libgcksign2_RNG.so ../../../common/libcommon.a 

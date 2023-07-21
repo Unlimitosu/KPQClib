@@ -1,5 +1,5 @@
 crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/speed.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -56,7 +56,7 @@ crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/spee
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/include/rng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/cpucycles.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed_print.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/include/rng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/kat/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/cpucycles.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/benchmark/speed_print.h

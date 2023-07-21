@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/kat//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/kat//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/clean
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ Solmae1024-kat-sign: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.d
 
 # fast build rule for target.
 Solmae1024-kat-sign/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
 .PHONY : Solmae1024-kat-sign/fast
 
 # Convenience name for target.
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ Solmae1024-kat-sign-main: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-s
 
 # fast build rule for target.
 Solmae1024-kat-sign-main/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
 .PHONY : Solmae1024-kat-sign-main/fast
 
 PQCgenKAT_sign.o: PQCgenKAT_sign.c.o
@@ -149,7 +149,7 @@ PQCgenKAT_sign.o: PQCgenKAT_sign.c.o
 
 # target to build an object file
 PQCgenKAT_sign.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.o
 .PHONY : PQCgenKAT_sign.c.o
 
 PQCgenKAT_sign.i: PQCgenKAT_sign.c.i
@@ -157,7 +157,7 @@ PQCgenKAT_sign.i: PQCgenKAT_sign.c.i
 
 # target to preprocess a source file
 PQCgenKAT_sign.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.i
 .PHONY : PQCgenKAT_sign.c.i
 
 PQCgenKAT_sign.s: PQCgenKAT_sign.c.s
@@ -165,7 +165,7 @@ PQCgenKAT_sign.s: PQCgenKAT_sign.c.s
 
 # target to generate assembly for a file
 PQCgenKAT_sign.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.s
 .PHONY : PQCgenKAT_sign.c.s
 
 katrng.o: katrng.c.o
@@ -173,7 +173,7 @@ katrng.o: katrng.c.o
 
 # target to build an object file
 katrng.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o
 .PHONY : katrng.c.o
 
 katrng.i: katrng.c.i
@@ -181,7 +181,7 @@ katrng.i: katrng.c.i
 
 # target to preprocess a source file
 katrng.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i
 .PHONY : katrng.c.i
 
 katrng.s: katrng.c.s
@@ -189,7 +189,7 @@ katrng.s: katrng.c.s
 
 # target to generate assembly for a file
 katrng.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s
 .PHONY : katrng.c.s
 
 # Help Target
@@ -219,6 +219,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

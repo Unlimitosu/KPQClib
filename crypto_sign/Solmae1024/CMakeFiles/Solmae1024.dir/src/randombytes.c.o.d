@@ -1,7 +1,7 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/randombytes.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/src/randombytes.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/src/randombytes.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,8 +48,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/randombytes.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -140,7 +140,7 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/randombytes.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

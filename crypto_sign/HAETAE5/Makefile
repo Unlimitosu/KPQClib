@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/clean
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
 .PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ haetae5_fips202: crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/rule
 
 # fast build rule for target.
 haetae5_fips202/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build
 .PHONY : haetae5_fips202/fast
 
 # Convenience name for target.
 crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
 .PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ haetae5_RNG: crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/rule
 
 # fast build rule for target.
 haetae5_RNG/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build
 .PHONY : haetae5_RNG/fast
 
 # Convenience name for target.
 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
 .PHONY : crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ haetae5: crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/rule
 
 # fast build rule for target.
 haetae5/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build
 .PHONY : haetae5/fast
 
 src/fips202.o: src/fips202.c.o
@@ -163,7 +163,7 @@ src/fips202.o: src/fips202.c.o
 
 # target to build an object file
 src/fips202.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.o
 .PHONY : src/fips202.c.o
 
 src/fips202.i: src/fips202.c.i
@@ -171,7 +171,7 @@ src/fips202.i: src/fips202.c.i
 
 # target to preprocess a source file
 src/fips202.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.i
 .PHONY : src/fips202.c.i
 
 src/fips202.s: src/fips202.c.s
@@ -179,7 +179,7 @@ src/fips202.s: src/fips202.c.s
 
 # target to generate assembly for a file
 src/fips202.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_fips202.dir/src/fips202.c.s
 .PHONY : src/fips202.c.s
 
 src/ntt.o: src/ntt.c.o
@@ -187,7 +187,7 @@ src/ntt.o: src/ntt.c.o
 
 # target to build an object file
 src/ntt.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.o
 .PHONY : src/ntt.c.o
 
 src/ntt.i: src/ntt.c.i
@@ -195,7 +195,7 @@ src/ntt.i: src/ntt.c.i
 
 # target to preprocess a source file
 src/ntt.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.i
 .PHONY : src/ntt.c.i
 
 src/ntt.s: src/ntt.c.s
@@ -203,7 +203,7 @@ src/ntt.s: src/ntt.c.s
 
 # target to generate assembly for a file
 src/ntt.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/ntt.c.s
 .PHONY : src/ntt.c.s
 
 src/packing.o: src/packing.c.o
@@ -211,7 +211,7 @@ src/packing.o: src/packing.c.o
 
 # target to build an object file
 src/packing.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.o
 .PHONY : src/packing.c.o
 
 src/packing.i: src/packing.c.i
@@ -219,7 +219,7 @@ src/packing.i: src/packing.c.i
 
 # target to preprocess a source file
 src/packing.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.i
 .PHONY : src/packing.c.i
 
 src/packing.s: src/packing.c.s
@@ -227,7 +227,7 @@ src/packing.s: src/packing.c.s
 
 # target to generate assembly for a file
 src/packing.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/packing.c.s
 .PHONY : src/packing.c.s
 
 src/poly.o: src/poly.c.o
@@ -235,7 +235,7 @@ src/poly.o: src/poly.c.o
 
 # target to build an object file
 src/poly.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.o
 .PHONY : src/poly.c.o
 
 src/poly.i: src/poly.c.i
@@ -243,7 +243,7 @@ src/poly.i: src/poly.c.i
 
 # target to preprocess a source file
 src/poly.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.i
 .PHONY : src/poly.c.i
 
 src/poly.s: src/poly.c.s
@@ -251,7 +251,7 @@ src/poly.s: src/poly.c.s
 
 # target to generate assembly for a file
 src/poly.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/poly.c.s
 .PHONY : src/poly.c.s
 
 src/polydbl.o: src/polydbl.c.o
@@ -259,7 +259,7 @@ src/polydbl.o: src/polydbl.c.o
 
 # target to build an object file
 src/polydbl.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o
 .PHONY : src/polydbl.c.o
 
 src/polydbl.i: src/polydbl.c.i
@@ -267,7 +267,7 @@ src/polydbl.i: src/polydbl.c.i
 
 # target to preprocess a source file
 src/polydbl.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.i
 .PHONY : src/polydbl.c.i
 
 src/polydbl.s: src/polydbl.c.s
@@ -275,7 +275,7 @@ src/polydbl.s: src/polydbl.c.s
 
 # target to generate assembly for a file
 src/polydbl.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.s
 .PHONY : src/polydbl.c.s
 
 src/polymat.o: src/polymat.c.o
@@ -283,7 +283,7 @@ src/polymat.o: src/polymat.c.o
 
 # target to build an object file
 src/polymat.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.o
 .PHONY : src/polymat.c.o
 
 src/polymat.i: src/polymat.c.i
@@ -291,7 +291,7 @@ src/polymat.i: src/polymat.c.i
 
 # target to preprocess a source file
 src/polymat.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.i
 .PHONY : src/polymat.c.i
 
 src/polymat.s: src/polymat.c.s
@@ -299,7 +299,7 @@ src/polymat.s: src/polymat.c.s
 
 # target to generate assembly for a file
 src/polymat.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polymat.c.s
 .PHONY : src/polymat.c.s
 
 src/polyvec.o: src/polyvec.c.o
@@ -307,7 +307,7 @@ src/polyvec.o: src/polyvec.c.o
 
 # target to build an object file
 src/polyvec.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.o
 .PHONY : src/polyvec.c.o
 
 src/polyvec.i: src/polyvec.c.i
@@ -315,7 +315,7 @@ src/polyvec.i: src/polyvec.c.i
 
 # target to preprocess a source file
 src/polyvec.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.i
 .PHONY : src/polyvec.c.i
 
 src/polyvec.s: src/polyvec.c.s
@@ -323,7 +323,7 @@ src/polyvec.s: src/polyvec.c.s
 
 # target to generate assembly for a file
 src/polyvec.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polyvec.c.s
 .PHONY : src/polyvec.c.s
 
 src/randombytes.o: src/randombytes.c.o
@@ -331,7 +331,7 @@ src/randombytes.o: src/randombytes.c.o
 
 # target to build an object file
 src/randombytes.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.o
 .PHONY : src/randombytes.c.o
 
 src/randombytes.i: src/randombytes.c.i
@@ -339,7 +339,7 @@ src/randombytes.i: src/randombytes.c.i
 
 # target to preprocess a source file
 src/randombytes.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.i
 .PHONY : src/randombytes.c.i
 
 src/randombytes.s: src/randombytes.c.s
@@ -347,7 +347,7 @@ src/randombytes.s: src/randombytes.c.s
 
 # target to generate assembly for a file
 src/randombytes.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5_RNG.dir/src/randombytes.c.s
 .PHONY : src/randombytes.c.s
 
 src/reduce.o: src/reduce.c.o
@@ -355,7 +355,7 @@ src/reduce.o: src/reduce.c.o
 
 # target to build an object file
 src/reduce.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.o
 .PHONY : src/reduce.c.o
 
 src/reduce.i: src/reduce.c.i
@@ -363,7 +363,7 @@ src/reduce.i: src/reduce.c.i
 
 # target to preprocess a source file
 src/reduce.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.i
 .PHONY : src/reduce.c.i
 
 src/reduce.s: src/reduce.c.s
@@ -371,7 +371,7 @@ src/reduce.s: src/reduce.c.s
 
 # target to generate assembly for a file
 src/reduce.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/reduce.c.s
 .PHONY : src/reduce.c.s
 
 src/rounding.o: src/rounding.c.o
@@ -379,7 +379,7 @@ src/rounding.o: src/rounding.c.o
 
 # target to build an object file
 src/rounding.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.o
 .PHONY : src/rounding.c.o
 
 src/rounding.i: src/rounding.c.i
@@ -387,7 +387,7 @@ src/rounding.i: src/rounding.c.i
 
 # target to preprocess a source file
 src/rounding.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.i
 .PHONY : src/rounding.c.i
 
 src/rounding.s: src/rounding.c.s
@@ -395,7 +395,7 @@ src/rounding.s: src/rounding.c.s
 
 # target to generate assembly for a file
 src/rounding.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/rounding.c.s
 .PHONY : src/rounding.c.s
 
 src/sampler.o: src/sampler.c.o
@@ -403,7 +403,7 @@ src/sampler.o: src/sampler.c.o
 
 # target to build an object file
 src/sampler.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.o
 .PHONY : src/sampler.c.o
 
 src/sampler.i: src/sampler.c.i
@@ -411,7 +411,7 @@ src/sampler.i: src/sampler.c.i
 
 # target to preprocess a source file
 src/sampler.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.i
 .PHONY : src/sampler.c.i
 
 src/sampler.s: src/sampler.c.s
@@ -419,7 +419,7 @@ src/sampler.s: src/sampler.c.s
 
 # target to generate assembly for a file
 src/sampler.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sampler.c.s
 .PHONY : src/sampler.c.s
 
 src/sign.o: src/sign.c.o
@@ -427,7 +427,7 @@ src/sign.o: src/sign.c.o
 
 # target to build an object file
 src/sign.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.o
 .PHONY : src/sign.c.o
 
 src/sign.i: src/sign.c.i
@@ -435,7 +435,7 @@ src/sign.i: src/sign.c.i
 
 # target to preprocess a source file
 src/sign.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.i
 .PHONY : src/sign.c.i
 
 src/sign.s: src/sign.c.s
@@ -443,7 +443,7 @@ src/sign.s: src/sign.c.s
 
 # target to generate assembly for a file
 src/sign.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/sign.c.s
 .PHONY : src/sign.c.s
 
 src/symmetric-shake.o: src/symmetric-shake.c.o
@@ -451,7 +451,7 @@ src/symmetric-shake.o: src/symmetric-shake.c.o
 
 # target to build an object file
 src/symmetric-shake.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.o
 .PHONY : src/symmetric-shake.c.o
 
 src/symmetric-shake.i: src/symmetric-shake.c.i
@@ -459,7 +459,7 @@ src/symmetric-shake.i: src/symmetric-shake.c.i
 
 # target to preprocess a source file
 src/symmetric-shake.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.i
 .PHONY : src/symmetric-shake.c.i
 
 src/symmetric-shake.s: src/symmetric-shake.c.s
@@ -467,7 +467,7 @@ src/symmetric-shake.s: src/symmetric-shake.c.s
 
 # target to generate assembly for a file
 src/symmetric-shake.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/build.make crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/symmetric-shake.c.s
 .PHONY : src/symmetric-shake.c.s
 
 # Help Target
@@ -531,6 +531,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,5 @@
 crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/sha256.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus576/src/sha256.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus576/src/sha256.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -17,4 +17,4 @@ crypto_kem/ntruplus576/CMakeFiles/ntruplus576.dir/src/sha256.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus576/include/sha2.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus576/include/sha2.h

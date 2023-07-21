@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/rng.c" "crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/src/rng.c.o" "gcc" "crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/src/rng.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/rng.c" "crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/src/rng.c.o" "gcc" "crypto_kem/PALOMA192/CMakeFiles/PALOMARNG3.dir/src/rng.c.o.d"
   )
 
 # Targets to which this target links.

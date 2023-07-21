@@ -1,9 +1,9 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/gf_table_gen.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/src/gf_table_gen.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/gf_table_gen.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/gf.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -1,5 +1,5 @@
 crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/nist.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/src/nist.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/src/nist.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -30,14 +30,14 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/nist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/param.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -45,8 +45,8 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/nist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/inner.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/config.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -158,4 +158,4 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/nist.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/precomp.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/precomp.h

@@ -1,7 +1,7 @@
 crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/src/matrix.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM613/src/matrix.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM613/src/matrix.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM613/include/matrix.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM613/include/matrix.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

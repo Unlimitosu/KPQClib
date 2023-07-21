@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE3/kat/kat_sign.c" "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/kat/kat_sign.c" "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/HAETAE3/kat/CMakeFiles/haetae3-kat-sign.dir/kat_sign.c.o.d"
   )
 
 # Targets to which this target links.

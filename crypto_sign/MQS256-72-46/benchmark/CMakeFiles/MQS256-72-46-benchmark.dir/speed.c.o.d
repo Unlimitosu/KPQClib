@@ -1,5 +1,5 @@
 crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/time.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -58,10 +58,10 @@ crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/speed.c
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/utils_prng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/utils.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/utils_prng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/include/mqs_keypair.h

@@ -1,5 +1,5 @@
 crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/main.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/tests/main.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/tests/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,7 +51,7 @@ crypto_sign/AImer-L5/tests/CMakeFiles/Almer-l5-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include/aimer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

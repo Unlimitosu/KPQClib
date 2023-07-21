@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/PALOMA128-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA128-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA128-kat-kem.so ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/PALOMA128-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA128-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA128-kat-kem.so ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 

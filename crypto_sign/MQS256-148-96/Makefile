@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-148-96//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-148-96//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/test/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/clean
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/preinstall
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/rule
 .PHONY : crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ MQS256-148-96_RNG: crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/ru
 
 # fast build rule for target.
 MQS256-148-96_RNG/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build
 .PHONY : MQS256-148-96_RNG/fast
 
 # Convenience name for target.
 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/rule
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/rule
 .PHONY : crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ MQS256-148-96: crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/rule
 
 # fast build rule for target.
 MQS256-148-96/fast:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build
 .PHONY : MQS256-148-96/fast
 
 srcs/blas_comm.o: srcs/blas_comm.c.o
@@ -149,7 +149,7 @@ srcs/blas_comm.o: srcs/blas_comm.c.o
 
 # target to build an object file
 srcs/blas_comm.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.o
 .PHONY : srcs/blas_comm.c.o
 
 srcs/blas_comm.i: srcs/blas_comm.c.i
@@ -157,7 +157,7 @@ srcs/blas_comm.i: srcs/blas_comm.c.i
 
 # target to preprocess a source file
 srcs/blas_comm.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.i
 .PHONY : srcs/blas_comm.c.i
 
 srcs/blas_comm.s: srcs/blas_comm.c.s
@@ -165,7 +165,7 @@ srcs/blas_comm.s: srcs/blas_comm.c.s
 
 # target to generate assembly for a file
 srcs/blas_comm.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_comm.c.s
 .PHONY : srcs/blas_comm.c.s
 
 srcs/blas_matrix.o: srcs/blas_matrix.c.o
@@ -173,7 +173,7 @@ srcs/blas_matrix.o: srcs/blas_matrix.c.o
 
 # target to build an object file
 srcs/blas_matrix.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.o
 .PHONY : srcs/blas_matrix.c.o
 
 srcs/blas_matrix.i: srcs/blas_matrix.c.i
@@ -181,7 +181,7 @@ srcs/blas_matrix.i: srcs/blas_matrix.c.i
 
 # target to preprocess a source file
 srcs/blas_matrix.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.i
 .PHONY : srcs/blas_matrix.c.i
 
 srcs/blas_matrix.s: srcs/blas_matrix.c.s
@@ -189,7 +189,7 @@ srcs/blas_matrix.s: srcs/blas_matrix.c.s
 
 # target to generate assembly for a file
 srcs/blas_matrix.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix.c.s
 .PHONY : srcs/blas_matrix.c.s
 
 srcs/blas_matrix_ref.o: srcs/blas_matrix_ref.c.o
@@ -197,7 +197,7 @@ srcs/blas_matrix_ref.o: srcs/blas_matrix_ref.c.o
 
 # target to build an object file
 srcs/blas_matrix_ref.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.o
 .PHONY : srcs/blas_matrix_ref.c.o
 
 srcs/blas_matrix_ref.i: srcs/blas_matrix_ref.c.i
@@ -205,7 +205,7 @@ srcs/blas_matrix_ref.i: srcs/blas_matrix_ref.c.i
 
 # target to preprocess a source file
 srcs/blas_matrix_ref.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.i
 .PHONY : srcs/blas_matrix_ref.c.i
 
 srcs/blas_matrix_ref.s: srcs/blas_matrix_ref.c.s
@@ -213,7 +213,7 @@ srcs/blas_matrix_ref.s: srcs/blas_matrix_ref.c.s
 
 # target to generate assembly for a file
 srcs/blas_matrix_ref.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/blas_matrix_ref.c.s
 .PHONY : srcs/blas_matrix_ref.c.s
 
 srcs/mqs.o: srcs/mqs.c.o
@@ -221,7 +221,7 @@ srcs/mqs.o: srcs/mqs.c.o
 
 # target to build an object file
 srcs/mqs.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.o
 .PHONY : srcs/mqs.c.o
 
 srcs/mqs.i: srcs/mqs.c.i
@@ -229,7 +229,7 @@ srcs/mqs.i: srcs/mqs.c.i
 
 # target to preprocess a source file
 srcs/mqs.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.i
 .PHONY : srcs/mqs.c.i
 
 srcs/mqs.s: srcs/mqs.c.s
@@ -237,7 +237,7 @@ srcs/mqs.s: srcs/mqs.c.s
 
 # target to generate assembly for a file
 srcs/mqs.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs.c.s
 .PHONY : srcs/mqs.c.s
 
 srcs/mqs_keypair.o: srcs/mqs_keypair.c.o
@@ -245,7 +245,7 @@ srcs/mqs_keypair.o: srcs/mqs_keypair.c.o
 
 # target to build an object file
 srcs/mqs_keypair.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.o
 .PHONY : srcs/mqs_keypair.c.o
 
 srcs/mqs_keypair.i: srcs/mqs_keypair.c.i
@@ -253,7 +253,7 @@ srcs/mqs_keypair.i: srcs/mqs_keypair.c.i
 
 # target to preprocess a source file
 srcs/mqs_keypair.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.i
 .PHONY : srcs/mqs_keypair.c.i
 
 srcs/mqs_keypair.s: srcs/mqs_keypair.c.s
@@ -261,7 +261,7 @@ srcs/mqs_keypair.s: srcs/mqs_keypair.c.s
 
 # target to generate assembly for a file
 srcs/mqs_keypair.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair.c.s
 .PHONY : srcs/mqs_keypair.c.s
 
 srcs/mqs_keypair_computation.o: srcs/mqs_keypair_computation.c.o
@@ -269,7 +269,7 @@ srcs/mqs_keypair_computation.o: srcs/mqs_keypair_computation.c.o
 
 # target to build an object file
 srcs/mqs_keypair_computation.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.o
 .PHONY : srcs/mqs_keypair_computation.c.o
 
 srcs/mqs_keypair_computation.i: srcs/mqs_keypair_computation.c.i
@@ -277,7 +277,7 @@ srcs/mqs_keypair_computation.i: srcs/mqs_keypair_computation.c.i
 
 # target to preprocess a source file
 srcs/mqs_keypair_computation.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.i
 .PHONY : srcs/mqs_keypair_computation.c.i
 
 srcs/mqs_keypair_computation.s: srcs/mqs_keypair_computation.c.s
@@ -285,7 +285,7 @@ srcs/mqs_keypair_computation.s: srcs/mqs_keypair_computation.c.s
 
 # target to generate assembly for a file
 srcs/mqs_keypair_computation.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/mqs_keypair_computation.c.s
 .PHONY : srcs/mqs_keypair_computation.c.s
 
 srcs/parallel_matrix_op.o: srcs/parallel_matrix_op.c.o
@@ -293,7 +293,7 @@ srcs/parallel_matrix_op.o: srcs/parallel_matrix_op.c.o
 
 # target to build an object file
 srcs/parallel_matrix_op.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.o
 .PHONY : srcs/parallel_matrix_op.c.o
 
 srcs/parallel_matrix_op.i: srcs/parallel_matrix_op.c.i
@@ -301,7 +301,7 @@ srcs/parallel_matrix_op.i: srcs/parallel_matrix_op.c.i
 
 # target to preprocess a source file
 srcs/parallel_matrix_op.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.i
 .PHONY : srcs/parallel_matrix_op.c.i
 
 srcs/parallel_matrix_op.s: srcs/parallel_matrix_op.c.s
@@ -309,7 +309,7 @@ srcs/parallel_matrix_op.s: srcs/parallel_matrix_op.c.s
 
 # target to generate assembly for a file
 srcs/parallel_matrix_op.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/parallel_matrix_op.c.s
 .PHONY : srcs/parallel_matrix_op.c.s
 
 srcs/rng.o: srcs/rng.c.o
@@ -317,7 +317,7 @@ srcs/rng.o: srcs/rng.c.o
 
 # target to build an object file
 srcs/rng.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.o
 .PHONY : srcs/rng.c.o
 
 srcs/rng.i: srcs/rng.c.i
@@ -325,7 +325,7 @@ srcs/rng.i: srcs/rng.c.i
 
 # target to preprocess a source file
 srcs/rng.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.i
 .PHONY : srcs/rng.c.i
 
 srcs/rng.s: srcs/rng.c.s
@@ -333,7 +333,7 @@ srcs/rng.s: srcs/rng.c.s
 
 # target to generate assembly for a file
 srcs/rng.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/srcs/rng.c.s
 .PHONY : srcs/rng.c.s
 
 srcs/sign.o: srcs/sign.c.o
@@ -341,7 +341,7 @@ srcs/sign.o: srcs/sign.c.o
 
 # target to build an object file
 srcs/sign.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.o
 .PHONY : srcs/sign.c.o
 
 srcs/sign.i: srcs/sign.c.i
@@ -349,7 +349,7 @@ srcs/sign.i: srcs/sign.c.i
 
 # target to preprocess a source file
 srcs/sign.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.i
 .PHONY : srcs/sign.c.i
 
 srcs/sign.s: srcs/sign.c.s
@@ -357,7 +357,7 @@ srcs/sign.s: srcs/sign.c.s
 
 # target to generate assembly for a file
 srcs/sign.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/sign.c.s
 .PHONY : srcs/sign.c.s
 
 srcs/utils.o: srcs/utils.c.o
@@ -365,7 +365,7 @@ srcs/utils.o: srcs/utils.c.o
 
 # target to build an object file
 srcs/utils.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.o
 .PHONY : srcs/utils.c.o
 
 srcs/utils.i: srcs/utils.c.i
@@ -373,7 +373,7 @@ srcs/utils.i: srcs/utils.c.i
 
 # target to preprocess a source file
 srcs/utils.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.i
 .PHONY : srcs/utils.c.i
 
 srcs/utils.s: srcs/utils.c.s
@@ -381,7 +381,7 @@ srcs/utils.s: srcs/utils.c.s
 
 # target to generate assembly for a file
 srcs/utils.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils.c.s
 .PHONY : srcs/utils.c.s
 
 srcs/utils_hash.o: srcs/utils_hash.c.o
@@ -389,7 +389,7 @@ srcs/utils_hash.o: srcs/utils_hash.c.o
 
 # target to build an object file
 srcs/utils_hash.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.o
 .PHONY : srcs/utils_hash.c.o
 
 srcs/utils_hash.i: srcs/utils_hash.c.i
@@ -397,7 +397,7 @@ srcs/utils_hash.i: srcs/utils_hash.c.i
 
 # target to preprocess a source file
 srcs/utils_hash.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.i
 .PHONY : srcs/utils_hash.c.i
 
 srcs/utils_hash.s: srcs/utils_hash.c.s
@@ -405,7 +405,7 @@ srcs/utils_hash.s: srcs/utils_hash.c.s
 
 # target to generate assembly for a file
 srcs/utils_hash.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_hash.c.s
 .PHONY : srcs/utils_hash.c.s
 
 srcs/utils_prng.o: srcs/utils_prng.c.o
@@ -413,7 +413,7 @@ srcs/utils_prng.o: srcs/utils_prng.c.o
 
 # target to build an object file
 srcs/utils_prng.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.o
 .PHONY : srcs/utils_prng.c.o
 
 srcs/utils_prng.i: srcs/utils_prng.c.i
@@ -421,7 +421,7 @@ srcs/utils_prng.i: srcs/utils_prng.c.i
 
 # target to preprocess a source file
 srcs/utils_prng.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.i
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.i
 .PHONY : srcs/utils_prng.c.i
 
 srcs/utils_prng.s: srcs/utils_prng.c.s
@@ -429,7 +429,7 @@ srcs/utils_prng.s: srcs/utils_prng.c.s
 
 # target to generate assembly for a file
 srcs/utils_prng.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.s
+	cd /home/mingiiiiiiii/test/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/srcs/utils_prng.c.s
 .PHONY : srcs/utils_prng.c.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

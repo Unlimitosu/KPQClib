@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/metamorphic
+# Install script for directory: /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/metamorphic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

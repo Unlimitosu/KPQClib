@@ -1,9 +1,9 @@
 crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/sample.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/src/sample.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/src/sample.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/sample.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/sample.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/params.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -32,7 +32,7 @@ crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/sample.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/NIST/rng.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/fips202.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/symmetric.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/fips202.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/NIST/rng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/fips202.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/symmetric.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/fips202.h

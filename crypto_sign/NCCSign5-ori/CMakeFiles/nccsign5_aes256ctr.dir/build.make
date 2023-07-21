@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o: crypto_sign/NCCSign5-ori/aes/aes256ctr.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o -MF CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o.d -o CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o -MF CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o.d -o CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c > CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c > CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c -o CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/aes/aes256ctr.c -o CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.s
 
 # Object files for target nccsign5_aes256ctr
 nccsign5_aes256ctr_OBJECTS = \
@@ -93,18 +93,18 @@ nccsign5_aes256ctr_EXTERNAL_OBJECTS =
 crypto_sign/NCCSign5-ori/libs/libnccsign5_aes256ctr.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o
 crypto_sign/NCCSign5-ori/libs/libnccsign5_aes256ctr.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/build.make
 crypto_sign/NCCSign5-ori/libs/libnccsign5_aes256ctr.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libnccsign5_aes256ctr.so"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign5_aes256ctr.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libnccsign5_aes256ctr.so"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign5_aes256ctr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/build: crypto_sign/NCCSign5-ori/libs/libnccsign5_aes256ctr.so
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/build
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign5_aes256ctr.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign5_aes256ctr.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/clean
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_aes256ctr.dir/depend
 

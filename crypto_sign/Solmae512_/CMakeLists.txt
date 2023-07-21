@@ -59,8 +59,11 @@ target_link_libraries(${LIB_NAME512} PUBLIC SOLMAE512_RNG)
 
 add_subdirectory(test)
 add_subdirectory(kat)
-# add_subdirectory(benchmark)
+#todo mychange
+add_subdirectory(benchmark)
 add_subdirectory(metamorphic)
+add_subdirectory(const_test)
+
 
 
 

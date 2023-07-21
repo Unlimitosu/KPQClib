@@ -1,5 +1,5 @@
 crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/aes256ctr.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/src/aes256ctr.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/src/aes256ctr.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -22,4 +22,4 @@ crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/aes256ctr.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/aes256ctr.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/aes256ctr.h

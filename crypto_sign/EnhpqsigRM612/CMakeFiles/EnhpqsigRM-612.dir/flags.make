@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DEnhpqsigRM_612_EXPORTS -DpqsigRM_MODE=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/mingiiiiiiii/test/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11
 

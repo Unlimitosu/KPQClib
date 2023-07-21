@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/src/rng.c" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/__/src/rng.c.o" "gcc" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/__/src/rng.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/const_test/constant_time_test.c" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/constant_time_test.c.o" "gcc" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/constant_time_test.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/src/rng.c" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/__/src/rng.c.o" "gcc" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/__/src/rng.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/const_test/constant_time_test.c" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/constant_time_test.c.o" "gcc" "crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test-main.dir/constant_time_test.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/CMakeFiles/nccsign-ori2.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/CMakeFiles/nccsign2_fips202.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

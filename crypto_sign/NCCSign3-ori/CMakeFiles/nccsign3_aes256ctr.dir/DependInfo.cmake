@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign3-ori/aes/aes256ctr.c" "crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/aes/aes256ctr.c.o" "gcc" "crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/aes/aes256ctr.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign3-ori/aes/aes256ctr.c" "crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/aes/aes256ctr.c.o" "gcc" "crypto_sign/NCCSign3-ori/CMakeFiles/nccsign3_aes256ctr.dir/aes/aes256ctr.c.o.d"
   )
 
 # Targets to which this target links.

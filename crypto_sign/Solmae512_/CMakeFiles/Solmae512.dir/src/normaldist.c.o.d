@@ -1,10 +1,10 @@
 crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/normaldist.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/src/normaldist.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/src/normaldist.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/normaldist.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/param.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/normaldist.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,8 +30,8 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/normaldist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/randombytes.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/randombytes.h \
  /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -60,8 +60,8 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/normaldist.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/inner.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/config.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \

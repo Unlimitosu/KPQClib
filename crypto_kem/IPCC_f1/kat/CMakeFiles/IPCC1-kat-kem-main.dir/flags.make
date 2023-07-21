@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"IPCC_f1\" -DIPCC_f=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f1/include -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f1/kat -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/IPCC_f1/kat/../include
+C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/IPCC_f1/include -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/IPCC_f1/kat -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/IPCC_f1/kat/../include
 
 C_FLAGS = -std=gnu11
 

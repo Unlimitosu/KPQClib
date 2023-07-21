@@ -1,5 +1,5 @@
 crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/srcs/sign.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,24 +48,24 @@ crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/sign.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mqs_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mqs_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mqs_keypair.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mqs_config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mqs.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mqs_keypair.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/mpkc.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/blas.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/blas_u32.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/gf16.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/blas_comm.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/blas_matrix.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/utils_hash.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/hash_len_config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/MQS256-112-72/include/rng.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mqs_keypair.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mqs_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mqs.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mqs_keypair.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/mpkc.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/blas.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/blas_u32.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/gf16.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/blas_comm.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/blas_matrix.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/utils_hash.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/hash_len_config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

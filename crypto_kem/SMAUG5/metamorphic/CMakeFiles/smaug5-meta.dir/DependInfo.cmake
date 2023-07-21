@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o" "gcc" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o" "gcc" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_contribution.c" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o" "gcc" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_contribution.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG5/metamorphic/bit_exclusion.c" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o" "gcc" "crypto_kem/SMAUG5/metamorphic/CMakeFiles/smaug5-meta.dir/bit_exclusion.c.o.d"
   )
 
 # Targets to which this target links.

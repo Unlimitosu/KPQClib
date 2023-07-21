@@ -1,11 +1,11 @@
 crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/src/polydbl.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/src/polydbl.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/polydbl.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/polydbl.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,7 +21,7 @@ crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/sampler.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -31,11 +31,11 @@ crypto_sign/HAETAE5/CMakeFiles/haetae5.dir/src/polydbl.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/ntt.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/rounding.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/symmetric.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/HAETAE5/include/fips202.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/polyvec.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/ntt.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/reduce.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/rounding.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/symmetric.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE5/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h

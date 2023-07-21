@@ -1,9 +1,9 @@
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/gfpoly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/gf.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gfpoly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,7 +29,7 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/include/gf.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

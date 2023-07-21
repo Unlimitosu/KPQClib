@@ -1,10 +1,10 @@
 crypto_sign/NCCSign2-ori/const_test/CMakeFiles/nccsign-ori2-const-test.dir/kat_sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/const_test/kat_sign.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/const_test/kat_sign.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/const_test/api.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/const_test/api.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/test/main.c" "crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/main.c.o" "gcc" "crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/main.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/test/main.c" "crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/main.c.o" "gcc" "crypto_kem/SMAUG1/test/CMakeFiles/smaug1-main.dir/main.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/test/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,7 @@
 crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/field/field128.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/field/field128.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L1/field/field128.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/field/field128.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L1/field/field128.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -63,4 +63,4 @@ crypto_sign/AImer-L1/CMakeFiles/Almer-l1.dir/field/field128.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/AImer-L1/include/portable_endian.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L1/include/portable_endian.h

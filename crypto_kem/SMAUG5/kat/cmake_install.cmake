@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG5/kat
+# Install script for directory: /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG5/kat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

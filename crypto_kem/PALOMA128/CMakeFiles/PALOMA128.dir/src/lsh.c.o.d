@@ -1,8 +1,8 @@
 crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/lsh.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/src/lsh.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/src/lsh.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/include/lsh.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/include/lsh_def.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/lsh.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/lsh_def.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -19,5 +19,5 @@ crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/lsh.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/include/lsh512.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA128/include/lsh.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/lsh512.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/lsh.h

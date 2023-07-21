@@ -1,7 +1,7 @@
 crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/samplerZ.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/src/samplerZ.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/src/samplerZ.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/randombytes.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/randombytes.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,8 +48,8 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/samplerZ.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/config.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/inner.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/config.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -140,7 +140,7 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/samplerZ.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -148,10 +148,10 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/samplerZ.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/param.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/samplerZ.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/samplerZ.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

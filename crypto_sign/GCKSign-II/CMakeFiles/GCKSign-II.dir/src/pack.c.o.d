@@ -1,7 +1,7 @@
 crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/pack.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/src/pack.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/src/pack.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/pack.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/pack.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,8 +17,8 @@ crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/pack.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/params.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -32,4 +32,4 @@ crypto_sign/GCKSign-II/CMakeFiles/GCKSign-II.dir/src/pack.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-II/include/params.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/include/params.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend.make
@@ -72,44 +72,44 @@ include crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/flags.make
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/flags.make
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: crypto_kem/SMAUG1/benchmark/speed.c
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o -MF CMakeFiles/smaug1-benchmark.dir/speed.c.o.d -o CMakeFiles/smaug1-benchmark.dir/speed.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.o -MF CMakeFiles/smaug1-benchmark.dir/speed.c.o.d -o CMakeFiles/smaug1-benchmark.dir/speed.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smaug1-benchmark.dir/speed.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c > CMakeFiles/smaug1-benchmark.dir/speed.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c > CMakeFiles/smaug1-benchmark.dir/speed.c.i
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smaug1-benchmark.dir/speed.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c -o CMakeFiles/smaug1-benchmark.dir/speed.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed.c -o CMakeFiles/smaug1-benchmark.dir/speed.c.s
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/flags.make
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o: crypto_kem/SMAUG1/benchmark/cpucycles.c
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o -MF CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o -MF CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/smaug1-benchmark.dir/cpucycles.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c > CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c > CMakeFiles/smaug1-benchmark.dir/cpucycles.c.i
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c -o CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/cpucycles.c -o CMakeFiles/smaug1-benchmark.dir/cpucycles.c.s
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/flags.make
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o: crypto_kem/SMAUG1/benchmark/speed_print.c
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o -MF CMakeFiles/smaug1-benchmark.dir/speed_print.c.o.d -o CMakeFiles/smaug1-benchmark.dir/speed_print.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.o -MF CMakeFiles/smaug1-benchmark.dir/speed_print.c.o.d -o CMakeFiles/smaug1-benchmark.dir/speed_print.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smaug1-benchmark.dir/speed_print.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c > CMakeFiles/smaug1-benchmark.dir/speed_print.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c > CMakeFiles/smaug1-benchmark.dir/speed_print.c.i
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/speed_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smaug1-benchmark.dir/speed_print.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c -o CMakeFiles/smaug1-benchmark.dir/speed_print.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/speed_print.c -o CMakeFiles/smaug1-benchmark.dir/speed_print.c.s
 
 # Object files for target smaug1-benchmark
 smaug1__benchmark_OBJECTS = \
@@ -128,18 +128,18 @@ crypto_kem/SMAUG1/bin/smaug1-benchmark: crypto_kem/SMAUG1/lib/libsmaug1.so
 crypto_kem/SMAUG1/bin/smaug1-benchmark: crypto_kem/SMAUG1/lib/libRNG1.so
 crypto_kem/SMAUG1/bin/smaug1-benchmark: common/libcommon.a
 crypto_kem/SMAUG1/bin/smaug1-benchmark: crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/smaug1-benchmark"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smaug1-benchmark.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/smaug1-benchmark"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smaug1-benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build: crypto_kem/SMAUG1/bin/smaug1-benchmark
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/build
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/smaug1-benchmark.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/smaug1-benchmark.dir/cmake_clean.cmake
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/clean
 
 crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/SMAUG1/benchmark/CMakeFiles/smaug1-benchmark.dir/depend
 

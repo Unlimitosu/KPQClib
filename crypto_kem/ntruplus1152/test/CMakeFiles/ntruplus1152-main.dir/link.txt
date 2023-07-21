@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/ntruplus1152-main.dir/main.c.o -o ../bin/ntruplus1152-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus1152/lib ../lib/libntruplus1152.so ../lib/libntruplus1152RNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/ntruplus1152-main.dir/main.c.o -o ../bin/ntruplus1152-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/lib ../lib/libntruplus1152.so ../lib/libntruplus1152RNG1.so ../../../common/libcommon.a 

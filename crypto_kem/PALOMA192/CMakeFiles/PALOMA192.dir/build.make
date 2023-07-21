@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/depend.make
@@ -75,184 +75,184 @@ include crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o: crypto_kem/PALOMA192/src/gf_table_gen.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o -MF CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o.d -o CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o -MF CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o.d -o CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c > CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c > CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c -o CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf_table_gen.c -o CMakeFiles/PALOMA192.dir/src/gf_table_gen.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o: crypto_kem/PALOMA192/src/gf.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o -MF CMakeFiles/PALOMA192.dir/src/gf.c.o.d -o CMakeFiles/PALOMA192.dir/src/gf.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.o -MF CMakeFiles/PALOMA192.dir/src/gf.c.o.d -o CMakeFiles/PALOMA192.dir/src/gf.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/gf.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf.c > CMakeFiles/PALOMA192.dir/src/gf.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf.c > CMakeFiles/PALOMA192.dir/src/gf.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/gf.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gf.c -o CMakeFiles/PALOMA192.dir/src/gf.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gf.c -o CMakeFiles/PALOMA192.dir/src/gf.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o: crypto_kem/PALOMA192/src/gfpoly.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o -MF CMakeFiles/PALOMA192.dir/src/gfpoly.c.o.d -o CMakeFiles/PALOMA192.dir/src/gfpoly.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.o -MF CMakeFiles/PALOMA192.dir/src/gfpoly.c.o.d -o CMakeFiles/PALOMA192.dir/src/gfpoly.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/gfpoly.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c > CMakeFiles/PALOMA192.dir/src/gfpoly.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c > CMakeFiles/PALOMA192.dir/src/gfpoly.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/gfpoly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/gfpoly.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c -o CMakeFiles/PALOMA192.dir/src/gfpoly.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/gfpoly.c -o CMakeFiles/PALOMA192.dir/src/gfpoly.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o: crypto_kem/PALOMA192/src/goppa_instance.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o -MF CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o.d -o CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o -MF CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o.d -o CMakeFiles/PALOMA192.dir/src/goppa_instance.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/goppa_instance.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c > CMakeFiles/PALOMA192.dir/src/goppa_instance.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c > CMakeFiles/PALOMA192.dir/src/goppa_instance.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/goppa_instance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/goppa_instance.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c -o CMakeFiles/PALOMA192.dir/src/goppa_instance.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/goppa_instance.c -o CMakeFiles/PALOMA192.dir/src/goppa_instance.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o: crypto_kem/PALOMA192/src/keygen.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o -MF CMakeFiles/PALOMA192.dir/src/keygen.c.o.d -o CMakeFiles/PALOMA192.dir/src/keygen.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/keygen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.o -MF CMakeFiles/PALOMA192.dir/src/keygen.c.o.d -o CMakeFiles/PALOMA192.dir/src/keygen.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/keygen.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/keygen.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/keygen.c > CMakeFiles/PALOMA192.dir/src/keygen.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/keygen.c > CMakeFiles/PALOMA192.dir/src/keygen.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/keygen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/keygen.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/keygen.c -o CMakeFiles/PALOMA192.dir/src/keygen.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/keygen.c -o CMakeFiles/PALOMA192.dir/src/keygen.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o: crypto_kem/PALOMA192/src/mat_mul.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o -MF CMakeFiles/PALOMA192.dir/src/mat_mul.c.o.d -o CMakeFiles/PALOMA192.dir/src/mat_mul.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.o -MF CMakeFiles/PALOMA192.dir/src/mat_mul.c.o.d -o CMakeFiles/PALOMA192.dir/src/mat_mul.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/mat_mul.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c > CMakeFiles/PALOMA192.dir/src/mat_mul.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c > CMakeFiles/PALOMA192.dir/src/mat_mul.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/mat_mul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/mat_mul.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c -o CMakeFiles/PALOMA192.dir/src/mat_mul.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/mat_mul.c -o CMakeFiles/PALOMA192.dir/src/mat_mul.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o: crypto_kem/PALOMA192/src/common.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o -MF CMakeFiles/PALOMA192.dir/src/common.c.o.d -o CMakeFiles/PALOMA192.dir/src/common.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o -MF CMakeFiles/PALOMA192.dir/src/common.c.o.d -o CMakeFiles/PALOMA192.dir/src/common.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/common.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/common.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/common.c > CMakeFiles/PALOMA192.dir/src/common.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/common.c > CMakeFiles/PALOMA192.dir/src/common.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/common.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/common.c -o CMakeFiles/PALOMA192.dir/src/common.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/common.c -o CMakeFiles/PALOMA192.dir/src/common.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o: crypto_kem/PALOMA192/src/lsh.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o -MF CMakeFiles/PALOMA192.dir/src/lsh.c.o.d -o CMakeFiles/PALOMA192.dir/src/lsh.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.o -MF CMakeFiles/PALOMA192.dir/src/lsh.c.o.d -o CMakeFiles/PALOMA192.dir/src/lsh.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/lsh.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh.c > CMakeFiles/PALOMA192.dir/src/lsh.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh.c > CMakeFiles/PALOMA192.dir/src/lsh.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/lsh.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh.c -o CMakeFiles/PALOMA192.dir/src/lsh.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh.c -o CMakeFiles/PALOMA192.dir/src/lsh.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o: crypto_kem/PALOMA192/src/lsh512.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o -MF CMakeFiles/PALOMA192.dir/src/lsh512.c.o.d -o CMakeFiles/PALOMA192.dir/src/lsh512.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh512.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.o -MF CMakeFiles/PALOMA192.dir/src/lsh512.c.o.d -o CMakeFiles/PALOMA192.dir/src/lsh512.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh512.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/lsh512.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh512.c > CMakeFiles/PALOMA192.dir/src/lsh512.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh512.c > CMakeFiles/PALOMA192.dir/src/lsh512.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/lsh512.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/lsh512.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/lsh512.c -o CMakeFiles/PALOMA192.dir/src/lsh512.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/lsh512.c -o CMakeFiles/PALOMA192.dir/src/lsh512.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o: crypto_kem/PALOMA192/src/encap.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o -MF CMakeFiles/PALOMA192.dir/src/encap.c.o.d -o CMakeFiles/PALOMA192.dir/src/encap.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/encap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.o -MF CMakeFiles/PALOMA192.dir/src/encap.c.o.d -o CMakeFiles/PALOMA192.dir/src/encap.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/encap.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/encap.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/encap.c > CMakeFiles/PALOMA192.dir/src/encap.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/encap.c > CMakeFiles/PALOMA192.dir/src/encap.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/encap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/encap.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/encap.c -o CMakeFiles/PALOMA192.dir/src/encap.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/encap.c -o CMakeFiles/PALOMA192.dir/src/encap.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o: crypto_kem/PALOMA192/src/decap.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o -MF CMakeFiles/PALOMA192.dir/src/decap.c.o.d -o CMakeFiles/PALOMA192.dir/src/decap.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/decap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o -MF CMakeFiles/PALOMA192.dir/src/decap.c.o.d -o CMakeFiles/PALOMA192.dir/src/decap.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/decap.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/decap.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/decap.c > CMakeFiles/PALOMA192.dir/src/decap.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/decap.c > CMakeFiles/PALOMA192.dir/src/decap.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/decap.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/decap.c -o CMakeFiles/PALOMA192.dir/src/decap.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/decap.c -o CMakeFiles/PALOMA192.dir/src/decap.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o: crypto_kem/PALOMA192/src/PALOMA.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o -MF CMakeFiles/PALOMA192.dir/src/PALOMA.c.o.d -o CMakeFiles/PALOMA192.dir/src/PALOMA.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.o -MF CMakeFiles/PALOMA192.dir/src/PALOMA.c.o.d -o CMakeFiles/PALOMA192.dir/src/PALOMA.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/PALOMA.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c > CMakeFiles/PALOMA192.dir/src/PALOMA.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c > CMakeFiles/PALOMA192.dir/src/PALOMA.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/PALOMA.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/PALOMA.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c -o CMakeFiles/PALOMA192.dir/src/PALOMA.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/PALOMA.c -o CMakeFiles/PALOMA192.dir/src/PALOMA.c.s
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/flags.make
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: crypto_kem/PALOMA192/src/rng.c
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o -MF CMakeFiles/PALOMA192.dir/src/rng.c.o.d -o CMakeFiles/PALOMA192.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.o -MF CMakeFiles/PALOMA192.dir/src/rng.c.o.d -o CMakeFiles/PALOMA192.dir/src/rng.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/rng.c
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PALOMA192.dir/src/rng.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/rng.c > CMakeFiles/PALOMA192.dir/src/rng.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/rng.c > CMakeFiles/PALOMA192.dir/src/rng.c.i
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PALOMA192.dir/src/rng.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/src/rng.c -o CMakeFiles/PALOMA192.dir/src/rng.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/rng.c -o CMakeFiles/PALOMA192.dir/src/rng.c.s
 
 # Object files for target PALOMA192
 PALOMA192_OBJECTS = \
@@ -290,18 +290,18 @@ crypto_kem/PALOMA192/lib/libPALOMA192.so: crypto_kem/PALOMA192/CMakeFiles/PALOMA
 crypto_kem/PALOMA192/lib/libPALOMA192.so: crypto_kem/PALOMA192/lib/libPALOMARNG3.so
 crypto_kem/PALOMA192/lib/libPALOMA192.so: common/libcommon.a
 crypto_kem/PALOMA192/lib/libPALOMA192.so: crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C shared library lib/libPALOMA192.so"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PALOMA192.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C shared library lib/libPALOMA192.so"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PALOMA192.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build: crypto_kem/PALOMA192/lib/libPALOMA192.so
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/build
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 && $(CMAKE_COMMAND) -P CMakeFiles/PALOMA192.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 && $(CMAKE_COMMAND) -P CMakeFiles/PALOMA192.dir/cmake_clean.cmake
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/clean
 
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192 /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192 /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/depend
 

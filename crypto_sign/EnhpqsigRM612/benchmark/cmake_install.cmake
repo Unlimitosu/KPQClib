@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/EnhpqsigRM612/benchmark
+# Install script for directory: /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

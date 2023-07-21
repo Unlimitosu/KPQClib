@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/TIGER128/const_test/kat_kem.c" "crypto_kem/TIGER128/const_test/CMakeFiles/TIGER128-const-test.dir/kat_kem.c.o" "gcc" "crypto_kem/TIGER128/const_test/CMakeFiles/TIGER128-const-test.dir/kat_kem.c.o.d"
+  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER128/const_test/kat_kem.c" "crypto_kem/TIGER128/const_test/CMakeFiles/TIGER128-const-test.dir/kat_kem.c.o" "gcc" "crypto_kem/TIGER128/const_test/CMakeFiles/TIGER128-const-test.dir/kat_kem.c.o.d"
   )
 
 # Targets to which this target links.

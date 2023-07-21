@@ -1,10 +1,10 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/precomp.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/src/precomp.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/src/precomp.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,4 +30,4 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/precomp.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/Solmae1024/include/precomp_data1024.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/precomp_data1024.h

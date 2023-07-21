@@ -1,5 +1,5 @@
 crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/symmetric.c.o: \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/src/symmetric.c \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/src/symmetric.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -16,9 +16,9 @@ crypto_sign/GCKSign-V/CMakeFiles/GCKSign-V.dir/src/symmetric.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/symmetric.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/params.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/fips202.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/symmetric.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/params.h \
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_sign/GCKSign-V/include/fips202.h
+ /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/include/fips202.h

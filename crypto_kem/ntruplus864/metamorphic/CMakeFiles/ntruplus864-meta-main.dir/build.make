@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0721/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/flags.make
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o: crypto_kem/ntruplus864/metamorphic/meta_test.c
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o -MF CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o.d -o CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o -c /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o -MF CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o.d -o CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c
 
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c > CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.i
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c > CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.i
 
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c -o CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.s
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic/meta_test.c -o CMakeFiles/ntruplus864-meta-main.dir/meta_test.c.s
 
 # Object files for target ntruplus864-meta-main
 ntruplus864__meta__main_OBJECTS = \
@@ -97,18 +97,18 @@ crypto_kem/ntruplus864/bin/ntruplus864-meta-main: crypto_kem/ntruplus864/lib/lib
 crypto_kem/ntruplus864/bin/ntruplus864-meta-main: crypto_kem/ntruplus864/lib/libntruplus864RNG1.so
 crypto_kem/ntruplus864/bin/ntruplus864-meta-main: common/libcommon.a
 crypto_kem/ntruplus864/bin/ntruplus864-meta-main: crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0721/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/ntruplus864-meta-main"
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus864-meta-main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/ntruplus864-meta-main"
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus864-meta-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build: crypto_kem/ntruplus864/bin/ntruplus864-meta-main
 .PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/build
 
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus864-meta-main.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus864-meta-main.dir/cmake_clean.cmake
 .PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/clean
 
 crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0721/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic /home/mingiiiiiiii/KPQClean_0721/KPQClean /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic /home/mingiiiiiiii/KPQClean_0721/KPQClean/crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/ntruplus864/metamorphic/CMakeFiles/ntruplus864-meta-main.dir/depend
 
