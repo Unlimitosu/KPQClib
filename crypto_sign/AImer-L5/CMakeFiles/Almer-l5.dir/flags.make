@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DAIMER_MODE=5 -DAlmer_l5_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/include -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/field -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L5/shake -I/home/mingiiiiiiii/test/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/AImer-L5/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/AImer-L5/field -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/AImer-L5/shake -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11
 

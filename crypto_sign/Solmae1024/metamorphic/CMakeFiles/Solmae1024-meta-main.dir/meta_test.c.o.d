@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/meta_test.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/meta_test.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -39,7 +39,7 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -58,13 +58,13 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/memory.h \
  /usr/include/string.h /usr/include/strings.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.h \
  /usr/include/assert.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/api.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -72,11 +72,11 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
@@ -161,12 +161,12 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/meta_test
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/precomp_data1024.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/test_dist.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/precomp.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/precomp_data1024.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/test_dist.h

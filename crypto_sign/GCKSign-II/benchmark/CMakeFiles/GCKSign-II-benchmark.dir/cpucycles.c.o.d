@@ -1,7 +1,7 @@
 crypto_sign/GCKSign-II/benchmark/CMakeFiles/GCKSign-II-benchmark.dir/cpucycles.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/benchmark/cpucycles.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

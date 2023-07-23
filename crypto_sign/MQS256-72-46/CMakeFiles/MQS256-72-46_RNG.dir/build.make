@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/flags.make
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o: crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/flags.make
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o: crypto_sign/MQS256-72-46/srcs/rng.c
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o: crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -MF CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o.d -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -MF CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o.d -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c
 
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c > CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c > CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.i
 
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/srcs/rng.c -o CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.s
 
 # Object files for target MQS256-72-46_RNG
 MQS256__72__46_RNG_OBJECTS = \
@@ -93,18 +93,18 @@ MQS256__72__46_RNG_EXTERNAL_OBJECTS =
 crypto_sign/MQS256-72-46/libs/libMQS256-72-46_RNG.so: crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o
 crypto_sign/MQS256-72-46/libs/libMQS256-72-46_RNG.so: crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build.make
 crypto_sign/MQS256-72-46/libs/libMQS256-72-46_RNG.so: crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libMQS256-72-46_RNG.so"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MQS256-72-46_RNG.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libMQS256-72-46_RNG.so"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MQS256-72-46_RNG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build: crypto_sign/MQS256-72-46/libs/libMQS256-72-46_RNG.so
 .PHONY : crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build
 
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/clean:
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 && $(CMAKE_COMMAND) -P CMakeFiles/MQS256-72-46_RNG.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 && $(CMAKE_COMMAND) -P CMakeFiles/MQS256-72-46_RNG.dir/cmake_clean.cmake
 .PHONY : crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/clean
 
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/depend:
-	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46 /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46 /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/depend
 

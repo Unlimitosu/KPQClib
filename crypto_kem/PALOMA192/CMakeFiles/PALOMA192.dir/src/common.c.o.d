@@ -1,9 +1,9 @@
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/common.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/src/common.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/common.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/common.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/gf.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,15 +29,15 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/common.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh_def.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh_def.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh512.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh_local.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/rng.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/lsh_def.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh512.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh_local.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/lsh_def.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/gf.h

@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/TIGER192-meta-main.dir/meta_test.c.o -o ../bin/TIGER192-meta-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER192/lib ../lib/libTIGER192-meta.so ../lib/libTIGER192.so ../lib/libTIGERRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/TIGER192-meta-main.dir/meta_test.c.o -o ../bin/TIGER192-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER192/lib ../lib/libTIGER192-meta.so ../lib/libTIGER192.so ../lib/libTIGERRNG3.so ../../../common/libcommon.a 

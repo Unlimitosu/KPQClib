@@ -1,9 +1,9 @@
 crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/ntt.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/src/ntt.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/src/ntt.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/ntt.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/ntt.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,5 +19,5 @@ crypto_sign/HAETAE2/CMakeFiles/haetae2.dir/src/ntt.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/reduce.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/reduce.h

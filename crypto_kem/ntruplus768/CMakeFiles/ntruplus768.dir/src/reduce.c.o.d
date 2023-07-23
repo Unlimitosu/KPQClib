@@ -1,5 +1,5 @@
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/src/reduce.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/src/reduce.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -16,5 +16,5 @@ crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/include/reduce.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/include/reduce.h

@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/src/aes256ctr.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -142,8 +142,8 @@ crypto_kem/ntruplus1152/CMakeFiles/ntruplus1152.dir/src/aes256ctr.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h \
- /home/mingiiiiiiii/test/KPQClean/common/aes.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/include/crypto_stream.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/IPCC3-kat-kem-main.dir/PQCgenKAT_pke.c.o -o ../bin/IPCC3-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/IPCC_f3/lib ../lib/libIPCC3-kat-kem.so ../lib/libIPCC3.so ../lib/libIPCCRNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/IPCC3-kat-kem-main.dir/PQCgenKAT_pke.c.o -o ../bin/IPCC3-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/IPCC_f3/lib ../lib/libIPCC3-kat-kem.so ../lib/libIPCC3.so ../lib/libIPCCRNG3.so ../../../common/libcommon.a 

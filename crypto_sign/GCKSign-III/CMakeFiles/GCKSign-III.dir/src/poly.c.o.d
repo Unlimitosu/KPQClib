@@ -1,8 +1,8 @@
 crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/poly.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/src/poly.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/src/poly.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/params.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -31,13 +31,13 @@ crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/src/poly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/reduce.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/reduce.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/params.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/include/NIST/rng.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/include/NIST/rng.h

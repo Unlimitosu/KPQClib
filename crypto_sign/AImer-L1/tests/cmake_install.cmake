@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/test/KPQClean/crypto_sign/AImer-L1/tests
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/AImer-L1/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

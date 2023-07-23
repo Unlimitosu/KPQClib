@@ -1,8 +1,8 @@
 crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/dg.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG3/src/dg.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/src/dg.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG3/include/dg.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/dg.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -36,5 +36,5 @@ crypto_kem/SMAUG3/CMakeFiles/smaug3.dir/src/dg.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/SMAUG3/include/rng.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/rng.h

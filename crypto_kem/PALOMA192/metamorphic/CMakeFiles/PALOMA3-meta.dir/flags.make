@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DPALOMA3_meta_EXPORTS -DPALOMA_MODE=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/kat -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/metamorphic/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/kat -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/metamorphic/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

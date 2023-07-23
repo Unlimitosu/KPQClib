@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include -I/home/mingiiiiiiii/test/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

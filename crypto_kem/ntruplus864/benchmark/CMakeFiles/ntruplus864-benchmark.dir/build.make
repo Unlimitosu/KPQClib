@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/depend.make
@@ -72,44 +72,44 @@ include crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/fl
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/flags.make
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o: crypto_kem/ntruplus864/benchmark/speed.c
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/speed.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/speed.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/speed.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/speed.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus864-benchmark.dir/speed.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c > CMakeFiles/ntruplus864-benchmark.dir/speed.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c > CMakeFiles/ntruplus864-benchmark.dir/speed.c.i
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus864-benchmark.dir/speed.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c -o CMakeFiles/ntruplus864-benchmark.dir/speed.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed.c -o CMakeFiles/ntruplus864-benchmark.dir/speed.c.s
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/flags.make
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o: crypto_kem/ntruplus864/benchmark/cpucycles.c
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c > CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c > CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.i
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c -o CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/cpucycles.c -o CMakeFiles/ntruplus864-benchmark.dir/cpucycles.c.s
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/flags.make
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o: crypto_kem/ntruplus864/benchmark/speed_print.c
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o -MF CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o.d -o CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c > CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c > CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.i
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c -o CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/speed_print.c -o CMakeFiles/ntruplus864-benchmark.dir/speed_print.c.s
 
 # Object files for target ntruplus864-benchmark
 ntruplus864__benchmark_OBJECTS = \
@@ -128,18 +128,18 @@ crypto_kem/ntruplus864/bin/ntruplus864-benchmark: crypto_kem/ntruplus864/lib/lib
 crypto_kem/ntruplus864/bin/ntruplus864-benchmark: crypto_kem/ntruplus864/lib/libntruplus864RNG1.so
 crypto_kem/ntruplus864/bin/ntruplus864-benchmark: common/libcommon.a
 crypto_kem/ntruplus864/bin/ntruplus864-benchmark: crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/ntruplus864-benchmark"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus864-benchmark.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/ntruplus864-benchmark"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus864-benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build: crypto_kem/ntruplus864/bin/ntruplus864-benchmark
 .PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/build
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean:
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus864-benchmark.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus864-benchmark.dir/cmake_clean.cmake
 .PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/clean
 
 crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/depend:
-	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/ntruplus864/benchmark/CMakeFiles/ntruplus864-benchmark.dir/depend
 

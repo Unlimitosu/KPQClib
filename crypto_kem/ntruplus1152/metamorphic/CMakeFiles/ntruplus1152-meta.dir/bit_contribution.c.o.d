@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/bit_contribution.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -56,7 +56,7 @@ crypto_kem/ntruplus1152/metamorphic/CMakeFiles/ntruplus1152-meta.dir/bit_contrib
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/kat/api.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/metamorphic/bit_contribution.h

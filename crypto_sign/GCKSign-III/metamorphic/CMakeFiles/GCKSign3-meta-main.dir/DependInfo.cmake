@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/metamorphic/meta_test.c" "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o" "gcc" "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/metamorphic/meta_test.c" "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o" "gcc" "crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta-main.dir/meta_test.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/metamorphic/CMakeFiles/GCKSign3-meta.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/GCKSign-III.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/gcksign3_fips202.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-III/CMakeFiles/gcksign3_RNG.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

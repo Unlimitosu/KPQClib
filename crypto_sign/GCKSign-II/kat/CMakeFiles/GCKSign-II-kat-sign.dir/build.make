@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/flags.make
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/flags.make
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o: crypto_sign/GCKSign-II/kat/kat_sign.c
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o -MF CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o.d -o CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o -MF CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o.d -o CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c
 
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c > CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c > CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.i
 
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c -o CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat/kat_sign.c -o CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.s
 
 # Object files for target GCKSign-II-kat-sign
 GCKSign__II__kat__sign_OBJECTS = \
@@ -93,18 +93,18 @@ GCKSign__II__kat__sign_EXTERNAL_OBJECTS =
 crypto_sign/GCKSign-II/libs/libGCKSign-II-kat-sign.so: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/kat_sign.c.o
 crypto_sign/GCKSign-II/libs/libGCKSign-II-kat-sign.so: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build.make
 crypto_sign/GCKSign-II/libs/libGCKSign-II-kat-sign.so: crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libGCKSign-II-kat-sign.so"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCKSign-II-kat-sign.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libGCKSign-II-kat-sign.so"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCKSign-II-kat-sign.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build: crypto_sign/GCKSign-II/libs/libGCKSign-II-kat-sign.so
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/build
 
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean:
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat && $(CMAKE_COMMAND) -P CMakeFiles/GCKSign-II-kat-sign.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat && $(CMAKE_COMMAND) -P CMakeFiles/GCKSign-II-kat-sign.dir/cmake_clean.cmake
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/clean
 
 crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend:
-	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat /home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/GCKSign-II/kat/CMakeFiles/GCKSign-II-kat-sign.dir/depend
 

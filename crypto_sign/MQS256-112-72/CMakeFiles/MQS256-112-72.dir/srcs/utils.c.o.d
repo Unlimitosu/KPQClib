@@ -1,7 +1,7 @@
 crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/srcs/utils.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-112-72/srcs/utils.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include/utils.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-112-72/include/utils.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

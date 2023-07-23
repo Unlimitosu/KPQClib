@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/kat/kat_sign.c" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-V/kat/kat_sign.c" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o" "gcc" "crypto_sign/GCKSign-V/kat/CMakeFiles/GCKSign-V-kat-sign.dir/kat_sign.c.o.d"
   )
 
 # Targets to which this target links.

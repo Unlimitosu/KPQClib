@@ -1,10 +1,10 @@
 crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/precomp.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/src/precomp.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/src/precomp.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/param.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,4 +30,4 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/precomp.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/precomp_data512.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/precomp_data512.h

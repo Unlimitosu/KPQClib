@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER256-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER256/lib ../lib/libTIGER256-kat-kem.so ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/TIGER256-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/TIGER256-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER256/lib ../lib/libTIGER256-kat-kem.so ../lib/libTIGER256.so ../lib/libTIGERRNG5.so ../../../common/libcommon.a 

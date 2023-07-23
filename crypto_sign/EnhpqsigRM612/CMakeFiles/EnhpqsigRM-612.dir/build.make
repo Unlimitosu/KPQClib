@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/depend.make
@@ -72,114 +72,114 @@ include crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o: crypto_sign/EnhpqsigRM612/src/common.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/common.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/common.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c > CMakeFiles/EnhpqsigRM-612.dir/src/common.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c > CMakeFiles/EnhpqsigRM-612.dir/src/common.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/common.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c -o CMakeFiles/EnhpqsigRM-612.dir/src/common.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/common.c -o CMakeFiles/EnhpqsigRM-612.dir/src/common.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o: crypto_sign/EnhpqsigRM612/src/keypair.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c > CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c > CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c -o CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/keypair.c -o CMakeFiles/EnhpqsigRM-612.dir/src/keypair.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o: crypto_sign/EnhpqsigRM612/src/matrix.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c > CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c > CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c -o CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/matrix.c -o CMakeFiles/EnhpqsigRM-612.dir/src/matrix.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o: crypto_sign/EnhpqsigRM612/src/nearest_vector.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c > CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c > CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c -o CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/nearest_vector.c -o CMakeFiles/EnhpqsigRM-612.dir/src/nearest_vector.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o: crypto_sign/EnhpqsigRM612/src/open.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/open.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/open.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c > CMakeFiles/EnhpqsigRM-612.dir/src/open.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c > CMakeFiles/EnhpqsigRM-612.dir/src/open.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/open.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c -o CMakeFiles/EnhpqsigRM-612.dir/src/open.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/open.c -o CMakeFiles/EnhpqsigRM-612.dir/src/open.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o: crypto_sign/EnhpqsigRM612/src/rm.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c > CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c > CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c -o CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rm.c -o CMakeFiles/EnhpqsigRM-612.dir/src/rm.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o: crypto_sign/EnhpqsigRM612/src/rng.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c > CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c > CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c -o CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/rng.c -o CMakeFiles/EnhpqsigRM-612.dir/src/rng.c.s
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/flags.make
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o: crypto_sign/EnhpqsigRM612/src/sign.c
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o -MF CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o.d -o CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c > CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c > CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.i
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c -o CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/src/sign.c -o CMakeFiles/EnhpqsigRM-612.dir/src/sign.c.s
 
 # Object files for target EnhpqsigRM-612
 EnhpqsigRM__612_OBJECTS = \
@@ -207,18 +207,18 @@ crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so: crypto_sign/EnhpqsigRM612/C
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612-RNG.so
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so: common/libcommon.a
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so: crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library libs/libEnhpqsigRM-612.so"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM-612.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library libs/libEnhpqsigRM-612.so"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM-612.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM-612.so
 .PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean:
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM-612.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM-612.dir/cmake_clean.cmake
 .PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/clean
 
 crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/depend:
-	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612 /home/mingiiiiiiii/test/KPQClean/crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612 /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/depend
 

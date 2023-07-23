@@ -1,12 +1,12 @@
 crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/src/decap.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/src/decap.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/decap.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gf.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/gfpoly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/mat_mul.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/common.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/decap.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/gfpoly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/mat_mul.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/common.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -32,5 +32,5 @@ crypto_kem/PALOMA192/CMakeFiles/PALOMA192.dir/src/decap.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/keygen.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA192/include/encap.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/keygen.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/include/encap.h

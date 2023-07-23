@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/test/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/depend.make
@@ -72,30 +72,30 @@ include crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/flags.mak
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o: crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/flags.make
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o: crypto_sign/NCCSign2-ori/test/main.c
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o: crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o -MF CMakeFiles/nccsign-ori2-main.dir/main.c.o.d -o CMakeFiles/nccsign-ori2-main.dir/main.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.o -MF CMakeFiles/nccsign-ori2-main.dir/main.c.o.d -o CMakeFiles/nccsign-ori2-main.dir/main.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test/main.c
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2-main.dir/main.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test/main.c > CMakeFiles/nccsign-ori2-main.dir/main.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test/main.c > CMakeFiles/nccsign-ori2-main.dir/main.c.i
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2-main.dir/main.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test/main.c -o CMakeFiles/nccsign-ori2-main.dir/main.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test/main.c -o CMakeFiles/nccsign-ori2-main.dir/main.c.s
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o: crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/flags.make
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o: crypto_sign/NCCSign2-ori/src/randombytes.c
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o: crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -MF CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o.d -o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -c /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -MF CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o.d -o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.i"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c > CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.i
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c > CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.i
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.s"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c -o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.s
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/src/randombytes.c -o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.s
 
 # Object files for target nccsign-ori2-main
 nccsign__ori2__main_OBJECTS = \
@@ -111,18 +111,18 @@ crypto_sign/NCCSign2-ori/bin/nccsign-ori2-main: crypto_sign/NCCSign2-ori/test/CM
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-main: crypto_sign/NCCSign2-ori/libs/libnccsign-ori2.so
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-main: crypto_sign/NCCSign2-ori/libs/libnccsign2_fips202.so
 crypto_sign/NCCSign2-ori/bin/nccsign-ori2-main: crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/test/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/nccsign-ori2-main"
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2-main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/nccsign-ori2-main"
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build: crypto_sign/NCCSign2-ori/bin/nccsign-ori2-main
 .PHONY : crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/build
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/clean:
-	cd /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori2-main.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori2-main.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/clean
 
 crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/depend:
-	cd /home/mingiiiiiiii/test/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test /home/mingiiiiiiii/test/KPQClean /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign2-ori/test/CMakeFiles/nccsign-ori2-main.dir/depend
 

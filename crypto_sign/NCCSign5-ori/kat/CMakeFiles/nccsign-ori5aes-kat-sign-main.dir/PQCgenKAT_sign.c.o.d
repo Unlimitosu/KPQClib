@@ -1,5 +1,5 @@
 crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/kat/PQCgenKAT_sign.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,8 +51,8 @@ crypto_sign/NCCSign5-ori/kat/CMakeFiles/nccsign-ori5aes-kat-sign-main.dir/PQCgen
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/rng.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/kat/api.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign5-ori/include/config.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/config.h

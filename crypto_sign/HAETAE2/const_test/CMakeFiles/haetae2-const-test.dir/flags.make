@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAETAE_MODE=2 -Dhaetae2_const_test_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/const_test/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

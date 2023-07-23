@@ -1,8 +1,8 @@
 crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/common.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/src/common.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/src/common.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/inner.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -137,7 +137,7 @@ crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/src/common.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

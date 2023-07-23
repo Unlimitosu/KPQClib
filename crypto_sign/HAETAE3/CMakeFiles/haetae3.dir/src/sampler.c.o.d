@@ -1,10 +1,10 @@
 crypto_sign/HAETAE3/CMakeFiles/haetae3.dir/src/sampler.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/src/sampler.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE3/src/sampler.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/include/sampler.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE3/include/reduce.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE3/include/sampler.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE3/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE3/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE3/include/reduce.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

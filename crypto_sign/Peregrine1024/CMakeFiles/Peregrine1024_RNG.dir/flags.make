@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DPeregrine1024_RNG_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024/include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/include
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11
 

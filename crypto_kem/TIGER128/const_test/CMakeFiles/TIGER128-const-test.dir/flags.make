@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"TIGER128_KEM\" -DTIGER128_const_test_EXPORTS -DTIGER_MODE=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER128/include -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER128/kat -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER128/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/kat -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/const_test/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

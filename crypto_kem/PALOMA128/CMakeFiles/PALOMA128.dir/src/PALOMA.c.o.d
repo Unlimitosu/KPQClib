@@ -1,7 +1,7 @@
 crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/PALOMA.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/src/PALOMA.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/src/PALOMA.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/kat/api.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,9 +25,9 @@ crypto_kem/PALOMA128/CMakeFiles/PALOMA128.dir/src/PALOMA.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/keygen.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/gf.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/encap.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/decap.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/include/config.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/keygen.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/encap.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/decap.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/include/config.h

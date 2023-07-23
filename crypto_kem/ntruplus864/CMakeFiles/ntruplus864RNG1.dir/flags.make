@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dntruplus864RNG1_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus864/kat
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus864/kat
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11
 

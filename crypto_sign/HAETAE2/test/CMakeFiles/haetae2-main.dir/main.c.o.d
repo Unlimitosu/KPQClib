@@ -1,7 +1,7 @@
 crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/main.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/test/main.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/test/main.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/fips202.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,13 +18,13 @@ crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/packing.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/sampler.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/packing.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/sampler.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -34,13 +34,13 @@ crypto_sign/HAETAE2/test/CMakeFiles/haetae2-main.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/polydbl.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/randombytes.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/rounding.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/sign.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/HAETAE2/include/polymat.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/polydbl.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/polyvec.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/randombytes.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/reduce.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/rounding.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/sign.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/HAETAE2/include/polymat.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

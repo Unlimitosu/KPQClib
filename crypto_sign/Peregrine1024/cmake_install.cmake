@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,16 +44,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024/test/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024/kat/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/kat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/test/KPQClean/crypto_sign/Peregrine1024/benchmark/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/benchmark/cmake_install.cmake")
 endif()
 

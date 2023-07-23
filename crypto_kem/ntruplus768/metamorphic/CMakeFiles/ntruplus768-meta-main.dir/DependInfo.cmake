@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/metamorphic/meta_test.c" "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o" "gcc" "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/metamorphic/meta_test.c" "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o" "gcc" "crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/DependInfo.cmake"
-  "/home/mingiiiiiiii/test/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/metamorphic/CMakeFiles/ntruplus768-meta.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768RNG1.dir/DependInfo.cmake"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

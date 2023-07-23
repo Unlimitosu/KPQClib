@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/test/KPQClean/crypto_sign/GCKSign-V/src/fips202.c" "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o" "gcc" "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-V/src/fips202.c" "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o" "gcc" "crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,10 +1,10 @@
 crypto_sign/NCCSign2-ori/kat/CMakeFiles/nccsign-ori2aes-kat-sign.dir/kat_sign.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/kat/kat_sign.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/kat/kat_sign.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/kat/api.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/params.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

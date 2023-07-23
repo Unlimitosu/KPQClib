@@ -1,5 +1,5 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/src/lsh512.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/src/lsh512.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,8 +15,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/lsh_local.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/lsh_def.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/lsh_local.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/lsh_def.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -24,5 +24,5 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/lsh512.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/lsh512.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA256/include/lsh.h
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/lsh512.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/lsh.h

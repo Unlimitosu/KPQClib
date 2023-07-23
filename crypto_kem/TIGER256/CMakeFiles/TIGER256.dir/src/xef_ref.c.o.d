@@ -1,5 +1,5 @@
 crypto_kem/TIGER256/CMakeFiles/TIGER256.dir/src/xef_ref.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_kem/TIGER256/src/xef_ref.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER256/src/xef_ref.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

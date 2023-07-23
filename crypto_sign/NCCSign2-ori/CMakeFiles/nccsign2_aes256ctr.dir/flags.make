@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dnccsign2_aes256ctr_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/mingiiiiiiii/test/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11
 

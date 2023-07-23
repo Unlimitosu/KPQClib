@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sign.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/kat/PQCgenKAT_sign.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/kat/PQCgenKAT_sign.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,14 +51,14 @@ crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/PQCgenKAT_sig
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/kat/katrng.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/kat/katrng.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

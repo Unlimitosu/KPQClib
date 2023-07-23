@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMQS256_MODE=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/include -I/home/mingiiiiiiii/test/KPQClean/common -I/home/mingiiiiiiii/test/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-112-72/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-112-72/metamorphic/../include
 
 C_FLAGS = -std=gnu11
 

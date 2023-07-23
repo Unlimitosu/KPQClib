@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/PALOMA128-benchmark.dir/benchmark.c.o -o ../bin/PALOMA128-benchmark  -Wl,-rpath,/home/mingiiiiiiii/test/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/PALOMA128-benchmark.dir/benchmark.c.o -o ../bin/PALOMA128-benchmark  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 

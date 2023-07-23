@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,7 +13,7 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/mingiiiiiiii/test/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -27,7 +27,7 @@ crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/mingiiiiiiii/test/KPQClean/common/aes.h \
+ /home/mingiiiiiiii/KPQClean_0722/KPQClean/common/aes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
