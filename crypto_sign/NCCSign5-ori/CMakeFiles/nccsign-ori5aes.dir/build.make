@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/depend.make
@@ -72,100 +72,100 @@ include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o: crypto_sign/NCCSign5-ori/src/sign.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/sign.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c > CMakeFiles/nccsign-ori5aes.dir/src/sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c > CMakeFiles/nccsign-ori5aes.dir/src/sign.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/sign.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c -o CMakeFiles/nccsign-ori5aes.dir/src/sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c -o CMakeFiles/nccsign-ori5aes.dir/src/sign.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o: crypto_sign/NCCSign5-ori/src/packing.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/packing.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c > CMakeFiles/nccsign-ori5aes.dir/src/packing.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c > CMakeFiles/nccsign-ori5aes.dir/src/packing.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/packing.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c -o CMakeFiles/nccsign-ori5aes.dir/src/packing.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c -o CMakeFiles/nccsign-ori5aes.dir/src/packing.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: crypto_sign/NCCSign5-ori/src/poly.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/poly.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c > CMakeFiles/nccsign-ori5aes.dir/src/poly.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c > CMakeFiles/nccsign-ori5aes.dir/src/poly.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/poly.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c -o CMakeFiles/nccsign-ori5aes.dir/src/poly.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c -o CMakeFiles/nccsign-ori5aes.dir/src/poly.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o: crypto_sign/NCCSign5-ori/src/reduce.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c > CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c > CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c -o CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c -o CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o: crypto_sign/NCCSign5-ori/src/rounding.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c > CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c > CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c -o CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c -o CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o: crypto_sign/NCCSign5-ori/src/randombytes.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o -MF CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c > CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c > CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c -o CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c -o CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.s
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o: crypto_sign/NCCSign5-ori/aes/symmetric-aes.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o -MF CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o -MF CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o.d -o CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c > CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c > CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c -o CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c -o CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.s
 
 # Object files for target nccsign-ori5aes
 nccsign__ori5aes_OBJECTS = \
@@ -189,18 +189,18 @@ crypto_sign/NCCSign5-ori/libs/libnccsign-ori5aes.so: crypto_sign/NCCSign5-ori/CM
 crypto_sign/NCCSign5-ori/libs/libnccsign-ori5aes.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o
 crypto_sign/NCCSign5-ori/libs/libnccsign-ori5aes.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/build.make
 crypto_sign/NCCSign5-ori/libs/libnccsign-ori5aes.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libs/libnccsign-ori5aes.so"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori5aes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libs/libnccsign-ori5aes.so"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori5aes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/build: crypto_sign/NCCSign5-ori/libs/libnccsign-ori5aes.so
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/build
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori5aes.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori5aes.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/clean
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/depend
 

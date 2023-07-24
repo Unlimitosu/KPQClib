@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/PALOMA192-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA192-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA192/lib ../lib/libPALOMA192-kat-kem.so ../lib/libPALOMA192.so ../lib/libPALOMARNG3.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/PALOMA192-kat-kem-main.dir/KAT.c.o -o ../bin/PALOMA192-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA192/lib ../lib/libPALOMA192-kat-kem.so ../lib/libPALOMA192.so ../lib/libPALOMARNG3.so ../../../common/libcommon.a 

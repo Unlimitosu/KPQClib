@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/kat//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine1024/kat//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/clean
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/rule
 .PHONY : crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Peregrine1024-kat-sign-main: crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1
 
 # fast build rule for target.
 Peregrine1024-kat-sign-main/fast:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build
 .PHONY : Peregrine1024-kat-sign-main/fast
 
 PQCgenKAT_sign.o: PQCgenKAT_sign.c.o
@@ -135,7 +135,7 @@ PQCgenKAT_sign.o: PQCgenKAT_sign.c.o
 
 # target to build an object file
 PQCgenKAT_sign.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.o
 .PHONY : PQCgenKAT_sign.c.o
 
 PQCgenKAT_sign.i: PQCgenKAT_sign.c.i
@@ -143,7 +143,7 @@ PQCgenKAT_sign.i: PQCgenKAT_sign.c.i
 
 # target to preprocess a source file
 PQCgenKAT_sign.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.i
 .PHONY : PQCgenKAT_sign.c.i
 
 PQCgenKAT_sign.s: PQCgenKAT_sign.c.s
@@ -151,7 +151,7 @@ PQCgenKAT_sign.s: PQCgenKAT_sign.c.s
 
 # target to generate assembly for a file
 PQCgenKAT_sign.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/PQCgenKAT_sign.c.s
 .PHONY : PQCgenKAT_sign.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libntruplus864-const-test.so -o ../lib/libntruplus864-const-test.so CMakeFiles/ntruplus864-const-test.dir/kat_kem.c.o 

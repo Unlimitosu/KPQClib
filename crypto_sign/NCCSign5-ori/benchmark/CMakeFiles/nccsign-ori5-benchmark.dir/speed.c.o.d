@@ -1,5 +1,5 @@
 crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5-benchmark.dir/speed.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/benchmark/speed.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/benchmark/speed.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -39,11 +39,11 @@ crypto_sign/NCCSign5-ori/benchmark/CMakeFiles/nccsign-ori5-benchmark.dir/speed.c
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/sign.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/benchmark/speed_print.h
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/sign.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/benchmark/cpucycles.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/benchmark/speed_print.h

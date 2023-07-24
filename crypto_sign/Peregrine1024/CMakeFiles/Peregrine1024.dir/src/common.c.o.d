@@ -1,7 +1,7 @@
 crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/src/common.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/src/common.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine1024/src/common.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine1024/include/inner.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,7 +52,7 @@ crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/src/common.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Peregrine1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

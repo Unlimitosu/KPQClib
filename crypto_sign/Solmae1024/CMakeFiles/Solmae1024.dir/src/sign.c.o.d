@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/src/sign.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/src/sign.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -71,16 +71,16 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o: \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/api.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/api.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/fips202.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/randombytes.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
@@ -165,5 +165,5 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/sign.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/normaldist.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h

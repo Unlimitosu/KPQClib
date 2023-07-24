@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/flag
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/flags.make
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o: crypto_sign/GCKSign-II/const_test/kat_sign.c
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o -MF CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o.d -o CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o -MF CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o.d -o CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c
 
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GCKSign-const-test.dir/kat_sign.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c > CMakeFiles/GCKSign-const-test.dir/kat_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c > CMakeFiles/GCKSign-const-test.dir/kat_sign.c.i
 
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GCKSign-const-test.dir/kat_sign.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c -o CMakeFiles/GCKSign-const-test.dir/kat_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test/kat_sign.c -o CMakeFiles/GCKSign-const-test.dir/kat_sign.c.s
 
 # Object files for target GCKSign-const-test
 GCKSign__const__test_OBJECTS = \
@@ -93,18 +93,18 @@ GCKSign__const__test_EXTERNAL_OBJECTS =
 crypto_sign/GCKSign-II/libs/libGCKSign-const-test.so: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o
 crypto_sign/GCKSign-II/libs/libGCKSign-const-test.so: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build.make
 crypto_sign/GCKSign-II/libs/libGCKSign-const-test.so: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libGCKSign-const-test.so"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCKSign-const-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libGCKSign-const-test.so"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCKSign-const-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build: crypto_sign/GCKSign-II/libs/libGCKSign-const-test.so
 .PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build
 
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test && $(CMAKE_COMMAND) -P CMakeFiles/GCKSign-const-test.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test && $(CMAKE_COMMAND) -P CMakeFiles/GCKSign-const-test.dir/cmake_clean.cmake
 .PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/clean
 
 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/depend
 

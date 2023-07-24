@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DTIGER_MODE=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER192/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER192/kat -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER192/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER192/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

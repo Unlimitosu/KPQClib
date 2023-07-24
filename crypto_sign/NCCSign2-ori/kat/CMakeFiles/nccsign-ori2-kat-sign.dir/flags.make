@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dnccsign_ori2_kat_sign_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/aes -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/fips -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
 
 C_FLAGS = -fPIC -std=gnu11
 

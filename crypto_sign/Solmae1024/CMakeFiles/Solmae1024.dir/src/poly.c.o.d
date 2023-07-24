@@ -1,9 +1,9 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/src/poly.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/src/poly.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/param.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/param.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,8 +29,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -148,8 +148,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/poly.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/poly.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/samplerZ.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/poly.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

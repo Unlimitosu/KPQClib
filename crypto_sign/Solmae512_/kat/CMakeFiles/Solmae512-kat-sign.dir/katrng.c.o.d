@@ -1,5 +1,5 @@
 crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign.dir/katrng.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/kat/katrng.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae512_/kat/katrng.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,7 +13,7 @@ crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign.dir/katrng.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/kat/katrng.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae512_/kat/katrng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \

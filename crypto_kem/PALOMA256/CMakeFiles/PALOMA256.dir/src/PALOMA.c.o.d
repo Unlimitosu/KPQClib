@@ -1,9 +1,9 @@
 crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/src/PALOMA.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/kat/api.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/config.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,8 +29,8 @@ crypto_kem/PALOMA256/CMakeFiles/PALOMA256.dir/src/PALOMA.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/keygen.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/gf.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/encap.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/decap.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include/config.h
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/keygen.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/gf.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/encap.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/decap.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include/config.h

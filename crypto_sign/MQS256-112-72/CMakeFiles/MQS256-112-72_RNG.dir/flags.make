@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMQS256_112_72_RNG_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-112-72/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-112-72/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -std=gnu11
 

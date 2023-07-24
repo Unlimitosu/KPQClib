@@ -1,5 +1,5 @@
 crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/main.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/test/main.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/test/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,6 +29,6 @@ crypto_kem/ntruplus1152/test/CMakeFiles/ntruplus1152-main.dir/main.c.o: \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/kat/api.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/include/params.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/ntruplus1152/include/rng.h
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/include/params.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/include/rng.h

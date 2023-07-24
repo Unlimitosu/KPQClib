@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSMAUG_MODE=1 -Dsmaug1_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG1/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG1/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11
 

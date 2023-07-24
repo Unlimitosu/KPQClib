@@ -1,5 +1,5 @@
 crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-V/src/fips202.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-V/src/fips202.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -17,4 +17,4 @@ crypto_sign/GCKSign-V/CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/GCKSign-V/include/fips202.h
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-V/include/fips202.h

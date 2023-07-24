@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSOLMAE_MODE=1 -DSolmae512_meta_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae512_/metamorphic/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae512_/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae512_/metamorphic/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

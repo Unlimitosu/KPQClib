@@ -1,9 +1,9 @@
 crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/srcs/utils_hash.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/include/utils_hash.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/include/hash_len_config.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/include/utils_hash.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/include/hash_len_config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/include/mqs_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,10 +19,10 @@ crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/srcs/utils_hash.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/common/sha2.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/common/sha2.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/include/hash_len_config.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/include/hash_len_config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/MQS256-72-46/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

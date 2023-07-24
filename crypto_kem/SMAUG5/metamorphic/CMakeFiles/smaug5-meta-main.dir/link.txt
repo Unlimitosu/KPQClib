@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/smaug5-meta-main.dir/meta_test.c.o -o ../bin/smaug5-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5-meta.so ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/smaug5-meta-main.dir/meta_test.c.o -o ../bin/smaug5-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG5/lib ../lib/libsmaug5-meta.so ../lib/libsmaug5.so ../lib/libRNG5.so ../../../common/libcommon.a 

@@ -1,5 +1,5 @@
 crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/shake.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/src/shake.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/src/shake.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,8 +15,8 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/shake.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/inner.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/config.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/inner.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -137,7 +137,7 @@ crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/src/shake.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/include/fpr.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

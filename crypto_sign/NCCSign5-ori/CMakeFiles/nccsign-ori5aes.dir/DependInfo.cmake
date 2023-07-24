@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o.d"
-  "/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/aes/symmetric-aes.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/aes/symmetric-aes.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/packing.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/packing.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/poly.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/poly.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/randombytes.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/randombytes.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/reduce.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/reduce.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/rounding.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/rounding.c.o.d"
+  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/src/sign.c" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o" "gcc" "crypto_sign/NCCSign5-ori/CMakeFiles/nccsign-ori5aes.dir/src/sign.c.o.d"
   )
 
 # Targets to which this target links.

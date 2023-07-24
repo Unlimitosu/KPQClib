@@ -1,7 +1,7 @@
 crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/kat/PQCgenKAT_kem.c \
  /usr/include/stdc-predef.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/kat/api.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/kat/api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,8 +17,8 @@ crypto_kem/SMAUG3/kat/CMakeFiles/smaug3-kat-kem-main.dir/PQCgenKAT_kem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
- /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/include/rng.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/include/parameters.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/include/rng.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

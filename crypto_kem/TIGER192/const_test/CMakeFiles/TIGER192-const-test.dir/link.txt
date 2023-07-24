@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER192-const-test.so -o ../lib/libTIGER192-const-test.so CMakeFiles/TIGER192-const-test.dir/kat_kem.c.o 

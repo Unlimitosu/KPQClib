@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/depend.make
@@ -75,72 +75,72 @@ include crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o: crypto_kem/TIGER128/src/rng.c
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o -MF CMakeFiles/TIGER128.dir/src/rng.c.o.d -o CMakeFiles/TIGER128.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.o -MF CMakeFiles/TIGER128.dir/src/rng.c.o.d -o CMakeFiles/TIGER128.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/rng.c
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128.dir/src/rng.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/rng.c > CMakeFiles/TIGER128.dir/src/rng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/rng.c > CMakeFiles/TIGER128.dir/src/rng.c.i
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128.dir/src/rng.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/rng.c -o CMakeFiles/TIGER128.dir/src/rng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/rng.c -o CMakeFiles/TIGER128.dir/src/rng.c.s
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o: crypto_kem/TIGER128/src/xef_ref.c
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o -MF CMakeFiles/TIGER128.dir/src/xef_ref.c.o.d -o CMakeFiles/TIGER128.dir/src/xef_ref.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/xef_ref.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.o -MF CMakeFiles/TIGER128.dir/src/xef_ref.c.o.d -o CMakeFiles/TIGER128.dir/src/xef_ref.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/xef_ref.c
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128.dir/src/xef_ref.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/xef_ref.c > CMakeFiles/TIGER128.dir/src/xef_ref.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/xef_ref.c > CMakeFiles/TIGER128.dir/src/xef_ref.c.i
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/xef_ref.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128.dir/src/xef_ref.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/xef_ref.c -o CMakeFiles/TIGER128.dir/src/xef_ref.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/xef_ref.c -o CMakeFiles/TIGER128.dir/src/xef_ref.c.s
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o: crypto_kem/TIGER128/src/TIGER_CPAPKE.c
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o -MF CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o.d -o CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o -MF CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o.d -o CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c > CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c > CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.i
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c -o CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CPAPKE.c -o CMakeFiles/TIGER128.dir/src/TIGER_CPAPKE.c.s
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: crypto_kem/TIGER128/src/TIGER_CCAKEM.c
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o -MF CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o.d -o CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o -MF CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o.d -o CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c > CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c > CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.i
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c -o CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/TIGER_CCAKEM.c -o CMakeFiles/TIGER128.dir/src/TIGER_CCAKEM.c.s
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/flags.make
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o: crypto_kem/TIGER128/src/kem.c
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o -MF CMakeFiles/TIGER128.dir/src/kem.c.o.d -o CMakeFiles/TIGER128.dir/src/kem.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/kem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.o -MF CMakeFiles/TIGER128.dir/src/kem.c.o.d -o CMakeFiles/TIGER128.dir/src/kem.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/kem.c
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TIGER128.dir/src/kem.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/kem.c > CMakeFiles/TIGER128.dir/src/kem.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/kem.c > CMakeFiles/TIGER128.dir/src/kem.c.i
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/src/kem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TIGER128.dir/src/kem.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/src/kem.c -o CMakeFiles/TIGER128.dir/src/kem.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/src/kem.c -o CMakeFiles/TIGER128.dir/src/kem.c.s
 
 # Object files for target TIGER128
 TIGER128_OBJECTS = \
@@ -162,18 +162,18 @@ crypto_kem/TIGER128/lib/libTIGER128.so: crypto_kem/TIGER128/CMakeFiles/TIGER128.
 crypto_kem/TIGER128/lib/libTIGER128.so: crypto_kem/TIGER128/lib/libTIGERRNG1.so
 crypto_kem/TIGER128/lib/libTIGER128.so: common/libcommon.a
 crypto_kem/TIGER128/lib/libTIGER128.so: crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library lib/libTIGER128.so"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library lib/libTIGER128.so"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TIGER128.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/build: crypto_kem/TIGER128/lib/libTIGER128.so
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/build
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 && $(CMAKE_COMMAND) -P CMakeFiles/TIGER128.dir/cmake_clean.cmake
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/clean
 
 crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128 /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128 /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/TIGER128/CMakeFiles/TIGER128.dir/depend
 

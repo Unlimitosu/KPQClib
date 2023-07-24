@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/TIGER192/metamorphic
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/TIGER192/metamorphic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

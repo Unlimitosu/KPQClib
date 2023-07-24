@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/depend.make
@@ -72,58 +72,58 @@ include crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/flags.
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/flags.make
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: crypto_sign/Solmae1024/metamorphic/katrng.c
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o -MF CMakeFiles/Solmae1024-meta.dir/katrng.c.o.d -o CMakeFiles/Solmae1024-meta.dir/katrng.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.o -MF CMakeFiles/Solmae1024-meta.dir/katrng.c.o.d -o CMakeFiles/Solmae1024-meta.dir/katrng.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Solmae1024-meta.dir/katrng.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c > CMakeFiles/Solmae1024-meta.dir/katrng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c > CMakeFiles/Solmae1024-meta.dir/katrng.c.i
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/katrng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Solmae1024-meta.dir/katrng.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c -o CMakeFiles/Solmae1024-meta.dir/katrng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/katrng.c -o CMakeFiles/Solmae1024-meta.dir/katrng.c.s
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/flags.make
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o: crypto_sign/Solmae1024/metamorphic/bit_contribution.c
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c > CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c > CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.i
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c -o CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_contribution.c -o CMakeFiles/Solmae1024-meta.dir/bit_contribution.c.s
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/flags.make
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o: crypto_sign/Solmae1024/metamorphic/bit_exclusion.c
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c > CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c > CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.i
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c -o CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_exclusion.c -o CMakeFiles/Solmae1024-meta.dir/bit_exclusion.c.s
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/flags.make
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o: crypto_sign/Solmae1024/metamorphic/bit_verify.c
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o -MF CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o.d -o CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Solmae1024-meta.dir/bit_verify.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c > CMakeFiles/Solmae1024-meta.dir/bit_verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c > CMakeFiles/Solmae1024-meta.dir/bit_verify.c.i
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Solmae1024-meta.dir/bit_verify.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c -o CMakeFiles/Solmae1024-meta.dir/bit_verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/bit_verify.c -o CMakeFiles/Solmae1024-meta.dir/bit_verify.c.s
 
 # Object files for target Solmae1024-meta
 Solmae1024__meta_OBJECTS = \
@@ -141,18 +141,18 @@ crypto_sign/Solmae1024/lib/libSolmae1024-meta.so: crypto_sign/Solmae1024/metamor
 crypto_sign/Solmae1024/lib/libSolmae1024-meta.so: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/bit_verify.c.o
 crypto_sign/Solmae1024/lib/libSolmae1024-meta.so: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make
 crypto_sign/Solmae1024/lib/libSolmae1024-meta.so: crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../lib/libSolmae1024-meta.so"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Solmae1024-meta.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../lib/libSolmae1024-meta.so"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Solmae1024-meta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build: crypto_sign/Solmae1024/lib/libSolmae1024-meta.so
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/Solmae1024-meta.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/Solmae1024-meta.dir/cmake_clean.cmake
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/clean
 
 crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/depend
 

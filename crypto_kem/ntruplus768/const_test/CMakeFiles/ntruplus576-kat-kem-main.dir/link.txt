@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ntruplus576-kat-kem-main.dir/PQCgenKAT_kem.c.o -o ../bin/ntruplus576-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0715_ff/KPQClean/crypto_kem/ntruplus576/lib ../lib/libntruplus576-kat-kem.so ../lib/libntruplus576.so ../lib/libntruplus576RNG1.so ../../../common/libcommon.a 

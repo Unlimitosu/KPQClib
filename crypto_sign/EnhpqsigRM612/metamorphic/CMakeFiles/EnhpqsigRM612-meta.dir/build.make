@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0722/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/depend.make
@@ -72,44 +72,44 @@ include crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/flags.make
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o: crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.i
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_contribution.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_contribution.c.s
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/flags.make
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o: crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.i
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_exclusion.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_exclusion.c.s
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/flags.make
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o: crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o -MF CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o.d -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c > CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.i
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/bit_verify.c -o CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.s
 
 # Object files for target EnhpqsigRM612-meta
 EnhpqsigRM612__meta_OBJECTS = \
@@ -125,18 +125,18 @@ crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM612-meta.so: crypto_sign/EnhpqsigRM6
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM612-meta.so: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/bit_verify.c.o
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM612-meta.so: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make
 crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM612-meta.so: crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0722/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../libs/libEnhpqsigRM612-meta.so"
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM612-meta.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../libs/libEnhpqsigRM612-meta.so"
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EnhpqsigRM612-meta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build: crypto_sign/EnhpqsigRM612/libs/libEnhpqsigRM612-meta.so
 .PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM612-meta.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/EnhpqsigRM612-meta.dir/cmake_clean.cmake
 .PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/clean
 
 crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0722/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic /home/mingiiiiiiii/KPQClean_0722/KPQClean /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/depend
 

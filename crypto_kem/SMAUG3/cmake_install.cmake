@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,21 +44,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/test/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/kat/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/kat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/benchmark/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/benchmark/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/SMAUG3/metamorphic/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/metamorphic/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/const_test/cmake_install.cmake")
 endif()
 

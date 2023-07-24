@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DPALOMA256_EXPORTS -DPALOMA_MODE=5
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/include -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/crypto_kem/PALOMA256/kat -I/home/mingiiiiiiii/KPQClean_0722/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/PALOMA256/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
 
 C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11
 

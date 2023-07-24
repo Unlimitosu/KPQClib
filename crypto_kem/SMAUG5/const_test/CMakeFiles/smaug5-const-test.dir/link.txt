@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libsmaug5-const-test.so -o ../lib/libsmaug5-const-test.so CMakeFiles/smaug5-const-test.dir/kat_kem.c.o 
