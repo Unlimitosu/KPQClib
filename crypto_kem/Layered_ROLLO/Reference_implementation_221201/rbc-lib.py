@@ -46,28 +46,28 @@ if(config['rbc_compile_example'] == True):
     subprocess.run("cd " + dir_path + "/build/test/example && cmake . && make", shell=True)
 
 
-# ### Preprocessing unit tests
-# if(config['rbc_compile_unit_test'] == True):
-#     print("\n\n### Preprocessing unit tests")
-#     subprocess.run("python -B script/preprocessing/preprocessing_unit_test.py " + config_file, shell=True)
+### Preprocessing unit tests
+if(config['rbc_compile_unit_test'] == True):
+    print("\n\n### Preprocessing unit tests")
+    subprocess.run("python -B script/preprocessing/preprocessing_unit_test.py " + config_file, shell=True)
 
 
-# ### Compiling unit tests
-# if(config['rbc_compile_unit_test'] == True):
-#     print("\n\n### Compiling unit tests")
-#     subprocess.run("cd " + dir_path + "/build/test/unit_test && cmake . && make", shell=True)
+### Compiling unit tests
+if(config['rbc_compile_unit_test'] == True):
+    print("\n\n### Compiling unit tests")
+    subprocess.run("cd " + dir_path + "/build/test/unit_test && cmake . && make", shell=True)
 
 
-# ### Preprocessing constant-time tests
-# if(config['rbc_compile_constant_time_test'] == True):
-#     print("\n\n### Preprocessing constant time tests")
-#     subprocess.run("python -B script/preprocessing/preprocessing_constant_time_test.py " + config_file, shell=True)
+### Preprocessing constant-time tests
+if(config['rbc_compile_constant_time_test'] == True):
+    print("\n\n### Preprocessing constant time tests")
+    subprocess.run("python -B script/preprocessing/preprocessing_constant_time_test.py " + config_file, shell=True)
 
 
-# ### Compiling constant-time tests
-# if(config['rbc_compile_constant_time_test'] == True):
-#     print("\n\n### Compiling constant time tests")
-#     subprocess.run("cd " + dir_path + "/build/test/constant_time_test && cmake . && make", shell=True)
+### Compiling constant-time tests
+if(config['rbc_compile_constant_time_test'] == True):
+    print("\n\n### Compiling constant time tests")
+    subprocess.run("cd " + dir_path + "/build/test/constant_time_test && cmake . && make", shell=True)
 
 ### Preprocessing KAT
 if(config['rbc_compile_kat'] == True):
@@ -96,14 +96,14 @@ if(config['rbc_compile_benchmark'] == True):
 
 
 
-# ### Packaging NIST
-# if(config['rbc_package_nist'] == True):
-#     print("\n\n### Packaging NIST RQC\n")
-#     subprocess.run("python -B script/packaging/packaging_nist_rqc.py", shell=True)
+### Packaging NIST
+if(config['rbc_package_nist'] == True):
+    print("\n\n### Packaging NIST RQC\n")
+    subprocess.run("python -B script/packaging/packaging_nist_rqc.py", shell=True)
 
-#     print("\n\n### Packaging NIST ROLLOI\n")
-#     subprocess.run("python -B script/packaging/packaging_nist_rolloI.py", shell=True)
+    print("\n\n### Packaging NIST ROLLOI\n")
+    subprocess.run("python -B script/packaging/packaging_nist_rolloI.py", shell=True)
 
-#     print("\n\n### Packaging NIST ROLLOII\n")
-#     subprocess.run("python -B script/packaging/packaging_nist_rolloII.py", shell=True)
+    print("\n\n### Packaging NIST ROLLOII\n")
+    subprocess.run("python -B script/packaging/packaging_nist_rolloII.py", shell=True)
 
