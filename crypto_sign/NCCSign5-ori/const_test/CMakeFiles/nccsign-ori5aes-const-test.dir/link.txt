@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign-ori5aes-const-test.so -o ../libs/libnccsign-ori5aes-const-test.so CMakeFiles/nccsign-ori5aes-const-test.dir/kat_sign.c.o 

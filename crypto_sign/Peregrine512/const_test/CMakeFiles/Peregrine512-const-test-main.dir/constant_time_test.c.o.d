@@ -66,5 +66,5 @@ crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine512/include/fpr.h \
- /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine512/include/poison.h \
+ /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine512/const_test/poison.h \
  /usr/include/valgrind/memcheck.h /usr/include/valgrind/valgrind.h

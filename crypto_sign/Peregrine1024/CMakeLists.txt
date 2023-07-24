@@ -49,7 +49,7 @@ target_link_libraries(${LIB_NAME1024} m)
 add_subdirectory(test)
 add_subdirectory(kat)
 add_subdirectory(benchmark)
-
+add_subdirectory(const_test)
 
 
 

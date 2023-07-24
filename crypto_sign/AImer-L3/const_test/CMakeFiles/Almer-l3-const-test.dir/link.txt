@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libAlmer-l3-const-test.so -o ../libs/libAlmer-l3-const-test.so CMakeFiles/Almer-l3-const-test.dir/kat_sign.c.o 

@@ -25,7 +25,7 @@ int		FindMarker(FILE *infile, const char *marker);
 int		ReadHex(FILE *infile, unsigned char *A, int Length, char *str);
 void	fprintBstr(FILE *fp, char *S, unsigned char *A, uint64_t L);
 
-char    AlgName[] = "Enhanced_pqsigRM612";
+char    AlgName[] = "Enhanced_pqsigRM613";
 
 int
 main()

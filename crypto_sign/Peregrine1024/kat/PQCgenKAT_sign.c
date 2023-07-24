@@ -3189,8 +3189,8 @@ main(void)
     FILE *fp_rsp;
     int logn = Peregrine_MODE;
 	// For Peregrine-512 Testing
-    fp_req = fopen("Peregrine_KAT_512.req","w");
-    fp_rsp = fopen("Peregrine_KAT_512.rsp","w");
+    fp_req = fopen("Peregrine_KAT_1024.req","w");
+    fp_rsp = fopen("Peregrine_KAT_1024.rsp","w");
 	test_nist_KAT(logn, "a57400cbaee7109358859a56c735a3cf048a9da2", fp_req, fp_rsp);
     fclose(fp_req);
     fclose(fp_rsp);

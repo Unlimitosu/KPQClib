@@ -62,3 +62,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/HAETAE5/metamorphic/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/HAETAE5/const_test/cmake_install.cmake")
+endif()
+

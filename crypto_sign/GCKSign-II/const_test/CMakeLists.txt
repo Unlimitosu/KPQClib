@@ -3,7 +3,7 @@ set(kat_srcs
 )
 
 # Rank-2 SIGN
-set(CONST_TEST_LIB_NAME2 ${PROJECT_NAME}-const-test)
+set(CONST_TEST_LIB_NAME2 ${PROJECT_NAME}-II-const-test)
 add_library(${CONST_TEST_LIB_NAME2} SHARED ${kat_srcs})
 target_include_directories(${CONST_TEST_LIB_NAME2} PUBLIC ../include)
 target_compile_definitions(${CONST_TEST_LIB_NAME2} PUBLIC GCKSign_MODE=2)

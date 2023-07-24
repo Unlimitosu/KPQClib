@@ -21,9 +21,6 @@ You are solely responsible for determining the appropriateness of using and dist
 #define KAT_DATA_ERROR      -3
 #define KAT_CRYPTO_FAILURE  -4
 
-int		FindMarker(FILE *infile, const char *marker);
-int		ReadHex(FILE *infile, unsigned char *A, int Length, char *str);
-void	fprintBstr(FILE *fp, char *S, unsigned char *A, unsigned long long L);
 
 int
 main()

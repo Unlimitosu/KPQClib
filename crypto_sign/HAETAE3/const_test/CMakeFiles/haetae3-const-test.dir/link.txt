@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libhaetae3-const-test.so -o ../libs/libhaetae3-const-test.so CMakeFiles/haetae3-const-test.dir/kat_sign.c.o 

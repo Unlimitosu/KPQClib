@@ -117,39 +117,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/rule
-.PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/rule
+crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/rule:
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/rule
+.PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/rule
 
 # Convenience name for target.
-GCKSign-const-test: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/rule
-.PHONY : GCKSign-const-test
+GCKSign-II-const-test: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/rule
+.PHONY : GCKSign-II-const-test
 
 # fast build rule for target.
-GCKSign-const-test/fast:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build
-.PHONY : GCKSign-const-test/fast
+GCKSign-II-const-test/fast:
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/build
+.PHONY : GCKSign-II-const-test/fast
 
 # Convenience name for target.
-crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/rule
-.PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/rule
+crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/rule:
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/rule
+.PHONY : crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/rule
 
 # Convenience name for target.
-GCKSign-const-test-main: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/rule
-.PHONY : GCKSign-const-test-main
+GCKSign-II-const-test-main: crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/rule
+.PHONY : GCKSign-II-const-test-main
 
 # fast build rule for target.
-GCKSign-const-test-main/fast:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/build
-.PHONY : GCKSign-const-test-main/fast
+GCKSign-II-const-test-main/fast:
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/build
+.PHONY : GCKSign-II-const-test-main/fast
 
 constant_time_test.o: constant_time_test.c.o
 .PHONY : constant_time_test.o
 
 # target to build an object file
 constant_time_test.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/constant_time_test.c.o
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/constant_time_test.c.o
 .PHONY : constant_time_test.c.o
 
 constant_time_test.i: constant_time_test.c.i
@@ -157,7 +157,7 @@ constant_time_test.i: constant_time_test.c.i
 
 # target to preprocess a source file
 constant_time_test.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/constant_time_test.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/constant_time_test.c.i
 .PHONY : constant_time_test.c.i
 
 constant_time_test.s: constant_time_test.c.s
@@ -165,7 +165,7 @@ constant_time_test.s: constant_time_test.c.s
 
 # target to generate assembly for a file
 constant_time_test.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test-main.dir/constant_time_test.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test-main.dir/constant_time_test.c.s
 .PHONY : constant_time_test.c.s
 
 kat_sign.o: kat_sign.c.o
@@ -173,7 +173,7 @@ kat_sign.o: kat_sign.c.o
 
 # target to build an object file
 kat_sign.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/kat_sign.c.o
 .PHONY : kat_sign.c.o
 
 kat_sign.i: kat_sign.c.i
@@ -181,7 +181,7 @@ kat_sign.i: kat_sign.c.i
 
 # target to preprocess a source file
 kat_sign.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/kat_sign.c.i
 .PHONY : kat_sign.c.i
 
 kat_sign.s: kat_sign.c.s
@@ -189,7 +189,7 @@ kat_sign.s: kat_sign.c.s
 
 # target to generate assembly for a file
 kat_sign.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-const-test.dir/kat_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/build.make crypto_sign/GCKSign-II/const_test/CMakeFiles/GCKSign-II-const-test.dir/kat_sign.c.s
 .PHONY : kat_sign.c.s
 
 # Help Target
@@ -200,8 +200,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... GCKSign-const-test"
-	@echo "... GCKSign-const-test-main"
+	@echo "... GCKSign-II-const-test"
+	@echo "... GCKSign-II-const-test-main"
 	@echo "... constant_time_test.o"
 	@echo "... constant_time_test.i"
 	@echo "... constant_time_test.s"
