@@ -9,7 +9,12 @@
 #include <string.h>
 #include <time.h>
 #include <math.h>
+#include <x86intrin.h>
 #include "inner.h"
+
+int64_t cpucycles(){
+	return __rdtsc();
+}
 
 #define DO_NIST_TESTS   1
 /*
@@ -2945,10 +2950,12 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 	fpr *esk;
 	sha1_context hhc;
     
-    clock_t begin_keygen, end_keygen;
-    double d_keygen = 0;
-    clock_t begin_sig, end_sig;
-    double d_sig = 0;
+    unsigned long long begin_keygen, end_keygen;
+    unsigned long long  d_keygen = 0;
+    unsigned long long  begin_sig, end_sig;
+    unsigned long long  d_sig = 0;
+    unsigned long long  begin_verify, end_verify;
+    unsigned long long  d_verify = 0;
 
 	n = (size_t)1 << logn;
 	//printf("Test NIST KAT (%zu): ", n);
@@ -2978,7 +2985,8 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 	}
 	nist_randombytes_init(entropy_input);
 
-	for (i = 0; i < 100; i ++) {
+	int iternum = 1000;
+	for (i = 0; i < iternum; i ++) {
 		uint8_t seed[48], seed2[48], nonce[40];
 		uint8_t drbg_sav[48];
 		size_t mlen, smlen;
@@ -3015,15 +3023,14 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		/*
 		 * Do keygen.
 		 */
+        begin_keygen = cpucycles();
 		nist_randombytes(seed2, 48);
 		inner_shake256_init(&sc);
 		inner_shake256_inject(&sc, seed2, 48);
 		inner_shake256_flip(&sc);
        
-        begin_keygen = clock();
 		Zf(keygen)(&sc, f, g, F, G, h, logn, tmp);
-        end_keygen = clock();
-        d_keygen = d_keygen + ((double)(end_keygen - begin_keygen) / (double)CLOCKS_PER_SEC);
+
 		/*
 		 * Encode private key.
 		 */
@@ -3054,6 +3061,10 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 			//fprintf(stderr, "wrong private key length: %zu\n", u);
 			exit(EXIT_FAILURE);
 		}
+		end_keygen = cpucycles();
+        d_keygen += (end_keygen - begin_keygen);
+
+
 		/*
 		 * Encode public key.
 		 */
@@ -3068,6 +3079,7 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		/*
 		 * Sign the message.
 		 */
+        begin_sig = cpucycles();
 		nist_randombytes(nonce, 40);
 		inner_shake256_init(&sc);
 		inner_shake256_inject(&sc, nonce, 40);
@@ -3080,10 +3092,9 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		inner_shake256_inject(&sc, seed2, 48);
 		inner_shake256_flip(&sc);
 
-        begin_sig = clock();
         Zf(sign_dyn_peregrine)(sig, &sc, f, g, F, G, hm, h, logn, tmp); //EYSEO
-        end_sig = clock();
-        d_sig = d_sig + ((double)(end_sig - begin_sig) / (double)CLOCKS_PER_SEC);
+        end_sig = cpucycles();
+        d_sig += (end_sig - begin_sig);
         
 		/*
 		 * Expand the private key and sign again the message,
@@ -3099,7 +3110,9 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		/*
 		 * Verify the signature.
 		 */
+		begin_verify = cpucycles();
 		Zf(to_ntt_monty)(h, logn);
+
 		if (!Zf(verify_raw)(hm, sig, h, logn, tmp)) {
 			//fprintf(stderr, "Invalid signature\n");
 			exit(EXIT_FAILURE);
@@ -3132,6 +3145,9 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		 */
 		memcpy(DRBG_key, drbg_sav, 32);
 		memcpy(DRBG_V, drbg_sav + 32, 16);
+		
+		end_verify = cpucycles();
+		d_verify += (end_verify - begin_verify);
 
 		//sha1_print_line_with_int(&hhc, "count = ", (unsigned)i, fp_req);
         //sha1_print_line_with_int(&hhc, "count = ", (unsigned)i, fp_rsp);
@@ -3159,16 +3175,17 @@ test_nist_KAT(unsigned logn, const char *srefhash, FILE *fp_req, FILE *fp_rsp)
 		fflush(stdout);
 	}
     printf("Peregrine512 benchmark\n");
-    printf("keygen : %7.2f     \n", d_keygen * 1000.0 / 100);
-    printf("signature :  %7.2f     \n", d_sig * 1000.0 / 100);
+    printf("keygen : 	%d     \n", d_keygen/iternum);
+    printf("signature : %d     \n", d_sig/iternum);
+    printf("verify :    %d     \n", d_verify/iternum);
 
-	xfree(msg);
-	xfree(sk);
-	xfree(pk);
-	xfree(sm);
+	// xfree(msg);
+	// xfree(sk);
+	// xfree(pk);
+	// xfree(sm);
 
-	xfree(tmp);
-	xfree(esk);
+	// xfree(tmp);
+	// xfree(esk);
 
 	sha1_out(&hhc, hhv);
 	/*printf(" ");

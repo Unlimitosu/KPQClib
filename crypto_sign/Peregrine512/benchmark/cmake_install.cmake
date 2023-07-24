@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine512/benchmark
+# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/benchmark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/Peregrine512-const-test-main.dir/constant_time_test.c.o -o ../bin/Peregrine512-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 
+/usr/bin/cc "CMakeFiles/Peregrine512-const-test-main.dir/constant_time_test.c.o" -o ../bin/Peregrine512-const-test-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/Peregrine512/lib ../lib/libPeregrine512.so -lm 
