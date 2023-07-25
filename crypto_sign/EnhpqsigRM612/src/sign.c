@@ -68,10 +68,10 @@ crypto_sign(unsigned char *sm, unsigned long long *smlen,
 	init_decoding(CODE_N);
 	while(1){
 		//random number
-		//randombytes((unsigned char*)&sign_i, sizeof(unsigned long long));
+		randombytes((unsigned char*)&sign_i, sizeof(unsigned long long));
 
 		// fix random for metamorphic 
-		memset((unsigned char*)&sign_i, 0, sizeof(unsigned long long));
+		//memset((unsigned char*)&sign_i, 0, sizeof(unsigned long long));
 
 		// Find syndrome
 		syndromeForMsg(scrambled_synd_mtx, Sinv, synd_mtx, m, mlen, sign_i);

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613
+# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,26 +44,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/tests/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/kat/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/kat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/benchmark/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/metamorphic/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/metamorphic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/const_test/cmake_install.cmake")
+  include("/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/const_test/cmake_install.cmake")
 endif()
 

@@ -75,10 +75,10 @@ crypto_sign(unsigned char *sm, unsigned long long *smlen,
 	uint32_t iter = 0;
 	while(1){
 		// random number
-		//randombytes((unsigned char*)&sign_i, sizeof(uint64_t));
+		randombytes((unsigned char*)&sign_i, sizeof(uint64_t));
 		
 		// fix random for metamorphic 
-		memset((unsigned char*)&sign_i, 0, sizeof(unsigned long long));
+		//memset((unsigned char*)&sign_i, 0, sizeof(unsigned long long));
 
 		// Find syndrome
 		hash_message((unsigned char*)synd_mtx->elem, m, mlen, sign_i);

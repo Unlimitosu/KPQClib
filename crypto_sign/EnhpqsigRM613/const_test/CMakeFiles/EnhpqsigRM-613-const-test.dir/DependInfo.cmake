@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/EnhpqsigRM613/const_test/kat_sign.c" "crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/kat_sign.c.o" "gcc" "crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/kat_sign.c.o.d"
+  "/home/unlimit/Downloads/KPQClean/crypto_sign/EnhpqsigRM613/const_test/kat_sign.c" "crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/kat_sign.c.o" "gcc" "crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/kat_sign.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -130,472 +130,264 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512_RNG
+# Target rules for targets named EnhpqsigRM-612-RNG
 
 # Build rule for target.
-Peregrine512_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512_RNG
-.PHONY : Peregrine512_RNG
+EnhpqsigRM-612-RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-RNG
+.PHONY : EnhpqsigRM-612-RNG
 
 # fast build rule for target.
-Peregrine512_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512_RNG.dir/build
-.PHONY : Peregrine512_RNG/fast
+EnhpqsigRM-612-RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612-RNG.dir/build
+.PHONY : EnhpqsigRM-612-RNG/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512
+# Target rules for targets named EnhpqsigRM-612
 
 # Build rule for target.
-Peregrine512: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512
-.PHONY : Peregrine512
+EnhpqsigRM-612: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612
+.PHONY : EnhpqsigRM-612
 
 # fast build rule for target.
-Peregrine512/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build.make crypto_sign/Peregrine512/CMakeFiles/Peregrine512.dir/build
-.PHONY : Peregrine512/fast
+EnhpqsigRM-612/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build.make crypto_sign/EnhpqsigRM612/CMakeFiles/EnhpqsigRM-612.dir/build
+.PHONY : EnhpqsigRM-612/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512-main
+# Target rules for targets named EnhpqsigRM-612-main
 
 # Build rule for target.
-Peregrine512-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-main
-.PHONY : Peregrine512-main
+EnhpqsigRM-612-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-main
+.PHONY : EnhpqsigRM-612-main
 
 # fast build rule for target.
-Peregrine512-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build.make crypto_sign/Peregrine512/test/CMakeFiles/Peregrine512-main.dir/build
-.PHONY : Peregrine512-main/fast
+EnhpqsigRM-612-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build.make crypto_sign/EnhpqsigRM612/tests/CMakeFiles/EnhpqsigRM-612-main.dir/build
+.PHONY : EnhpqsigRM-612-main/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512-kat-sign-main
+# Target rules for targets named EnhpqsigRM-612-kat-sign
 
 # Build rule for target.
-Peregrine512-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-kat-sign-main
-.PHONY : Peregrine512-kat-sign-main
+EnhpqsigRM-612-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign
+.PHONY : EnhpqsigRM-612-kat-sign
 
 # fast build rule for target.
-Peregrine512-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build.make crypto_sign/Peregrine512/kat/CMakeFiles/Peregrine512-kat-sign-main.dir/build
-.PHONY : Peregrine512-kat-sign-main/fast
+EnhpqsigRM-612-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign.dir/build
+.PHONY : EnhpqsigRM-612-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512-benchmark
+# Target rules for targets named EnhpqsigRM-612-kat-sign-main
 
 # Build rule for target.
-Peregrine512-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-benchmark
-.PHONY : Peregrine512-benchmark
+EnhpqsigRM-612-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-kat-sign-main
+.PHONY : EnhpqsigRM-612-kat-sign-main
 
 # fast build rule for target.
-Peregrine512-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build.make crypto_sign/Peregrine512/benchmark/CMakeFiles/Peregrine512-benchmark.dir/build
-.PHONY : Peregrine512-benchmark/fast
+EnhpqsigRM-612-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM612/kat/CMakeFiles/EnhpqsigRM-612-kat-sign-main.dir/build
+.PHONY : EnhpqsigRM-612-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine512-const-test-main
+# Target rules for targets named EnhpqsigRM-612-benchmark
 
 # Build rule for target.
-Peregrine512-const-test-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine512-const-test-main
-.PHONY : Peregrine512-const-test-main
+EnhpqsigRM-612-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-benchmark
+.PHONY : EnhpqsigRM-612-benchmark
 
 # fast build rule for target.
-Peregrine512-const-test-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build.make crypto_sign/Peregrine512/const_test/CMakeFiles/Peregrine512-const-test-main.dir/build
-.PHONY : Peregrine512-const-test-main/fast
+EnhpqsigRM-612-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build.make crypto_sign/EnhpqsigRM612/benchmark/CMakeFiles/EnhpqsigRM-612-benchmark.dir/build
+.PHONY : EnhpqsigRM-612-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024_RNG
+# Target rules for targets named EnhpqsigRM612-meta
 
 # Build rule for target.
-Peregrine1024_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024_RNG
-.PHONY : Peregrine1024_RNG
+EnhpqsigRM612-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM612-meta
+.PHONY : EnhpqsigRM612-meta
 
 # fast build rule for target.
-Peregrine1024_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024_RNG.dir/build
-.PHONY : Peregrine1024_RNG/fast
+EnhpqsigRM612-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta.dir/build
+.PHONY : EnhpqsigRM612-meta/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024
+# Target rules for targets named EnhpqsigRM612-meta-main
 
 # Build rule for target.
-Peregrine1024: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024
-.PHONY : Peregrine1024
+EnhpqsigRM612-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM612-meta-main
+.PHONY : EnhpqsigRM612-meta-main
 
 # fast build rule for target.
-Peregrine1024/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build.make crypto_sign/Peregrine1024/CMakeFiles/Peregrine1024.dir/build
-.PHONY : Peregrine1024/fast
+EnhpqsigRM612-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build.make crypto_sign/EnhpqsigRM612/metamorphic/CMakeFiles/EnhpqsigRM612-meta-main.dir/build
+.PHONY : EnhpqsigRM612-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024-main
+# Target rules for targets named EnhpqsigRM-612-const-test
 
 # Build rule for target.
-Peregrine1024-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-main
-.PHONY : Peregrine1024-main
+EnhpqsigRM-612-const-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-const-test
+.PHONY : EnhpqsigRM-612-const-test
 
 # fast build rule for target.
-Peregrine1024-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build.make crypto_sign/Peregrine1024/test/CMakeFiles/Peregrine1024-main.dir/build
-.PHONY : Peregrine1024-main/fast
+EnhpqsigRM-612-const-test/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/const_test/CMakeFiles/EnhpqsigRM-612-const-test.dir/build.make crypto_sign/EnhpqsigRM612/const_test/CMakeFiles/EnhpqsigRM-612-const-test.dir/build
+.PHONY : EnhpqsigRM-612-const-test/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024-kat-sign-main
+# Target rules for targets named EnhpqsigRM-612-const-test-main
 
 # Build rule for target.
-Peregrine1024-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-kat-sign-main
-.PHONY : Peregrine1024-kat-sign-main
+EnhpqsigRM-612-const-test-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-612-const-test-main
+.PHONY : EnhpqsigRM-612-const-test-main
 
 # fast build rule for target.
-Peregrine1024-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build.make crypto_sign/Peregrine1024/kat/CMakeFiles/Peregrine1024-kat-sign-main.dir/build
-.PHONY : Peregrine1024-kat-sign-main/fast
+EnhpqsigRM-612-const-test-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM612/const_test/CMakeFiles/EnhpqsigRM-612-const-test-main.dir/build.make crypto_sign/EnhpqsigRM612/const_test/CMakeFiles/EnhpqsigRM-612-const-test-main.dir/build
+.PHONY : EnhpqsigRM-612-const-test-main/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024-benchmark
+# Target rules for targets named EnhpqsigRM-613-RNG
 
 # Build rule for target.
-Peregrine1024-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-benchmark
-.PHONY : Peregrine1024-benchmark
+EnhpqsigRM-613-RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-RNG
+.PHONY : EnhpqsigRM-613-RNG
 
 # fast build rule for target.
-Peregrine1024-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build.make crypto_sign/Peregrine1024/benchmark/CMakeFiles/Peregrine1024-benchmark.dir/build
-.PHONY : Peregrine1024-benchmark/fast
+EnhpqsigRM-613-RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613-RNG.dir/build
+.PHONY : EnhpqsigRM-613-RNG/fast
 
 #=============================================================================
-# Target rules for targets named Peregrine1024-const-test-main
+# Target rules for targets named EnhpqsigRM-613
 
 # Build rule for target.
-Peregrine1024-const-test-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Peregrine1024-const-test-main
-.PHONY : Peregrine1024-const-test-main
+EnhpqsigRM-613: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613
+.PHONY : EnhpqsigRM-613
 
 # fast build rule for target.
-Peregrine1024-const-test-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/Peregrine1024/const_test/CMakeFiles/Peregrine1024-const-test-main.dir/build.make crypto_sign/Peregrine1024/const_test/CMakeFiles/Peregrine1024-const-test-main.dir/build
-.PHONY : Peregrine1024-const-test-main/fast
+EnhpqsigRM-613/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build.make crypto_sign/EnhpqsigRM613/CMakeFiles/EnhpqsigRM-613.dir/build
+.PHONY : EnhpqsigRM-613/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46_RNG
+# Target rules for targets named EnhpqsigRM-613-main
 
 # Build rule for target.
-MQS256-72-46_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46_RNG
-.PHONY : MQS256-72-46_RNG
+EnhpqsigRM-613-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-main
+.PHONY : EnhpqsigRM-613-main
 
 # fast build rule for target.
-MQS256-72-46_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46_RNG.dir/build
-.PHONY : MQS256-72-46_RNG/fast
+EnhpqsigRM-613-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build.make crypto_sign/EnhpqsigRM613/tests/CMakeFiles/EnhpqsigRM-613-main.dir/build
+.PHONY : EnhpqsigRM-613-main/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46
+# Target rules for targets named EnhpqsigRM-613-kat-sign
 
 # Build rule for target.
-MQS256-72-46: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46
-.PHONY : MQS256-72-46
+EnhpqsigRM-613-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign
+.PHONY : EnhpqsigRM-613-kat-sign
 
 # fast build rule for target.
-MQS256-72-46/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/build.make crypto_sign/MQS256-72-46/CMakeFiles/MQS256-72-46.dir/build
-.PHONY : MQS256-72-46/fast
+EnhpqsigRM-613-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign.dir/build
+.PHONY : EnhpqsigRM-613-kat-sign/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-main
+# Target rules for targets named EnhpqsigRM-613-kat-sign-main
 
 # Build rule for target.
-MQS256-72-46-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-main
-.PHONY : MQS256-72-46-main
+EnhpqsigRM-613-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-kat-sign-main
+.PHONY : EnhpqsigRM-613-kat-sign-main
 
 # fast build rule for target.
-MQS256-72-46-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build.make crypto_sign/MQS256-72-46/test/CMakeFiles/MQS256-72-46-main.dir/build
-.PHONY : MQS256-72-46-main/fast
+EnhpqsigRM-613-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build.make crypto_sign/EnhpqsigRM613/kat/CMakeFiles/EnhpqsigRM-613-kat-sign-main.dir/build
+.PHONY : EnhpqsigRM-613-kat-sign-main/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-kat-sign-main
+# Target rules for targets named EnhpqsigRM-613-benchmark
 
 # Build rule for target.
-MQS256-72-46-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-kat-sign-main
-.PHONY : MQS256-72-46-kat-sign-main
+EnhpqsigRM-613-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-benchmark
+.PHONY : EnhpqsigRM-613-benchmark
 
 # fast build rule for target.
-MQS256-72-46-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/build.make crypto_sign/MQS256-72-46/kat/CMakeFiles/MQS256-72-46-kat-sign-main.dir/build
-.PHONY : MQS256-72-46-kat-sign-main/fast
+EnhpqsigRM-613-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build.make crypto_sign/EnhpqsigRM613/benchmark/CMakeFiles/EnhpqsigRM-613-benchmark.dir/build
+.PHONY : EnhpqsigRM-613-benchmark/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-benchmark
+# Target rules for targets named EnhpqsigRM613-meta
 
 # Build rule for target.
-MQS256-72-46-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-benchmark
-.PHONY : MQS256-72-46-benchmark
+EnhpqsigRM613-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM613-meta
+.PHONY : EnhpqsigRM613-meta
 
 # fast build rule for target.
-MQS256-72-46-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/build.make crypto_sign/MQS256-72-46/benchmark/CMakeFiles/MQS256-72-46-benchmark.dir/build
-.PHONY : MQS256-72-46-benchmark/fast
+EnhpqsigRM613-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/metamorphic/CMakeFiles/EnhpqsigRM613-meta.dir/build.make crypto_sign/EnhpqsigRM613/metamorphic/CMakeFiles/EnhpqsigRM613-meta.dir/build
+.PHONY : EnhpqsigRM613-meta/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-meta
+# Target rules for targets named EnhpqsigRM613-meta-main
 
 # Build rule for target.
-MQS256-72-46-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-meta
-.PHONY : MQS256-72-46-meta
+EnhpqsigRM613-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM613-meta-main
+.PHONY : EnhpqsigRM613-meta-main
 
 # fast build rule for target.
-MQS256-72-46-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta.dir/build
-.PHONY : MQS256-72-46-meta/fast
+EnhpqsigRM613-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/metamorphic/CMakeFiles/EnhpqsigRM613-meta-main.dir/build.make crypto_sign/EnhpqsigRM613/metamorphic/CMakeFiles/EnhpqsigRM613-meta-main.dir/build
+.PHONY : EnhpqsigRM613-meta-main/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-meta-main
+# Target rules for targets named EnhpqsigRM-613-const-test
 
 # Build rule for target.
-MQS256-72-46-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-meta-main
-.PHONY : MQS256-72-46-meta-main
+EnhpqsigRM-613-const-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-const-test
+.PHONY : EnhpqsigRM-613-const-test
 
 # fast build rule for target.
-MQS256-72-46-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build.make crypto_sign/MQS256-72-46/metamorphic/CMakeFiles/MQS256-72-46-meta-main.dir/build
-.PHONY : MQS256-72-46-meta-main/fast
+EnhpqsigRM-613-const-test/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/build.make crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test.dir/build
+.PHONY : EnhpqsigRM-613-const-test/fast
 
 #=============================================================================
-# Target rules for targets named MQS256-72-46-const-test-main
+# Target rules for targets named EnhpqsigRM-613-const-test-main
 
 # Build rule for target.
-MQS256-72-46-const-test-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-72-46-const-test-main
-.PHONY : MQS256-72-46-const-test-main
+EnhpqsigRM-613-const-test-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EnhpqsigRM-613-const-test-main
+.PHONY : EnhpqsigRM-613-const-test-main
 
 # fast build rule for target.
-MQS256-72-46-const-test-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-72-46/const_test/CMakeFiles/MQS256-72-46-const-test-main.dir/build.make crypto_sign/MQS256-72-46/const_test/CMakeFiles/MQS256-72-46-const-test-main.dir/build
-.PHONY : MQS256-72-46-const-test-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96_RNG
-
-# Build rule for target.
-MQS256-148-96_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96_RNG
-.PHONY : MQS256-148-96_RNG
-
-# fast build rule for target.
-MQS256-148-96_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96_RNG.dir/build
-.PHONY : MQS256-148-96_RNG/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96
-
-# Build rule for target.
-MQS256-148-96: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96
-.PHONY : MQS256-148-96
-
-# fast build rule for target.
-MQS256-148-96/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build.make crypto_sign/MQS256-148-96/CMakeFiles/MQS256-148-96.dir/build
-.PHONY : MQS256-148-96/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-main
-
-# Build rule for target.
-MQS256-148-96-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-main
-.PHONY : MQS256-148-96-main
-
-# fast build rule for target.
-MQS256-148-96-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/build.make crypto_sign/MQS256-148-96/test/CMakeFiles/MQS256-148-96-main.dir/build
-.PHONY : MQS256-148-96-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-kat-sign-main
-
-# Build rule for target.
-MQS256-148-96-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-kat-sign-main
-.PHONY : MQS256-148-96-kat-sign-main
-
-# fast build rule for target.
-MQS256-148-96-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/build.make crypto_sign/MQS256-148-96/kat/CMakeFiles/MQS256-148-96-kat-sign-main.dir/build
-.PHONY : MQS256-148-96-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-benchmark
-
-# Build rule for target.
-MQS256-148-96-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-benchmark
-.PHONY : MQS256-148-96-benchmark
-
-# fast build rule for target.
-MQS256-148-96-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/build.make crypto_sign/MQS256-148-96/benchmark/CMakeFiles/MQS256-148-96-benchmark.dir/build
-.PHONY : MQS256-148-96-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-meta
-
-# Build rule for target.
-MQS256-148-96-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-meta
-.PHONY : MQS256-148-96-meta
-
-# fast build rule for target.
-MQS256-148-96-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/build.make crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta.dir/build
-.PHONY : MQS256-148-96-meta/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-meta-main
-
-# Build rule for target.
-MQS256-148-96-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-meta-main
-.PHONY : MQS256-148-96-meta-main
-
-# fast build rule for target.
-MQS256-148-96-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/build.make crypto_sign/MQS256-148-96/metamorphic/CMakeFiles/MQS256-148-96-meta-main.dir/build
-.PHONY : MQS256-148-96-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-148-96-const-test-main
-
-# Build rule for target.
-MQS256-148-96-const-test-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-148-96-const-test-main
-.PHONY : MQS256-148-96-const-test-main
-
-# fast build rule for target.
-MQS256-148-96-const-test-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-148-96/const_test/CMakeFiles/MQS256-148-96-const-test-main.dir/build.make crypto_sign/MQS256-148-96/const_test/CMakeFiles/MQS256-148-96-const-test-main.dir/build
-.PHONY : MQS256-148-96-const-test-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72_RNG
-
-# Build rule for target.
-MQS256-112-72_RNG: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72_RNG
-.PHONY : MQS256-112-72_RNG
-
-# fast build rule for target.
-MQS256-112-72_RNG/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72_RNG.dir/build
-.PHONY : MQS256-112-72_RNG/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72
-
-# Build rule for target.
-MQS256-112-72: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72
-.PHONY : MQS256-112-72
-
-# fast build rule for target.
-MQS256-112-72/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/build.make crypto_sign/MQS256-112-72/CMakeFiles/MQS256-112-72.dir/build
-.PHONY : MQS256-112-72/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-main
-
-# Build rule for target.
-MQS256-112-72-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-main
-.PHONY : MQS256-112-72-main
-
-# fast build rule for target.
-MQS256-112-72-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/build.make crypto_sign/MQS256-112-72/test/CMakeFiles/MQS256-112-72-main.dir/build
-.PHONY : MQS256-112-72-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-kat-sign-main
-
-# Build rule for target.
-MQS256-112-72-kat-sign-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-kat-sign-main
-.PHONY : MQS256-112-72-kat-sign-main
-
-# fast build rule for target.
-MQS256-112-72-kat-sign-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/build.make crypto_sign/MQS256-112-72/kat/CMakeFiles/MQS256-112-72-kat-sign-main.dir/build
-.PHONY : MQS256-112-72-kat-sign-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-benchmark
-
-# Build rule for target.
-MQS256-112-72-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-benchmark
-.PHONY : MQS256-112-72-benchmark
-
-# fast build rule for target.
-MQS256-112-72-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build.make crypto_sign/MQS256-112-72/benchmark/CMakeFiles/MQS256-112-72-benchmark.dir/build
-.PHONY : MQS256-112-72-benchmark/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-meta
-
-# Build rule for target.
-MQS256-112-72-meta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-meta
-.PHONY : MQS256-112-72-meta
-
-# fast build rule for target.
-MQS256-112-72-meta/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/build.make crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta.dir/build
-.PHONY : MQS256-112-72-meta/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-meta-main
-
-# Build rule for target.
-MQS256-112-72-meta-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-meta-main
-.PHONY : MQS256-112-72-meta-main
-
-# fast build rule for target.
-MQS256-112-72-meta-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/build.make crypto_sign/MQS256-112-72/metamorphic/CMakeFiles/MQS256-112-72-meta-main.dir/build
-.PHONY : MQS256-112-72-meta-main/fast
-
-#=============================================================================
-# Target rules for targets named MQS256-112-72-const-test-main
-
-# Build rule for target.
-MQS256-112-72-const-test-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MQS256-112-72-const-test-main
-.PHONY : MQS256-112-72-const-test-main
-
-# fast build rule for target.
-MQS256-112-72-const-test-main/fast:
-	$(MAKE) $(MAKESILENT) -f crypto_sign/MQS256-112-72/const_test/CMakeFiles/MQS256-112-72-const-test-main.dir/build.make crypto_sign/MQS256-112-72/const_test/CMakeFiles/MQS256-112-72-const-test-main.dir/build
-.PHONY : MQS256-112-72-const-test-main/fast
+EnhpqsigRM-613-const-test-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test-main.dir/build.make crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test-main.dir/build
+.PHONY : EnhpqsigRM-613-const-test-main/fast
 
 # Help Target
 help:
@@ -605,42 +397,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MQS256-112-72"
-	@echo "... MQS256-112-72-benchmark"
-	@echo "... MQS256-112-72-const-test-main"
-	@echo "... MQS256-112-72-kat-sign-main"
-	@echo "... MQS256-112-72-main"
-	@echo "... MQS256-112-72-meta"
-	@echo "... MQS256-112-72-meta-main"
-	@echo "... MQS256-112-72_RNG"
-	@echo "... MQS256-148-96"
-	@echo "... MQS256-148-96-benchmark"
-	@echo "... MQS256-148-96-const-test-main"
-	@echo "... MQS256-148-96-kat-sign-main"
-	@echo "... MQS256-148-96-main"
-	@echo "... MQS256-148-96-meta"
-	@echo "... MQS256-148-96-meta-main"
-	@echo "... MQS256-148-96_RNG"
-	@echo "... MQS256-72-46"
-	@echo "... MQS256-72-46-benchmark"
-	@echo "... MQS256-72-46-const-test-main"
-	@echo "... MQS256-72-46-kat-sign-main"
-	@echo "... MQS256-72-46-main"
-	@echo "... MQS256-72-46-meta"
-	@echo "... MQS256-72-46-meta-main"
-	@echo "... MQS256-72-46_RNG"
-	@echo "... Peregrine1024"
-	@echo "... Peregrine1024-benchmark"
-	@echo "... Peregrine1024-const-test-main"
-	@echo "... Peregrine1024-kat-sign-main"
-	@echo "... Peregrine1024-main"
-	@echo "... Peregrine1024_RNG"
-	@echo "... Peregrine512"
-	@echo "... Peregrine512-benchmark"
-	@echo "... Peregrine512-const-test-main"
-	@echo "... Peregrine512-kat-sign-main"
-	@echo "... Peregrine512-main"
-	@echo "... Peregrine512_RNG"
+	@echo "... EnhpqsigRM-612"
+	@echo "... EnhpqsigRM-612-RNG"
+	@echo "... EnhpqsigRM-612-benchmark"
+	@echo "... EnhpqsigRM-612-const-test"
+	@echo "... EnhpqsigRM-612-const-test-main"
+	@echo "... EnhpqsigRM-612-kat-sign"
+	@echo "... EnhpqsigRM-612-kat-sign-main"
+	@echo "... EnhpqsigRM-612-main"
+	@echo "... EnhpqsigRM-613"
+	@echo "... EnhpqsigRM-613-RNG"
+	@echo "... EnhpqsigRM-613-benchmark"
+	@echo "... EnhpqsigRM-613-const-test"
+	@echo "... EnhpqsigRM-613-const-test-main"
+	@echo "... EnhpqsigRM-613-kat-sign"
+	@echo "... EnhpqsigRM-613-kat-sign-main"
+	@echo "... EnhpqsigRM-613-main"
+	@echo "... EnhpqsigRM612-meta"
+	@echo "... EnhpqsigRM612-meta-main"
+	@echo "... EnhpqsigRM613-meta"
+	@echo "... EnhpqsigRM613-meta-main"
 	@echo "... common"
 .PHONY : help
 

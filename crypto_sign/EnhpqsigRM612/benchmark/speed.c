@@ -10,7 +10,7 @@
 #include "cpucycles.h"
 #include "speed_print.h"
 
-#define NTESTS 1000
+#define NTESTS 10
 #define SEEDBYTES 32
 
 uint64_t t[NTESTS];
@@ -47,32 +47,44 @@ int main() {
     cpucycles();
     overhead = clock() - overhead;
 
-    srt = clock();
+    unsigned long long keygen_clk = 0;
     for (i = 0; i < NTESTS; i++) {
+        printf("%d-th keygen...\n", i);
+        srt = cpucycles();
         t[i] = cpucycles();
         crypto_sign_keypair(pk, sk);
+        ed = cpucycles();
+        keygen_clk += ed - srt;
     }
-    ed = clock();
+    printf("keypair clock: %d\n", keygen_clk/NTESTS);
     print_results("crypto_sign_keypair: ", t, NTESTS);
-    printf("time elapsed: %.8fms\n\n", (double)(ed - srt - overhead * NTESTS) *
-                                           1000 / CLOCKS_PER_SEC / NTESTS);
+    //printf("time elapsed: %.8fms\n\n", (double)(keygen_clk - overhead * NTESTS) *
+                                           //1000 / CLOCKS_PER_SEC / NTESTS);
 
-    srt = clock();
+    unsigned long long sign_clk = 0;
     for (i = 0; i < NTESTS; i++) {
+        printf("%d-th sign...\n", i);
+        srt = cpucycles();
         t[i] = cpucycles();
         crypto_sign(sm, (unsigned long long *)&smlen, m, mlen, sk);
+        ed = cpucycles();
+        sign_clk += ed - srt;
     }
-    ed = clock();
+    printf("sign clock: %d\n", sign_clk/NTESTS);
     print_results("crypto_sign_signature: ", t, NTESTS);
     printf("time elapsed: %.8fms\n\n", (double)(ed - srt - overhead * NTESTS) *
                                            1000 / CLOCKS_PER_SEC / NTESTS);
 
-    srt = clock();
+    unsigned long long verify_clk = 0;
     for (i = 0; i < NTESTS; i++) {
+        printf("%d-th verify...\n", i);
+        srt = cpucycles();
         t[i] = cpucycles();
         crypto_sign_open(m1, (unsigned long long *)&mlen1, sm, smlen, pk);
+        ed = cpucycles();
+        verify_clk += ed - srt;
     }
-    ed = clock();
+    printf("verify clock: %d\n", verify_clk/NTESTS);
     print_results("crypto_sign_verify: ", t, NTESTS);
     printf("time elapsed: %.8fms\n\n", (double)(ed - srt - overhead * NTESTS) *
                                            1000 / CLOCKS_PER_SEC / NTESTS);

@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM613-meta.so -o ../libs/libEnhpqsigRM613-meta.so CMakeFiles/EnhpqsigRM613-meta.dir/bit_contribution.c.o CMakeFiles/EnhpqsigRM613-meta.dir/bit_exclusion.c.o CMakeFiles/EnhpqsigRM613-meta.dir/bit_verify.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM613-meta.so -o ../libs/libEnhpqsigRM613-meta.so "CMakeFiles/EnhpqsigRM613-meta.dir/bit_contribution.c.o" "CMakeFiles/EnhpqsigRM613-meta.dir/bit_exclusion.c.o" "CMakeFiles/EnhpqsigRM613-meta.dir/bit_verify.c.o" 
