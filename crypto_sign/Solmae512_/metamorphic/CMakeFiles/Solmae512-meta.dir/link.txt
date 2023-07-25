@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae512-meta.so -o ../lib/libSolmae512-meta.so CMakeFiles/Solmae512-meta.dir/katrng.c.o CMakeFiles/Solmae512-meta.dir/bit_contribution.c.o CMakeFiles/Solmae512-meta.dir/bit_exclusion.c.o CMakeFiles/Solmae512-meta.dir/bit_verify.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae512-meta.so -o ../lib/libSolmae512-meta.so "CMakeFiles/Solmae512-meta.dir/katrng.c.o" "CMakeFiles/Solmae512-meta.dir/bit_contribution.c.o" "CMakeFiles/Solmae512-meta.dir/bit_exclusion.c.o" "CMakeFiles/Solmae512-meta.dir/bit_verify.c.o" 

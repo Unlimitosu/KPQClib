@@ -1013,6 +1013,266 @@ EnhpqsigRM-613-const-test-main/fast:
 	$(MAKE) $(MAKESILENT) -f crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test-main.dir/build.make crypto_sign/EnhpqsigRM613/const_test/CMakeFiles/EnhpqsigRM-613-const-test-main.dir/build
 .PHONY : EnhpqsigRM-613-const-test-main/fast
 
+#=============================================================================
+# Target rules for targets named SOLMAE1024_RNG
+
+# Build rule for target.
+SOLMAE1024_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOLMAE1024_RNG
+.PHONY : SOLMAE1024_RNG
+
+# fast build rule for target.
+SOLMAE1024_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build.make crypto_sign/Solmae1024/CMakeFiles/SOLMAE1024_RNG.dir/build
+.PHONY : SOLMAE1024_RNG/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024
+
+# Build rule for target.
+Solmae1024: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024
+.PHONY : Solmae1024
+
+# fast build rule for target.
+Solmae1024/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build.make crypto_sign/Solmae1024/CMakeFiles/Solmae1024.dir/build
+.PHONY : Solmae1024/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-main
+
+# Build rule for target.
+Solmae1024-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-main
+.PHONY : Solmae1024-main
+
+# fast build rule for target.
+Solmae1024-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build.make crypto_sign/Solmae1024/test/CMakeFiles/Solmae1024-main.dir/build
+.PHONY : Solmae1024-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-kat-sign
+
+# Build rule for target.
+Solmae1024-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-kat-sign
+.PHONY : Solmae1024-kat-sign
+
+# fast build rule for target.
+Solmae1024-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
+.PHONY : Solmae1024-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-kat-sign-main
+
+# Build rule for target.
+Solmae1024-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-kat-sign-main
+.PHONY : Solmae1024-kat-sign-main
+
+# fast build rule for target.
+Solmae1024-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build.make crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign-main.dir/build
+.PHONY : Solmae1024-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-benchmark
+
+# Build rule for target.
+Solmae1024-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-benchmark
+.PHONY : Solmae1024-benchmark
+
+# fast build rule for target.
+Solmae1024-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build.make crypto_sign/Solmae1024/benchmark/CMakeFiles/Solmae1024-benchmark.dir/build
+.PHONY : Solmae1024-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-meta
+
+# Build rule for target.
+Solmae1024-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-meta
+.PHONY : Solmae1024-meta
+
+# fast build rule for target.
+Solmae1024-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta.dir/build
+.PHONY : Solmae1024-meta/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-meta-main
+
+# Build rule for target.
+Solmae1024-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-meta-main
+.PHONY : Solmae1024-meta-main
+
+# fast build rule for target.
+Solmae1024-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build.make crypto_sign/Solmae1024/metamorphic/CMakeFiles/Solmae1024-meta-main.dir/build
+.PHONY : Solmae1024-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-const-test
+
+# Build rule for target.
+Solmae1024-const-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-const-test
+.PHONY : Solmae1024-const-test
+
+# fast build rule for target.
+Solmae1024-const-test/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/const_test/CMakeFiles/Solmae1024-const-test.dir/build.make crypto_sign/Solmae1024/const_test/CMakeFiles/Solmae1024-const-test.dir/build
+.PHONY : Solmae1024-const-test/fast
+
+#=============================================================================
+# Target rules for targets named Solmae1024-const-test-main
+
+# Build rule for target.
+Solmae1024-const-test-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae1024-const-test-main
+.PHONY : Solmae1024-const-test-main
+
+# fast build rule for target.
+Solmae1024-const-test-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae1024/const_test/CMakeFiles/Solmae1024-const-test-main.dir/build.make crypto_sign/Solmae1024/const_test/CMakeFiles/Solmae1024-const-test-main.dir/build
+.PHONY : Solmae1024-const-test-main/fast
+
+#=============================================================================
+# Target rules for targets named SOLMAE512_RNG
+
+# Build rule for target.
+SOLMAE512_RNG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOLMAE512_RNG
+.PHONY : SOLMAE512_RNG
+
+# fast build rule for target.
+SOLMAE512_RNG/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/CMakeFiles/SOLMAE512_RNG.dir/build.make crypto_sign/Solmae512_/CMakeFiles/SOLMAE512_RNG.dir/build
+.PHONY : SOLMAE512_RNG/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512
+
+# Build rule for target.
+Solmae512: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512
+.PHONY : Solmae512
+
+# fast build rule for target.
+Solmae512/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/build.make crypto_sign/Solmae512_/CMakeFiles/Solmae512.dir/build
+.PHONY : Solmae512/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-main
+
+# Build rule for target.
+Solmae512-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-main
+.PHONY : Solmae512-main
+
+# fast build rule for target.
+Solmae512-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/test/CMakeFiles/Solmae512-main.dir/build.make crypto_sign/Solmae512_/test/CMakeFiles/Solmae512-main.dir/build
+.PHONY : Solmae512-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-kat-sign
+
+# Build rule for target.
+Solmae512-kat-sign: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-kat-sign
+.PHONY : Solmae512-kat-sign
+
+# fast build rule for target.
+Solmae512-kat-sign/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign.dir/build.make crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign.dir/build
+.PHONY : Solmae512-kat-sign/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-kat-sign-main
+
+# Build rule for target.
+Solmae512-kat-sign-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-kat-sign-main
+.PHONY : Solmae512-kat-sign-main
+
+# fast build rule for target.
+Solmae512-kat-sign-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign-main.dir/build.make crypto_sign/Solmae512_/kat/CMakeFiles/Solmae512-kat-sign-main.dir/build
+.PHONY : Solmae512-kat-sign-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-benchmark
+
+# Build rule for target.
+Solmae512-benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-benchmark
+.PHONY : Solmae512-benchmark
+
+# fast build rule for target.
+Solmae512-benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/benchmark/CMakeFiles/Solmae512-benchmark.dir/build.make crypto_sign/Solmae512_/benchmark/CMakeFiles/Solmae512-benchmark.dir/build
+.PHONY : Solmae512-benchmark/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-meta
+
+# Build rule for target.
+Solmae512-meta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-meta
+.PHONY : Solmae512-meta
+
+# fast build rule for target.
+Solmae512-meta/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/metamorphic/CMakeFiles/Solmae512-meta.dir/build.make crypto_sign/Solmae512_/metamorphic/CMakeFiles/Solmae512-meta.dir/build
+.PHONY : Solmae512-meta/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-meta-main
+
+# Build rule for target.
+Solmae512-meta-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-meta-main
+.PHONY : Solmae512-meta-main
+
+# fast build rule for target.
+Solmae512-meta-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/metamorphic/CMakeFiles/Solmae512-meta-main.dir/build.make crypto_sign/Solmae512_/metamorphic/CMakeFiles/Solmae512-meta-main.dir/build
+.PHONY : Solmae512-meta-main/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-const-test
+
+# Build rule for target.
+Solmae512-const-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-const-test
+.PHONY : Solmae512-const-test
+
+# fast build rule for target.
+Solmae512-const-test/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/const_test/CMakeFiles/Solmae512-const-test.dir/build.make crypto_sign/Solmae512_/const_test/CMakeFiles/Solmae512-const-test.dir/build
+.PHONY : Solmae512-const-test/fast
+
+#=============================================================================
+# Target rules for targets named Solmae512-const-test-main
+
+# Build rule for target.
+Solmae512-const-test-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Solmae512-const-test-main
+.PHONY : Solmae512-const-test-main
+
+# fast build rule for target.
+Solmae512-const-test-main/fast:
+	$(MAKE) $(MAKESILENT) -f crypto_sign/Solmae512_/const_test/CMakeFiles/Solmae512-const-test-main.dir/build.make crypto_sign/Solmae512_/const_test/CMakeFiles/Solmae512-const-test-main.dir/build
+.PHONY : Solmae512-const-test-main/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1089,6 +1349,26 @@ help:
 	@echo "... PALOMARNG1"
 	@echo "... PALOMARNG3"
 	@echo "... PALOMARNG5"
+	@echo "... SOLMAE1024_RNG"
+	@echo "... SOLMAE512_RNG"
+	@echo "... Solmae1024"
+	@echo "... Solmae1024-benchmark"
+	@echo "... Solmae1024-const-test"
+	@echo "... Solmae1024-const-test-main"
+	@echo "... Solmae1024-kat-sign"
+	@echo "... Solmae1024-kat-sign-main"
+	@echo "... Solmae1024-main"
+	@echo "... Solmae1024-meta"
+	@echo "... Solmae1024-meta-main"
+	@echo "... Solmae512"
+	@echo "... Solmae512-benchmark"
+	@echo "... Solmae512-const-test"
+	@echo "... Solmae512-const-test-main"
+	@echo "... Solmae512-kat-sign"
+	@echo "... Solmae512-kat-sign-main"
+	@echo "... Solmae512-main"
+	@echo "... Solmae512-meta"
+	@echo "... Solmae512-meta-main"
 	@echo "... common"
 .PHONY : help
 
