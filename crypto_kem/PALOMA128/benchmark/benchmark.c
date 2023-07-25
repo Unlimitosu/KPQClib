@@ -44,7 +44,7 @@ int main(){
     int tset[3]={64,128,128};
     int nset[3]={3904,5568,6592};
 
-    int flag = 1;
+    int flag = 0;
     int t = tset[flag];     
     int n = nset[flag];   
     int k = (n-(13*t));

@@ -26,7 +26,7 @@ type EncType1(type(*cipher)[CIPHER_DIM + 2],
 {
 	//* First Graph Encryption
 	// printf("========poly1========\n");
-	printf("cipher var size: %d\n", sizeof(cipher));
+	//printf("cipher var size: %d\n", sizeof(cipher));
 	type poly1[G1fTerms][maxDIM + 2] = { 0, };
 	type numTERMS1 = Encryption(poly1, message1,
 		G1numCs, G1fDim, GraphNeighbor1, v_nieg_1, G1numVertex, Graph1Start);
