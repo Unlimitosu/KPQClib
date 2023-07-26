@@ -1,7 +1,7 @@
 LDLIBS=-lcrypto
 CC = gcc
 OPT=-O3
-CFLAGS = -Wall -Wextra -Wpedantic $(OPT) -std=c99
+CFLAGS = -Wall -Wextra -Wpedantic -g $(OPT) -std=c99
 
 ifeq "$(CC)" "gcc"
 	COMPILER=gcc

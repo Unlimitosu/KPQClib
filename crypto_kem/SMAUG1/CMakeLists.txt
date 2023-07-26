@@ -22,7 +22,7 @@ set(srcs
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -O3 -fomit-frame-pointer -fPIC -Wall -Wextra)
+  set(C_FLAGS -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -g)
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
