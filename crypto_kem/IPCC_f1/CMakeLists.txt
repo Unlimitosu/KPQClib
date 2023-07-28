@@ -24,7 +24,7 @@ set(srcs
 if(MSVC)
   set(C_FLAGS /nologo /O2 /W4 /wd4146 /wd4244)
 else()
-  set(C_FLAGS -g -fomit-frame-pointer -fPIC -Wall -Wextra)
+  set(C_FLAGS -O3 -g -fomit-frame-pointer -fPIC -Wall -Wextra)
 endif()
 
 
