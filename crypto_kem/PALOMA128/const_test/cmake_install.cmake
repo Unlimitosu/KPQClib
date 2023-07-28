@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/const_test
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/PALOMA128/const_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

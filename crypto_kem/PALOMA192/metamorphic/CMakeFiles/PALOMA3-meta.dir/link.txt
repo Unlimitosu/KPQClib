@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMA3-meta.so -o ../lib/libPALOMA3-meta.so "CMakeFiles/PALOMA3-meta.dir/bit_contribution.c.o" "CMakeFiles/PALOMA3-meta.dir/bit_exclusion.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMA3-meta.so -o ../lib/libPALOMA3-meta.so CMakeFiles/PALOMA3-meta.dir/bit_contribution.c.o CMakeFiles/PALOMA3-meta.dir/bit_exclusion.c.o 

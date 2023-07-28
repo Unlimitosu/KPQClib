@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o" -o ../bin/PALOMA1-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA1-meta.so ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/PALOMA1-meta-main.dir/meta_test.c.o -o ../bin/PALOMA1-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/PALOMA128/lib ../lib/libPALOMA1-meta.so ../lib/libPALOMA128.so ../lib/libPALOMARNG1.so ../../../common/libcommon.a 

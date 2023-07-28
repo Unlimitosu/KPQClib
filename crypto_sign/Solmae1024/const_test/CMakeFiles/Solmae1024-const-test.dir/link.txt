@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-const-test.so -o ../lib/libSolmae1024-const-test.so "CMakeFiles/Solmae1024-const-test.dir/katrng.c.o" 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libSolmae1024-const-test.so -o ../lib/libSolmae1024-const-test.so CMakeFiles/Solmae1024-const-test.dir/katrng.c.o 
