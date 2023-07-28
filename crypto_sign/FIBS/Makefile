@@ -92,6 +92,7 @@ TESTS = test/wots \
 		test/spx \
 
 BENCHMARK = test/benchmark
+META = test/metamorphic
 
 CFLAGSCGL=$(OPT) -std=gnu11 $(ADDITIONAL_SETTINGS) -D $(ARCHITECTURE) -D __NIX__ -D $(USE_OPT_LEVEL) $(MULX) $(ADX)
 LDFLAGS=-lm
@@ -107,7 +108,7 @@ OBJECTS_610=objs610/P610.o $(EXTRA_OBJECTS_610) objs/random.o objs/fips202.o
 .PHONY: clean test benchmark
 
 
-all: lib610 testcgl PQCgenKAT_sign tests benchmarks 
+all: lib610 testcgl PQCgenKAT_sign tests benchmarks metamorphics
 
 tests: $(TESTS)
 
@@ -116,6 +117,9 @@ test: $(TESTS:=.exec)
 benchmarks: $(BENCHMARK)
 
 benchmark: $(BENCHMARK:=.exec)
+
+metamorphics: $(META)
+metamorphic: $(META:=.exec)
 
 objs610/%.o: cglhash/P610/%.c
 	@mkdir -p $(@D)
@@ -164,6 +168,7 @@ test/%.exec: test/%
 clean:
 	-$(RM) $(TESTS)
 	-$(RM) $(BENCHMARK)
+	-$(RM) $(META)
 	-$(RM) PQCgenKAT_sign
 	-$(RM) PQCsignKAT_*.rsp
 	-$(RM) PQCsignKAT_*.req

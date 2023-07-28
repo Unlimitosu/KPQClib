@@ -17,6 +17,7 @@ int main() {
   unsigned char ct[BIIX_CIPHERTEXT_BYTES] = {0};
   unsigned char ss1[BIIX_SHARED_SECRET_BYTES] = {0};
   unsigned char ss2[BIIX_SHARED_SECRET_BYTES] = {0};
+  unsigned char ss3[BIIX_SHARED_SECRET_BYTES] = {0};
 
   long long t1 = cpucycles();
   biix_keygen(pk, sk);
@@ -46,6 +47,100 @@ int main() {
   printf("\n\n");
   
   
-  
+  // metamorphic 
+  memset(pk, 0, BIIX_PUBLIC_KEY_BYTES);
+  memset(sk, 0, BIIX_SECRET_KEY_BYTES);
+  memset(ct, 0, BIIX_CIPHERTEXT_BYTES);
+  memset(ss1, 0, BIIX_SHARED_SECRET_BYTES);
+  memset(ss2, 0, BIIX_SHARED_SECRET_BYTES);
+
+
+  biix_keygen(pk, sk);
+  biix_encaps(ct, ss1, pk);
+
+  uint8_t* buf = (uint8_t*)calloc(BIIX_SECRET_KEY_BYTES, sizeof(uint8_t));
+  int res_bct = 1;
+  for(int i = 0; i < BIIX_SECRET_KEY_BYTES; i++){
+    memcpy(buf, sk, BIIX_SECRET_KEY_BYTES);
+
+    buf[i/8] ^= 1 << (i % 8); //! change sk
+
+    //? relation : if pk changed, then recovered ss is different?
+    biix_decaps(ss2, ct, sk); //ss1
+    biix_decaps(ss3, ct, buf); //ss2
+    
+    if(memcmp(ss3, ss2, BIIX_SHARED_SECRET_BYTES) != 0){
+      continue;
+    } else {
+      printf("biix_128 Bit Contribution Test Fail: Failed on sk\n");
+      res_bct = 0;
+      break;
+    }
+  }
+
+  free(buf);
+  buf = (uint8_t*)calloc(BIIX_CIPHERTEXT_BYTES, sizeof(uint8_t));
+  for(int i = 0; i < BIIX_CIPHERTEXT_BYTES; i++){
+    memcpy(buf, ct, BIIX_CIPHERTEXT_BYTES);
+
+    buf[i/8] ^= 1 << (i % 8);
+
+    biix_decaps(ss2,  ct, sk);
+    biix_decaps(ss3, buf, sk);
+
+    if(memcmp(ss3, ss2, BIIX_SHARED_SECRET_BYTES) != 0){
+        continue;
+    } else {
+      printf("biix_128 Bit Contribution Test Fail: Failed on ct\n");
+      res_bct = 0;
+      break;
+    }
+  }
+  if(res_bct){
+    printf("biix_128 Bit Contribution Test Success\n");
+  }
+
+  free(buf);
+  buf = (uint8_t*)calloc(BIIX_SECRET_KEY_BYTES, sizeof(uint8_t));
+  int res_bet = 1;
+  for(int i = 0; i < BIIX_SECRET_KEY_BYTES; i++){
+    memcpy(buf, sk, BIIX_SECRET_KEY_BYTES);
+
+    buf[i/8] ^= 1 << (i % 8);
+
+    biix_decaps(ss2, ct, sk);
+    biix_decaps(ss3, ct, buf);
+
+    if(memcmp(ss3, ss2, BIIX_SHARED_SECRET_BYTES) == 0){
+        continue;
+    } else {
+      printf("biix_128 Bit Exclusion Test Fail: Failed on sk\n");
+      res_bet = 0;
+      break;
+    }
+  }  
+
+  free(buf);
+  buf = (uint8_t*)calloc(BIIX_CIPHERTEXT_BYTES, sizeof(uint8_t));
+  for(int i = 0; i < BIIX_CIPHERTEXT_BYTES; i++){
+    memcpy(buf, ct, BIIX_CIPHERTEXT_BYTES);
+
+    buf[i/8] ^= 1 << (i % 8);
+
+    biix_decaps(ss2, ct,  sk);
+    biix_decaps(ss3, buf, sk);
+
+    if(memcmp(ss3, ss2, BIIX_SHARED_SECRET_BYTES) == 0){
+        continue;
+    } else {
+      printf("biix_128 Bit Exclusion Test Fail: Failed on ct\n");
+      res_bet = 0;
+      break;
+    }
+  }  
+  free(buf);
+  if(res_bet){
+    printf("biix_128 Bit Exclusion Test Success\n");
+  }
 }
 

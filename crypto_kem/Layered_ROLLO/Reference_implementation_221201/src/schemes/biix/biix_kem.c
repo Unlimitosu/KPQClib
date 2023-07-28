@@ -479,13 +479,13 @@ void rbc_qre_set_arb_random_pair_from_support(random_source* ctx, rbc_qre o1, rb
     uint8_t random2[random2_size];
 
     // Copy the support vector in support_size random positions of o
-    random_get_bytes(ctx, random1, random1_size);
+    //random_get_bytes(ctx, random1, random1_size);
 
     uint32_t i = 0;
     uint32_t j = 0;
     uint32_t position;
 
-    while(i != support_size) {
+    //while(i != support_size) {
       position = random1[j];
 
       // Check that the position is not already taken
@@ -507,13 +507,13 @@ void rbc_qre_set_arb_random_pair_from_support(random_source* ctx, rbc_qre o1, rb
       // Get more randomness if necessary
       j = j + 2;
       if(j % random1_size == 0 && i != support_size) {
-        random_get_bytes(ctx, random1, random1_size);
+        //random_get_bytes(ctx, random1, random1_size);
         j = 0;
       }
-    }
+    //}
 
     // Set all the remaining coordinates with random linear combinations of the support coordinates
-    random_get_bytes(ctx, random2, random2_size);
+    //random_get_bytes(ctx, random2, random2_size);
 
     uint32_t k = 0;
     uint32_t l = 0;
@@ -558,7 +558,7 @@ void rbc_qre_set_arb_random_pair_from_support(random_source* ctx, rbc_qre o1, rb
     //Set all the coordinates to random linear combinations of the support
     uint32_t random_size = 2 * support_size * size / 8 + 1;
     uint8_t random[random_size];
-    random_get_bytes(ctx, random, random_size);
+    //random_get_bytes(ctx, random, random_size);
 
     uint32_t i = 0;
     uint32_t j = 0;

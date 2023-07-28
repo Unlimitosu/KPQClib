@@ -7,6 +7,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY CONFIG_LIB_DIR)
 
 set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-expansion-to-defined")
 
+find_package(OpenSSL REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../cmake)
 find_library(NTL_LIB ntl)
 find_library(GMP_LIB gmp)
