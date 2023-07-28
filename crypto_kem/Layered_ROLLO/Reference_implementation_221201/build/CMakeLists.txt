@@ -13,9 +13,9 @@ set(rbc-lib_Version_MINOR 1)
 
 set(CORE_LAYER_IMPLEM "avx")
 
-set(RBC_LIB_INSTALL_PATH /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
-set(RBC_LIB_INSTALL_PATH_INC /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/include)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
+set(RBC_LIB_INSTALL_PATH /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
+set(RBC_LIB_INSTALL_PATH_INC /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/include)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
 
 
 
@@ -23,18 +23,18 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/unlimit/Downloads/KPQClean/crypto_kem/L
 
 if(CORE_LAYER_IMPLEM STREQUAL "avx")
   #set(CMAKE_C_FLAGS "-O3 -flto -march=skylake -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -Werror")
-  set(CMAKE_C_FLAGS "-O3 -flto -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra")
+  set(CMAKE_C_FLAGS "-O3 -flto -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -g")
   #set(CMAKE_C_FLAGS "-O3 -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -Werror")
 endif(CORE_LAYER_IMPLEM STREQUAL "avx")
 
 if(CORE_LAYER_IMPLEM STREQUAL "c64")
   #set(CMAKE_C_FLAGS "-O3 -flto -march=skylake -std=c99 -pedantic -Wall -Wextra -Werror")
-  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror")
+  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror -g")
   #set(CMAKE_C_FLAGS "-O3 -std=c99 -pedantic -Wall -Wextra -Werror")
 endif(CORE_LAYER_IMPLEM STREQUAL "c64")
 
 if(CORE_LAYER_IMPLEM STREQUAL "c32")
-  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror")
+  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror -g")
 endif(CORE_LAYER_IMPLEM STREQUAL "c32")
 
 

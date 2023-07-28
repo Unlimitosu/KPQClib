@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/test_rbc_67_elt"
-  "/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/test_rbc_67_elt.pdb"
+  "/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/test_rbc_67_elt"
+  "/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/test_rbc_67_elt.pdb"
   "CMakeFiles/test_rbc_67_elt.dir/test_rbc_67_elt.cpp.o"
   "CMakeFiles/test_rbc_67_elt.dir/test_rbc_67_elt.cpp.o.d"
 )

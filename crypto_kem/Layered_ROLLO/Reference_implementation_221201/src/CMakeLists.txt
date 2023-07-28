@@ -23,18 +23,18 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY CONFIG_LIB_DIR)
 
 if(CORE_LAYER_IMPLEM STREQUAL "avx")
   #set(CMAKE_C_FLAGS "-O3 -flto -march=skylake -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -Werror")
-  set(CMAKE_C_FLAGS "-O3 -flto -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra")
+  set(CMAKE_C_FLAGS "-O3 -flto -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -g")
   #set(CMAKE_C_FLAGS "-O3 -mavx2 -mpclmul -msse4.2 -maes -std=c99 -pedantic -Wall -Wextra -Werror")
 endif(CORE_LAYER_IMPLEM STREQUAL "avx")
 
 if(CORE_LAYER_IMPLEM STREQUAL "c64")
   #set(CMAKE_C_FLAGS "-O3 -flto -march=skylake -std=c99 -pedantic -Wall -Wextra -Werror")
-  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror")
+  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror -g")
   #set(CMAKE_C_FLAGS "-O3 -std=c99 -pedantic -Wall -Wextra -Werror")
 endif(CORE_LAYER_IMPLEM STREQUAL "c64")
 
 if(CORE_LAYER_IMPLEM STREQUAL "c32")
-  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror")
+  set(CMAKE_C_FLAGS "-O3 -flto -std=c99 -pedantic -Wall -Wextra -Werror -g")
 endif(CORE_LAYER_IMPLEM STREQUAL "c32")
 
 

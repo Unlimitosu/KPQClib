@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,18 +44,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_elt/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_vspace/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_poly_83/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_elt/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_vspace/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_poly_97/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_elt/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_vspace/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_poly_113/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_poly_37/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_poly_43/cmake_install.cmake")
-  include("/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_poly_53/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_elt/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_vspace/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_poly_83/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_elt/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_vspace/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_poly_97/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_elt/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_vspace/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_poly_113/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_67_poly_37/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_79_poly_43/cmake_install.cmake")
+  include("/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/rbc_97_poly_53/cmake_install.cmake")
 
 endif()
 
@@ -67,5 +67,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/test/unit_test/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

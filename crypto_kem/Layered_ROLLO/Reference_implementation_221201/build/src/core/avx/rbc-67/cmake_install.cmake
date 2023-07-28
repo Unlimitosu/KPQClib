@@ -1,4 +1,4 @@
-# Install script for directory: /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/src/core/avx/rbc-67
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/build/src/core/avx/rbc-67
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(examples)
 
-set(RBC_LIB_SOURCE /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/librbc.a)
-set(RBC_LIB_INCLUDE /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/include)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
+set(RBC_LIB_SOURCE /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/librbc.a)
+set(RBC_LIB_INCLUDE /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin/include)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/script/preprocessing/../../bin)
 
 add_subdirectory(rolloI128)
 add_subdirectory(rolloI192)

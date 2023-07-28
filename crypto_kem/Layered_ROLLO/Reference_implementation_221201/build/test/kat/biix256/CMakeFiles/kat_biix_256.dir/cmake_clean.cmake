@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/kat_biix_256"
-  "/home/unlimit/Downloads/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/kat_biix_256.pdb"
+  "/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/kat_biix_256"
+  "/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_kem/Layered_ROLLO/Reference_implementation_221201/bin/kat_biix_256.pdb"
   "CMakeFiles/kat_biix_256.dir/main.c.o"
   "CMakeFiles/kat_biix_256.dir/main.c.o.d"
 )
