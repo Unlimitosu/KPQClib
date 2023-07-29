@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"SMAUG1_KEM\" -DSMAUG_MODE=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG1/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG1/kat/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/SMAUG1/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/SMAUG1/kat/../include
 
 C_FLAGS = -std=gnu11
 

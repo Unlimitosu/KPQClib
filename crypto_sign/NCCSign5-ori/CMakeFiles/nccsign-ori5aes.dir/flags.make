@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNIMS_MODE=5 -DNIMS_USE_AES -Dnccsign_ori5aes_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/aes -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/fips -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/aes -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/fips -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common
 
-C_FLAGS = -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -std=gnu11
+C_FLAGS = -fPIC -O3 -fomit-frame-pointer -Wall -Wextra -Wpedantic -g -std=gnu11
 

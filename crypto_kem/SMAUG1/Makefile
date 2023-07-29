@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG1//CMakeFiles/progress.marks
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles 0
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/SMAUG1//CMakeFiles/progress.marks
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/clean
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/preinstall
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/rule
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ RNG1: crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/rule
 
 # fast build rule for target.
 RNG1/fast:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build
 .PHONY : RNG1/fast
 
 # Convenience name for target.
 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
 .PHONY : crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ smaug1: crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/rule
 
 # fast build rule for target.
 smaug1/fast:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build
 .PHONY : smaug1/fast
 
 src/ciphertext.o: src/ciphertext.c.o
@@ -149,7 +149,7 @@ src/ciphertext.o: src/ciphertext.c.o
 
 # target to build an object file
 src/ciphertext.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.o
 .PHONY : src/ciphertext.c.o
 
 src/ciphertext.i: src/ciphertext.c.i
@@ -157,7 +157,7 @@ src/ciphertext.i: src/ciphertext.c.i
 
 # target to preprocess a source file
 src/ciphertext.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.i
 .PHONY : src/ciphertext.c.i
 
 src/ciphertext.s: src/ciphertext.c.s
@@ -165,7 +165,7 @@ src/ciphertext.s: src/ciphertext.c.s
 
 # target to generate assembly for a file
 src/ciphertext.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/ciphertext.c.s
 .PHONY : src/ciphertext.c.s
 
 src/dg.o: src/dg.c.o
@@ -173,7 +173,7 @@ src/dg.o: src/dg.c.o
 
 # target to build an object file
 src/dg.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.o
 .PHONY : src/dg.c.o
 
 src/dg.i: src/dg.c.i
@@ -181,7 +181,7 @@ src/dg.i: src/dg.c.i
 
 # target to preprocess a source file
 src/dg.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.i
 .PHONY : src/dg.c.i
 
 src/dg.s: src/dg.c.s
@@ -189,7 +189,7 @@ src/dg.s: src/dg.c.s
 
 # target to generate assembly for a file
 src/dg.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/dg.c.s
 .PHONY : src/dg.c.s
 
 src/fips202.o: src/fips202.c.o
@@ -197,7 +197,7 @@ src/fips202.o: src/fips202.c.o
 
 # target to build an object file
 src/fips202.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.o
 .PHONY : src/fips202.c.o
 
 src/fips202.i: src/fips202.c.i
@@ -205,7 +205,7 @@ src/fips202.i: src/fips202.c.i
 
 # target to preprocess a source file
 src/fips202.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.i
 .PHONY : src/fips202.c.i
 
 src/fips202.s: src/fips202.c.s
@@ -213,7 +213,7 @@ src/fips202.s: src/fips202.c.s
 
 # target to generate assembly for a file
 src/fips202.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/fips202.c.s
 .PHONY : src/fips202.c.s
 
 src/hwt.o: src/hwt.c.o
@@ -221,7 +221,7 @@ src/hwt.o: src/hwt.c.o
 
 # target to build an object file
 src/hwt.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.o
 .PHONY : src/hwt.c.o
 
 src/hwt.i: src/hwt.c.i
@@ -229,7 +229,7 @@ src/hwt.i: src/hwt.c.i
 
 # target to preprocess a source file
 src/hwt.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.i
 .PHONY : src/hwt.c.i
 
 src/hwt.s: src/hwt.c.s
@@ -237,7 +237,7 @@ src/hwt.s: src/hwt.c.s
 
 # target to generate assembly for a file
 src/hwt.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/hwt.c.s
 .PHONY : src/hwt.c.s
 
 src/indcpa.o: src/indcpa.c.o
@@ -245,7 +245,7 @@ src/indcpa.o: src/indcpa.c.o
 
 # target to build an object file
 src/indcpa.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.o
 .PHONY : src/indcpa.c.o
 
 src/indcpa.i: src/indcpa.c.i
@@ -253,7 +253,7 @@ src/indcpa.i: src/indcpa.c.i
 
 # target to preprocess a source file
 src/indcpa.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.i
 .PHONY : src/indcpa.c.i
 
 src/indcpa.s: src/indcpa.c.s
@@ -261,7 +261,7 @@ src/indcpa.s: src/indcpa.c.s
 
 # target to generate assembly for a file
 src/indcpa.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/indcpa.c.s
 .PHONY : src/indcpa.c.s
 
 src/io.o: src/io.c.o
@@ -269,7 +269,7 @@ src/io.o: src/io.c.o
 
 # target to build an object file
 src/io.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.o
 .PHONY : src/io.c.o
 
 src/io.i: src/io.c.i
@@ -277,7 +277,7 @@ src/io.i: src/io.c.i
 
 # target to preprocess a source file
 src/io.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.i
 .PHONY : src/io.c.i
 
 src/io.s: src/io.c.s
@@ -285,7 +285,7 @@ src/io.s: src/io.c.s
 
 # target to generate assembly for a file
 src/io.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/io.c.s
 .PHONY : src/io.c.s
 
 src/kem.o: src/kem.c.o
@@ -293,7 +293,7 @@ src/kem.o: src/kem.c.o
 
 # target to build an object file
 src/kem.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.o
 .PHONY : src/kem.c.o
 
 src/kem.i: src/kem.c.i
@@ -301,7 +301,7 @@ src/kem.i: src/kem.c.i
 
 # target to preprocess a source file
 src/kem.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.i
 .PHONY : src/kem.c.i
 
 src/kem.s: src/kem.c.s
@@ -309,7 +309,7 @@ src/kem.s: src/kem.c.s
 
 # target to generate assembly for a file
 src/kem.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/kem.c.s
 .PHONY : src/kem.c.s
 
 src/key.o: src/key.c.o
@@ -317,7 +317,7 @@ src/key.o: src/key.c.o
 
 # target to build an object file
 src/key.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.o
 .PHONY : src/key.c.o
 
 src/key.i: src/key.c.i
@@ -325,7 +325,7 @@ src/key.i: src/key.c.i
 
 # target to preprocess a source file
 src/key.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.i
 .PHONY : src/key.c.i
 
 src/key.s: src/key.c.s
@@ -333,7 +333,7 @@ src/key.s: src/key.c.s
 
 # target to generate assembly for a file
 src/key.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/key.c.s
 .PHONY : src/key.c.s
 
 src/pack.o: src/pack.c.o
@@ -341,7 +341,7 @@ src/pack.o: src/pack.c.o
 
 # target to build an object file
 src/pack.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.o
 .PHONY : src/pack.c.o
 
 src/pack.i: src/pack.c.i
@@ -349,7 +349,7 @@ src/pack.i: src/pack.c.i
 
 # target to preprocess a source file
 src/pack.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.i
 .PHONY : src/pack.c.i
 
 src/pack.s: src/pack.c.s
@@ -357,7 +357,7 @@ src/pack.s: src/pack.c.s
 
 # target to generate assembly for a file
 src/pack.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/pack.c.s
 .PHONY : src/pack.c.s
 
 src/poly.o: src/poly.c.o
@@ -365,7 +365,7 @@ src/poly.o: src/poly.c.o
 
 # target to build an object file
 src/poly.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.o
 .PHONY : src/poly.c.o
 
 src/poly.i: src/poly.c.i
@@ -373,7 +373,7 @@ src/poly.i: src/poly.c.i
 
 # target to preprocess a source file
 src/poly.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.i
 .PHONY : src/poly.c.i
 
 src/poly.s: src/poly.c.s
@@ -381,7 +381,7 @@ src/poly.s: src/poly.c.s
 
 # target to generate assembly for a file
 src/poly.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/smaug1.dir/src/poly.c.s
 .PHONY : src/poly.c.s
 
 src/rng.o: src/rng.c.o
@@ -389,7 +389,7 @@ src/rng.o: src/rng.c.o
 
 # target to build an object file
 src/rng.c.o:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.o
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.o
 .PHONY : src/rng.c.o
 
 src/rng.i: src/rng.c.i
@@ -397,7 +397,7 @@ src/rng.i: src/rng.c.i
 
 # target to preprocess a source file
 src/rng.c.i:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.i
 .PHONY : src/rng.c.i
 
 src/rng.s: src/rng.c.s
@@ -405,7 +405,7 @@ src/rng.s: src/rng.c.s
 
 # target to generate assembly for a file
 src/rng.c.s:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(MAKE) $(MAKESILENT) -f crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/build.make crypto_kem/SMAUG1/CMakeFiles/RNG1.dir/src/rng.c.s
 .PHONY : src/rng.c.s
 
 # Help Target
@@ -462,6 +462,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae512_/metamorphic
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae512_/metamorphic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

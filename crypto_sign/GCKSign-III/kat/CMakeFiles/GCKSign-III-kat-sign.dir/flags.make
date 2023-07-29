@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DGCKSign_III_kat_sign_EXPORTS -DGCKSign_MODE=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-III/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-III/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-III/kat/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-III/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-III/include/NIST -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-III/kat -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-III/kat/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0728/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0728/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/flags.make
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/flags.make
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: crypto_sign/Solmae1024/kat/katrng.c
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0728/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o -MF CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o.d -o CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o -c /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat/katrng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o -MF CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o.d -o CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat/katrng.c
 
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat/katrng.c > CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat/katrng.c > CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.i
 
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat/katrng.c -o CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat/katrng.c -o CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.s
 
 # Object files for target Solmae1024-kat-sign
 Solmae1024__kat__sign_OBJECTS = \
@@ -93,18 +93,18 @@ Solmae1024__kat__sign_EXTERNAL_OBJECTS =
 crypto_sign/Solmae1024/lib/libSolmae1024-kat-sign.so: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/katrng.c.o
 crypto_sign/Solmae1024/lib/libSolmae1024-kat-sign.so: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build.make
 crypto_sign/Solmae1024/lib/libSolmae1024-kat-sign.so: crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0728/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../lib/libSolmae1024-kat-sign.so"
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Solmae1024-kat-sign.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../lib/libSolmae1024-kat-sign.so"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Solmae1024-kat-sign.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build: crypto_sign/Solmae1024/lib/libSolmae1024-kat-sign.so
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/build
 
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat && $(CMAKE_COMMAND) -P CMakeFiles/Solmae1024-kat-sign.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat && $(CMAKE_COMMAND) -P CMakeFiles/Solmae1024-kat-sign.dir/cmake_clean.cmake
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/clean
 
 crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0728/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0728/KPQClean /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat /home/mingiiiiiiii/KPQClean_0728/KPQClean /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat /home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/Solmae1024/kat/CMakeFiles/Solmae1024-kat-sign.dir/depend
 

@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/MQS256-72-46-const-test-main.dir/constant_time_test.c.o" -o ../bin/MQS256-72-46-const-test-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_sign/MQS256-72-46/libs ../libs/libMQS256-72-46.so ../libs/libMQS256-72-46_RNG.so ../../../common/libcommon.a 
+/usr/bin/cc CMakeFiles/MQS256-72-46-const-test-main.dir/constant_time_test.c.o -o ../bin/MQS256-72-46-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/MQS256-72-46/libs ../libs/libMQS256-72-46.so ../libs/libMQS256-72-46_RNG.so ../../../common/libcommon.a 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNTRU_MODE=576 -Dntruplus576_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus576/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus576/kat
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus576/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus576/kat
 
-C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -std=gnu11
+C_FLAGS = -fPIC -O3 -fomit-frame-pointer -fPIC -Wall -Wextra -g -std=gnu11
 

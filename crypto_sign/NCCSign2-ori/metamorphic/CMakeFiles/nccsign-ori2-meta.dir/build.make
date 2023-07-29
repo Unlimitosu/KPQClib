@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/depend.make
@@ -72,44 +72,44 @@ include crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/fl
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/flags.make
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o: crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c > CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c > CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.i
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_contribution.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.s
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/flags.make
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o: crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c > CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c > CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.i
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_exclusion.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.s
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/flags.make
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o: crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o -MF CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o.d -o CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c > CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c > CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.i
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/bit_verify.c -o CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.s
 
 # Object files for target nccsign-ori2-meta
 nccsign__ori2__meta_OBJECTS = \
@@ -125,18 +125,18 @@ crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so: crypto_sign/NCCSign2-ori/
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/build.make
 crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so: crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../libs/libnccsign-ori2-meta.so"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2-meta.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../libs/libnccsign-ori2-meta.so"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori2-meta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/build: crypto_sign/NCCSign2-ori/libs/libnccsign-ori2-meta.so
 .PHONY : crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/build
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori2-meta.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori2-meta.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/clean
 
 crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign2-ori/metamorphic/CMakeFiles/nccsign-ori2-meta.dir/depend
 

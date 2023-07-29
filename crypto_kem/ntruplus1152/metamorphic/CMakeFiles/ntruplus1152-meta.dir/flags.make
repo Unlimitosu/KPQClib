@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DNTRU_MODE=1152 -Dntruplus1152_meta_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus1152/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus1152/kat -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus1152/metamorphic/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

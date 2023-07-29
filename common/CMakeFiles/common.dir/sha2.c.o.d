@@ -1,5 +1,5 @@
 common/CMakeFiles/common.dir/sha2.c.o: \
- /home/mingiiiiiiii/KPQClean_0728/KPQClean/common/sha2.c \
+ /home/mingiiiiiiii/KPQClean_0729/KPQClean/common/sha2.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -46,4 +46,4 @@ common/CMakeFiles/common.dir/sha2.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/mingiiiiiiii/KPQClean_0728/KPQClean/common/sha2.h
+ /home/mingiiiiiiii/KPQClean_0729/KPQClean/common/sha2.h

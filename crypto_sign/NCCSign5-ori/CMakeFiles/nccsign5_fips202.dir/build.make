@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/flags.make
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o: crypto_sign/NCCSign5-ori/fips/fips202.c
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o -MF CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o.d -o CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o -MF CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o.d -o CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c > CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c > CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.i
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c -o CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/fips/fips202.c -o CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.s
 
 # Object files for target nccsign5_fips202
 nccsign5_fips202_OBJECTS = \
@@ -93,18 +93,18 @@ nccsign5_fips202_EXTERNAL_OBJECTS =
 crypto_sign/NCCSign5-ori/libs/libnccsign5_fips202.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/fips/fips202.c.o
 crypto_sign/NCCSign5-ori/libs/libnccsign5_fips202.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/build.make
 crypto_sign/NCCSign5-ori/libs/libnccsign5_fips202.so: crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libnccsign5_fips202.so"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign5_fips202.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libs/libnccsign5_fips202.so"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign5_fips202.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/build: crypto_sign/NCCSign5-ori/libs/libnccsign5_fips202.so
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/build
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign5_fips202.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori && $(CMAKE_COMMAND) -P CMakeFiles/nccsign5_fips202.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/clean
 
 crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign5-ori/CMakeFiles/nccsign5_fips202.dir/depend
 

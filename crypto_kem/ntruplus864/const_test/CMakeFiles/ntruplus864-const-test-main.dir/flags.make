@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"NTRUPLUS864_CONST\" -DNTRU_MODE=864
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus864/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus864/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus864/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus864/kat -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus864/const_test/../include
 
 C_FLAGS = -std=gnu11
 

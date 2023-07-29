@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus864/kat
+# Install script for directory: /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus864/kat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

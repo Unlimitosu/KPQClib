@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSMAUG_MODE=3
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/SMAUG3/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/SMAUG3/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common
 
 C_FLAGS = -std=gnu11
 

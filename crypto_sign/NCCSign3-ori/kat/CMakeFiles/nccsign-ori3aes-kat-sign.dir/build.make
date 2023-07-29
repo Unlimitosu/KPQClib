@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/depend.make
@@ -72,16 +72,16 @@ include crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/fla
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o: crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/flags.make
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o: crypto_sign/NCCSign3-ori/kat/kat_sign.c
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o: crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o -MF CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o.d -o CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o -MF CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o.d -o CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c
 
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c > CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c > CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.i
 
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c -o CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat/kat_sign.c -o CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.s
 
 # Object files for target nccsign-ori3aes-kat-sign
 nccsign__ori3aes__kat__sign_OBJECTS = \
@@ -93,18 +93,18 @@ nccsign__ori3aes__kat__sign_EXTERNAL_OBJECTS =
 crypto_sign/NCCSign3-ori/libs/libnccsign-ori3aes-kat-sign.so: crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/kat_sign.c.o
 crypto_sign/NCCSign3-ori/libs/libnccsign-ori3aes-kat-sign.so: crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/build.make
 crypto_sign/NCCSign3-ori/libs/libnccsign-ori3aes-kat-sign.so: crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libnccsign-ori3aes-kat-sign.so"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori3aes-kat-sign.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../libs/libnccsign-ori3aes-kat-sign.so"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nccsign-ori3aes-kat-sign.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/build: crypto_sign/NCCSign3-ori/libs/libnccsign-ori3aes-kat-sign.so
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/build
 
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori3aes-kat-sign.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat && $(CMAKE_COMMAND) -P CMakeFiles/nccsign-ori3aes-kat-sign.dir/cmake_clean.cmake
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/clean
 
 crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_sign/NCCSign3-ori/kat/CMakeFiles/nccsign-ori3aes-kat-sign.dir/depend
 

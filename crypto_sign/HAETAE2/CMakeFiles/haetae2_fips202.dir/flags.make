@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dhaetae2_fips202_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/HAETAE2/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/HAETAE2/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common
 
 C_FLAGS = -fPIC -std=gnu11
 

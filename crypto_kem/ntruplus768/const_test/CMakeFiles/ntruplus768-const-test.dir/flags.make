@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCRYPTO_ALGNAME=\"NTRUPLUS768_CONST\" -DNTRU_MODE=768 -Dntruplus768_const_test_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/kat -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/kat -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/const_test/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

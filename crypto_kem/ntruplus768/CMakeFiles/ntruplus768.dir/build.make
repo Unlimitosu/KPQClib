@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_SOURCE_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0724/KPQClean
+CMAKE_BINARY_DIR = /home/mingiiiiiiii/KPQClean_0729/KPQClean
 
 # Include any dependencies generated for this target.
 include crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/depend.make
@@ -72,156 +72,156 @@ include crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o: crypto_kem/ntruplus768/src/aes256ctr.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o -MF CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o.d -o CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o -MF CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o.d -o CMakeFiles/ntruplus768.dir/src/aes256ctr.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/aes256ctr.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c > CMakeFiles/ntruplus768.dir/src/aes256ctr.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c > CMakeFiles/ntruplus768.dir/src/aes256ctr.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/aes256ctr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/aes256ctr.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c -o CMakeFiles/ntruplus768.dir/src/aes256ctr.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/aes256ctr.c -o CMakeFiles/ntruplus768.dir/src/aes256ctr.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o: crypto_kem/ntruplus768/src/kem.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o -MF CMakeFiles/ntruplus768.dir/src/kem.c.o.d -o CMakeFiles/ntruplus768.dir/src/kem.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/kem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.o -MF CMakeFiles/ntruplus768.dir/src/kem.c.o.d -o CMakeFiles/ntruplus768.dir/src/kem.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/kem.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/kem.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/kem.c > CMakeFiles/ntruplus768.dir/src/kem.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/kem.c > CMakeFiles/ntruplus768.dir/src/kem.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/kem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/kem.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/kem.c -o CMakeFiles/ntruplus768.dir/src/kem.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/kem.c -o CMakeFiles/ntruplus768.dir/src/kem.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o: crypto_kem/ntruplus768/src/ntt.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o -MF CMakeFiles/ntruplus768.dir/src/ntt.c.o.d -o CMakeFiles/ntruplus768.dir/src/ntt.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/ntt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.o -MF CMakeFiles/ntruplus768.dir/src/ntt.c.o.d -o CMakeFiles/ntruplus768.dir/src/ntt.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/ntt.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/ntt.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/ntt.c > CMakeFiles/ntruplus768.dir/src/ntt.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/ntt.c > CMakeFiles/ntruplus768.dir/src/ntt.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/ntt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/ntt.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/ntt.c -o CMakeFiles/ntruplus768.dir/src/ntt.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/ntt.c -o CMakeFiles/ntruplus768.dir/src/ntt.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o: crypto_kem/ntruplus768/src/poly.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o -MF CMakeFiles/ntruplus768.dir/src/poly.c.o.d -o CMakeFiles/ntruplus768.dir/src/poly.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/poly.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.o -MF CMakeFiles/ntruplus768.dir/src/poly.c.o.d -o CMakeFiles/ntruplus768.dir/src/poly.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/poly.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/poly.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/poly.c > CMakeFiles/ntruplus768.dir/src/poly.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/poly.c > CMakeFiles/ntruplus768.dir/src/poly.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/poly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/poly.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/poly.c -o CMakeFiles/ntruplus768.dir/src/poly.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/poly.c -o CMakeFiles/ntruplus768.dir/src/poly.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o: crypto_kem/ntruplus768/src/reduce.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o -MF CMakeFiles/ntruplus768.dir/src/reduce.c.o.d -o CMakeFiles/ntruplus768.dir/src/reduce.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/reduce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.o -MF CMakeFiles/ntruplus768.dir/src/reduce.c.o.d -o CMakeFiles/ntruplus768.dir/src/reduce.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/reduce.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/reduce.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/reduce.c > CMakeFiles/ntruplus768.dir/src/reduce.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/reduce.c > CMakeFiles/ntruplus768.dir/src/reduce.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/reduce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/reduce.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/reduce.c -o CMakeFiles/ntruplus768.dir/src/reduce.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/reduce.c -o CMakeFiles/ntruplus768.dir/src/reduce.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o: crypto_kem/ntruplus768/src/rng.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o -MF CMakeFiles/ntruplus768.dir/src/rng.c.o.d -o CMakeFiles/ntruplus768.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.o -MF CMakeFiles/ntruplus768.dir/src/rng.c.o.d -o CMakeFiles/ntruplus768.dir/src/rng.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/rng.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/rng.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/rng.c > CMakeFiles/ntruplus768.dir/src/rng.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/rng.c > CMakeFiles/ntruplus768.dir/src/rng.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/rng.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/rng.c -o CMakeFiles/ntruplus768.dir/src/rng.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/rng.c -o CMakeFiles/ntruplus768.dir/src/rng.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o: crypto_kem/ntruplus768/src/sha256.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o -MF CMakeFiles/ntruplus768.dir/src/sha256.c.o.d -o CMakeFiles/ntruplus768.dir/src/sha256.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.o -MF CMakeFiles/ntruplus768.dir/src/sha256.c.o.d -o CMakeFiles/ntruplus768.dir/src/sha256.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha256.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/sha256.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha256.c > CMakeFiles/ntruplus768.dir/src/sha256.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha256.c > CMakeFiles/ntruplus768.dir/src/sha256.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/sha256.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha256.c -o CMakeFiles/ntruplus768.dir/src/sha256.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha256.c -o CMakeFiles/ntruplus768.dir/src/sha256.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o: crypto_kem/ntruplus768/src/sha512.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o -MF CMakeFiles/ntruplus768.dir/src/sha512.c.o.d -o CMakeFiles/ntruplus768.dir/src/sha512.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha512.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.o -MF CMakeFiles/ntruplus768.dir/src/sha512.c.o.d -o CMakeFiles/ntruplus768.dir/src/sha512.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha512.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/sha512.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha512.c > CMakeFiles/ntruplus768.dir/src/sha512.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha512.c > CMakeFiles/ntruplus768.dir/src/sha512.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/sha512.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/sha512.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/sha512.c -o CMakeFiles/ntruplus768.dir/src/sha512.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/sha512.c -o CMakeFiles/ntruplus768.dir/src/sha512.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o: crypto_kem/ntruplus768/src/symmetric.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o -MF CMakeFiles/ntruplus768.dir/src/symmetric.c.o.d -o CMakeFiles/ntruplus768.dir/src/symmetric.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/symmetric.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.o -MF CMakeFiles/ntruplus768.dir/src/symmetric.c.o.d -o CMakeFiles/ntruplus768.dir/src/symmetric.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/symmetric.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/symmetric.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/symmetric.c > CMakeFiles/ntruplus768.dir/src/symmetric.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/symmetric.c > CMakeFiles/ntruplus768.dir/src/symmetric.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/symmetric.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/symmetric.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/symmetric.c -o CMakeFiles/ntruplus768.dir/src/symmetric.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/symmetric.c -o CMakeFiles/ntruplus768.dir/src/symmetric.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o: crypto_kem/ntruplus768/src/util.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o -MF CMakeFiles/ntruplus768.dir/src/util.c.o.d -o CMakeFiles/ntruplus768.dir/src/util.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.o -MF CMakeFiles/ntruplus768.dir/src/util.c.o.d -o CMakeFiles/ntruplus768.dir/src/util.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/util.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/util.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/util.c > CMakeFiles/ntruplus768.dir/src/util.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/util.c > CMakeFiles/ntruplus768.dir/src/util.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/util.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/util.c -o CMakeFiles/ntruplus768.dir/src/util.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/util.c -o CMakeFiles/ntruplus768.dir/src/util.c.s
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/flags.make
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o: crypto_kem/ntruplus768/src/verify.c
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o -MF CMakeFiles/ntruplus768.dir/src/verify.c.o.d -o CMakeFiles/ntruplus768.dir/src/verify.c.o -c /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/verify.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.o -MF CMakeFiles/ntruplus768.dir/src/verify.c.o.d -o CMakeFiles/ntruplus768.dir/src/verify.c.o -c /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/verify.c
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ntruplus768.dir/src/verify.c.i"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/verify.c > CMakeFiles/ntruplus768.dir/src/verify.c.i
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/verify.c > CMakeFiles/ntruplus768.dir/src/verify.c.i
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/src/verify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ntruplus768.dir/src/verify.c.s"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/src/verify.c -o CMakeFiles/ntruplus768.dir/src/verify.c.s
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/src/verify.c -o CMakeFiles/ntruplus768.dir/src/verify.c.s
 
 # Object files for target ntruplus768
 ntruplus768_OBJECTS = \
@@ -255,18 +255,18 @@ crypto_kem/ntruplus768/lib/libntruplus768.so: crypto_kem/ntruplus768/CMakeFiles/
 crypto_kem/ntruplus768/lib/libntruplus768.so: crypto_kem/ntruplus768/lib/libntruplus768RNG1.so
 crypto_kem/ntruplus768/lib/libntruplus768.so: common/libcommon.a
 crypto_kem/ntruplus768/lib/libntruplus768.so: crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0724/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C shared library lib/libntruplus768.so"
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus768.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mingiiiiiiii/KPQClean_0729/KPQClean/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C shared library lib/libntruplus768.so"
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntruplus768.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build: crypto_kem/ntruplus768/lib/libntruplus768.so
 .PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/build
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus768.dir/cmake_clean.cmake
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 && $(CMAKE_COMMAND) -P CMakeFiles/ntruplus768.dir/cmake_clean.cmake
 .PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/clean
 
 crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/depend:
-	cd /home/mingiiiiiiii/KPQClean_0724/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 /home/mingiiiiiiii/KPQClean_0724/KPQClean /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768 /home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mingiiiiiiii/KPQClean_0729/KPQClean && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 /home/mingiiiiiiii/KPQClean_0729/KPQClean /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768 /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crypto_kem/ntruplus768/CMakeFiles/ntruplus768.dir/depend
 

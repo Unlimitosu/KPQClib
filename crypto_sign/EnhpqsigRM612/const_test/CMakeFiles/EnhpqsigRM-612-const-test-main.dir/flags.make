@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DpqsigRM_MODE=1
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/mingiiiiiiii/KPQClean_0728/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0728/KPQClean/crypto_sign/EnhpqsigRM612/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM612/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM612/kat -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM612/const_test/../include
 
 C_FLAGS = -std=gnu11
 

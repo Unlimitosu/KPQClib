@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/nccsign-ori2-main.dir/main.c.o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -o ../bin/nccsign-ori2-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/NCCSign2-ori/libs ../libs/libnccsign-ori2.so ../libs/libnccsign2_fips202.so 
+/usr/bin/cc CMakeFiles/nccsign-ori2-main.dir/main.c.o CMakeFiles/nccsign-ori2-main.dir/__/src/randombytes.c.o -o ../bin/nccsign-ori2-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/NCCSign2-ori/libs ../libs/libnccsign-ori2.so ../libs/libnccsign2_fips202.so 

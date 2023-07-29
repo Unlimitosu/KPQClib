@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DGCKSign_MODE=5 -DGCKSign_V_const_test_EXPORTS
 
-C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-V/include -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/GCKSign-V/const_test/../include
+C_INCLUDES = -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-V/include -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-V/include/NIST -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/common -I/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-V/const_test/../include
 
 C_FLAGS = -fPIC -std=gnu11
 

@@ -1,0 +1,663 @@
+desc: --stacks=yes
+cmd: ./EnhpqsigRM-613-kat-sign-main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2219012627
+mem_heap_B=16805203
+mem_heap_extra_B=11349
+mem_stacks_B=4247712
+heap_tree=detailed
+n2: 16805203 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 16777360 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 144 in 3 places, all below massif's threshold (1.00%)
+ n0: 27843 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=5433644660
+mem_heap_B=25176475
+mem_heap_extra_B=11405
+mem_stacks_B=4248272
+heap_tree=peak
+n2: 25176475 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 25164944 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n2: 4193280 0x485A5C0: col_permute (common.c:149)
+   n1: 4193280 0x485AC00: crypto_sign_keypair (keypair.c:115)
+    n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+     n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485ABD3: crypto_sign_keypair (keypair.c:112)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 1168 in 3 places, all below massif's threshold (1.00%)
+ n0: 11531 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=8840080198
+mem_heap_B=20983171
+mem_heap_extra_B=11381
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=12718895041
+mem_heap_B=20983171
+mem_heap_extra_B=11381
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=16705190107
+mem_heap_B=12363
+mem_heap_extra_B=141
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=19258016209
+mem_heap_B=16828823
+mem_heap_extra_B=11793
+mem_stacks_B=4250992
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=22120857293
+mem_heap_B=16830063
+mem_heap_extra_B=11881
+mem_stacks_B=4249080
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=24504493774
+mem_heap_B=16845487
+mem_heap_extra_B=11905
+mem_stacks_B=4248184
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=28329298380
+mem_heap_B=21022407
+mem_heap_extra_B=11897
+mem_stacks_B=4248112
+heap_tree=detailed
+n2: 21022407 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 20973728 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485ABD3: crypto_sign_keypair (keypair.c:112)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 3232 in 13 places, all below massif's threshold (1.00%)
+ n0: 48679 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=31445930211
+mem_heap_B=21022407
+mem_heap_extra_B=11897
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=34991851383
+mem_heap_B=21022407
+mem_heap_extra_B=11897
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=37651273362
+mem_heap_B=51599
+mem_heap_extra_B=641
+mem_stacks_B=4222824
+heap_tree=detailed
+n1: 51599 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 51599 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=40609175102
+mem_heap_B=16857390
+mem_heap_extra_B=12738
+mem_stacks_B=4247712
+heap_tree=detailed
+n2: 16857390 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 16781488 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 4272 in 14 places, all below massif's threshold (1.00%)
+ n0: 75902 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=44915496181
+mem_heap_B=21035358
+mem_heap_extra_B=12770
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=48089154795
+mem_heap_B=21035358
+mem_heap_extra_B=12770
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=50312944254
+mem_heap_B=21035358
+mem_heap_extra_B=12770
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=54015546472
+mem_heap_B=21035358
+mem_heap_extra_B=12770
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=57718146822
+mem_heap_B=16846844
+mem_heap_extra_B=12972
+mem_stacks_B=4250648
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=62224257089
+mem_heap_B=16863508
+mem_heap_extra_B=13068
+mem_stacks_B=4248240
+heap_tree=detailed
+n2: 16863508 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 16784576 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 7360 in 14 places, all below massif's threshold (1.00%)
+ n0: 78932 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=65046634528
+mem_heap_B=21040428
+mem_heap_extra_B=13060
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=67162407982
+mem_heap_B=21040428
+mem_heap_extra_B=13060
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=70451034133
+mem_heap_B=21040428
+mem_heap_extra_B=13060
+mem_stacks_B=4264504
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=72817251927
+mem_heap_B=21040428
+mem_heap_extra_B=13060
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=75972208559
+mem_heap_B=69620
+mem_heap_extra_B=1804
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=79189276670
+mem_heap_B=16874439
+mem_heap_extra_B=13673
+mem_stacks_B=4247656
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=81555494528
+mem_heap_B=16875487
+mem_heap_extra_B=13713
+mem_stacks_B=4248240
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=86467681000
+mem_heap_B=21052407
+mem_heap_extra_B=13721
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=90411378681
+mem_heap_B=21052407
+mem_heap_extra_B=13721
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=93566335590
+mem_heap_B=81599
+mem_heap_extra_B=2433
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=97536780172
+mem_heap_B=16899534
+mem_heap_extra_B=14898
+mem_stacks_B=4247712
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=101792996172
+mem_heap_B=25270806
+mem_heap_extra_B=14954
+mem_stacks_B=4248104
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=105736692615
+mem_heap_B=21077502
+mem_heap_extra_B=14930
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=108891650078
+mem_heap_B=21077502
+mem_heap_extra_B=14930
+mem_stacks_B=4264504
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=111082098073
+mem_heap_B=21077502
+mem_heap_extra_B=14930
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=115462992575
+mem_heap_B=16898987
+mem_heap_extra_B=15469
+mem_stacks_B=4250992
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=119848483031
+mem_heap_B=16915651
+mem_heap_extra_B=15565
+mem_stacks_B=4248248
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=123211757826
+mem_heap_B=21092571
+mem_heap_extra_B=15557
+mem_stacks_B=4248120
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=125402205998
+mem_heap_B=21092571
+mem_heap_extra_B=15557
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=128743563677
+mem_heap_B=21092571
+mem_heap_extra_B=15557
+mem_stacks_B=4264504
+heap_tree=detailed
+n2: 21092571 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 20984048 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485ABD3: crypto_sign_keypair (keypair.c:112)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 13552 in 13 places, all below massif's threshold (1.00%)
+ n0: 108523 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=132029235427
+mem_heap_B=121763
+mem_heap_extra_B=4301
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=135357014419
+mem_heap_B=21113109
+mem_heap_extra_B=20363
+mem_stacks_B=4247576
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=139786005072
+mem_heap_B=16936213
+mem_heap_extra_B=16363
+mem_stacks_B=4248184
+heap_tree=detailed
+n2: 16936213 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 16792832 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 15616 in 14 places, all below massif's threshold (1.00%)
+ n0: 143381 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=144166901134
+mem_heap_B=21113133
+mem_heap_extra_B=16371
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=146822910122
+mem_heap_B=21113133
+mem_heap_extra_B=16371
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=151203805743
+mem_heap_B=142325
+mem_heap_extra_B=5099
+mem_stacks_B=4224520
+heap_tree=detailed
+n2: 142325 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 95733 in 16 places, all below massif's threshold (1.00%)
+ n1: 46592 0x4862548: shake256_inc_init (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613.so)
+  n1: 46592 0x4859A27: SHAKE256 (common.c:8)
+   n2: 46592 0x4859AB8: hash_message (common.c:22)
+    n1: 45136 0x485DD20: crypto_sign (sign.c:84)
+     n1: 45136 0x48521C0: kat_crypto_sign (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+      n0: 45136 0x109AD9: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+    n0: 1456 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=154489486782
+mem_heap_B=16946040
+mem_heap_extra_B=16696
+mem_stacks_B=4247720
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=156679934853
+mem_heap_B=16931664
+mem_heap_extra_B=16712
+mem_stacks_B=4248736
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=161111031311
+mem_heap_B=21124008
+mem_heap_extra_B=16728
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=164396703818
+mem_heap_B=21124008
+mem_heap_extra_B=16728
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=166512478175
+mem_heap_B=21124008
+mem_heap_extra_B=16728
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=168628251753
+mem_heap_B=21124008
+mem_heap_extra_B=16728
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=170744025261
+mem_heap_B=153200
+mem_heap_extra_B=5456
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=172859798825
+mem_heap_B=16936250
+mem_heap_extra_B=16910
+mem_stacks_B=4250880
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=174975572990
+mem_heap_B=16951866
+mem_heap_extra_B=16982
+mem_stacks_B=4247712
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=177091347067
+mem_heap_B=16952914
+mem_heap_extra_B=17022
+mem_stacks_B=4248240
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=179207120884
+mem_heap_B=21129834
+mem_heap_extra_B=17014
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=181322894676
+mem_heap_B=21129834
+mem_heap_extra_B=17014
+mem_stacks_B=4248112
+heap_tree=detailed
+n2: 21129834 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 20990240 0x485AF12: new_matrix (matrix.c:12)
+  n1: 4195328 0x485A8CF: crypto_sign_keypair (keypair.c:25)
+   n1: 4195328 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4195328 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8A0: crypto_sign_keypair (keypair.c:22)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4194304 0x485A8B9: crypto_sign_keypair (keypair.c:23)
+   n1: 4194304 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4194304 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485A8E1: crypto_sign_keypair (keypair.c:26)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n1: 4193280 0x485ABD3: crypto_sign_keypair (keypair.c:112)
+   n1: 4193280 0x485217F: kat_crypto_sign_keypair (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/libs/libEnhpqsigRM-613-kat-sign.so)
+    n0: 4193280 0x109A32: main (in /home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/EnhpqsigRM613/bin/EnhpqsigRM-613-kat-sign-main)
+  n0: 19744 in 13 places, all below massif's threshold (1.00%)
+ n0: 139594 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=183438668476
+mem_heap_B=21129834
+mem_heap_extra_B=17014
+mem_stacks_B=4248112
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=185554442155
+mem_heap_B=21129834
+mem_heap_extra_B=17014
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=187670215974
+mem_heap_B=21129834
+mem_heap_extra_B=17014
+mem_stacks_B=4264496
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=189785989537
+mem_heap_B=159026
+mem_heap_extra_B=5758
+mem_stacks_B=4224440
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=191901763011
+mem_heap_B=159026
+mem_heap_extra_B=5758
+mem_stacks_B=4224432
+heap_tree=empty
