@@ -29,6 +29,13 @@ make clean
 
 ### How to build Layered ROLLO-I and FIBS
 #### Layered ROLLO-I
+Before building, you have to install GMP and NTL libraries. Run the following commands.
+```
+sudo apt update
+sudo apt install libgmp-dev
+sudo apt install libntl-dev
+```
+
 Move to ```KPQClean\crypto_kem\Layered_ROLLO\Reference_implementation_221201```, then run ```python3 rbc-lib.py```. It will automatically check the configurations and start building.
 
 #### FIBS
