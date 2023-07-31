@@ -59,9 +59,9 @@ Try after fixing the ```randombytes``` functions into fixed values. We left them
 |SMAUG 1|S|S|S|O||
 |SMAUG 3|S|S|S|O||
 |SMAUG 5|S|S|S|O||
-|TIGER 128|F|SS||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 192|F|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 256|F|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 128|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 192|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 256|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
 |NTRU+ 576|S|S|S|O||
 |NTRU+ 768|S|S|S|O||
 |NTRU+ 864|S|S|S|O||
