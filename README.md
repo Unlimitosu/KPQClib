@@ -27,6 +27,13 @@ If you want to cancel the build, then run clean.
 make clean
 ```
 
+### How to build Layered ROLLO-I and FIBS
+#### Layered ROLLO-I
+Move to ```KPQClean\crypto_kem\Layered_ROLLO\Reference_implementation_221201```, then run ```python3 rbc-lib.py```. It will automatically check the configurations and start building.
+
+#### FIBS
+Move to ```KPQClean\crypto_sign\FIBS```, then run ```make```.
+
 ## FAQ
 ### Segmentation fault(or stack corruption) during run PALOMA family
 To run PALOMA family, you need to increase the stack size to 51200.
@@ -34,9 +41,9 @@ To run PALOMA family, you need to increase the stack size to 51200.
 ulimit -s 51200
 ```
 
-### Metamorphic test result is not same with given table in README.
+### Metamorphic test result is not the same as the given table in README.
 To run metamorphic testing, you should fix the random values.
-Try after fixing the ```randombytes``` functions into fixed values. We left them in comments for each function.
+Try after fixing the ```randombytes``` functions into fixed values. We left them in the comments for each function.
 
 ## Metamorphic Testing
 ### KEM
