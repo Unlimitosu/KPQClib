@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign5-meta.so -o ../libs/libGCKSign5-meta.so CMakeFiles/GCKSign5-meta.dir/bit_contribution.c.o CMakeFiles/GCKSign5-meta.dir/bit_exclusion.c.o CMakeFiles/GCKSign5-meta.dir/bit_verify.c.o 

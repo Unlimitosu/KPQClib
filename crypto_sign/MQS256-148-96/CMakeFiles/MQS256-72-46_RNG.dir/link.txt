@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libMQS256-72-46_RNG.so -o libs/libMQS256-72-46_RNG.so CMakeFiles/MQS256-72-46_RNG.dir/srcs/rng.c.o 

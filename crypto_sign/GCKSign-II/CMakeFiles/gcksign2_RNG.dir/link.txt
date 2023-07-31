@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libgcksign2_RNG.so -o libs/libgcksign2_RNG.so CMakeFiles/gcksign2_RNG.dir/src/NIST/rng.c.o 

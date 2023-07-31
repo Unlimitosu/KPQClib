@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER5-meta.so -o ../lib/libTIGER5-meta.so "CMakeFiles/TIGER5-meta.dir/bit_contribution.c.o" "CMakeFiles/TIGER5-meta.dir/bit_exclusion.c.o" 

@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/GCKSign-II-kat-sign-main.dir/PQCgenKAT_sign.c.o -o ../bin/GCKSign-II-kat-sign-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-II/libs ../libs/libGCKSign-II-kat-sign.so ../libs/libGCKSign-II.so ../libs/libgcksign2_fips202.so -lm ../libs/libgcksign2_RNG.so ../../../common/libcommon.a 

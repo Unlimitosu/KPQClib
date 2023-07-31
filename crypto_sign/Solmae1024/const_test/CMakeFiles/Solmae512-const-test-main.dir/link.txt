@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Solmae512-const-test-main.dir/constant_time_test.c.o -o ../bin/Solmae512-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0724/KPQClean/crypto_sign/Solmae512_/lib ../lib/libSolmae512.so ../lib/libSolmae512-const-test.so -lm ../../../common/libcommon.a ../lib/libSOLMAE512_RNG.so 

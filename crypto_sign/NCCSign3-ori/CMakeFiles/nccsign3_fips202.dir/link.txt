@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign3_fips202.so -o libs/libnccsign3_fips202.so CMakeFiles/nccsign3_fips202.dir/fips/fips202.c.o 

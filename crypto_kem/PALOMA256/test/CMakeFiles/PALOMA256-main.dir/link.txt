@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/PALOMA256-main.dir/main.c.o -o ../bin/PALOMA256-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/PALOMA256/lib ../lib/libPALOMA256.so ../lib/libPALOMARNG5.so ../../../common/libcommon.a 

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libhaetae5_RNG.so -o libs/libhaetae5_RNG.so CMakeFiles/haetae5_RNG.dir/src/randombytes.c.o 

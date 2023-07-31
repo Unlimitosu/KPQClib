@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/GCKSign2-meta-main.dir/meta_test.c.o -o ../bin/GCKSign2-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/GCKSign-II/libs ../libs/libGCKSign2-meta.so ../libs/libGCKSign-II.so ../libs/libgcksign2_fips202.so -lm ../libs/libgcksign2_RNG.so ../../../common/libcommon.a 

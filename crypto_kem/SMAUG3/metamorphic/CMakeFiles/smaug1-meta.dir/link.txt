@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libsmaug1-meta.so -o ../lib/libsmaug1-meta.so "CMakeFiles/smaug1-meta.dir/bit_contribution.c.o" "CMakeFiles/smaug1-meta.dir/bit_exclusion.c.o" 

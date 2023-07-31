@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/IPCC1-kat-kem-main.dir/PQCgenKAT_pke.c.o -o ../bin/IPCC1-kat-kem-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/IPCC_f1/lib ../lib/libIPCC1-kat-kem.so ../lib/libIPCC1.so ../lib/libIPCCRNG1.so ../../../common/libcommon.a 

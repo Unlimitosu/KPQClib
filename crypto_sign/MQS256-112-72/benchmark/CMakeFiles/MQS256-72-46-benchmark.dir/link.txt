@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/MQS256-72-46-benchmark.dir/speed.c.o CMakeFiles/MQS256-72-46-benchmark.dir/__/srcs/rng.c.o -o ../bin/MQS256-72-46-benchmark  -Wl,-rpath,/home/sj/KPQCleanv2/KPQClean/crypto_sign/MQS256-72-46/libs ../libs/libMQS256-72-46.so ../libs/libMQS256-72-46_RNG.so ../../../common/libcommon.a 

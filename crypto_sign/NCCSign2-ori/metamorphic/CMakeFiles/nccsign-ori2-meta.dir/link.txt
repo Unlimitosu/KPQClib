@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign-ori2-meta.so -o ../libs/libnccsign-ori2-meta.so CMakeFiles/nccsign-ori2-meta.dir/bit_contribution.c.o CMakeFiles/nccsign-ori2-meta.dir/bit_exclusion.c.o CMakeFiles/nccsign-ori2-meta.dir/bit_verify.c.o 

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign-const-test.so -o ../libs/libGCKSign-const-test.so CMakeFiles/GCKSign-const-test.dir/kat_sign.c.o 

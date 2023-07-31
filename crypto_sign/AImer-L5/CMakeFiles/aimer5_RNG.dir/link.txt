@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libaimer5_RNG.so -o libs/libaimer5_RNG.so CMakeFiles/aimer5_RNG.dir/src/rng.c.o 

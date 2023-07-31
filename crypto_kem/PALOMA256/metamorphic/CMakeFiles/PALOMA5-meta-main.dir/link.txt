@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/PALOMA5-meta-main.dir/meta_test.c.o -o ../bin/PALOMA5-meta-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_kem/PALOMA256/lib ../lib/libPALOMA5-meta.so ../lib/libPALOMA256.so ../lib/libPALOMARNG5.so ../../../common/libcommon.a 

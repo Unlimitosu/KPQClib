@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libMQS2562-meta.so -o ../libs/libMQS2562-meta.so CMakeFiles/MQS2562-meta.dir/bit_contribution.c.o CMakeFiles/MQS2562-meta.dir/bit_exclusion.c.o CMakeFiles/MQS2562-meta.dir/bit_verify.c.o 

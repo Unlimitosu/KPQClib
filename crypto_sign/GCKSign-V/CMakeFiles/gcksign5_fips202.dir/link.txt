@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libgcksign5_fips202.so -o libs/libgcksign5_fips202.so CMakeFiles/gcksign5_fips202.dir/src/fips202.c.o 

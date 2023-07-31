@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/haetae5-const-test-main.dir/constant_time_test.c.o -o ../bin/haetae5-const-test-main  -Wl,-rpath,/home/mingiiiiiiii/KPQClean_0729/KPQClean/crypto_sign/HAETAE5/libs ../libs/libhaetae5-const-test.so ../libs/libhaetae5.so ../libs/libhaetae5_fips202.so -lm ../libs/libhaetae5_RNG.so ../../../common/libcommon.a 

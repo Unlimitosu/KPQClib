@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/ntruplus1152-meta-main.dir/meta_test.c.o" -o ../bin/ntruplus1152-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus1152/lib ../lib/libntruplus1152-meta.so ../lib/libntruplus1152.so ../lib/libntruplus1152RNG1.so ../../../common/libcommon.a 

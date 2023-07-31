@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMA192-kat-kem.so -o ../lib/libPALOMA192-kat-kem.so CMakeFiles/PALOMA192-kat-kem.dir/KAT.c.o 

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libnccsign5_aes256ctr.so -o libs/libnccsign5_aes256ctr.so CMakeFiles/nccsign5_aes256ctr.dir/aes/aes256ctr.c.o 

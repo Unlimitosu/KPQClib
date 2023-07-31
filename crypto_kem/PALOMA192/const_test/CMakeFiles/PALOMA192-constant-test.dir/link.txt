@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMA192-constant-test.so -o ../lib/libPALOMA192-constant-test.so CMakeFiles/PALOMA192-constant-test.dir/constant_time_test.c.o 

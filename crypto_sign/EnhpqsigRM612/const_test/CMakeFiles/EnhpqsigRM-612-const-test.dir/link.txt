@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libEnhpqsigRM-612-const-test.so -o ../libs/libEnhpqsigRM-612-const-test.so CMakeFiles/EnhpqsigRM-612-const-test.dir/kat_sign.c.o 

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libPALOMARNG5.so -o lib/libPALOMARNG5.so CMakeFiles/PALOMARNG5.dir/src/rng.c.o 

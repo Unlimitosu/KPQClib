@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic "CMakeFiles/-testaim.dir/test_aim.c.o" -o -testaim 

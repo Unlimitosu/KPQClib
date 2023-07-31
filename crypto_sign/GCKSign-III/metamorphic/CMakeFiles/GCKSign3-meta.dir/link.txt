@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGCKSign3-meta.so -o ../libs/libGCKSign3-meta.so CMakeFiles/GCKSign3-meta.dir/bit_contribution.c.o CMakeFiles/GCKSign3-meta.dir/bit_exclusion.c.o CMakeFiles/GCKSign3-meta.dir/bit_verify.c.o 

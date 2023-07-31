@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/MQS256-112-72-kat-sign-main.dir/PQCgenKAT_sign.c.o -o ../bin/MQS256-112-72-kat-sign-main  -Wl,-rpath,/home/sj/KPQCleanv2/KPQClean/crypto_sign/MQS256-112-72/libs ../libs/libMQS256-112-72.so ../libs/libMQS256-112-72_RNG.so ../../../common/libcommon.a 

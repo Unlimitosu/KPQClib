@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/ntruplus768-meta-main.dir/meta_test.c.o" -o ../bin/ntruplus768-meta-main  -Wl,-rpath,/home/unlimit/Downloads/KPQClean/crypto_kem/ntruplus768/lib ../lib/libntruplus768-meta.so ../lib/libntruplus768.so ../lib/libntruplus768RNG1.so ../../../common/libcommon.a 

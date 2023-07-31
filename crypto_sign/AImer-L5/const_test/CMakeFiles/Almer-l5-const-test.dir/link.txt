@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libAlmer-l5-const-test.so -o ../libs/libAlmer-l5-const-test.so CMakeFiles/Almer-l5-const-test.dir/kat_sign.c.o 

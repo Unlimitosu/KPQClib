@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libTIGER128-const-test.so -o ../lib/libTIGER128-const-test.so CMakeFiles/TIGER128-const-test.dir/kat_kem.c.o 
