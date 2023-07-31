@@ -36,10 +36,10 @@ sudo apt install libgmp-dev
 sudo apt install libntl-dev
 ```
 
-Move to ```KPQClean\crypto_kem\Layered_ROLLO\Reference_implementation_221201```, then run ```python3 rbc-lib.py```. It will automatically check the configurations and start building.
+Move to ```KPQClib\crypto_kem\Layered_ROLLO\Reference_implementation_221201```, then run ```python3 rbc-lib.py```. It will automatically check the configurations and start building.
 
 #### FIBS
-Move to ```KPQClean\crypto_sign\FIBS```, then run ```make```.
+Move to ```KPQClib\crypto_sign\FIBS```, then run ```make```.
 
 ## FAQ
 ### Segmentation fault(or stack corruption) during run PALOMA family
