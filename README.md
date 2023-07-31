@@ -27,6 +27,13 @@ If you want to cancel the build, then run clean.
 make clean
 ```
 
+### How to build Layered ROLLO-I and FIBS
+#### Layered ROLLO-I
+Move to ```KPQClean\crypto_kem\Layered_ROLLO\Reference_implementation_221201```, then run ```python3 rbc-lib.py```. It will automatically check the configurations and start building.
+
+#### FIBS
+Move to ```KPQClean\crypto_sign\FIBS```, then run ```make```.
+
 ## FAQ
 ### Segmentation fault(or stack corruption) during run PALOMA family
 To run PALOMA family, you need to increase the stack size to 51200.
@@ -34,55 +41,55 @@ To run PALOMA family, you need to increase the stack size to 51200.
 ulimit -s 51200
 ```
 
-### Metamorphic test result is not same with given table in README.
+### Metamorphic test result is not the same as the given table in README.
 To run metamorphic testing, you should fix the random values.
-Try after fixing the ```randombytes``` functions into fixed values. We left them in comments for each function.
+Try after fixing the ```randombytes``` functions into fixed values. We left them in the comments for each function.
 
 ## Metamorphic Testing
 ### KEM
-|Algorithm|BCT|BET|?|Done|Note|
+|Algorithm|Bit Cont. Test|Bit Excl. Test|Enc. Dec. Test|Done|Note|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |IPCC f1||||X|Cannot run in Ubuntu|
 |IPCC f3||||X|Cannot run in Ubuntu|
 |IPCC f4||||X|Cannot run in Ubuntu|
-|Layered ROLLO||||X||
-|PALOMA 128|S|S||X||
-|PALOMA 192|S|S||X||
-|PALOMA 256|S|S||X||
-|SMAUG 1|S|S||O||
-|SMAUG 3|S|S||O|Segmentation Fault|
-|SMAUG 5|S|S||O||
-|TIGER 128|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 192|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|TIGER 256|F|S||O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
-|NTRU+ 576|S|S||X||
-|NTRU+ 768|S|S||X||
-|NTRU+ 864|S|S||X||
-|NTRU+ 1152|S|S||X||
+|Layered ROLLO|S|S|S|O||
+|PALOMA 128|S|S|S|O||
+|PALOMA 192|S|S|S|O||
+|PALOMA 256|S|S|S|O||
+|SMAUG 1|S|S|S|O||
+|SMAUG 3|S|S|S|O||
+|SMAUG 5|S|S|S|O||
+|TIGER 128|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 192|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|TIGER 256|<span style="color:red"> F </span>|S|S|O|sk uses only 0x00, 0x01, and 0xff -> BCT fail|
+|NTRU+ 576|S|S|S|O||
+|NTRU+ 768|S|S|S|O||
+|NTRU+ 864|S|S|S|O||
+|NTRU+ 1152|S|S|S|O||
 
 ## DSA
-|Algorithm|BCT|BET|BVT|Done|Note|
+|Algorithm|Bit Cont. Test|Bit Excl. Test|Bit Vrfy. Test|Done|Note|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|AIMer L1|S|S|S|X||
-|AIMer L3|S|S|S|X||
-|AIMer L5|S|S|S|X||
-|Enhanced pqsigRM 612||||X|Too slow to test|
-|Enhanced pqsigRM 613||||X|Too slow to test|
-|FIBS||||X|Too slow to test|
-|GCKSign II|S|S|S|X||
-|GCKSign III|S|S|S|X||
-|GCKSign V|S|S|S|X||
-|HAETAE 2|S|S|S|X||
-|HAETAE 3|S|S|S|X||
-|HAETAE 5|S|S|S|X||
-|MQ-Sign 72-46|S|S|S|X||
-|MQ-Sign 112-72|S|S|S|X||
-|NCC-Sign 2|S|S|S|X||
-|NCC-Sign 3|S|S|S|X||
-|NCC-Sign 5|S|S|S|X||
-|Peregrine 512||||X||
-|Peregrine 1024||||X||
-|SOLMAE 512||||X||
-|SOLMAE 1024||||X||
+|AIMer L1|S|S|S|O||
+|AIMer L3|S|S|S|O||
+|AIMer L5|S|S|S|O||
+|Enhanced pqsigRM 612|S|S|S|O||
+|Enhanced pqsigRM 613|S|S|S|O||
+|FIBS|S|S|S|O||
+|GCKSign II|S|S|S|O||
+|GCKSign III|S|S|S|O||
+|GCKSign V|S|S|S|O||
+|HAETAE 2|S|S|S|O||
+|HAETAE 3|S|S|S|O||
+|HAETAE 5|S|S|S|O||
+|MQ-Sign 72-46|S|S|S|O||
+|MQ-Sign 112-72|S|S|S|O||
+|NCC-Sign 2|S|S|S|O||
+|NCC-Sign 3|S|S|S|O||
+|NCC-Sign 5|S|S|S|O||
+|Peregrine 512|S|S|S|O||
+|Peregrine 1024|S|S|S|O||
+|SOLMAE 512|S|S|S|O||
+|SOLMAE 1024|S|S|S|O||
 
 
