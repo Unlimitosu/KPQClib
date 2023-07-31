@@ -1,4 +1,4 @@
-# KPQClean
+# KPQClib
 
 This project is motivated by [PQClean](https://github.com/PQClean/PQClean).
 
